@@ -1,0 +1,83 @@
+{
+  "ts": "2026-02-17T10:20:13.549Z",
+  "updated_files": 19,
+  "total_sector_files": 19,
+  "details": [
+    {
+      "file": "docs\\sectors\\architecture-deployment.md",
+      "updated": true
+    },
+    {
+      "file": "docs\\sectors\\banking-financial-infrastructure.md",
+      "updated": true
+    },
+    {
+      "file": "docs\\sectors\\banking-institutional-pack.md",
+      "updated": true
+    },
+    {
+      "file": "docs\\sectors\\financial-sector.md",
+      "updated": true
+    },
+    {
+      "file": "docs\\sectors\\healthcare.md",
+      "updated": true
+    },
+    {
+      "file": "docs\\sectors\\hr.md",
+      "updated": true
+    },
+    {
+      "file": "docs\\sectors\\identity-proof.md",
+      "updated": true
+    },
+    {
+      "file": "docs\\sectors\\individuals.md",
+      "updated": true
+    },
+    {
+      "file": "docs\\sectors\\industries-overview.md",
+      "updated": true
+    },
+    {
+      "file": "docs\\sectors\\insurance.md",
+      "updated": true
+    },
+    {
+      "file": "docs\\sectors\\lawyers.md",
+      "updated": true
+    },
+    {
+      "file": "docs\\sectors\\notaries.md",
+      "updated": true
+    },
+    {
+      "file": "docs\\sectors\\platforms.md",
+      "updated": true
+    },
+    {
+      "file": "docs\\sectors\\public-procurement.md",
+      "updated": true
+    },
+    {
+      "file": "docs\\sectors\\real-estate.md",
+      "updated": true
+    },
+    {
+      "file": "docs\\sectors\\supply-chain.md",
+      "updated": true
+    },
+    {
+      "file": "docs\\sectors\\veriseal-protocol-framework.md",
+      "updated": true
+    },
+    {
+      "file": "docs\\sectors\\why-veriseal.md",
+      "updated": true
+    },
+    {
+      "file": "docs\\sectors\\_sector-template.md",
+      "updated": true
+    }
+  ]
+}

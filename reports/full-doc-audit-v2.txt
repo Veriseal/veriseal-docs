@@ -1,0 +1,1192 @@
+VERISEAL FULL DOCUMENTATION AUDIT V2
+====================================
+
+Scanning directory: D:\Veriseal Docusaurus\veriseal-docs\docs
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\competitive-landscape.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\faq\legal.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\faq\security.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\faq\timestamping.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\faq\verification.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\intro.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\sectors\financial-sector.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\sectors\healthcare.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\sectors\hr.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\sectors\identity-proof.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\sectors\individuals.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\sectors\insurance.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\sectors\notaries.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\sectors\platforms.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\sectors\public-procurement.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\sectors\real-estate.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\sectors\supply-chain.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\standard\vip-std-001.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\strategy\economic-adoption-model.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\strategy\quantified-use-cases.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\technical\cryptography.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\technical\timestamping.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\technical\verification.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\annex\security-assumptions.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\annex\threat-model.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\annex\verification-procedure.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\executive-summary-1page.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\executive-summary.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\index.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\institutional-positioning.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\legal-admissibility.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\part1\evidence-economy.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\part1\index.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\part1\proof-crisis.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\part1\structural-digital-dependence.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\part1\why-existing-systems-fail.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\part2\cryptographic-foundations.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\part2\cryptographic-model.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\part2\evidence-infrastructure.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\part2\index.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\part2\ledger-and-proof-model.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\part2\sovereignty-model.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\part3\banking-financial-infrastructure.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\part3\conclusion-institutional-positioning.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\part3\financial-sector.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\part3\governance-trust-model.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\part3\index.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\part3\legal-sector.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\part3\macro-economic-risk-model.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\part3\public-sector.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\part3\standardization-network-effects.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\part4\deployment-and-industrialization.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\part4\deployment-model.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\part4\economic-impact.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\part4\index.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\part4\risk-and-limitations.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\part4\roadmap.md
+   WARNING: Non-ASCII characters detected
+
+-------------------------------------
+
+Scanning directory: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\competitive-landscape.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\faq\adoption-and-decision.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\faq\legal.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\faq\security.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\faq\timestamping.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\faq\verification.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\intro.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\regulatory\protocol-vs-legal-admissibility.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\regulatory\regulatory-framework-overview.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\regulatory\sector-regulatory-mapping.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\sectors\architecture-deployment.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\sectors\banking-institutional-pack.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\sectors\financial-sector.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\sectors\healthcare.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\sectors\hr.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\sectors\identity-proof.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\sectors\individuals.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\sectors\industries-overview.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\sectors\insurance.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\sectors\lawyers.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\sectors\notaries.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\sectors\platforms.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\sectors\public-procurement.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\sectors\real-estate.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\sectors\supply-chain.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\sectors\veriseal-protocol-framework.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\sectors\why-veriseal.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\sectors\_sector-template.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\standard\veriseal-protocol-framework.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\standard\vip-framework-001.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\standard\vip-reg-006.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\standard\vip-regulatory-mapping-001.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\standard\vip-roadmap-2026-2030.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\standard\vip-std-001.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\standard\vip-std-002.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\standard\vip-std-003.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\standard\vip-std-004.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\standard\vip-stf-005.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\standard\vip-suite-000.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\standard\vip-threat-001.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\standard\why-global-standard.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\strategy\certification-conformance-framework.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\strategy\certification-conformance-model.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\strategy\competitive-landscape.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\strategy\economic-adoption-model.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\strategy\executive-adoption-framework.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\strategy\executive-institutional-brief.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\strategy\executive-objection-playbook.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\strategy\institutional-decision-brief.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\strategy\institutional-roadmap-36m.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\strategy\quantified-use-cases.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\strategy\standard-governance-model.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\strategy\standardization-strategy.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\strategy\why-veriseal-now.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\technical\cryptography.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\technical\integrity-vs-blockchain.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\technical\timestamping.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\technical\verification.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\whitepaper\annex\security-assumptions.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\whitepaper\annex\threat-model-adversarial-analysis.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\whitepaper\annex\threat-model.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\whitepaper\annex\verification-procedure.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\whitepaper\core-thesis.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\whitepaper\executive-summary-1page.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\whitepaper\executive-summary.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\whitepaper\index.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\whitepaper\institutional-positioning.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\whitepaper\legal-admissibility.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\whitepaper\part1\evidence-economy.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\whitepaper\part1\index.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\whitepaper\part1\proof-crisis.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\whitepaper\part1\structural-digital-dependence.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\whitepaper\part1\why-existing-systems-fail.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\whitepaper\part2\cryptographic-foundations.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\whitepaper\part2\cryptographic-model.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\whitepaper\part2\evidence-infrastructure.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\whitepaper\part2\index.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\whitepaper\part2\ledger-and-proof-model.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\whitepaper\part2\sovereignty-model.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\whitepaper\part2\verification-model.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\whitepaper\part3\banking-financial-infrastructure.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\whitepaper\part3\conclusion-institutional-positioning.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\whitepaper\part3\financial-sector.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\whitepaper\part3\governance-trust-model.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\whitepaper\part3\index.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\whitepaper\part3\legal-sector.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\whitepaper\part3\macro-economic-risk-model.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\whitepaper\part3\public-sector.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\whitepaper\part3\standardization-network-effects.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\whitepaper\part4\deployment-and-industrialization.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\whitepaper\part4\deployment-model.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\whitepaper\part4\economic-impact.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\whitepaper\part4\index.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\whitepaper\part4\risk-and-limitations.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\whitepaper\part4\roadmap.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\whitepaper\part5\adoption-architecture.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\whitepaper\part5\economic-moat.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\whitepaper\part5\economic-model.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\whitepaper\part5\index.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\whitepaper\part5\long-term-positioning.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\whitepaper\part5\standardization-strategy.md
+   WARNING: Non-ASCII characters detected
+
+-------------------------------------
+
+Scanning directory: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\competitive-landscape.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\faq\adoption-and-decision.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\faq\legal.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\faq\security.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\faq\timestamping.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\faq\verification.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\intro.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\regulatory\protocol-vs-legal-admissibility.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\regulatory\regulatory-framework-overview.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\regulatory\sector-regulatory-mapping.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\sectors\architecture-deployment.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\sectors\banking-institutional-pack.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\sectors\financial-sector.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\sectors\healthcare.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\sectors\hr.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\sectors\identity-proof.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\sectors\individuals.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\sectors\industries-overview.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\sectors\insurance.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\sectors\lawyers.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\sectors\notaries.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\sectors\platforms.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\sectors\public-procurement.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\sectors\real-estate.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\sectors\supply-chain.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\sectors\veriseal-protocol-framework.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\sectors\why-veriseal.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\sectors\_sector-template.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\standard\veriseal-protocol-framework.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\standard\vip-framework-001.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\standard\vip-reg-006.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\standard\vip-regulatory-mapping-001.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\standard\vip-roadmap-2026-2030.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\standard\vip-std-001.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\standard\vip-std-002.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\standard\vip-std-003.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\standard\vip-std-004.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\standard\vip-stf-005.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\standard\vip-suite-000.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\standard\vip-threat-001.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\standard\why-global-standard.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\strategy\certification-conformance-framework.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\strategy\certification-conformance-model.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\strategy\competitive-landscape.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\strategy\economic-adoption-model.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\strategy\executive-adoption-framework.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\strategy\executive-institutional-brief.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\strategy\executive-objection-playbook.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\strategy\institutional-decision-brief.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\strategy\institutional-roadmap-36m.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\strategy\quantified-use-cases.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\strategy\standard-governance-model.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\strategy\standardization-strategy.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\strategy\why-veriseal-now.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\technical\cryptography.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\technical\integrity-vs-blockchain.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\technical\timestamping.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\technical\verification.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\whitepaper\annex\security-assumptions.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\whitepaper\annex\threat-model-adversarial-analysis.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\whitepaper\annex\threat-model.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\whitepaper\annex\verification-procedure.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\whitepaper\core-thesis.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\whitepaper\executive-summary-1page.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\whitepaper\executive-summary.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\whitepaper\index.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\whitepaper\institutional-positioning.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\whitepaper\legal-admissibility.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\whitepaper\part1\evidence-economy.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\whitepaper\part1\index.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\whitepaper\part1\proof-crisis.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\whitepaper\part1\structural-digital-dependence.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\whitepaper\part1\why-existing-systems-fail.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\whitepaper\part2\cryptographic-foundations.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\whitepaper\part2\cryptographic-model.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\whitepaper\part2\evidence-infrastructure.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\whitepaper\part2\index.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\whitepaper\part2\ledger-and-proof-model.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\whitepaper\part2\sovereignty-model.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\whitepaper\part2\verification-model.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\whitepaper\part3\banking-financial-infrastructure.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\whitepaper\part3\conclusion-institutional-positioning.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\whitepaper\part3\financial-sector.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\whitepaper\part3\governance-trust-model.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\whitepaper\part3\index.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\whitepaper\part3\legal-sector.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\whitepaper\part3\macro-economic-risk-model.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\whitepaper\part3\public-sector.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\whitepaper\part3\standardization-network-effects.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\whitepaper\part4\deployment-and-industrialization.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\whitepaper\part4\deployment-model.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\whitepaper\part4\economic-impact.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\whitepaper\part4\index.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\whitepaper\part4\risk-and-limitations.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\whitepaper\part4\roadmap.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\whitepaper\part5\adoption-architecture.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\whitepaper\part5\economic-moat.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\whitepaper\part5\economic-model.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\whitepaper\part5\index.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\whitepaper\part5\long-term-positioning.md
+   WARNING: Non-ASCII characters detected
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\whitepaper\part5\standardization-strategy.md
+   WARNING: Non-ASCII characters detected
+
+-------------------------------------
+
+DUPLICATE IDS FOUND
+Duplicate id "timestamping" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\faq\timestamping.md
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\technical\timestamping.md
+
+Duplicate id "verification" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\faq\verification.md
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\technical\verification.md
+
+Duplicate id "index" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\index.md
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\part1\index.md
+
+Duplicate id "index" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\index.md
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\part2\index.md
+
+Duplicate id "banking-financial-infrastructure" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\sectors\banking-financial-infrastructure.md
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\part3\banking-financial-infrastructure.md
+
+Duplicate id "financial-sector" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\sectors\financial-sector.md
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\part3\financial-sector.md
+
+Duplicate id "index" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\index.md
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\part3\index.md
+
+Duplicate id "index" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\index.md
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\part4\index.md
+
+Duplicate id "legal" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\faq\legal.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\faq\legal.md
+
+Duplicate id "security" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\faq\security.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\faq\security.md
+
+Duplicate id "timestamping" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\faq\timestamping.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\faq\timestamping.md
+
+Duplicate id "verification" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\faq\verification.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\faq\verification.md
+
+Duplicate id "intro" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\intro.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\intro.md
+
+Duplicate id "financial-sector" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\sectors\financial-sector.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\sectors\financial-sector.md
+
+Duplicate id "healthcare" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\sectors\healthcare.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\sectors\healthcare.md
+
+Duplicate id "hr" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\sectors\hr.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\sectors\hr.md
+
+Duplicate id "identity-proof" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\sectors\identity-proof.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\sectors\identity-proof.md
+
+Duplicate id "individuals" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\sectors\individuals.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\sectors\individuals.md
+
+Duplicate id "insurance" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\sectors\insurance.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\sectors\insurance.md
+
+Duplicate id "lawyers" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\sectors\lawyers.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\sectors\lawyers.md
+
+Duplicate id "notaries" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\sectors\notaries.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\sectors\notaries.md
+
+Duplicate id "platforms" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\sectors\platforms.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\sectors\platforms.md
+
+Duplicate id "public-procurement" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\sectors\public-procurement.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\sectors\public-procurement.md
+
+Duplicate id "real-estate" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\sectors\real-estate.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\sectors\real-estate.md
+
+Duplicate id "supply-chain" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\sectors\supply-chain.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\sectors\supply-chain.md
+
+Duplicate id "vip-std-001" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\standard\vip-std-001.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\standard\vip-std-001.md
+
+Duplicate id "cryptography" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\technical\cryptography.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\technical\cryptography.md
+
+Duplicate id "timestamping" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\faq\timestamping.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\technical\timestamping.md
+
+Duplicate id "verification" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\faq\verification.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\technical\verification.md
+
+Duplicate id "security-assumptions" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\annex\security-assumptions.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\whitepaper\annex\security-assumptions.md
+
+Duplicate id "threat-model" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\annex\threat-model.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\whitepaper\annex\threat-model.md
+
+Duplicate id "verification-procedure" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\annex\verification-procedure.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\whitepaper\annex\verification-procedure.md
+
+Duplicate id "executive-summary" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\executive-summary.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\whitepaper\executive-summary.md
+
+Duplicate id "institutional-positioning" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\institutional-positioning.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\whitepaper\institutional-positioning.md
+
+Duplicate id "legal-admissibility" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\legal-admissibility.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\whitepaper\legal-admissibility.md
+
+Duplicate id "index" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\index.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\whitepaper\part1\index.md
+
+Duplicate id "structural-digital-dependence" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\part1\structural-digital-dependence.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\whitepaper\part1\structural-digital-dependence.md
+
+Duplicate id "why-existing-systems-fail" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\part1\why-existing-systems-fail.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\whitepaper\part1\why-existing-systems-fail.md
+
+Duplicate id "cryptographic-model" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\part2\cryptographic-model.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\whitepaper\part2\cryptographic-model.md
+
+Duplicate id "evidence-infrastructure" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\part2\evidence-infrastructure.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\whitepaper\part2\evidence-infrastructure.md
+
+Duplicate id "ledger-and-proof-model" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\part2\ledger-and-proof-model.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\whitepaper\part2\ledger-and-proof-model.md
+
+Duplicate id "sovereignty-model" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\part2\sovereignty-model.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\whitepaper\part2\sovereignty-model.md
+
+Duplicate id "conclusion-institutional-positioning" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\part3\conclusion-institutional-positioning.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\whitepaper\part3\conclusion-institutional-positioning.md
+
+Duplicate id "financial-sector" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\sectors\financial-sector.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\whitepaper\part3\financial-sector.md
+
+Duplicate id "index" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\index.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\whitepaper\part3\index.md
+
+Duplicate id "legal-sector" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\part3\legal-sector.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\whitepaper\part3\legal-sector.md
+
+Duplicate id "macro-economic-risk-model" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\part3\macro-economic-risk-model.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\whitepaper\part3\macro-economic-risk-model.md
+
+Duplicate id "public-sector" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\part3\public-sector.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\whitepaper\part3\public-sector.md
+
+Duplicate id "standardization-network-effects" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\part3\standardization-network-effects.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\whitepaper\part3\standardization-network-effects.md
+
+Duplicate id "deployment-and-industrialization" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\part4\deployment-and-industrialization.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\whitepaper\part4\deployment-and-industrialization.md
+
+Duplicate id "deployment-model" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\part4\deployment-model.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\whitepaper\part4\deployment-model.md
+
+Duplicate id "economic-impact" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\part4\economic-impact.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\whitepaper\part4\economic-impact.md
+
+Duplicate id "risk-and-limitations" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\part4\risk-and-limitations.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\whitepaper\part4\risk-and-limitations.md
+
+Duplicate id "roadmap" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\part4\roadmap.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\whitepaper\part4\roadmap.md
+
+Duplicate id "legal" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\faq\legal.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\faq\legal.md
+
+Duplicate id "security" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\faq\security.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\faq\security.md
+
+Duplicate id "timestamping" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\faq\timestamping.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\faq\timestamping.md
+
+Duplicate id "verification" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\faq\verification.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\faq\verification.md
+
+Duplicate id "intro" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\intro.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\intro.md
+
+Duplicate id "financial-sector" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\sectors\financial-sector.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\sectors\financial-sector.md
+
+Duplicate id "healthcare" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\sectors\healthcare.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\sectors\healthcare.md
+
+Duplicate id "hr" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\sectors\hr.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\sectors\hr.md
+
+Duplicate id "identity-proof" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\sectors\identity-proof.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\sectors\identity-proof.md
+
+Duplicate id "individuals" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\sectors\individuals.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\sectors\individuals.md
+
+Duplicate id "insurance" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\sectors\insurance.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\sectors\insurance.md
+
+Duplicate id "lawyers" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\sectors\lawyers.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\sectors\lawyers.md
+
+Duplicate id "notaries" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\sectors\notaries.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\sectors\notaries.md
+
+Duplicate id "platforms" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\sectors\platforms.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\sectors\platforms.md
+
+Duplicate id "public-procurement" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\sectors\public-procurement.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\sectors\public-procurement.md
+
+Duplicate id "real-estate" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\sectors\real-estate.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\sectors\real-estate.md
+
+Duplicate id "supply-chain" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\sectors\supply-chain.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\sectors\supply-chain.md
+
+Duplicate id "vip-std-001" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\standard\vip-std-001.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\standard\vip-std-001.md
+
+Duplicate id "timestamping" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\faq\timestamping.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\technical\timestamping.md
+
+Duplicate id "security-assumptions" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\annex\security-assumptions.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\whitepaper\annex\security-assumptions.md
+
+Duplicate id "threat-model" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\annex\threat-model.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\whitepaper\annex\threat-model.md
+
+Duplicate id "verification-procedure" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\annex\verification-procedure.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\whitepaper\annex\verification-procedure.md
+
+Duplicate id "executive-summary" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\executive-summary.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\whitepaper\executive-summary.md
+
+Duplicate id "index" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\index.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\whitepaper\index.md
+
+Duplicate id "legal-admissibility" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\legal-admissibility.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\whitepaper\legal-admissibility.md
+
+Duplicate id "evidence-economy" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\part1\evidence-economy.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\whitepaper\part1\evidence-economy.md
+
+Duplicate id "index" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\index.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\whitepaper\part1\index.md
+
+Duplicate id "proof-crisis" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\part1\proof-crisis.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\whitepaper\part1\proof-crisis.md
+
+Duplicate id "structural-digital-dependence" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\part1\structural-digital-dependence.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\whitepaper\part1\structural-digital-dependence.md
+
+Duplicate id "cryptographic-foundations" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\part2\cryptographic-foundations.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\whitepaper\part2\cryptographic-foundations.md
+
+Duplicate id "cryptographic-model" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\part2\cryptographic-model.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\whitepaper\part2\cryptographic-model.md
+
+Duplicate id "evidence-infrastructure" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\part2\evidence-infrastructure.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\whitepaper\part2\evidence-infrastructure.md
+
+Duplicate id "ledger-and-proof-model" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\part2\ledger-and-proof-model.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\whitepaper\part2\ledger-and-proof-model.md
+
+Duplicate id "sovereignty-model" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\part2\sovereignty-model.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\whitepaper\part2\sovereignty-model.md
+
+Duplicate id "conclusion-institutional-positioning" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\part3\conclusion-institutional-positioning.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\whitepaper\part3\conclusion-institutional-positioning.md
+
+Duplicate id "financial-sector" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\sectors\financial-sector.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\whitepaper\part3\financial-sector.md
+
+Duplicate id "governance-trust-model" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\part3\governance-trust-model.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\whitepaper\part3\governance-trust-model.md
+
+Duplicate id "index" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\index.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\whitepaper\part3\index.md
+
+Duplicate id "legal-sector" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\part3\legal-sector.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\whitepaper\part3\legal-sector.md
+
+Duplicate id "macro-economic-risk-model" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\part3\macro-economic-risk-model.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\whitepaper\part3\macro-economic-risk-model.md
+
+Duplicate id "public-sector" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\part3\public-sector.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\whitepaper\part3\public-sector.md
+
+Duplicate id "deployment-model" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\part4\deployment-model.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\whitepaper\part4\deployment-model.md
+
+Duplicate id "economic-impact" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\part4\economic-impact.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\whitepaper\part4\economic-impact.md
+
+Duplicate id "roadmap" in:
+ - D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\part4\roadmap.md
+ - D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\whitepaper\part4\roadmap.md
+
+
+SIDEBAR ISSUES
+Sidebar references missing doc: @docusaurus/plugin-content-docs
+
+====================================
+Total files with issues: 259
+Critical issues: 98

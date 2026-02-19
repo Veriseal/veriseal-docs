@@ -1,0 +1,42 @@
+{
+  "link.title.Infrastructure": {
+    "message": "Infrastructure",
+    "description": "The title of the footer links column with title=Infrastructure in the footer"
+  },
+  "link.title.Deployment": {
+    "message": "Deployment",
+    "description": "The title of the footer links column with title=Deployment in the footer"
+  },
+  "link.title.Standard Framework": {
+    "message": "Standard Framework",
+    "description": "The title of the footer links column with title=Standard Framework in the footer"
+  },
+  "link.item.label.Core Thesis": {
+    "message": "Core Thesis",
+    "description": "The label of footer link with label=Core Thesis linking to /docs/whitepaper/core-thesis"
+  },
+  "link.item.label.Cryptographic Model": {
+    "message": "Cryptographic Model",
+    "description": "The label of footer link with label=Cryptographic Model linking to /docs/technical/cryptography"
+  },
+  "link.item.label.Adoption Framework": {
+    "message": "Adoption Framework",
+    "description": "The label of footer link with label=Adoption Framework linking to /docs/strategy/executive-adoption-framework"
+  },
+  "link.item.label.Sector Applications": {
+    "message": "Sector Applications",
+    "description": "The label of footer link with label=Sector Applications linking to /docs/sectors/banking-financial-infrastructure"
+  },
+  "link.item.label.VIP Framework 001": {
+    "message": "VIP Framework 001",
+    "description": "The label of footer link with label=VIP Framework 001 linking to /docs/standard/vip-framework-001"
+  },
+  "link.item.label.VIP Suite 000": {
+    "message": "VIP Suite 000",
+    "description": "The label of footer link with label=VIP Suite 000 linking to /docs/standard/vip-suite-000"
+  },
+  "copyright": {
+    "message": "Copyright © 2026 VeriSeal",
+    "description": "The footer copyright"
+  }
+}

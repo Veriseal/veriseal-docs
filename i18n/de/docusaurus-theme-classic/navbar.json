@@ -1,0 +1,22 @@
+{
+  "title": {
+    "message": "VeriSeal",
+    "description": "The title in the navbar"
+  },
+  "item.label.Infrastructure": {
+    "message": "Infrastructure",
+    "description": "Navbar item with label Infrastructure"
+  },
+  "item.label.Sectors": {
+    "message": "Sectors",
+    "description": "Navbar item with label Sectors"
+  },
+  "item.label.Standard": {
+    "message": "Standard",
+    "description": "Navbar item with label Standard"
+  },
+  "item.label.Regulatory": {
+    "message": "Regulatory",
+    "description": "Navbar item with label Regulatory"
+  }
+}

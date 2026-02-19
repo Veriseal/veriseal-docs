@@ -1,0 +1,7 @@
+Root: D:\Veriseal Docusaurus\veriseal-docs
+Timestamp: 20260217_123213
+node: v20.11.1
+npm : 10.2.4
+No lint script found
+No typecheck script found
+Locales: en, fr, ro

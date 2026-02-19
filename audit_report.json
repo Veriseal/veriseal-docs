@@ -1,0 +1,2487 @@
+{
+  "meta": {
+    "generated_at": "2026-02-16T20:44:19.789Z",
+    "root": "D:\\Veriseal Docusaurus\\veriseal-docs",
+    "docsRoot": "D:\\Veriseal Docusaurus\\veriseal-docs\\docs",
+    "i18nRoot": "D:\\Veriseal Docusaurus\\veriseal-docs\\i18n",
+    "langs": [
+      "fr",
+      "ro"
+    ],
+    "counts": {
+      "docs_files": 101
+    }
+  },
+  "docs": [
+    {
+      "file": "docs/competitive-landscape.md",
+      "rel_to_docs": "competitive-landscape.md",
+      "stats": {
+        "lines": 282,
+        "words": 730
+      },
+      "structure": {
+        "h1_count": 11,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": false
+      }
+    },
+    {
+      "file": "docs/faq/adoption-and-decision.md",
+      "rel_to_docs": "faq/adoption-and-decision.md",
+      "stats": {
+        "lines": 318,
+        "words": 671
+      },
+      "structure": {
+        "h1_count": 21,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": false
+      }
+    },
+    {
+      "file": "docs/faq/legal.md",
+      "rel_to_docs": "faq/legal.md",
+      "stats": {
+        "lines": 378,
+        "words": 816
+      },
+      "structure": {
+        "h1_count": 21,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": false
+      }
+    },
+    {
+      "file": "docs/faq/security.md",
+      "rel_to_docs": "faq/security.md",
+      "stats": {
+        "lines": 333,
+        "words": 792
+      },
+      "structure": {
+        "h1_count": 21,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": false
+      }
+    },
+    {
+      "file": "docs/faq/timestamping.md",
+      "rel_to_docs": "faq/timestamping.md",
+      "stats": {
+        "lines": 296,
+        "words": 636
+      },
+      "structure": {
+        "h1_count": 21,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": false
+      }
+    },
+    {
+      "file": "docs/faq/verification.md",
+      "rel_to_docs": "faq/verification.md",
+      "stats": {
+        "lines": 315,
+        "words": 644
+      },
+      "structure": {
+        "h1_count": 21,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": false
+      }
+    },
+    {
+      "file": "docs/intro.md",
+      "rel_to_docs": "intro.md",
+      "stats": {
+        "lines": 148,
+        "words": 379
+      },
+      "structure": {
+        "h1_count": 7,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": false
+      }
+    },
+    {
+      "file": "docs/regulatory/protocol-vs-legal-admissibility.md",
+      "rel_to_docs": "regulatory/protocol-vs-legal-admissibility.md",
+      "stats": {
+        "lines": 227,
+        "words": 476
+      },
+      "structure": {
+        "h1_count": 13,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": false
+      }
+    },
+    {
+      "file": "docs/regulatory/regulatory-framework-overview.md",
+      "rel_to_docs": "regulatory/regulatory-framework-overview.md",
+      "stats": {
+        "lines": 263,
+        "words": 584
+      },
+      "structure": {
+        "h1_count": 13,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [
+          "CLAIMS_WEAKLY_SUPPORTED"
+        ],
+        "very_short": false
+      }
+    },
+    {
+      "file": "docs/regulatory/sector-regulatory-mapping.md",
+      "rel_to_docs": "regulatory/sector-regulatory-mapping.md",
+      "stats": {
+        "lines": 298,
+        "words": 552
+      },
+      "structure": {
+        "h1_count": 14,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": false
+      }
+    },
+    {
+      "file": "docs/sectors/architecture-deployment.md",
+      "rel_to_docs": "sectors/architecture-deployment.md",
+      "stats": {
+        "lines": 305,
+        "words": 626
+      },
+      "structure": {
+        "h1_count": 10,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [
+          "CLAIMS_WEAKLY_SUPPORTED"
+        ],
+        "very_short": false
+      }
+    },
+    {
+      "file": "docs/sectors/banking-institutional-pack.md",
+      "rel_to_docs": "sectors/banking-institutional-pack.md",
+      "stats": {
+        "lines": 281,
+        "words": 634
+      },
+      "structure": {
+        "h1_count": 14,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": false
+      }
+    },
+    {
+      "file": "docs/sectors/financial-sector.md",
+      "rel_to_docs": "sectors/financial-sector.md",
+      "stats": {
+        "lines": 454,
+        "words": 1121
+      },
+      "structure": {
+        "h1_count": 12,
+        "heading_jumps": [
+          {
+            "from": {
+              "level": 1,
+              "text": "3. Operational Pain Points",
+              "line": 122
+            },
+            "to": {
+              "level": 3,
+              "text": "3.1 Transaction Disputes",
+              "line": 124
+            }
+          },
+          {
+            "from": {
+              "level": 1,
+              "text": "4. Where VeriSeal Changes the Risk Model",
+              "line": 158
+            },
+            "to": {
+              "level": 3,
+              "text": "Independent Deterministic Integrity",
+              "line": 162
+            }
+          }
+        ],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": false
+      }
+    },
+    {
+      "file": "docs/sectors/healthcare.md",
+      "rel_to_docs": "sectors/healthcare.md",
+      "stats": {
+        "lines": 480,
+        "words": 1101
+      },
+      "structure": {
+        "h1_count": 12,
+        "heading_jumps": [
+          {
+            "from": {
+              "level": 1,
+              "text": "4. Where VeriSeal Changes the Risk Model",
+              "line": 176
+            },
+            "to": {
+              "level": 3,
+              "text": "Deterministic Canonical Integrity (VIP-STD-001)",
+              "line": 180
+            }
+          }
+        ],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": false
+      }
+    },
+    {
+      "file": "docs/sectors/hr.md",
+      "rel_to_docs": "sectors/hr.md",
+      "stats": {
+        "lines": 456,
+        "words": 1023
+      },
+      "structure": {
+        "h1_count": 12,
+        "heading_jumps": [
+          {
+            "from": {
+              "level": 1,
+              "text": "4. Where VeriSeal Changes the Risk Model",
+              "line": 174
+            },
+            "to": {
+              "level": 3,
+              "text": "Deterministic Canonical Integrity (VIP-STD-001)",
+              "line": 178
+            }
+          }
+        ],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": false
+      }
+    },
+    {
+      "file": "docs/sectors/identity-proof.md",
+      "rel_to_docs": "sectors/identity-proof.md",
+      "stats": {
+        "lines": 484,
+        "words": 1167
+      },
+      "structure": {
+        "h1_count": 12,
+        "heading_jumps": [
+          {
+            "from": {
+              "level": 1,
+              "text": "4. Where VeriSeal Changes the Risk Model",
+              "line": 183
+            },
+            "to": {
+              "level": 3,
+              "text": "Deterministic Canonical Integrity (VIP-STD-001)",
+              "line": 187
+            }
+          }
+        ],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": false
+      }
+    },
+    {
+      "file": "docs/sectors/individuals.md",
+      "rel_to_docs": "sectors/individuals.md",
+      "stats": {
+        "lines": 462,
+        "words": 1043
+      },
+      "structure": {
+        "h1_count": 12,
+        "heading_jumps": [
+          {
+            "from": {
+              "level": 1,
+              "text": "3. Where VeriSeal Changes the Risk Model",
+              "line": 135
+            },
+            "to": {
+              "level": 3,
+              "text": "Deterministic Canonical Integrity (VIP-STD-001)",
+              "line": 139
+            }
+          }
+        ],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": false
+      }
+    },
+    {
+      "file": "docs/sectors/industries-overview.md",
+      "rel_to_docs": "sectors/industries-overview.md",
+      "stats": {
+        "lines": 246,
+        "words": 499
+      },
+      "structure": {
+        "h1_count": 7,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": false
+      }
+    },
+    {
+      "file": "docs/sectors/insurance.md",
+      "rel_to_docs": "sectors/insurance.md",
+      "stats": {
+        "lines": 499,
+        "words": 1212
+      },
+      "structure": {
+        "h1_count": 12,
+        "heading_jumps": [
+          {
+            "from": {
+              "level": 1,
+              "text": "4. Where VeriSeal Changes the Risk Model",
+              "line": 202
+            },
+            "to": {
+              "level": 3,
+              "text": "Deterministic Canonical Integrity (VIP-STD-001)",
+              "line": 206
+            }
+          }
+        ],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": false
+      }
+    },
+    {
+      "file": "docs/sectors/lawyers.md",
+      "rel_to_docs": "sectors/lawyers.md",
+      "stats": {
+        "lines": 38,
+        "words": 147
+      },
+      "structure": {
+        "h1_count": 1,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": true
+      }
+    },
+    {
+      "file": "docs/sectors/notaries.md",
+      "rel_to_docs": "sectors/notaries.md",
+      "stats": {
+        "lines": 482,
+        "words": 1110
+      },
+      "structure": {
+        "h1_count": 12,
+        "heading_jumps": [
+          {
+            "from": {
+              "level": 1,
+              "text": "4. Where VeriSeal Changes the Risk Model",
+              "line": 184
+            },
+            "to": {
+              "level": 3,
+              "text": "Deterministic Canonical Integrity (VIP-STD-001)",
+              "line": 188
+            }
+          }
+        ],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": false
+      }
+    },
+    {
+      "file": "docs/sectors/platforms.md",
+      "rel_to_docs": "sectors/platforms.md",
+      "stats": {
+        "lines": 453,
+        "words": 1035
+      },
+      "structure": {
+        "h1_count": 12,
+        "heading_jumps": [
+          {
+            "from": {
+              "level": 1,
+              "text": "4. Where VeriSeal Changes the Risk Model",
+              "line": 177
+            },
+            "to": {
+              "level": 3,
+              "text": "Deterministic Canonical Integrity (VIP-STD-001)",
+              "line": 181
+            }
+          }
+        ],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": false
+      }
+    },
+    {
+      "file": "docs/sectors/public-procurement.md",
+      "rel_to_docs": "sectors/public-procurement.md",
+      "stats": {
+        "lines": 474,
+        "words": 1068
+      },
+      "structure": {
+        "h1_count": 12,
+        "heading_jumps": [
+          {
+            "from": {
+              "level": 1,
+              "text": "4. Where VeriSeal Changes the Risk Model",
+              "line": 130
+            },
+            "to": {
+              "level": 3,
+              "text": "Deterministic Canonical Integrity",
+              "line": 134
+            }
+          }
+        ],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": false
+      }
+    },
+    {
+      "file": "docs/sectors/real-estate.md",
+      "rel_to_docs": "sectors/real-estate.md",
+      "stats": {
+        "lines": 464,
+        "words": 1100
+      },
+      "structure": {
+        "h1_count": 12,
+        "heading_jumps": [
+          {
+            "from": {
+              "level": 1,
+              "text": "4. Where VeriSeal Changes the Risk Model",
+              "line": 173
+            },
+            "to": {
+              "level": 3,
+              "text": "Deterministic Canonical Integrity (VIP-STD-001)",
+              "line": 177
+            }
+          }
+        ],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": false
+      }
+    },
+    {
+      "file": "docs/sectors/supply-chain.md",
+      "rel_to_docs": "sectors/supply-chain.md",
+      "stats": {
+        "lines": 462,
+        "words": 1096
+      },
+      "structure": {
+        "h1_count": 12,
+        "heading_jumps": [
+          {
+            "from": {
+              "level": 1,
+              "text": "4. Where VeriSeal Changes the Risk Model",
+              "line": 178
+            },
+            "to": {
+              "level": 3,
+              "text": "Deterministic Canonical Integrity (VIP-STD-001)",
+              "line": 182
+            }
+          }
+        ],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": false
+      }
+    },
+    {
+      "file": "docs/sectors/veriseal-protocol-framework.md",
+      "rel_to_docs": "sectors/veriseal-protocol-framework.md",
+      "stats": {
+        "lines": 254,
+        "words": 539
+      },
+      "structure": {
+        "h1_count": 10,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": false
+      }
+    },
+    {
+      "file": "docs/sectors/why-veriseal.md",
+      "rel_to_docs": "sectors/why-veriseal.md",
+      "stats": {
+        "lines": 213,
+        "words": 464
+      },
+      "structure": {
+        "h1_count": 10,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [
+          "CLAIMS_WEAKLY_SUPPORTED"
+        ],
+        "very_short": false
+      }
+    },
+    {
+      "file": "docs/sectors/_sector-template.md",
+      "rel_to_docs": "sectors/_sector-template.md",
+      "stats": {
+        "lines": 248,
+        "words": 486
+      },
+      "structure": {
+        "h1_count": 12,
+        "heading_jumps": [
+          {
+            "from": {
+              "level": 1,
+              "text": "4. Where VeriSeal Changes the Risk Model",
+              "line": 83
+            },
+            "to": {
+              "level": 3,
+              "text": "Deterministic Canonical Integrity",
+              "line": 87
+            }
+          }
+        ],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [
+          "TEMPLATE"
+        ],
+        "institutional_flags": [],
+        "very_short": false
+      }
+    },
+    {
+      "file": "docs/standard/veriseal-protocol-framework.md",
+      "rel_to_docs": "standard/veriseal-protocol-framework.md",
+      "stats": {
+        "lines": 284,
+        "words": 707
+      },
+      "structure": {
+        "h1_count": 11,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": false
+      }
+    },
+    {
+      "file": "docs/standard/vip-framework-001.md",
+      "rel_to_docs": "standard/vip-framework-001.md",
+      "stats": {
+        "lines": 202,
+        "words": 467
+      },
+      "structure": {
+        "h1_count": 13,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": false
+      }
+    },
+    {
+      "file": "docs/standard/vip-reg-006.md",
+      "rel_to_docs": "standard/vip-reg-006.md",
+      "stats": {
+        "lines": 278,
+        "words": 627
+      },
+      "structure": {
+        "h1_count": 13,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": false
+      }
+    },
+    {
+      "file": "docs/standard/vip-regulatory-mapping-001.md",
+      "rel_to_docs": "standard/vip-regulatory-mapping-001.md",
+      "stats": {
+        "lines": 203,
+        "words": 467
+      },
+      "structure": {
+        "h1_count": 11,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": false
+      }
+    },
+    {
+      "file": "docs/standard/vip-roadmap-2026-2030.md",
+      "rel_to_docs": "standard/vip-roadmap-2026-2030.md",
+      "stats": {
+        "lines": 237,
+        "words": 551
+      },
+      "structure": {
+        "h1_count": 11,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": false
+      }
+    },
+    {
+      "file": "docs/standard/vip-std-001.md",
+      "rel_to_docs": "standard/vip-std-001.md",
+      "stats": {
+        "lines": 412,
+        "words": 1026
+      },
+      "structure": {
+        "h1_count": 19,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": false
+      }
+    },
+    {
+      "file": "docs/standard/vip-std-002.md",
+      "rel_to_docs": "standard/vip-std-002.md",
+      "stats": {
+        "lines": 180,
+        "words": 468
+      },
+      "structure": {
+        "h1_count": 13,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": false
+      }
+    },
+    {
+      "file": "docs/standard/vip-std-003.md",
+      "rel_to_docs": "standard/vip-std-003.md",
+      "stats": {
+        "lines": 182,
+        "words": 449
+      },
+      "structure": {
+        "h1_count": 13,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": false
+      }
+    },
+    {
+      "file": "docs/standard/vip-std-004.md",
+      "rel_to_docs": "standard/vip-std-004.md",
+      "stats": {
+        "lines": 189,
+        "words": 476
+      },
+      "structure": {
+        "h1_count": 14,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": false
+      }
+    },
+    {
+      "file": "docs/standard/vip-stf-005.md",
+      "rel_to_docs": "standard/vip-stf-005.md",
+      "stats": {
+        "lines": 300,
+        "words": 753
+      },
+      "structure": {
+        "h1_count": 15,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": false
+      }
+    },
+    {
+      "file": "docs/standard/vip-suite-000.md",
+      "rel_to_docs": "standard/vip-suite-000.md",
+      "stats": {
+        "lines": 323,
+        "words": 659
+      },
+      "structure": {
+        "h1_count": 11,
+        "heading_jumps": [
+          {
+            "from": {
+              "level": 1,
+              "text": "6. Deployment Profiles",
+              "line": 193
+            },
+            "to": {
+              "level": 3,
+              "text": "Minimal Profile",
+              "line": 197
+            }
+          }
+        ],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": false
+      }
+    },
+    {
+      "file": "docs/standard/vip-threat-001.md",
+      "rel_to_docs": "standard/vip-threat-001.md",
+      "stats": {
+        "lines": 231,
+        "words": 518
+      },
+      "structure": {
+        "h1_count": 12,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": false
+      }
+    },
+    {
+      "file": "docs/standard/why-global-standard.md",
+      "rel_to_docs": "standard/why-global-standard.md",
+      "stats": {
+        "lines": 258,
+        "words": 628
+      },
+      "structure": {
+        "h1_count": 12,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": false
+      }
+    },
+    {
+      "file": "docs/strategy/certification-conformance-framework.md",
+      "rel_to_docs": "strategy/certification-conformance-framework.md",
+      "stats": {
+        "lines": 247,
+        "words": 560
+      },
+      "structure": {
+        "h1_count": 11,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": false
+      }
+    },
+    {
+      "file": "docs/strategy/certification-conformance-model.md",
+      "rel_to_docs": "strategy/certification-conformance-model.md",
+      "stats": {
+        "lines": 261,
+        "words": 534
+      },
+      "structure": {
+        "h1_count": 1,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": false
+      }
+    },
+    {
+      "file": "docs/strategy/competitive-landscape.md",
+      "rel_to_docs": "strategy/competitive-landscape.md",
+      "stats": {
+        "lines": 363,
+        "words": 909
+      },
+      "structure": {
+        "h1_count": 12,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": false
+      }
+    },
+    {
+      "file": "docs/strategy/economic-adoption-model.md",
+      "rel_to_docs": "strategy/economic-adoption-model.md",
+      "stats": {
+        "lines": 280,
+        "words": 570
+      },
+      "structure": {
+        "h1_count": 15,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": false
+      }
+    },
+    {
+      "file": "docs/strategy/executive-adoption-framework.md",
+      "rel_to_docs": "strategy/executive-adoption-framework.md",
+      "stats": {
+        "lines": 223,
+        "words": 515
+      },
+      "structure": {
+        "h1_count": 12,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": false
+      }
+    },
+    {
+      "file": "docs/strategy/executive-institutional-brief.md",
+      "rel_to_docs": "strategy/executive-institutional-brief.md",
+      "stats": {
+        "lines": 265,
+        "words": 563
+      },
+      "structure": {
+        "h1_count": 14,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": false
+      }
+    },
+    {
+      "file": "docs/strategy/executive-objection-playbook.md",
+      "rel_to_docs": "strategy/executive-objection-playbook.md",
+      "stats": {
+        "lines": 291,
+        "words": 543
+      },
+      "structure": {
+        "h1_count": 17,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [
+          "MARKETING_LANGUAGE",
+          "CASUAL_LANGUAGE"
+        ],
+        "very_short": false
+      }
+    },
+    {
+      "file": "docs/strategy/institutional-decision-brief.md",
+      "rel_to_docs": "strategy/institutional-decision-brief.md",
+      "stats": {
+        "lines": 201,
+        "words": 512
+      },
+      "structure": {
+        "h1_count": 10,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": false
+      }
+    },
+    {
+      "file": "docs/strategy/institutional-roadmap-36m.md",
+      "rel_to_docs": "strategy/institutional-roadmap-36m.md",
+      "stats": {
+        "lines": 237,
+        "words": 483
+      },
+      "structure": {
+        "h1_count": 7,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": false
+      }
+    },
+    {
+      "file": "docs/strategy/quantified-use-cases.md",
+      "rel_to_docs": "strategy/quantified-use-cases.md",
+      "stats": {
+        "lines": 271,
+        "words": 646
+      },
+      "structure": {
+        "h1_count": 11,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": false
+      }
+    },
+    {
+      "file": "docs/strategy/standard-governance-model.md",
+      "rel_to_docs": "strategy/standard-governance-model.md",
+      "stats": {
+        "lines": 199,
+        "words": 434
+      },
+      "structure": {
+        "h1_count": 1,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [
+          "MARKETING_LANGUAGE"
+        ],
+        "very_short": false
+      }
+    },
+    {
+      "file": "docs/strategy/standardization-strategy.md",
+      "rel_to_docs": "strategy/standardization-strategy.md",
+      "stats": {
+        "lines": 285,
+        "words": 562
+      },
+      "structure": {
+        "h1_count": 15,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": false
+      }
+    },
+    {
+      "file": "docs/strategy/why-veriseal-now.md",
+      "rel_to_docs": "strategy/why-veriseal-now.md",
+      "stats": {
+        "lines": 142,
+        "words": 402
+      },
+      "structure": {
+        "h1_count": 8,
+        "heading_jumps": [
+          {
+            "from": {
+              "level": 1,
+              "text": "The Hidden Structural Risk",
+              "line": 30
+            },
+            "to": {
+              "level": 3,
+              "text": "1) Regulatory escalation",
+              "line": 34
+            }
+          }
+        ],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": false
+      }
+    },
+    {
+      "file": "docs/technical/cryptography.md",
+      "rel_to_docs": "technical/cryptography.md",
+      "stats": {
+        "lines": 51,
+        "words": 195
+      },
+      "structure": {
+        "h1_count": 1,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": true
+      }
+    },
+    {
+      "file": "docs/technical/integrity-vs-blockchain.md",
+      "rel_to_docs": "technical/integrity-vs-blockchain.md",
+      "stats": {
+        "lines": 275,
+        "words": 535
+      },
+      "structure": {
+        "h1_count": 13,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": false
+      }
+    },
+    {
+      "file": "docs/technical/timestamping.md",
+      "rel_to_docs": "technical/timestamping.md",
+      "stats": {
+        "lines": 30,
+        "words": 100
+      },
+      "structure": {
+        "h1_count": 1,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": true
+      }
+    },
+    {
+      "file": "docs/technical/verification.md",
+      "rel_to_docs": "technical/verification.md",
+      "stats": {
+        "lines": 48,
+        "words": 138
+      },
+      "structure": {
+        "h1_count": 1,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": true
+      }
+    },
+    {
+      "file": "docs/whitepaper/annex/security-assumptions.md",
+      "rel_to_docs": "whitepaper/annex/security-assumptions.md",
+      "stats": {
+        "lines": 17,
+        "words": 50
+      },
+      "structure": {
+        "h1_count": 1,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": true
+      }
+    },
+    {
+      "file": "docs/whitepaper/annex/threat-model-adversarial-analysis.md",
+      "rel_to_docs": "whitepaper/annex/threat-model-adversarial-analysis.md",
+      "stats": {
+        "lines": 479,
+        "words": 1651
+      },
+      "structure": {
+        "h1_count": 1,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": false
+      }
+    },
+    {
+      "file": "docs/whitepaper/annex/threat-model.md",
+      "rel_to_docs": "whitepaper/annex/threat-model.md",
+      "stats": {
+        "lines": 24,
+        "words": 56
+      },
+      "structure": {
+        "h1_count": 1,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": true
+      }
+    },
+    {
+      "file": "docs/whitepaper/annex/verification-procedure.md",
+      "rel_to_docs": "whitepaper/annex/verification-procedure.md",
+      "stats": {
+        "lines": 23,
+        "words": 65
+      },
+      "structure": {
+        "h1_count": 1,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": true
+      }
+    },
+    {
+      "file": "docs/whitepaper/core-thesis.md",
+      "rel_to_docs": "whitepaper/core-thesis.md",
+      "stats": {
+        "lines": 194,
+        "words": 456
+      },
+      "structure": {
+        "h1_count": 1,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": false
+      }
+    },
+    {
+      "file": "docs/whitepaper/executive-summary-1page.md",
+      "rel_to_docs": "whitepaper/executive-summary-1page.md",
+      "stats": {
+        "lines": 90,
+        "words": 240
+      },
+      "structure": {
+        "h1_count": 1,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": false
+      }
+    },
+    {
+      "file": "docs/whitepaper/executive-summary.md",
+      "rel_to_docs": "whitepaper/executive-summary.md",
+      "stats": {
+        "lines": 186,
+        "words": 509
+      },
+      "structure": {
+        "h1_count": 1,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [
+          "CLAIMS_WEAKLY_SUPPORTED"
+        ],
+        "very_short": false
+      }
+    },
+    {
+      "file": "docs/whitepaper/index.md",
+      "rel_to_docs": "whitepaper/index.md",
+      "stats": {
+        "lines": 27,
+        "words": 135
+      },
+      "structure": {
+        "h1_count": 1,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": true
+      }
+    },
+    {
+      "file": "docs/whitepaper/institutional-positioning.md",
+      "rel_to_docs": "whitepaper/institutional-positioning.md",
+      "stats": {
+        "lines": 190,
+        "words": 445
+      },
+      "structure": {
+        "h1_count": 1,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": false
+      }
+    },
+    {
+      "file": "docs/whitepaper/legal-admissibility.md",
+      "rel_to_docs": "whitepaper/legal-admissibility.md",
+      "stats": {
+        "lines": 19,
+        "words": 49
+      },
+      "structure": {
+        "h1_count": 1,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": true
+      }
+    },
+    {
+      "file": "docs/whitepaper/part1/evidence-economy.md",
+      "rel_to_docs": "whitepaper/part1/evidence-economy.md",
+      "stats": {
+        "lines": 29,
+        "words": 89
+      },
+      "structure": {
+        "h1_count": 1,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": true
+      }
+    },
+    {
+      "file": "docs/whitepaper/part1/index.md",
+      "rel_to_docs": "whitepaper/part1/index.md",
+      "stats": {
+        "lines": 17,
+        "words": 78
+      },
+      "structure": {
+        "h1_count": 1,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": true
+      }
+    },
+    {
+      "file": "docs/whitepaper/part1/proof-crisis.md",
+      "rel_to_docs": "whitepaper/part1/proof-crisis.md",
+      "stats": {
+        "lines": 30,
+        "words": 84
+      },
+      "structure": {
+        "h1_count": 1,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": true
+      }
+    },
+    {
+      "file": "docs/whitepaper/part1/structural-digital-dependence.md",
+      "rel_to_docs": "whitepaper/part1/structural-digital-dependence.md",
+      "stats": {
+        "lines": 26,
+        "words": 86
+      },
+      "structure": {
+        "h1_count": 1,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": true
+      }
+    },
+    {
+      "file": "docs/whitepaper/part1/why-existing-systems-fail.md",
+      "rel_to_docs": "whitepaper/part1/why-existing-systems-fail.md",
+      "stats": {
+        "lines": 24,
+        "words": 99
+      },
+      "structure": {
+        "h1_count": 1,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": true
+      }
+    },
+    {
+      "file": "docs/whitepaper/part2/cryptographic-foundations.md",
+      "rel_to_docs": "whitepaper/part2/cryptographic-foundations.md",
+      "stats": {
+        "lines": 23,
+        "words": 65
+      },
+      "structure": {
+        "h1_count": 1,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": true
+      }
+    },
+    {
+      "file": "docs/whitepaper/part2/cryptographic-model.md",
+      "rel_to_docs": "whitepaper/part2/cryptographic-model.md",
+      "stats": {
+        "lines": 250,
+        "words": 708
+      },
+      "structure": {
+        "h1_count": 1,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": false
+      }
+    },
+    {
+      "file": "docs/whitepaper/part2/evidence-infrastructure.md",
+      "rel_to_docs": "whitepaper/part2/evidence-infrastructure.md",
+      "stats": {
+        "lines": 20,
+        "words": 59
+      },
+      "structure": {
+        "h1_count": 1,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": true
+      }
+    },
+    {
+      "file": "docs/whitepaper/part2/index.md",
+      "rel_to_docs": "whitepaper/part2/index.md",
+      "stats": {
+        "lines": 21,
+        "words": 65
+      },
+      "structure": {
+        "h1_count": 1,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": true
+      }
+    },
+    {
+      "file": "docs/whitepaper/part2/ledger-and-proof-model.md",
+      "rel_to_docs": "whitepaper/part2/ledger-and-proof-model.md",
+      "stats": {
+        "lines": 24,
+        "words": 85
+      },
+      "structure": {
+        "h1_count": 1,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": true
+      }
+    },
+    {
+      "file": "docs/whitepaper/part2/sovereignty-model.md",
+      "rel_to_docs": "whitepaper/part2/sovereignty-model.md",
+      "stats": {
+        "lines": 20,
+        "words": 65
+      },
+      "structure": {
+        "h1_count": 1,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": true
+      }
+    },
+    {
+      "file": "docs/whitepaper/part2/verification-model.md",
+      "rel_to_docs": "whitepaper/part2/verification-model.md",
+      "stats": {
+        "lines": 52,
+        "words": 156
+      },
+      "structure": {
+        "h1_count": 2,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": true
+      }
+    },
+    {
+      "file": "docs/whitepaper/part3/banking-financial-infrastructure.md",
+      "rel_to_docs": "whitepaper/part3/banking-financial-infrastructure.md",
+      "stats": {
+        "lines": 79,
+        "words": 238
+      },
+      "structure": {
+        "h1_count": 1,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": false
+      }
+    },
+    {
+      "file": "docs/whitepaper/part3/conclusion-institutional-positioning.md",
+      "rel_to_docs": "whitepaper/part3/conclusion-institutional-positioning.md",
+      "stats": {
+        "lines": 36,
+        "words": 112
+      },
+      "structure": {
+        "h1_count": 1,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": true
+      }
+    },
+    {
+      "file": "docs/whitepaper/part3/financial-sector.md",
+      "rel_to_docs": "whitepaper/part3/financial-sector.md",
+      "stats": {
+        "lines": 20,
+        "words": 49
+      },
+      "structure": {
+        "h1_count": 1,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": true
+      }
+    },
+    {
+      "file": "docs/whitepaper/part3/governance-trust-model.md",
+      "rel_to_docs": "whitepaper/part3/governance-trust-model.md",
+      "stats": {
+        "lines": 41,
+        "words": 139
+      },
+      "structure": {
+        "h1_count": 1,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": true
+      }
+    },
+    {
+      "file": "docs/whitepaper/part3/index.md",
+      "rel_to_docs": "whitepaper/part3/index.md",
+      "stats": {
+        "lines": 17,
+        "words": 74
+      },
+      "structure": {
+        "h1_count": 1,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": true
+      }
+    },
+    {
+      "file": "docs/whitepaper/part3/legal-sector.md",
+      "rel_to_docs": "whitepaper/part3/legal-sector.md",
+      "stats": {
+        "lines": 20,
+        "words": 54
+      },
+      "structure": {
+        "h1_count": 1,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": true
+      }
+    },
+    {
+      "file": "docs/whitepaper/part3/macro-economic-risk-model.md",
+      "rel_to_docs": "whitepaper/part3/macro-economic-risk-model.md",
+      "stats": {
+        "lines": 42,
+        "words": 137
+      },
+      "structure": {
+        "h1_count": 1,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": true
+      }
+    },
+    {
+      "file": "docs/whitepaper/part3/public-sector.md",
+      "rel_to_docs": "whitepaper/part3/public-sector.md",
+      "stats": {
+        "lines": 20,
+        "words": 47
+      },
+      "structure": {
+        "h1_count": 1,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": true
+      }
+    },
+    {
+      "file": "docs/whitepaper/part3/standardization-network-effects.md",
+      "rel_to_docs": "whitepaper/part3/standardization-network-effects.md",
+      "stats": {
+        "lines": 66,
+        "words": 207
+      },
+      "structure": {
+        "h1_count": 1,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": true
+      }
+    },
+    {
+      "file": "docs/whitepaper/part4/deployment-and-industrialization.md",
+      "rel_to_docs": "whitepaper/part4/deployment-and-industrialization.md",
+      "stats": {
+        "lines": 57,
+        "words": 160
+      },
+      "structure": {
+        "h1_count": 1,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": true
+      }
+    },
+    {
+      "file": "docs/whitepaper/part4/deployment-model.md",
+      "rel_to_docs": "whitepaper/part4/deployment-model.md",
+      "stats": {
+        "lines": 20,
+        "words": 58
+      },
+      "structure": {
+        "h1_count": 1,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": true
+      }
+    },
+    {
+      "file": "docs/whitepaper/part4/economic-impact.md",
+      "rel_to_docs": "whitepaper/part4/economic-impact.md",
+      "stats": {
+        "lines": 20,
+        "words": 48
+      },
+      "structure": {
+        "h1_count": 1,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": true
+      }
+    },
+    {
+      "file": "docs/whitepaper/part4/index.md",
+      "rel_to_docs": "whitepaper/part4/index.md",
+      "stats": {
+        "lines": 22,
+        "words": 65
+      },
+      "structure": {
+        "h1_count": 1,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": true
+      }
+    },
+    {
+      "file": "docs/whitepaper/part4/risk-and-limitations.md",
+      "rel_to_docs": "whitepaper/part4/risk-and-limitations.md",
+      "stats": {
+        "lines": 72,
+        "words": 220
+      },
+      "structure": {
+        "h1_count": 1,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [
+          "CLAIMS_WEAKLY_SUPPORTED"
+        ],
+        "very_short": false
+      }
+    },
+    {
+      "file": "docs/whitepaper/part4/roadmap.md",
+      "rel_to_docs": "whitepaper/part4/roadmap.md",
+      "stats": {
+        "lines": 20,
+        "words": 55
+      },
+      "structure": {
+        "h1_count": 1,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": true
+      }
+    },
+    {
+      "file": "docs/whitepaper/part5/adoption-architecture.md",
+      "rel_to_docs": "whitepaper/part5/adoption-architecture.md",
+      "stats": {
+        "lines": 71,
+        "words": 161
+      },
+      "structure": {
+        "h1_count": 1,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [
+          "CLAIMS_WEAKLY_SUPPORTED"
+        ],
+        "very_short": true
+      }
+    },
+    {
+      "file": "docs/whitepaper/part5/economic-moat.md",
+      "rel_to_docs": "whitepaper/part5/economic-moat.md",
+      "stats": {
+        "lines": 51,
+        "words": 77
+      },
+      "structure": {
+        "h1_count": 1,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": true
+      }
+    },
+    {
+      "file": "docs/whitepaper/part5/economic-model.md",
+      "rel_to_docs": "whitepaper/part5/economic-model.md",
+      "stats": {
+        "lines": 54,
+        "words": 109
+      },
+      "structure": {
+        "h1_count": 1,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": true
+      }
+    },
+    {
+      "file": "docs/whitepaper/part5/index.md",
+      "rel_to_docs": "whitepaper/part5/index.md",
+      "stats": {
+        "lines": 29,
+        "words": 103
+      },
+      "structure": {
+        "h1_count": 1,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": true
+      }
+    },
+    {
+      "file": "docs/whitepaper/part5/long-term-positioning.md",
+      "rel_to_docs": "whitepaper/part5/long-term-positioning.md",
+      "stats": {
+        "lines": 33,
+        "words": 62
+      },
+      "structure": {
+        "h1_count": 1,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": true
+      }
+    },
+    {
+      "file": "docs/whitepaper/part5/standardization-strategy.md",
+      "rel_to_docs": "whitepaper/part5/standardization-strategy.md",
+      "stats": {
+        "lines": 57,
+        "words": 93
+      },
+      "structure": {
+        "h1_count": 1,
+        "heading_jumps": [],
+        "missing_frontmatter": false
+      },
+      "links": {
+        "total": 0,
+        "broken": []
+      },
+      "quality": {
+        "placeholders": [],
+        "institutional_flags": [],
+        "very_short": true
+      }
+    }
+  ],
+  "i18n": {
+    "fr": {
+      "root": "i18n/fr/docusaurus-plugin-content-docs/current",
+      "exists": true,
+      "missing_files": [],
+      "identical_to_en": [],
+      "near_identical_to_en": [],
+      "files_scanned": 101,
+      "multiple_h1": 53,
+      "broken_links": 0,
+      "placeholder_hits": 0
+    },
+    "ro": {
+      "root": "i18n/ro/docusaurus-plugin-content-docs/current",
+      "exists": true,
+      "missing_files": [],
+      "identical_to_en": [],
+      "near_identical_to_en": [],
+      "files_scanned": 101,
+      "multiple_h1": 53,
+      "broken_links": 0,
+      "placeholder_hits": 0
+    }
+  },
+  "summary": {
+    "multiple_h1": 53,
+    "heading_jumps": 15,
+    "broken_links": 0,
+    "placeholder_hits": 1,
+    "institutional_flags": 9,
+    "missing_frontmatter": 0,
+    "very_short_pages": 39,
+    "i18n_missing_files": 0,
+    "i18n_identical_to_en": 0
+  }
+}

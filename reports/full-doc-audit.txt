@@ -1,0 +1,495 @@
+VERISEAL FULL DOCUMENTATION AUDIT
+=================================
+
+Scanning directory: D:\Veriseal Docusaurus\veriseal-docs\docs
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\competitive-landscape.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\faq\adoption-and-decision.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\faq\legal.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\faq\security.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\faq\timestamping.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\faq\verification.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\intro.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\regulatory\protocol-vs-legal-admissibility.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\regulatory\regulatory-framework-overview.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\regulatory\sector-regulatory-mapping.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\sectors\architecture-deployment.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\sectors\banking-institutional-pack.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\sectors\financial-sector.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\sectors\healthcare.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\sectors\hr.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\sectors\identity-proof.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\sectors\individuals.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\sectors\industries-overview.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\sectors\insurance.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\sectors\notaries.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\sectors\platforms.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\sectors\public-procurement.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\sectors\real-estate.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\sectors\supply-chain.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\sectors\veriseal-protocol-framework.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\sectors\why-veriseal.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\sectors\_sector-template.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\standard\veriseal-protocol-framework.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\standard\vip-framework-001.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\standard\vip-reg-006.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\standard\vip-regulatory-mapping-001.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\standard\vip-roadmap-2026-2030.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\standard\vip-std-001.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\standard\vip-std-002.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\standard\vip-std-003.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\standard\vip-std-004.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\standard\vip-stf-005.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\standard\vip-suite-000.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\standard\vip-threat-001.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\standard\why-global-standard.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\strategy\certification-conformance-framework.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\strategy\competitive-landscape.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\strategy\economic-adoption-model.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\strategy\executive-adoption-framework.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\strategy\executive-institutional-brief.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\strategy\executive-objection-playbook.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\strategy\institutional-decision-brief.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\strategy\institutional-roadmap-36m.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\strategy\quantified-use-cases.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\strategy\standardization-strategy.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\strategy\why-veriseal-now.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\technical\integrity-vs-blockchain.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\docs\whitepaper\part2\verification-model.md
+   ⚠ Multiple H1 headings
+
+
+---------------------------------
+
+Scanning directory: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\competitive-landscape.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\faq\adoption-and-decision.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\faq\legal.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\faq\security.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\faq\timestamping.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\faq\verification.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\intro.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\regulatory\protocol-vs-legal-admissibility.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\regulatory\regulatory-framework-overview.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\regulatory\sector-regulatory-mapping.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\sectors\architecture-deployment.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\sectors\banking-institutional-pack.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\sectors\financial-sector.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\sectors\healthcare.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\sectors\hr.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\sectors\identity-proof.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\sectors\individuals.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\sectors\industries-overview.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\sectors\insurance.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\sectors\notaries.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\sectors\platforms.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\sectors\public-procurement.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\sectors\real-estate.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\sectors\supply-chain.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\sectors\veriseal-protocol-framework.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\sectors\why-veriseal.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\sectors\_sector-template.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\standard\veriseal-protocol-framework.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\standard\vip-framework-001.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\standard\vip-reg-006.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\standard\vip-regulatory-mapping-001.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\standard\vip-roadmap-2026-2030.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\standard\vip-std-001.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\standard\vip-std-002.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\standard\vip-std-003.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\standard\vip-std-004.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\standard\vip-stf-005.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\standard\vip-suite-000.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\standard\vip-threat-001.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\standard\why-global-standard.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\strategy\certification-conformance-framework.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\strategy\competitive-landscape.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\strategy\economic-adoption-model.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\strategy\executive-adoption-framework.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\strategy\executive-institutional-brief.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\strategy\executive-objection-playbook.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\strategy\institutional-decision-brief.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\strategy\institutional-roadmap-36m.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\strategy\quantified-use-cases.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\strategy\standardization-strategy.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\strategy\why-veriseal-now.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\technical\integrity-vs-blockchain.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\fr\docusaurus-plugin-content-docs\current\whitepaper\part2\verification-model.md
+   ⚠ Multiple H1 headings
+
+
+---------------------------------
+
+Scanning directory: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\competitive-landscape.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\faq\adoption-and-decision.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\faq\legal.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\faq\security.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\faq\timestamping.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\faq\verification.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\intro.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\regulatory\protocol-vs-legal-admissibility.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\regulatory\regulatory-framework-overview.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\regulatory\sector-regulatory-mapping.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\sectors\architecture-deployment.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\sectors\banking-institutional-pack.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\sectors\financial-sector.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\sectors\healthcare.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\sectors\hr.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\sectors\identity-proof.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\sectors\individuals.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\sectors\industries-overview.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\sectors\insurance.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\sectors\notaries.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\sectors\platforms.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\sectors\public-procurement.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\sectors\real-estate.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\sectors\supply-chain.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\sectors\veriseal-protocol-framework.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\sectors\why-veriseal.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\sectors\_sector-template.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\standard\veriseal-protocol-framework.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\standard\vip-framework-001.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\standard\vip-reg-006.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\standard\vip-regulatory-mapping-001.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\standard\vip-roadmap-2026-2030.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\standard\vip-std-001.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\standard\vip-std-002.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\standard\vip-std-003.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\standard\vip-std-004.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\standard\vip-stf-005.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\standard\vip-suite-000.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\standard\vip-threat-001.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\standard\why-global-standard.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\strategy\certification-conformance-framework.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\strategy\competitive-landscape.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\strategy\economic-adoption-model.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\strategy\executive-adoption-framework.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\strategy\executive-institutional-brief.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\strategy\executive-objection-playbook.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\strategy\institutional-decision-brief.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\strategy\institutional-roadmap-36m.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\strategy\quantified-use-cases.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\strategy\standardization-strategy.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\strategy\why-veriseal-now.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\technical\integrity-vs-blockchain.md
+   ⚠ Multiple H1 headings
+
+FILE: D:\Veriseal Docusaurus\veriseal-docs\i18n\ro\docusaurus-plugin-content-docs\current\whitepaper\part2\verification-model.md
+   ⚠ Multiple H1 headings
+
+
+---------------------------------
+
