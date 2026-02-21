@@ -8,6 +8,7 @@ const config = {
 
   url: 'https://veriseal.app',
   baseUrl: '/',
+  trailingSlash: true,
 
   onBrokenLinks: 'throw',
 
@@ -21,131 +22,127 @@ const config = {
   projectName: 'veriseal-docs',
 
   // ============================================
-  // i18n - 24 LANGUES UE
+  // i18n
   // ============================================
   i18n: {
     defaultLocale: 'en',
-    locales: [
-      'en', 'fr', 'ro',
-      'de', 'es', 'it', 'pt', 'nl', 'pl',
-      'bg', 'cs', 'da', 'el', 'et', 'fi',
-      'ga', 'hr', 'hu', 'lt', 'lv', 'mt',
-      'sk', 'sl', 'sv'
-    ],
+    locales: ['en', 'fr', 'de', 'it', 'es', 'ro', 'nl'],
+    localeConfigs: {
+      en: { label: 'English' },
+      fr: { label: 'Français' },
+      de: { label: 'Deutsch' },
+      it: { label: 'Italiano' },
+      es: { label: 'Español' },
+      ro: { label: 'Română' },
+      nl: { label: 'Nederlands' },
+    },
   },
 
   presets: [
     [
       'classic',
-      ({
+      {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          routeBasePath: 'docs',
+
+          // 🔥 IMPORTANT
+          // On met les docs à la racine
+          routeBasePath: '/',
         },
+
         blog: false,
+
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
-      }),
+      },
     ],
   ],
 
-  themeConfig:
-    ({
-      // ============================================
-      // COLOR MODE - DARK FORCÉ
-      // ============================================
-      colorMode: {
-        defaultMode: 'dark',
-        disableSwitch: true,  // PAS DE TOGGLE
-        respectPrefersColorScheme: false,
-      },
+  themeConfig: {
+    colorMode: {
+      defaultMode: 'dark',
+      disableSwitch: true,
+      respectPrefersColorScheme: false,
+    },
 
-      // ============================================
-      // NAVBAR - SANS LOGO
-      // ============================================
-      navbar: {
-        title: 'VeriSeal',
-        // PAS DE LOGO ICI (sera dans le hero)
-        logo: undefined,
-        
-        items: [
-          {
-            to: '/docs/whitepaper/core-thesis',
-            label: 'Infrastructure',
-            position: 'left',
-          },
-          {
-            to: '/docs/sectors/banking-financial-infrastructure',
-            label: 'Sectors',
-            position: 'left',
-          },
-          {
-            to: '/docs/standard/vip-framework-001',
-            label: 'Standard',
-            position: 'left',
-          },
-          {
-            to: '/docs/regulatory/regulatory-framework-overview',
-            label: 'Regulatory',
-            position: 'left',
-          },
-          {
-            type: 'localeDropdown',
-            position: 'right',
-          },
-        ],
-      },
+    navbar: {
+      title: 'VeriSeal',
+      logo: undefined,
+      items: [
+        {
+          to: '/whitepaper/core-thesis',
+          label: 'Infrastructure',
+          position: 'left',
+        },
+        {
+          to: '/sectors/banking-financial-infrastructure',
+          label: 'Sectors',
+          position: 'left',
+        },
+        {
+          to: '/standard/vip-framework-001',
+          label: 'Standard',
+          position: 'left',
+        },
+        {
+          to: '/regulatory/regulatory-framework-overview',
+          label: 'Regulatory',
+          position: 'left',
+        },
+        {
+          type: 'localeDropdown',
+          position: 'right',
+        },
+      ],
+    },
 
-      // ============================================
-      // FOOTER
-      // ============================================
-      footer: {
-        style: 'dark',
-        links: [
-          {
-            title: 'Infrastructure',
-            items: [
-              {
-                label: 'Core Thesis',
-                to: '/docs/whitepaper/core-thesis',
-              },
-              {
-                label: 'Cryptographic Model',
-                to: '/docs/technical/cryptography',
-              },
-            ],
-          },
-          {
-            title: 'Deployment',
-            items: [
-              {
-                label: 'Adoption Framework',
-                to: '/docs/strategy/executive-adoption-framework',
-              },
-              {
-                label: 'Sector Applications',
-                to: '/docs/sectors/banking-financial-infrastructure',
-              },
-            ],
-          },
-          {
-            title: 'Standard Framework',
-            items: [
-              {
-                label: 'VIP Framework 001',
-                to: '/docs/standard/vip-framework-001',
-              },
-              {
-                label: 'VIP Suite 000',
-                to: '/docs/standard/vip-suite-000',
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} VeriSeal`,
-      },
-    }),
+    footer: {
+      style: 'dark',
+      links: [
+        {
+          title: 'Infrastructure',
+          items: [
+            {
+              label: 'Core Thesis',
+              to: '/whitepaper/core-thesis',
+            },
+            {
+              label: 'Cryptographic Model',
+              to: '/technical/cryptography',
+            },
+          ],
+        },
+        {
+          title: 'Deployment',
+          items: [
+            {
+              label: 'Adoption Framework',
+              to: '/strategy/executive-adoption-framework',
+            },
+            {
+              label: 'Sector Applications',
+              to: '/sectors/banking-financial-infrastructure',
+            },
+          ],
+        },
+        {
+          title: 'Standard Framework',
+          items: [
+            {
+              label: 'VIP Framework 001',
+              to: '/standard/vip-framework-001',
+            },
+            {
+              label: 'VIP Suite 000',
+              to: '/standard/vip-suite-000',
+            },
+          ],
+        },
+      ],
+      copyright: `Copyright © ${new Date().getFullYear()} VeriSeal`,
+    },
+  },
 };
 
 module.exports = config;

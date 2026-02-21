@@ -1,0 +1,45 @@
+{
+  "homepage.title": { "message": "VeriSeal — Cryptographic Evidence Infrastructure" },
+  "homepage.description": { "message": "Independent cryptographic proof infrastructure for institutions." },
+
+  "homepage.hero.title.part1": { "message": "A new" },
+  "homepage.hero.title.accent": { "message": "Evidence Standard" },
+  "homepage.hero.title.part2": { "message": "for the Digital World" },
+  "homepage.hero.subtitle": { "message": "Independent, verifiable, institution-grade cryptographic proof." },
+
+  "homepage.cta.whitepaper": { "message": "Read the Whitepaper" },
+  "homepage.cta.standard": { "message": "Explore the Standard" },
+
+  "homepage.gap.title": { "message": "The Structural Gap in Digital Evidence" },
+  "homepage.gap.conclusion": { "message": "Digital systems were not built to produce independent proof." },
+
+  "homepage.architecture.title": { "message": "Architecture Overview" },
+  "homepage.architecture.layer1.title": { "message": "Capture Layer" },
+  "homepage.architecture.layer1.desc": { "message": "Media, identity and contextual capture." },
+  "homepage.architecture.layer2.title": { "message": "Cryptographic Layer" },
+  "homepage.architecture.layer2.desc": { "message": "Hashing, canonicalization, Merkle commitments." },
+  "homepage.architecture.layer3.title": { "message": "Verification Layer" },
+  "homepage.architecture.layer3.desc": { "message": "Public verification, timestamp anchoring, PDF rendering." },
+
+  "homepage.positioning.title": { "message": "Institutional Positioning" },
+  "homepage.positioning.commercial.title": { "message": "Commercial Infrastructure" },
+  "homepage.positioning.standard.title": { "message": "Standardization Framework" },
+
+  "homepage.applications.title": { "message": "Applications" },
+  "homepage.applications.financial": { "message": "Financial Infrastructure" },
+  "homepage.applications.legal": { "message": "Legal & Notarial" },
+  "homepage.applications.public": { "message": "Public Sector" },
+  "homepage.applications.insurance": { "message": "Insurance" },
+  "homepage.applications.identity": { "message": "Identity Proof" },
+  "homepage.applications.supply": { "message": "Supply Chain" },
+
+  "homepage.final.title": { "message": "VeriSeal" },
+  "homepage.final.claim": { "message": "Proof as Infrastructure." },
+  "homepage.final.desc": { "message": "An independent evidence standard for institutions." },
+
+  "homepage.footer.type": { "message": "Protocol Type" },
+  "homepage.footer.governance": { "message": "Governance Framework" },
+  "homepage.footer.conformance": { "message": "Conformance Model" },
+  "homepage.footer.roadmap": { "message": "Standardization Roadmap" },
+  "homepage.footer.jurisdiction": { "message": "Jurisdictional Compatibility" }
+}

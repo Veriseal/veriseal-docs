@@ -1,0 +1,234 @@
+{
+  "homepage.title": {
+    "message": "VeriSeal — Global Integrity Infrastructure",
+    "description": "Homepage title"
+  },
+  "homepage.description": {
+    "message": "Deterministic cryptographic integrity layer for institutions and regulated markets",
+    "description": "Homepage description"
+  },
+  "homepage.hero.title.part1": {
+    "message": "The Missing",
+    "description": "Hero title part 1"
+  },
+  "homepage.hero.title.accent": {
+    "message": "Integrity",
+    "description": "Hero title accent word"
+  },
+  "homepage.hero.title.part2": {
+    "message": "Layer of the Digital Economy",
+    "description": "Hero title part 2"
+  },
+  "homepage.hero.subtitle": {
+    "message": "Deterministic cryptographic infrastructure securing digital evidence, transactions, and institutional records across jurisdictions.",
+    "description": "Hero subtitle"
+  },
+  "homepage.cta.whitepaper": {
+    "message": "Read the Core Thesis",
+    "description": "CTA button whitepaper"
+  },
+  "homepage.cta.standard": {
+    "message": "View the Standard",
+    "description": "CTA button standard"
+  },
+  "homepage.gap.title": {
+    "message": "The Structural Integrity Gap",
+    "description": "Gap section title"
+  },
+  "homepage.gap.card1.label": {
+    "message": "SYSTEM RISK",
+    "description": "Gap card 1 label"
+  },
+  "homepage.gap.card1.title": {
+    "message": "System-Level Trust Dependence",
+    "description": "Gap card 1 title"
+  },
+  "homepage.gap.card1.desc": {
+    "message": "Digital evidence depends on system-level trust, not cryptographic proof.",
+    "description": "Gap card 1 description"
+  },
+  "homepage.gap.card2.label": {
+    "message": "TEMPORAL AMBIGUITY",
+    "description": "Gap card 2 label"
+  },
+  "homepage.gap.card2.title": {
+    "message": "Timestamping Without Immutability",
+    "description": "Gap card 2 title"
+  },
+  "homepage.gap.card2.desc": {
+    "message": "Timestamping does not ensure structural immutability or verifiable integrity.",
+    "description": "Gap card 2 description"
+  },
+  "homepage.gap.card3.label": {
+    "message": "IDENTITY LIMITATION",
+    "description": "Gap card 3 label"
+  },
+  "homepage.gap.card3.title": {
+    "message": "Signature Validates Identity Only",
+    "description": "Gap card 3 title"
+  },
+  "homepage.gap.card3.desc": {
+    "message": "Signatures validate identity — not architectural integrity.",
+    "description": "Gap card 3 description"
+  },
+  "homepage.gap.card4.label": {
+    "message": "GOVERNANCE VOID",
+    "description": "Gap card 4 label"
+  },
+  "homepage.gap.card4.title": {
+    "message": "Blockchain Without Governance",
+    "description": "Gap card 4 title"
+  },
+  "homepage.gap.card4.desc": {
+    "message": "Blockchain anchoring does not replace deterministic governance.",
+    "description": "Gap card 4 description"
+  },
+  "homepage.gap.card5.label": {
+    "message": "EVIDENTIARY CRISIS",
+    "description": "Gap card 5 label"
+  },
+  "homepage.gap.card5.title": {
+    "message": "AI-Generated Content Ambiguity",
+    "description": "Gap card 5 title"
+  },
+  "homepage.gap.card5.desc": {
+    "message": "AI-generated content increases evidentiary ambiguity exponentially.",
+    "description": "Gap card 5 description"
+  },
+  "homepage.gap.conclusion": {
+    "message": "The digital economy operates without a deterministic integrity standard.",
+    "description": "Gap section conclusion"
+  },
+  "homepage.architecture.title": {
+    "message": "VeriSeal Architecture",
+    "description": "Architecture section title"
+  },
+  "homepage.architecture.layer1.title": {
+    "message": "Canonicalization Layer",
+    "description": "Architecture layer 1 title"
+  },
+  "homepage.architecture.layer1.desc": {
+    "message": "Normalize data into a deterministic format eliminating structural ambiguity and ensuring reproducibility.",
+    "description": "Architecture layer 1 description"
+  },
+  "homepage.architecture.layer2.title": {
+    "message": "Ledger Commitment Layer",
+    "description": "Architecture layer 2 title"
+  },
+  "homepage.architecture.layer2.desc": {
+    "message": "Generate a cryptographic hash and append-only ledger entry creating an immutable proof structure.",
+    "description": "Architecture layer 2 description"
+  },
+  "homepage.architecture.layer3.title": {
+    "message": "Independent Verification Layer",
+    "description": "Architecture layer 3 title"
+  },
+  "homepage.architecture.layer3.desc": {
+    "message": "Independent verification across jurisdictions and over time without system dependence.",
+    "description": "Architecture layer 3 description"
+  },
+  "homepage.positioning.title": {
+    "message": "Dual Strategic Positioning",
+    "description": "Positioning section title"
+  },
+  "homepage.positioning.commercial.title": {
+    "message": "Commercial Infrastructure",
+    "description": "Commercial positioning title"
+  },
+  "homepage.positioning.commercial.item1": {
+    "message": "API-native architecture",
+    "description": "Commercial item 1"
+  },
+  "homepage.positioning.commercial.item2": {
+    "message": "Enterprise deployment ready",
+    "description": "Commercial item 2"
+  },
+  "homepage.positioning.commercial.item3": {
+    "message": "Cross-sector scalability",
+    "description": "Commercial item 3"
+  },
+  "homepage.positioning.commercial.item4": {
+    "message": "Global interoperability",
+    "description": "Commercial item 4"
+  },
+  "homepage.positioning.standard.title": {
+    "message": "Emerging Global Standard",
+    "description": "Standard positioning title"
+  },
+  "homepage.positioning.standard.item1": {
+    "message": "Governance & conformance framework",
+    "description": "Standard item 1"
+  },
+  "homepage.positioning.standard.item2": {
+    "message": "Certification-ready model",
+    "description": "Standard item 2"
+  },
+  "homepage.positioning.standard.item3": {
+    "message": "Sovereignty-compatible design",
+    "description": "Standard item 3"
+  },
+  "homepage.positioning.standard.item4": {
+    "message": "Long-term archival resilience",
+    "description": "Standard item 4"
+  },
+  "homepage.applications.title": {
+    "message": "Regulated Sector Applications",
+    "description": "Applications section title"
+  },
+  "homepage.applications.financial": {
+    "message": "Banking & Financial Infrastructure",
+    "description": "Financial sector"
+  },
+  "homepage.applications.legal": {
+    "message": "Legal & Notarial Systems",
+    "description": "Legal sector"
+  },
+  "homepage.applications.public": {
+    "message": "Public Sector & Procurement",
+    "description": "Public sector"
+  },
+  "homepage.applications.insurance": {
+    "message": "Insurance & Claims",
+    "description": "Insurance sector"
+  },
+  "homepage.applications.identity": {
+    "message": "Digital Identity",
+    "description": "Identity sector"
+  },
+  "homepage.applications.supply": {
+    "message": "Supply Chain & Platforms",
+    "description": "Supply chain sector"
+  },
+  "homepage.final.title": {
+    "message": "VeriSeal Is Infrastructure",
+    "description": "Final section title"
+  },
+  "homepage.final.claim": {
+    "message": "Not a workflow SaaS. Not a signature tool. Not a blockchain wrapper.",
+    "description": "Final claim"
+  },
+  "homepage.final.desc": {
+    "message": "VeriSeal is a structural cryptographic integrity layer designed to reduce digital uncertainty and anchor institutional trust in deterministic verification.",
+    "description": "Final description"
+  },
+  "homepage.footer.type": {
+    "message": "Deterministic Evidence Infrastructure",
+    "description": "Footer type"
+  },
+  "homepage.footer.governance": {
+    "message": "Governance Framework",
+    "description": "Footer governance link"
+  },
+  "homepage.footer.conformance": {
+    "message": "Conformance Model",
+    "description": "Footer conformance link"
+  },
+  "homepage.footer.roadmap": {
+    "message": "Standardization Roadmap",
+    "description": "Footer roadmap link"
+  },
+  "homepage.footer.jurisdiction": {
+    "message": "Standard Reference — Multi-Jurisdictional Framework",
+    "description": "Footer jurisdiction"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "homepage.title": {
+    "message": "VeriSeal — Infrastructură Criptografică de Dovadă"
+  },
+  "homepage.description": {
+    "message": "Infrastructură criptografică independentă dedicată instituțiilor."
+  },
+
+  "homepage.hero.title.part1": {
+    "message": "Un nou"
+  },
+  "homepage.hero.title.accent": {
+    "message": "Standard al Dovezii"
+  },
+  "homepage.hero.title.part2": {
+    "message": "pentru Lumea Digitală"
+  },
+  "homepage.hero.subtitle": {
+    "message": "Dovadă criptografică independentă, verificabilă, la nivel instituțional."
+  },
+
+  "homepage.cta.whitepaper": {
+    "message": "Citește Whitepaper-ul"
+  },
+  "homepage.cta.standard": {
+    "message": "Explorează Standardul"
+  },
+
+  "homepage.gap.title": {
+    "message": "Lacuna Structurală a Dovezii Digitale"
+  },
+  "homepage.gap.conclusion": {
+    "message": "Sistemele digitale nu au fost concepute pentru a produce dovezi independente."
+  },
+
+  "homepage.architecture.title": {
+    "message": "Prezentare Generală a Arhitecturii"
+  },
+  "homepage.architecture.layer1.title": {
+    "message": "Stratul de Captură"
+  },
+  "homepage.architecture.layer1.desc": {
+    "message": "Captură media, identitate și context."
+  },
+  "homepage.architecture.layer2.title": {
+    "message": "Stratul Criptografic"
+  },
+  "homepage.architecture.layer2.desc": {
+    "message": "Hashing, canonizare și angajamente Merkle."
+  },
+  "homepage.architecture.layer3.title": {
+    "message": "Stratul de Verificare"
+  },
+  "homepage.architecture.layer3.desc": {
+    "message": "Verificare publică, ancorare temporală și generare PDF."
+  },
+
+  "homepage.positioning.title": {
+    "message": "Poziționare Instituțională"
+  },
+  "homepage.positioning.commercial.title": {
+    "message": "Infrastructură Comercială"
+  },
+  "homepage.positioning.standard.title": {
+    "message": "Cadru de Standardizare"
+  },
+
+  "homepage.applications.title": {
+    "message": "Aplicații"
+  },
+  "homepage.applications.financial": {
+    "message": "Infrastructură Financiară"
+  },
+  "homepage.applications.legal": {
+    "message": "Juridic & Notarial"
+  },
+  "homepage.applications.public": {
+    "message": "Sector Public"
+  },
+  "homepage.applications.insurance": {
+    "message": "Asigurări"
+  },
+  "homepage.applications.identity": {
+    "message": "Dovada Identității"
+  },
+  "homepage.applications.supply": {
+    "message": "Lanț de Aprovizionare"
+  },
+
+  "homepage.final.title": {
+    "message": "VeriSeal"
+  },
+  "homepage.final.claim": {
+    "message": "Dovada ca Infrastructură."
+  },
+  "homepage.final.desc": {
+    "message": "Un standard independent de dovadă pentru instituții."
+  },
+
+  "homepage.footer.type": {
+    "message": "Tip Protocol"
+  },
+  "homepage.footer.governance": {
+    "message": "Cadru de Guvernanță"
+  },
+  "homepage.footer.conformance": {
+    "message": "Model de Conformitate"
+  },
+  "homepage.footer.roadmap": {
+    "message": "Foaie de Parcurs pentru Standardizare"
+  },
+  "homepage.footer.jurisdiction": {
+    "message": "Compatibilitate Jurisdicțională"
+  }
+}

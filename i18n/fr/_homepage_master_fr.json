@@ -1,0 +1,115 @@
+{
+  "homepage.title": {
+    "message": "VeriSeal — Infrastructure de Preuve Cryptographique"
+  },
+  "homepage.description": {
+    "message": "Infrastructure cryptographique indépendante dédiée aux institutions."
+  },
+
+  "homepage.hero.title.part1": {
+    "message": "Un nouveau"
+  },
+  "homepage.hero.title.accent": {
+    "message": "Standard de Preuve"
+  },
+  "homepage.hero.title.part2": {
+    "message": "pour le Monde Numérique"
+  },
+  "homepage.hero.subtitle": {
+    "message": "Une preuve cryptographique indépendante, vérifiable et de niveau institutionnel."
+  },
+
+  "homepage.cta.whitepaper": {
+    "message": "Lire le Whitepaper"
+  },
+  "homepage.cta.standard": {
+    "message": "Explorer le Standard"
+  },
+
+  "homepage.gap.title": {
+    "message": "Le Déficit Structurel de la Preuve Numérique"
+  },
+  "homepage.gap.conclusion": {
+    "message": "Les systèmes numériques n’ont pas été conçus pour produire une preuve indépendante."
+  },
+
+  "homepage.architecture.title": {
+    "message": "Vue d’Ensemble de l’Architecture"
+  },
+  "homepage.architecture.layer1.title": {
+    "message": "Couche de Capture"
+  },
+  "homepage.architecture.layer1.desc": {
+    "message": "Capture des médias, de l’identité et du contexte."
+  },
+  "homepage.architecture.layer2.title": {
+    "message": "Couche Cryptographique"
+  },
+  "homepage.architecture.layer2.desc": {
+    "message": "Hachage, canonisation et engagements Merkle."
+  },
+  "homepage.architecture.layer3.title": {
+    "message": "Couche de Vérification"
+  },
+  "homepage.architecture.layer3.desc": {
+    "message": "Vérification publique, ancrage temporel et génération PDF."
+  },
+
+  "homepage.positioning.title": {
+    "message": "Positionnement Institutionnel"
+  },
+  "homepage.positioning.commercial.title": {
+    "message": "Infrastructure Commerciale"
+  },
+  "homepage.positioning.standard.title": {
+    "message": "Cadre de Standardisation"
+  },
+
+  "homepage.applications.title": {
+    "message": "Applications"
+  },
+  "homepage.applications.financial": {
+    "message": "Infrastructure Financière"
+  },
+  "homepage.applications.legal": {
+    "message": "Juridique & Notarial"
+  },
+  "homepage.applications.public": {
+    "message": "Secteur Public"
+  },
+  "homepage.applications.insurance": {
+    "message": "Assurance"
+  },
+  "homepage.applications.identity": {
+    "message": "Preuve d’Identité"
+  },
+  "homepage.applications.supply": {
+    "message": "Chaîne d’Approvisionnement"
+  },
+
+  "homepage.final.title": {
+    "message": "VeriSeal"
+  },
+  "homepage.final.claim": {
+    "message": "La Preuve comme Infrastructure."
+  },
+  "homepage.final.desc": {
+    "message": "Un standard indépendant de preuve pour les institutions."
+  },
+
+  "homepage.footer.type": {
+    "message": "Type de Protocole"
+  },
+  "homepage.footer.governance": {
+    "message": "Cadre de Gouvernance"
+  },
+  "homepage.footer.conformance": {
+    "message": "Modèle de Conformité"
+  },
+  "homepage.footer.roadmap": {
+    "message": "Feuille de Route de Standardisation"
+  },
+  "homepage.footer.jurisdiction": {
+    "message": "Compatibilité Juridictionnelle"
+  }
+}

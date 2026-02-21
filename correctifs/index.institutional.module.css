@@ -1,0 +1,553 @@
+/* ============================================
+   VeriSeal Institutional Landing Page
+   Style: Normatif / Infrastructure / Standard
+============================================ */
+
+.main {
+  max-width: 100%;
+  padding: 0;
+  background: transparent;
+}
+
+/* ========================================
+   HERO - Autorité > Produit
+======================================== */
+
+.hero {
+  padding: 100px 0 80px;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+.heroInner {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+/* Logo Container - Style normatif (moins arrondi) */
+.logoContainer {
+  display: inline-block;
+  padding: 24px;
+  border-radius: 8px;  /* Moins arrondi (était 24px) */
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.06),
+    rgba(255, 255, 255, 0.03)
+  );
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);  /* Moins d'ombre */
+  margin-bottom: 40px;
+}
+
+.logoContainer img {
+  height: 100px;
+  width: auto;
+  display: block;
+}
+
+/* H1 Massif - Autorité typographique */
+.heroTitle {
+  font-size: clamp(42px, 6vw, 68px);
+  font-weight: 800;
+  line-height: 1.15;
+  letter-spacing: -0.025em;
+  margin-bottom: 24px;
+  color: var(--vs-text-primary);  /* Moins de bleu */
+}
+
+/* Accent uniquement sur un mot (Integrity) */
+.accentWord {
+  color: #3b82f6;  /* Bleu moins lumineux (pas #60a5fa) */
+  font-weight: 900;
+}
+
+/* Sous-titre sobre */
+.heroSubtitle {
+  max-width: 720px;
+  margin: 0 auto 40px;
+  font-size: clamp(16px, 2vw, 18px);  /* Plus petit */
+  line-height: 1.6;  /* Moins d'espacement */
+  color: var(--vs-text-secondary);
+  font-weight: 400;  /* Plus sobre */
+}
+
+/* CTA Normatifs - Moins arrondis, plus plats */
+.ctaGroup {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.ctaPrimary,
+.ctaSecondary {
+  display: inline-flex;
+  align-items: center;
+  padding: 12px 32px;  /* Plus dense */
+  border-radius: 4px;  /* Moins arrondi (était 12px) */
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.2s;  /* Plus rapide */
+  border: 1px solid transparent;
+}
+
+.ctaPrimary {
+  background: #2563eb;  /* Plat, pas de dégradé */
+  color: white;
+  border-color: #2563eb;
+}
+
+.ctaPrimary:hover {
+  background: #1e40af;
+  border-color: #1e40af;
+  transform: translateY(-1px);  /* Moins de mouvement */
+  color: white;
+  text-decoration: none;
+}
+
+.ctaSecondary {
+  background: transparent;
+  color: var(--vs-text-primary);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.ctaSecondary:hover {
+  background: rgba(255, 255, 255, 0.05);
+  border-color: rgba(255, 255, 255, 0.3);
+  transform: translateY(-1px);
+  color: var(--vs-text-primary);
+  text-decoration: none;
+}
+
+/* ========================================
+   SECTIONS GÉNÉRALES
+======================================== */
+
+.section {
+  padding: 80px 40px;  /* Plus dense (était 100px) */
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.sectionTitle {
+  font-size: clamp(32px, 4vw, 44px);  /* Plus dense */
+  font-weight: 800;
+  margin-bottom: 32px;  /* Moins d'espace */
+  text-align: center;
+  color: var(--vs-text-primary);
+  letter-spacing: -0.02em;
+}
+
+.sectionConclusion {
+  text-align: center;
+  font-size: 17px;
+  color: var(--vs-text-secondary);
+  max-width: 700px;
+  margin: 40px auto 0;
+  font-weight: 500;
+  font-style: italic;
+}
+
+/* Separator - Lignes fines */
+.separator {
+  height: 1px;
+  max-width: 800px;
+  margin: 0 auto;
+  background: linear-gradient(
+    to right,
+    transparent,
+    rgba(255, 255, 255, 0.15),
+    transparent
+  );
+}
+
+/* ========================================
+   STRUCTURAL GAP - Plus normatif
+======================================== */
+
+.gapGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;  /* Moins d'espace */
+  margin-top: 40px;
+}
+
+.gapCard {
+  background: rgba(255, 255, 255, 0.02);  /* Moins de contraste */
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 6px;  /* Moins arrondi (était 16px) */
+  padding: 24px 20px;  /* Plus dense */
+  transition: all 0.2s;
+}
+
+.gapCard:hover {
+  background: rgba(255, 255, 255, 0.04);
+  border-color: rgba(255, 255, 255, 0.12);
+  transform: translateY(-2px);  /* Moins de mouvement */
+}
+
+.gapLabel {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #64748b;  /* Gris sobre */
+  margin-bottom: 12px;
+  padding: 4px 10px;
+  background: rgba(100, 116, 139, 0.1);
+  border-radius: 3px;
+}
+
+.gapCardTitle {
+  font-size: 16px;  /* Plus petit */
+  font-weight: 700;
+  color: var(--vs-text-primary);
+  margin-bottom: 10px;
+  line-height: 1.4;
+}
+
+.gapCardDesc {
+  font-size: 14px;
+  color: var(--vs-text-secondary);
+  line-height: 1.5;
+}
+
+/* ========================================
+   ARCHITECTURE LAYERS - Structure linéaire
+======================================== */
+
+.architectureGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+  margin-top: 40px;
+}
+
+.architectureLayer {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-left: 3px solid #3b82f6;  /* Accent structurel */
+  border-radius: 4px;  /* Moins arrondi */
+  padding: 24px;
+}
+
+.layerHeader {
+  margin-bottom: 16px;
+}
+
+.layerNumber {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #3b82f6;
+  padding: 4px 12px;
+  background: rgba(59, 130, 246, 0.1);
+  border-radius: 3px;
+}
+
+.layerTitle {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--vs-text-primary);
+  margin-bottom: 12px;
+  line-height: 1.3;
+}
+
+.layerDesc {
+  font-size: 14px;
+  color: var(--vs-text-secondary);
+  line-height: 1.6;
+}
+
+/* ========================================
+   DUAL POSITIONING - Executive Brief
+======================================== */
+
+.positioningGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 32px;
+  margin-top: 40px;
+}
+
+.positioningBlock {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 6px;
+  padding: 32px 28px;
+}
+
+.positioningTitle {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--vs-text-primary);
+  margin-bottom: 24px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.positioningContent {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.positioningItem {
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  gap: 16px;
+  align-items: baseline;
+}
+
+.positioningLabel {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #64748b;
+}
+
+.positioningValue {
+  font-size: 14px;
+  color: var(--vs-text-secondary);
+  line-height: 1.5;
+}
+
+/* ========================================
+   APPLICATIONS - Standard Reference
+======================================== */
+
+.applicationsGrid {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;  /* Séparation fine */
+  margin-top: 40px;
+  background: rgba(255, 255, 255, 0.1);  /* Fond pour les lignes */
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.applicationRow {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 24px;
+  padding: 20px 24px;
+  background: var(--vs-bg-primary);  /* Restaurer fond */
+  align-items: center;
+}
+
+.applicationRow:hover {
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.applicationLabel {
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #64748b;
+}
+
+.applicationValue {
+  font-size: 15px;
+  color: var(--vs-text-primary);
+  font-weight: 500;
+}
+
+/* ========================================
+   FINAL STATEMENT
+======================================== */
+
+.sectionFinal {
+  padding: 80px 40px;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.finalTitle {
+  font-size: clamp(32px, 4vw, 48px);
+  font-weight: 800;
+  margin-bottom: 24px;
+  color: var(--vs-text-primary);
+}
+
+.finalClaim {
+  font-size: 18px;
+  line-height: 1.7;
+  color: var(--vs-text-secondary);
+  margin-bottom: 20px;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.finalDesc {
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--vs-text-secondary);
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* ========================================
+   FOOTER NORMATIVE BLOCK
+======================================== */
+
+.footerNormative {
+  padding: 60px 40px 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.normativeBlock {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.normativeTitle {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--vs-text-primary);
+  margin-bottom: 12px;
+}
+
+.normativeInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  font-size: 14px;
+  color: var(--vs-text-secondary);
+}
+
+.normativeItem {
+  font-weight: 500;
+}
+
+.normativeSep {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.normativeLinks {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-bottom: 32px;
+  padding: 24px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.normativeLink {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--vs-text-secondary);
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  transition: color 0.2s;
+}
+
+.normativeLink:hover {
+  color: #3b82f6;
+  text-decoration: none;
+}
+
+.normativeLegal {
+  text-align: center;
+  font-size: 13px;
+  color: var(--vs-text-muted);
+  line-height: 1.8;
+}
+
+.normativeJurisdiction {
+  font-weight: 500;
+  margin-top: 4px;
+}
+
+/* ========================================
+   RESPONSIVE
+======================================== */
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 60px 0 50px;
+  }
+  
+  .heroInner,
+  .section,
+  .sectionFinal,
+  .footerNormative {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  
+  .logoContainer {
+    padding: 20px;
+  }
+  
+  .logoContainer img {
+    height: 70px;
+  }
+  
+  .ctaGroup {
+    flex-direction: column;
+  }
+  
+  .ctaPrimary,
+  .ctaSecondary {
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .gapGrid,
+  .architectureGrid,
+  .positioningGrid {
+    grid-template-columns: 1fr;
+  }
+  
+  .applicationRow {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+  
+  .applicationLabel {
+    font-size: 11px;
+  }
+  
+  .positioningItem {
+    grid-template-columns: 1fr;
+    gap: 4px;
+  }
+  
+  .normativeLinks {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .section,
+  .sectionFinal,
+  .footerNormative {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .heroTitle {
+    font-size: 32px;
+  }
+  
+  .logoContainer img {
+    height: 60px;
+  }
+}
