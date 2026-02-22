@@ -46,15 +46,9 @@
 
 /* ======================================== POLICES ======================================== */
 
-/* L'import doit être en premier dans le fichier après les tokens */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Inter:wght@400;500;600&display=swap');
 
-body,
-p, li, td, th, label,
-.navbar__item,
-.menu__link,
-.sidebar,
-.markdown {
+body, p, li, td, th, label, .navbar__item, .menu__link, .sidebar, .markdown {
   font-family: 'Inter', sans-serif;
 }
 
@@ -107,13 +101,45 @@ html[data-theme='light'] { display: none !important; }
 .navbar__item:hover, .navbar__link:hover { color: var(--vs-accent-primary) !important; }
 .navbar__link--active { color: var(--vs-accent-primary) !important; }
 
-/* Hamburger mobile — ne jamais cacher */
+/* Hamburger — toujours visible */
 .navbar__toggle { display: flex !important; }
 .navbar__toggle svg { display: block !important; width: auto !important; height: auto !important; }
 
+/* ======================================== MOBILE SIDEBAR ======================================== */
+
+/* Le fond transparent du global s'appliquait à la sidebar — on le corrige ici */
+.navbar-sidebar {
+  background: var(--vs-bg-secondary) !important;
+  z-index: 9999 !important;
+}
+
+.navbar-sidebar__brand {
+  background: var(--vs-bg-primary) !important;
+  border-bottom: 1px solid var(--vs-border-subtle);
+}
+
+.navbar-sidebar__backdrop {
+  background: rgba(0, 0, 0, 0.6) !important;
+}
+
+.navbar-sidebar .menu {
+  background: var(--vs-bg-secondary) !important;
+}
+
+.navbar-sidebar .navbar__link {
+  color: var(--vs-text-primary) !important;
+  font-size: 16px;
+  padding: 12px 16px;
+}
+
+.navbar-sidebar .navbar__link:hover {
+  color: var(--vs-accent-primary) !important;
+  background: rgba(59, 130, 246, 0.1) !important;
+}
+
 /* ======================================== LANGUAGE SELECTOR ======================================== */
 
-/* Cache uniquement le globe dans le dropdown de locale — pas le hamburger */
+/* Cache le globe — ciblage précis sans toucher au hamburger */
 .navbar__item--localeDropdown > .navbar__link > svg,
 .navbar__item--localeDropdown [class*='iconLanguage'],
 [class*='localeDropdown'] > button > svg:first-child {
@@ -406,6 +432,8 @@ html[data-theme='light'] { display: none !important; }
 
 @media (max-width: 996px) {
   .navbar__toggle { display: flex !important; }
+  .navbar-sidebar { background: var(--vs-bg-secondary) !important; }
+  .navbar-sidebar .menu { background: var(--vs-bg-secondary) !important; }
 }
 
 @media (max-width: 768px) {
