@@ -61,5 +61,3 @@ Atlas is one systemic application built on top of VeriSeal.
 VeriSeal remains independent and commercially scalable.
 
 ---
-
-End of Document

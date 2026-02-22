@@ -91,5 +91,3 @@ The future of digital trust will not be declared.
 It will be demonstrable.
 
 ---
-
-End of Document

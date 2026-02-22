@@ -22,5 +22,3 @@ Legal weight depends on jurisdictional interpretation, procedural context, and i
 Its role is infrastructural reinforcement — not legal substitution.
 
 ---
-
-End of Document
