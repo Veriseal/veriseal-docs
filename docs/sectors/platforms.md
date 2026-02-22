@@ -1,10 +1,5 @@
 ---
 id: platforms
-title: Platforms
----
-
-﻿---
-id: platforms
 title: Digital Platforms & Marketplace Infrastructure
 sidebar_position: 4
 ---

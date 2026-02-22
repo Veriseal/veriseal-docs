@@ -1,9 +1,4 @@
 ---
-id: verification
-title: Verification
----
-
-﻿---
 title: Verification
 sidebar_position: 3
 ---
@@ -49,4 +44,4 @@ Verification is deterministic and does not rely on trusting VeriSeal.
 - computed hashes,
 - signature verification outputs,
 - .ots file and verification output (if used).
-
+

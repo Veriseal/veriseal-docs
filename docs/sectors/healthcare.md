@@ -1,10 +1,5 @@
 ---
 id: healthcare
-title: Healthcare
----
-
-﻿---
-id: healthcare
 title: Healthcare & Medical Documentation Integrity
 sidebar_position: 5
 ---

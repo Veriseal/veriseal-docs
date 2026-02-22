@@ -1,9 +1,4 @@
 ---
-id: timestamping
-title: Timestamping
----
-
-﻿---
 title: Timestamping
 sidebar_position: 2
 ---
@@ -31,4 +26,4 @@ Status language:
 - VERIFIED: anchored on Bitcoin (strongest assurance).
 
 Best practice: stamp one stable digest per proof.
-
+

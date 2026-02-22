@@ -1,9 +1,4 @@
 ---
-id: hr
-title: Hr
----
-
-﻿---
 title: Human Resources
 sidebar_label: HR
 ---

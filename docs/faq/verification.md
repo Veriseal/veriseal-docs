@@ -1,9 +1,4 @@
 ---
-id: verification
-title: Verification
----
-
-﻿---
 title: Verification & Audit FAQ
 sidebar_label: Verification & Audit
 ---

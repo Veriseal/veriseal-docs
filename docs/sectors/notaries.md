@@ -1,10 +1,5 @@
 ---
 id: notaries
-title: Notaries
----
-
-﻿---
-id: notaries
 title: Notaries & Public Authentication
 sidebar_position: 2
 ---

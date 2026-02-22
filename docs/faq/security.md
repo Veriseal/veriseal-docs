@@ -1,9 +1,4 @@
 ---
-id: security
-title: Security
----
-
-﻿---
 title: Security & Integrity FAQ
 sidebar_label: Security & Integrity
 ---

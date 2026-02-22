@@ -1,9 +1,4 @@
 ---
-id: timestamping
-title: Timestamping
----
-
-﻿---
 title: Timestamping & Anchoring FAQ
 sidebar_label: Timestamping & Anchoring
 ---

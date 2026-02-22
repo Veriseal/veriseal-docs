@@ -1,9 +1,4 @@
 ---
-id: individuals
-title: Individuals
----
-
-﻿---
 title: Individuals
 sidebar_label: Individuals
 ---

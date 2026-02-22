@@ -1,10 +1,5 @@
 ---
 id: insurance
-title: Insurance
----
-
-﻿---
-id: insurance
 title: Insurance & Claims Infrastructure
 sidebar_position: 3
 ---

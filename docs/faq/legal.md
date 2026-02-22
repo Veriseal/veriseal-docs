@@ -1,9 +1,4 @@
 ---
-id: legal
-title: Legal
----
-
-﻿---
 title: Legal & Regulatory FAQ
 sidebar_label: Legal & Regulatory
 ---
