@@ -46,7 +46,6 @@
 
 /* ======================================== POLICES ======================================== */
 
-/* L'import doit être en premier dans le fichier après les tokens */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Inter:wght@400;500;600&display=swap');
 
 body,
@@ -92,10 +91,16 @@ html[data-theme='light'] { display: none !important; }
 .navbar {
   height: 64px;
   background: rgba(5, 11, 24, 0.8) !important;
-  backdrop-filter: blur(20px) saturate(180%);
   border-bottom: 1px solid var(--vs-border-subtle);
   padding: 0 max(32px, env(safe-area-inset-left));
   transition: all var(--vs-transition-base);
+}
+
+/* Backdrop-filter UNIQUEMENT sur desktop (fixe le bug mobile) */
+@media (min-width: 997px) {
+  .navbar {
+    backdrop-filter: blur(20px) saturate(180%);
+  }
 }
 
 .navbar--fixed-top { box-shadow: 0 1px 0 var(--vs-border-subtle); }
@@ -151,7 +156,6 @@ html[data-theme='light'] { display: none !important; }
 
 /* ======================================== LANGUAGE SELECTOR ======================================== */
 
-/* Cache uniquement le globe dans le dropdown de locale — pas le hamburger */
 .navbar__item--localeDropdown > .navbar__link > svg,
 .navbar__item--localeDropdown [class*='iconLanguage'],
 [class*='localeDropdown'] > button > svg:first-child {
@@ -440,10 +444,50 @@ html[data-theme='light'] { display: none !important; }
 .menu__link { color: var(--vs-text-secondary) !important; border-radius: var(--vs-radius-sm); }
 .menu__link:hover, .menu__link--active { color: var(--vs-accent-primary) !important; background: rgba(59,130,246,0.1) !important; }
 
-/* ======================================== RESPONSIVE ======================================== */
+/* ========================================
+   MOBILE SIDEBAR FIX (le plus important !)
+======================================== */
 
 @media (max-width: 996px) {
-  .navbar__toggle { display: flex !important; }
+  /* Force la hauteur malgré le JS inline de Docusaurus */
+  .navbar-sidebar,
+  .navbar-sidebar__panel,
+  .navbar-sidebar__items,
+  .menu__list,
+  .menu__list-item-collapsible > .menu__list {
+    height: auto !important;
+    max-height: none !important;
+    min-height: 100dvh !important;
+    overflow-y: auto !important;
+    flex: 1 1 auto !important;
+  }
+
+  .navbar-sidebar__panel {
+    top: 64px !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    width: 100% !important;
+    transform: none !important;
+  }
+
+  .navbar-sidebar {
+    background: var(--vs-bg-secondary) !important;
+    z-index: 99999 !important;
+  }
+
+  .navbar-sidebar__backdrop {
+    background: rgba(0, 0, 0, 0.75) !important;
+  }
+
+  .navbar__toggle {
+    display: flex !important;
+  }
+
+  /* Navbar un peu plus opaque sur mobile */
+  .navbar {
+    background: rgba(5, 11, 24, 0.98) !important;
+  }
 }
 
 @media (max-width: 768px) {
