@@ -46,9 +46,15 @@
 
 /* ======================================== POLICES ======================================== */
 
+/* L'import doit être en premier dans le fichier après les tokens */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Inter:wght@400;500;600&display=swap');
 
-body, p, li, td, th, label, .navbar__item, .menu__link, .sidebar, .markdown {
+body,
+p, li, td, th, label,
+.navbar__item,
+.menu__link,
+.sidebar,
+.markdown {
   font-family: 'Inter', sans-serif;
 }
 
@@ -101,13 +107,12 @@ html[data-theme='light'] { display: none !important; }
 .navbar__item:hover, .navbar__link:hover { color: var(--vs-accent-primary) !important; }
 .navbar__link--active { color: var(--vs-accent-primary) !important; }
 
-/* Hamburger — toujours visible */
+/* Hamburger mobile — ne jamais cacher */
 .navbar__toggle { display: flex !important; }
 .navbar__toggle svg { display: block !important; width: auto !important; height: auto !important; }
 
 /* ======================================== MOBILE SIDEBAR ======================================== */
 
-/* Le fond transparent du global s'appliquait à la sidebar — on le corrige ici */
 .navbar-sidebar {
   background: var(--vs-bg-secondary) !important;
   z-index: 9999 !important;
@@ -120,6 +125,13 @@ html[data-theme='light'] { display: none !important; }
 
 .navbar-sidebar__backdrop {
   background: rgba(0, 0, 0, 0.6) !important;
+}
+
+.navbar-sidebar__items {
+  height: auto !important;
+  min-height: 200px !important;
+  flex: 1 !important;
+  overflow-y: auto !important;
 }
 
 .navbar-sidebar .menu {
@@ -139,7 +151,7 @@ html[data-theme='light'] { display: none !important; }
 
 /* ======================================== LANGUAGE SELECTOR ======================================== */
 
-/* Cache le globe — ciblage précis sans toucher au hamburger */
+/* Cache uniquement le globe dans le dropdown de locale — pas le hamburger */
 .navbar__item--localeDropdown > .navbar__link > svg,
 .navbar__item--localeDropdown [class*='iconLanguage'],
 [class*='localeDropdown'] > button > svg:first-child {
@@ -432,8 +444,6 @@ html[data-theme='light'] { display: none !important; }
 
 @media (max-width: 996px) {
   .navbar__toggle { display: flex !important; }
-  .navbar-sidebar { background: var(--vs-bg-secondary) !important; }
-  .navbar-sidebar .menu { background: var(--vs-bg-secondary) !important; }
 }
 
 @media (max-width: 768px) {
