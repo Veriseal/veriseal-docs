@@ -1,40 +1,40 @@
 ---
 id: proof-crisis
-title: The Proof Crisis
-sidebar_label: 1.2 The Proof Crisis
+title: Criza Dovezilor
+sidebar_label: 1.2 Criza Dovezilor
 slug: /whitepaper/part1/proof-crisis
 sidebar_position: 2
 ---
 
-# The Proof Crisis
+# Criza Dovezilor
 
-Digital systems generate massive volumes of records.
+Sistemele digitale generează volume masive de înregistrări.
 
-But volume does not equal verifiability.
+Dar volumul nu echivalează cu verificabilitatea.
 
-A structural proof crisis has emerged:
+A apărut o criză structurală a dovezilor:
 
-- Timestamping does not guarantee integrity.
-- Digital signatures do not ensure structural immutability.
-- Blockchain anchoring does not replace governance.
-- Platform logs are not sovereign evidence.
+- Marcarea temporală nu garantează integritatea.
+- Semnăturile digitale nu asigură imuabilitatea structurală.
+- Ancorarea în blockchain nu înlocuiește guvernanța.
+- Jurnalele platformelor nu sunt dovezi suverane.
 
-Institutions increasingly face disputes in which:
+Instituțiile se confruntă din ce în ce mai mult cu dispute în care:
 
-- Evidence exists,
-- But cannot be independently verified,
-- Or lacks deterministic reproducibility.
+- Dovezile există,
+- Dar nu pot fi verificate independent,
+- Sau lipsesc reproducibilitatea deterministă.
 
-The rise of AI-generated content intensifies this crisis.
+Creșterea conținutului generat de AI intensifică această criză.
 
-Synthetic audio, video, and documents introduce epistemic uncertainty at scale.
+Audio, video și documente sintetice introduc incertitudine epistemică la scară largă.
 
-The question is no longer:
+Întrebarea nu mai este:
 
-"Was this recorded?"
+"A fost aceasta înregistrată?"
 
-The question is:
+Întrebarea este:
 
-"Can this be independently and deterministically verified?"
+"Poate aceasta fi verificată independent și determinist?"
 
-Without a standardized integrity framework, digital evidence remains structurally fragile.
+Fără un cadru standardizat de integritate, dovezile digitale rămân structural fragile.

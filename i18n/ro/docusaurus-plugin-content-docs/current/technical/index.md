@@ -1,35 +1,35 @@
 ---
-title: Technical Architecture
+title: Arhitectura Tehnică
 sidebar_position: 1
 ---
 
-# Technical Architecture
+# Arhitectura Tehnică
 
-This section describes the cryptographic and structural mechanisms
-underlying the VeriSeal integrity framework.
-
----
-
-## Core Components
-
-- Cryptographic hashing model
-- Proof ledger construction
-- Verification procedures
-- Integrity vs blockchain distinction
-- Timestamping and anchoring logic
+Această secțiune descrie mecanismele criptografice și structurale
+care stau la baza cadrului de integritate VeriSeal.
 
 ---
 
-## Design Principles
+## Componente de Bază
 
-VeriSeal is built around:
-
-- Determinism
-- Reproducibility
-- Independence from trust assumptions
-- Minimal attack surface
-- Long-term verifiability
+- Model de hashing criptografic
+- Construcția registrului de dovezi
+- Proceduri de verificare
+- Distincția între integritate și blockchain
+- Logica de marcare temporală și ancorare
 
 ---
 
-This section is intended for engineers, auditors, and system architects.
+## Principii de Proiectare
+
+VeriSeal este construit în jurul:
+
+- Determinismului
+- Reproductibilității
+- Independenței de presupunerile de încredere
+- Suprafață minimă de atac
+- Verificabilitate pe termen lung
+
+---
+
+Această secțiune este destinată inginerilor, auditorilor și arhitecților de sistem.

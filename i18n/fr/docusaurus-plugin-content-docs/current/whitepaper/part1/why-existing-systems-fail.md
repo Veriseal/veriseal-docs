@@ -1,51 +1,51 @@
 ---
 id: why-existing-systems-fail
-title: Why Existing Systems Fail
-sidebar_label: 1.4 Why Existing Systems Fail
+title: Pourquoi les systèmes existants échouent
+sidebar_label: 1.4 Pourquoi les systèmes existants échouent
 slug: /whitepaper/part1/why-existing-systems-fail
 sidebar_position: 4
 ---
 
-# Why Existing Systems Fail
+# Pourquoi les systèmes existants échouent
 
-Existing solutions address fragments of the integrity problem.
+Les solutions existantes traitent des fragments du problème d'intégrité.
 
-They do not solve the structural challenge.
+Elles ne résolvent pas le défi structurel.
 
-### Platform-Centric Logging
+### Journalisation centrée sur la plateforme
 
-Internal audit trails operate within proprietary trust boundaries.
+Les pistes d'audit internes fonctionnent au sein de limites de confiance propriétaires.
 
-They cannot provide cross-system determinism.
+Elles ne peuvent pas fournir de déterminisme inter-systèmes.
 
-### Document-Centric Signatures
+### Signatures centrées sur le document
 
-Signatures authenticate actors.
+Les signatures authentifient les acteurs.
 
-They do not guarantee structural immutability across lifecycle transformations.
+Elles ne garantissent pas l'immuabilité structurelle à travers les transformations du cycle de vie.
 
-### Blockchain Anchoring
+### Ancrage Blockchain
 
-Blockchain provides timestamping.
+La Blockchain fournit une estampille temporelle.
 
-It does not normalize evidence structures or define verification governance.
+Elle ne normalise pas les structures de preuve ni ne définit la gouvernance de vérification.
 
-### Regulatory Frameworks
+### Cadres réglementaires
 
-Regulation defines admissibility thresholds.
+La réglementation définit les seuils d'admissibilité.
 
-It does not define deterministic technical architectures.
+Elle ne définit pas les architectures techniques déterministes.
 
-Each solution addresses a layer.
+Chaque solution traite une couche.
 
-None provides a standardized, cross-sector integrity architecture.
+Aucune ne fournit une architecture d'intégrité standardisée et intersectorielle.
 
-The missing element is a protocol-grade integrity layer:
+L'élément manquant est une couche d'intégrité de niveau protocole :
 
-- Deterministic
-- Reproducible
-- Cross-jurisdictional
-- Governance-compatible
-- Technically verifiable
+- Déterministe
+- Reproductible
+- Transjuridictionnel
+- Compatible avec la gouvernance
+- Vérifiable techniquement
 
-Without such a layer, digital evidence remains structurally dependent on platform trust.
+Sans une telle couche, la preuve numérique reste structurellement dépendante de la confiance de la plateforme.

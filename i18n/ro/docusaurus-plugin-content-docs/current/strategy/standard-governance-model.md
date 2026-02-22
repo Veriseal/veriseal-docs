@@ -1,71 +1,71 @@
 ---
-title: Standard Governance Model
+title: Model Standard de Guvernanță
 ---
 
-# Standard Governance Model
+# Model Standard de Guvernanță
 
-A global integrity standard requires governance neutrality.
+Un standard global de integritate necesită neutralitate în guvernanță.
 
-VeriSeal governance must evolve beyond its originating entity.
-
----
-
-## Governance Principles
-
-1. Technical Transparency  
-2. Deterministic Specification Stability  
-3. Institutional Inclusiveness  
-4. Long-Term Archival Responsibility  
-5. Geopolitical Neutrality  
-
-Integrity standards must not be commercially captured.
+Guvernanța VeriSeal trebuie să evolueze dincolo de entitatea sa de origine.
 
 ---
 
-## Governance Structure (Target Model)
+## Principii de Guvernanță
 
-### 1. Technical Steering Committee
+1. Transparență Tehnică  
+2. Stabilitatea Specificațiilor Deterministice  
+3. Incluziune Instituțională  
+4. Responsabilitate Arhivistică pe Termen Lung  
+5. Neutralitate Geopolitică  
 
-- Protocol evolution
-- Cryptographic review
-- Backward compatibility oversight
-
-### 2. Conformance Board
-
-- Certification oversight
-- Compliance dispute resolution
-- Audit harmonization
-
-### 3. Institutional Advisory Council
-
-- Cross-sector representation
-- Regulatory liaison
-- Standard alignment discussions
+Standardele de integritate nu trebuie să fie capturate comercial.
 
 ---
 
-## Separation Model
+## Structura de Guvernanță (Model Țintă)
 
-Commercial deployment entity:
-- Product development
-- API infrastructure
-- Enterprise integration
+### 1. Comitetul de Conducere Tehnică
 
-Governance entity:
-- Specification custodianship
-- Certification rules
-- Standard evolution supervision
+- Evoluția protocolului
+- Revizuirea criptografică
+- Supravegherea compatibilității retroactive
 
-Separation protects long-term legitimacy.
+### 2. Consiliul de Conformitate
+
+- Supravegherea certificării
+- Rezolvarea disputelor de conformitate
+- Armonizarea auditurilor
+
+### 3. Consiliul Consultativ Instituțional
+
+- Reprezentare intersectorială
+- Legătura cu reglementatorii
+- Discuții privind alinierea standardelor
 
 ---
 
-## Long-Term Objective
+## Model de Separare
 
-Transition toward:
+Entitatea de implementare comercială:
+- Dezvoltarea produsului
+- Infrastructura API
+- Integrarea în întreprinderi
 
-- Multi-stakeholder oversight
-- Open participation framework
-- International institutional dialogue
+Entitatea de guvernanță:
+- Custodia specificațiilor
+- Reguli de certificare
+- Supravegherea evoluției standardului
 
-Standard legitimacy depends on structural independence.
+Separarea protejează legitimitatea pe termen lung.
+
+---
+
+## Obiectiv pe Termen Lung
+
+Tranziția către:
+
+- Supraveghere multi-părți interesate
+- Cadru de participare deschisă
+- Dialog instituțional internațional
+
+Legitimitatea standardului depinde de independența structurală.

@@ -1,94 +1,94 @@
 ---
 id: vip-std-001
-title: VIP-STD-001 — Core Integrity Standard
+title: VIP-STD-001 — Norme d'Intégrité de Base
 sidebar_position: 3
 ---
 
 # VIP-STD-001  
-## Core Integrity Standard
+## Norme d'Intégrité de Base
 
 ---
 
-# 1. Scope
+# 1. Portée
 
-This document defines the mandatory core integrity model of the VeriSeal Integrity Protocol (VIP).
+Ce document définit le modèle d'intégrité de base obligatoire du Protocole d'Intégrité VeriSeal (VIP).
 
-It specifies the deterministic rules for:
+Il spécifie les règles déterministes pour :
 
-- Data canonicalization
-- Hash computation
-- Proof object formation
-- Deterministic verification
+- Canonicalisation des données
+- Calcul de hachage
+- Formation d'objet de preuve
+- Vérification déterministe
 
-This standard does not define ledger behavior, digital signatures, or anchoring mechanisms.  
-Such elements are specified in separate extension profiles.
-
----
-
-# 2. Normative Language
-
-The key words:
-
-- MUST
-- MUST NOT
-- SHOULD
-- MAY
-
-are to be interpreted as described in RFC 2119.
+Cette norme ne définit pas le comportement du registre, les signatures numériques ou les mécanismes d'ancrage.  
+Ces éléments sont spécifiés dans des profils d'extension séparés.
 
 ---
 
-# 3. Definitions
+# 2. Langage Normatif
 
-**Canonical Data**  
-A normalized byte representation of structured input data.
+Les mots clés :
 
-**Integrity Hash**  
-A SHA-256 digest computed over canonicalized data.
+- DOIT
+- NE DOIT PAS
+- DEVRAIT
+- PEUT
 
-**Proof Object**  
-A structured JSON object containing canonicalized data and its integrity hash.
-
-**Verification Event**  
-The deterministic recomputation of the integrity hash from canonical data.
+doivent être interprétés comme décrit dans la RFC 2119.
 
 ---
 
-# 4. Canonicalization Rules
+# 3. Définitions
 
-4.1 Data Format  
-Input data MUST be structured JSON.
+**Données Canoniques**  
+Une représentation en octets normalisée des données d'entrée structurées.
 
-4.2 Field Ordering  
-All object keys MUST be lexicographically ordered.
+**Hachage d'Intégrité**  
+Un condensé SHA-256 calculé sur des données canoniques.
 
-4.3 Whitespace  
-Whitespace MUST be removed except where required by JSON syntax.
+**Objet de Preuve**  
+Un objet JSON structuré contenant des données canoniques et leur hachage d'intégrité.
 
-4.4 Encoding  
-UTF-8 encoding MUST be used.
-
-4.5 Determinism  
-Canonicalization MUST produce identical byte output for identical logical input.
+**Événement de Vérification**  
+Le recalcul déterministe du hachage d'intégrité à partir de données canoniques.
 
 ---
 
-# 5. Hashing Algorithm
+# 4. Règles de Canonicalisation
 
-5.1 Algorithm  
-The integrity hash MUST use SHA-256.
+4.1 Format des Données  
+Les données d'entrée DOIVENT être du JSON structuré.
 
-5.2 Input  
-The hash MUST be computed over the canonicalized byte sequence.
+4.2 Ordre des Champs  
+Toutes les clés d'objet DOIVENT être ordonnées lexicographiquement.
 
-5.3 Output  
-The hash MUST be encoded as lowercase hexadecimal.
+4.3 Espaces Blancs  
+Les espaces blancs DOIVENT être supprimés sauf là où requis par la syntaxe JSON.
+
+4.4 Encodage  
+L'encodage UTF-8 DOIT être utilisé.
+
+4.5 Déterminisme  
+La canonicalisation DOIT produire une sortie en octets identique pour une entrée logique identique.
 
 ---
 
-# 6. Proof Object Structure
+# 5. Algorithme de Hachage
 
-A compliant proof object MUST include:
+5.1 Algorithme  
+Le hachage d'intégrité DOIT utiliser SHA-256.
+
+5.2 Entrée  
+Le hachage DOIT être calculé sur la séquence d'octets canoniques.
+
+5.3 Sortie  
+Le hachage DOIT être encodé en hexadécimal en minuscules.
+
+---
+
+# 6. Structure de l'Objet de Preuve
+
+Un objet de preuve conforme DOIT inclure :
 
 ```json
 {
@@ -97,95 +97,94 @@ A compliant proof object MUST include:
   "data": { ... },
   "hash": "<sha256-hex>"
 }
-```
 
-Where:
+Où :
 
-- `v` = protocol version  
-- `type` = fixed string "PROOF"  
-- `data` = canonicalizable JSON payload  
-- `hash` = SHA-256 digest of canonicalized `data`
+- `v` = version du protocole  
+- `type` = chaîne fixe "PROOF"  
+- `data` = charge utile JSON canonisable  
+- `hash` = condensé SHA-256 des `data` canoniques
 
-Additional fields MUST NOT alter canonicalization of `data`.
-
----
-
-# 7. Deterministic Verification
-
-Verification MUST follow these steps:
-
-1. Extract `data`
-2. Canonicalize `data`
-3. Compute SHA-256 hash
-4. Compare computed hash to stored `hash`
-5. Return VALID if equal; INVALID otherwise
-
-Verification MUST NOT depend on:
-
-- External state
-- Network access
-- Ledger presence
-- Signature presence
-- Anchoring status
-
-Core verification is self-contained.
+Les champs supplémentaires NE DOIVENT PAS altérer la canonicalisation des `data`.
 
 ---
 
-# 8. Independence Principle
+# 7. Vérification Déterministe
 
-VIP-STD-001 defines integrity only.
+La vérification DOIT suivre ces étapes :
 
-It does not guarantee:
+1. Extraire `data`
+2. Canonicaliser `data`
+3. Calculer le hachage SHA-256
+4. Comparer le hachage calculé au `hash` stocké
+5. Retourner VALIDE si égal ; INVALIDE sinon
 
-- Data authenticity
-- Identity verification
-- Legal admissibility
-- Timestamp validity
+La vérification NE DOIT PAS dépendre de :
 
-It guarantees deterministic integrity under defined cryptographic assumptions.
+- État externe
+- Accès réseau
+- Présence de registre
+- Présence de signature
+- Statut d'ancrage
 
----
-
-# 9. Backward Compatibility
-
-Future minor revisions MUST preserve:
-
-- Canonicalization determinism
-- SHA-256 compatibility
-- Verification reproducibility
-
-Breaking changes require version increment.
+La vérification de base est autonome.
 
 ---
 
-# 10. Conformance
+# 8. Principe d'Indépendance
 
-A system is compliant with VIP-STD-001 if it:
+VIP-STD-001 définit uniquement l'intégrité.
 
-1. Implements canonicalization per Section 4  
-2. Computes SHA-256 per Section 5  
-3. Produces proof objects per Section 6  
-4. Verifies deterministically per Section 7  
+Il ne garantit pas :
 
-Compliance with extension profiles is optional.
+- Authenticité des données
+- Vérification d'identité
+- Admissibilité légale
+- Validité des horodatages
+
+Il garantit une intégrité déterministe sous des hypothèses cryptographiques définies.
 
 ---
 
-# 11. Security Considerations
+# 9. Compatibilité Rétroactive
 
-The security of VIP-STD-001 depends on:
+Les futures révisions mineures DOIVENT préserver :
 
-- The cryptographic strength of SHA-256
-- Correct canonicalization implementation
-- Protection against hash collision vulnerabilities
+- Déterminisme de canonicalisation
+- Compatibilité SHA-256
+- Reproductibilité de la vérification
 
-Threat assumptions are defined in VIP-THREAT-001.
+Les changements majeurs nécessitent une augmentation de version.
+
+---
+
+# 10. Conformité
+
+Un système est conforme à VIP-STD-001 s'il :
+
+1. Implémente la canonicalisation selon la Section 4  
+2. Calcule SHA-256 selon la Section 5  
+3. Produit des objets de preuve selon la Section 6  
+4. Vérifie de manière déterministe selon la Section 7  
+
+La conformité aux profils d'extension est optionnelle.
+
+---
+
+# 11. Considérations de Sécurité
+
+La sécurité de VIP-STD-001 dépend de :
+
+- La robustesse cryptographique de SHA-256
+- La mise en œuvre correcte de la canonicalisation
+- La protection contre les vulnérabilités de collision de hachage
+
+Les hypothèses de menace sont définies dans VIP-THREAT-001.
 
 ---
 
 # 12. Conclusion
 
-VIP-STD-001 defines the mandatory core integrity model of the VeriSeal Integrity Protocol.
+VIP-STD-001 définit le modèle d'intégrité de base obligatoire du Protocole d'Intégrité VeriSeal.
 
-It provides deterministic, reproducible, and implementation-agnostic digital integrity verification.
+Il fournit une vérification d'intégrité numérique déterministe, reproductible et indépendante de l'implémentation.

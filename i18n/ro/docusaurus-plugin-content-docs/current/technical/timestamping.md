@@ -1,34 +1,35 @@
+Fișier: timestamping.md
+
 ---
 id: timestamping
-title: Timestamping
+title: Marcarea temporală
 ---
 
 ﻿---
-title: Timestamping
+title: Marcarea temporală
 sidebar_position: 2
 ---
 
-# Timestamping
+# Marcarea temporală
 
-VeriSeal supports:
-1) internal UTC timestamps (operational ordering),
-2) optional external anchoring (OpenTimestamps) for independence.
+VeriSeal suportă:
+1) marcaje temporale interne UTC (ordonare operațională),
+2) ancorare externă opțională (OpenTimestamps) pentru independență.
 
-## Internal timestamps
+## Marcaje temporale interne
 
-Recorded in UTC for ledger entries and binding steps. Useful for audit trails, but not an external guarantee.
+Înregistrate în UTC pentru intrările în registru și pașii de legare. Utile pentru traseele de audit, dar nu reprezintă o garanție externă.
 
-## OpenTimestamps anchoring
+## Ancorarea OpenTimestamps
 
-Workflow:
-1) select a stable digest (Merkle root or bundle hash),
-2) ots stamp -> creates .ots file,
-3) ots upgrade -> collects attestations,
-4) ots verify -> confirms when complete (VERIFIED).
+Flux de lucru:
+1) selectați un digest stabil (rădăcină Merkle sau hash de pachet),
+2) ots stamp -> creează fișierul .ots,
+3) ots upgrade -> colectează atestările,
+4) ots verify -> confirmă când este complet (VERIFIED).
 
-Status language:
-- PENDING: accepted by calendars, not yet on-chain,
-- VERIFIED: anchored on Bitcoin (strongest assurance).
+Limbajul de stare:
+- PENDING: acceptat de calendare, încă nu este pe lanț,
+- VERIFIED: ancorat pe Bitcoin (cea mai puternică asigurare).
 
-Best practice: stamp one stable digest per proof.
-
+Cea mai bună practică: marcați un singur digest stabil per dovadă.

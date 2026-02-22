@@ -1,6 +1,6 @@
 {
   "version.label": {
-    "message": "Next",
+    "message": "Weiter",
     "description": "The label for version current"
   },
   "sidebar.tutorialSidebar.category.Standard": {
@@ -8,15 +8,15 @@
     "description": "The label for category 'Standard' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.Technical": {
-    "message": "Technical",
+    "message": "Technisch",
     "description": "The label for category 'Technical' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.Strategy": {
-    "message": "Strategy",
+    "message": "Strategie",
     "description": "The label for category 'Strategy' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.Sectors": {
-    "message": "Sectors",
+    "message": "Sektoren",
     "description": "The label for category 'Sectors' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.Whitepaper": {
@@ -24,35 +24,35 @@
     "description": "The label for category 'Whitepaper' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.Part I — The Proof Crisis": {
-    "message": "Part I — The Proof Crisis",
+    "message": "Teil I — Die Beweis-Krise",
     "description": "The label for category 'Part I — The Proof Crisis' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.Part II — Cryptographic Architecture": {
-    "message": "Part II — Cryptographic Architecture",
+    "message": "Teil II — Kryptografische Architektur",
     "description": "The label for category 'Part II — Cryptographic Architecture' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.Part III — Institutional Impact": {
-    "message": "Part III — Institutional Impact",
+    "message": "Teil III — Institutionelle Auswirkungen",
     "description": "The label for category 'Part III — Institutional Impact' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.Part IV — Deployment & Industrialization": {
-    "message": "Part IV — Deployment & Industrialization",
+    "message": "Teil IV — Einsatz & Industrialisierung",
     "description": "The label for category 'Part IV — Deployment & Industrialization' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.Part V — Adoption & Strategy": {
-    "message": "Part V — Adoption & Strategy",
+    "message": "Teil V — Einführung & Strategie",
     "description": "The label for category 'Part V — Adoption & Strategy' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.Annex — Technical & Security": {
-    "message": "Annex — Technical & Security",
+    "message": "Anhang — Technik & Sicherheit",
     "description": "The label for category 'Annex — Technical & Security' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.Regulatory": {
-    "message": "Regulatory",
+    "message": "Regulierung",
     "description": "The label for category 'Regulatory' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.Foundation": {
-    "message": "Foundation",
+    "message": "Grundlage",
     "description": "The label for category 'Foundation' in sidebar 'tutorialSidebar'"
   }
 }

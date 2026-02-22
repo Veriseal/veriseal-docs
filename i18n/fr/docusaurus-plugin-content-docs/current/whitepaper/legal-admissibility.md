@@ -1,26 +1,24 @@
 ---
 id: legal-admissibility
-title: Legal Admissibility Framework
-sidebar_label: Legal Admissibility
+title: Cadre d'Admissibilité Légale
+sidebar_label: Admissibilité Légale
 ---
 
-# Legal Admissibility Framework
+# Cadre d'Admissibilité Légale
 
-VeriSeal provides deterministic structural integrity compatible with:
+VeriSeal offre une intégrité structurelle déterministe compatible avec :
 
-- EU eIDAS environments  
-- US evidentiary principles  
-- ISO governance standards  
-- Audit and compliance frameworks  
+- Les environnements eIDAS de l'UE  
+- Les principes de preuve des États-Unis  
+- Les normes de gouvernance ISO  
+- Les cadres d'audit et de conformité  
 
-VeriSeal does not create legal truth.
+VeriSeal ne crée pas de vérité légale.
 
-It provides cryptographic determinism.
+Il fournit un déterminisme cryptographique.
 
-Legal weight depends on jurisdictional interpretation, procedural context, and integration.
+Le poids juridique dépend de l'interprétation juridictionnelle, du contexte procédural et de l'intégration.
 
-Its role is infrastructural reinforcement — not legal substitution.
+Son rôle est le renforcement infrastructurel — pas la substitution légale.
 
 ---
-
-End of Document

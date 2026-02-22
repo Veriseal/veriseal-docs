@@ -1,31 +1,31 @@
 ---
-title: Part II – The VeriSeal Architecture
-sidebar_label: Part II – Architecture
+title: Partea II – Arhitectura VeriSeal
+sidebar_label: Partea II – Arhitectura
 slug: /whitepaper/part2
 sidebar_position: 2
 ---
 
-# Part II – The VeriSeal Architecture
+# Partea II – Arhitectura VeriSeal
 
-Part II describes the technical architecture that transforms VeriSeal from a conceptual integrity thesis into a deployable infrastructure.
+Partea II descrie arhitectura tehnică care transformă VeriSeal dintr-o teză conceptuală de integritate într-o infrastructură implementabilă.
 
-The architecture is designed to satisfy three simultaneous constraints:
+Arhitectura este proiectată pentru a satisface trei constrângeri simultane:
 
-1. **Deterministic cryptographic integrity**
-2. **Institutional-grade operational robustness**
-3. **Independent public verifiability**
+1. **Integritate criptografică deterministă**
+2. **Robustețe operațională de nivel instituțional**
+3. **Verificabilitate publică independentă**
 
-VeriSeal is not built as a blockchain.
-It is built as a structured integrity layer.
+VeriSeal nu este construit ca un blockchain.
+Este construit ca un strat de integritate structurat.
 
-This section covers:
+Această secțiune acoperă:
 
-- Canonicalization and hashing model  
-- Merkle aggregation and multi-artifact binding  
-- Append-only ledger structure  
-- Public verification architecture  
-- Sovereignty and deployment model  
-- Hybrid governance positioning  
+- Modelul de canonicizare și hashing  
+- Agregarea Merkle și legarea multi-artifact  
+- Structura registrului doar adăugare  
+- Arhitectura de verificare publică  
+- Suveranitatea și modelul de implementare  
+- Poziționarea guvernanței hibride  
 
-The objective is not novelty.  
-The objective is structural reliability.
+Obiectivul nu este noutatea.  
+Obiectivul este fiabilitatea structurală.

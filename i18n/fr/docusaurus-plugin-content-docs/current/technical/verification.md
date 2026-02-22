@@ -1,52 +1,51 @@
 ---
 id: verification
-title: Verification
+title: Vérification
 ---
 
 ﻿---
-title: Verification
+title: Vérification
 sidebar_position: 3
 ---
 
-# Verification
+# Vérification
 
-Verification is deterministic and does not rely on trusting VeriSeal.
+La vérification est déterministe et ne repose pas sur la confiance en VeriSeal.
 
-## Source of truth order
+## Ordre de la source de vérité
 
-1) Ledger entry
-2) Public JSON
-3) PDF (presentation only)
+1) Entrée du registre
+2) JSON public
+3) PDF (présentation uniquement)
 
-## Procedure
+## Procédure
 
-1) Fetch canonical JSON:
+1) Récupérer le JSON canonique :
    - /public/verify/`{merkle_root}`/json
 
-2) Verify hashes:
-   - compute SHA-256 for artifacts (or bundle ZIP),
-   - compare to hashes in JSON.
+2) Vérifier les hachages :
+   - calculer SHA-256 pour les artefacts (ou le fichier ZIP),
+   - comparer aux hachages dans le JSON.
 
-3) Recompute Merkle root:
-   - from declared leaves and rules,
-   - confirm it matches merkle_root.
+3) Recalculer la racine Merkle :
+   - à partir des feuilles et règles déclarées,
+   - confirmer qu'elle correspond à merkle_root.
 
-4) Verify ledger chaining (when available):
-   - validate entry_hash and prev_hash consistency.
+4) Vérifier le chaînage du registre (lorsqu'il est disponible) :
+   - valider la cohérence de entry_hash et prev_hash.
 
-5) Verify signatures (if present):
-   - PDF signature verification,
-   - optional JSON signature verification.
+5) Vérifier les signatures (si présentes) :
+   - vérification de la signature PDF,
+   - vérification optionnelle de la signature JSON.
 
-6) Verify OpenTimestamps (if present):
-   - confirm stamped digest equals merkle_root/bundle hash,
-   - upgrade/verify and record state.
+6) Vérifier OpenTimestamps (si présents) :
+   - confirmer que le digest estampillé est égal à merkle_root/hash du bundle,
+   - mettre à niveau/vérifier et enregistrer l'état.
 
-## What to retain (regulated contexts)
+## Ce qu'il faut conserver (contextes réglementés)
 
-- fetched public JSON,
-- artifacts (or bundle ZIP),
-- computed hashes,
-- signature verification outputs,
-- .ots file and verification output (if used).
-
+- JSON public récupéré,
+- artefacts (ou fichier ZIP),
+- hachages calculés,
+- résultats de vérification des signatures,
+- fichier .ots et résultat de vérification (si utilisé).

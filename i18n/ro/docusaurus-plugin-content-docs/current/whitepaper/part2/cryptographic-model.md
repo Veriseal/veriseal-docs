@@ -1,50 +1,50 @@
 ---
 id: cryptographic-model
-title: Cryptographic and Proof Architecture
+title: Arhitectura criptografică și de dovadă
 sidebar_position: 2.1
 ---
 
-# 2.1 Cryptographic and Proof Architecture
+# 2.1 Arhitectura criptografică și de dovadă
 
-VeriSeal relies exclusively on conservative, battle-tested cryptographic primitives.
+VeriSeal se bazează exclusiv pe primitive criptografice conservatoare și testate în practică.
 
-No experimental consensus layer.
-No proprietary hash algorithm.
-No opaque cryptographic construction.
+Fără strat de consens experimental.  
+Fără algoritm de hash proprietar.  
+Fără construcție criptografică opacă.
 
-The model is deterministic, reproducible, and institutionally defensible.
-
----
-
-## Design Objectives
-
-The cryptographic layer must ensure:
-
-- Structural integrity  
-- Deterministic reproducibility  
-- Long-term auditability  
-- External verifiability  
-- Optional decentralized timestamp anchoring  
+Modelul este determinist, reproductibil și defensibil instituțional.
 
 ---
 
-## Canonicalization
+## Obiectivele designului
 
-Raw input data must first be transformed into a deterministic representation.
+Stratul criptografic trebuie să asigure:
 
-Let:
+- Integritatea structurală  
+- Reproductibilitatea deterministă  
+- Auditabilitatea pe termen lung  
+- Verificabilitatea externă  
+- Ancorarea opțională a marcajului temporal descentralizat  
 
-E = raw evidence  
-C(E) = canonical representation  
+---
 
-Canonicalization guarantees:
+## Canonicalizare
 
-- Stable JSON encoding  
-- Deterministic field ordering  
-- UTF-8 normalization  
-- No ambiguity in whitespace  
+Datele brute de intrare trebuie mai întâi transformate într-o reprezentare deterministă.
 
-The canonical payload:
+Fie:
+
+E = dovezi brute  
+C(E) = reprezentare canonică  
+
+Canonicalizarea garantează:
+
+- Codificare JSON stabilă  
+- Ordine deterministă a câmpurilor  
+- Normalizare UTF-8  
+- Fără ambiguitate în spațiile albe  
+
+Încărcătura canonică:
 
 P = C(E)
 
@@ -52,120 +52,120 @@ P = C(E)
 
 ## Hashing
 
-Primary integrity primitive:
+Primitiva principală de integritate:
 
 H = SHA-256(P)
 
-Properties:
+Proprietăți:
 
-- Collision resistance (current cryptographic assumptions)
-- Deterministic output
-- Universally reproducible
+- Rezistență la coliziuni (presupuneri criptografice actuale)
+- Ieșire deterministă
+- Reproductibilitate universală
 
-The hash becomes the core proof identifier when single-artifact.
+Hash-ul devine identificatorul principal al dovezii când este vorba de un singur artefact.
 
 ---
 
-## Merkle Aggregation
+## Agregare Merkle
 
-For multi-artifact proofs:
+Pentru dovezi cu mai multe artefacte:
 
 h1, h2, ..., hn
 
-A Merkle tree is constructed.
+Se construiește un arbore Merkle.
 
-The resulting:
+Rezultatul:
 
 merkle_root
 
-Properties:
+Proprietăți:
 
-- Any leaf modification invalidates the root
-- Efficient inclusion proofs possible
-- Deterministic multi-artifact binding
+- Orice modificare a unei frunze invalidează rădăcina
+- Dovezi de includere eficiente posibile
+- Legare deterministă multi-artefact
 
-The merkle_root becomes the canonical public reference.
+merkle_root devine referința publică canonică.
 
 ---
 
-## Append-Only Ledger
+## Registru doar pentru adăugare
 
-Each proof is inserted into an append-only ledger.
+Fiecare dovadă este introdusă într-un registru doar pentru adăugare.
 
-Each entry contains:
+Fiecare intrare conține:
 
-- proof_identifier  
-- metadata  
-- UTC timestamp  
+- identificator_dovadă  
+- metadate  
+- marcaj temporal UTC  
 - prev_hash  
 
-Chaining rule:
+Regula de legare:
 
 entry_hash_i = SHA256(entry_data_i || entry_hash_(i-1))
 
-This creates structural immutability.
+Aceasta creează imuabilitate structurală.
 
-Altering historical entries breaks chain integrity.
-
----
-
-## Strong Binding Mode
-
-VeriSeal enforces structural coherence between:
-
-- UX logs  
-- Media artifacts  
-- Canonical JSON  
-- Ledger entry  
-- Optional PDF  
-- Optional OTS anchor  
-
-Binding prevents selective modification or component substitution.
+Modificarea intrărilor istorice rupe integritatea lanțului.
 
 ---
 
-## PDF Signature (Optional Layer)
+## Mod de legare puternică
 
-PDF is render-only.
+VeriSeal impune coerența structurală între:
 
-When enabled:
+- Jurnalele UX  
+- Artefacte media  
+- JSON canonic  
+- Intrare în registru  
+- PDF opțional  
+- Ancoră OTS opțională  
 
-- RSA-3072 signature  
-- Document hash embedded  
-- Independently verifiable  
+Legarea previne modificarea selectivă sau înlocuirea componentelor.
+
+---
+
+## Semnătură PDF (Strat opțional)
+
+PDF-ul este doar pentru redare.
+
+Când este activat:
+
+- Semnătură RSA-3072  
+- Hash-ul documentului încorporat  
+- Verificabil independent  
 
 Important:
 
-The PDF is not the source of truth.  
-The ledger entry and public JSON are.
+PDF-ul nu este sursa adevărului.  
+Intrarea în registru și JSON-ul public sunt.
 
 ---
 
-## OpenTimestamps (Optional)
+## OpenTimestamps (Opțional)
 
-When enabled:
+Când este activat:
 
-- The proof hash is submitted to OTS
-- A .ots file is generated
-- Bitcoin confirmation anchors existence in time
+- Hash-ul dovezii este trimis la OTS
+- Se generează un fișier .ots
+- Confirmarea Bitcoin ancorează existența în timp
 
-OTS strengthens temporal anchoring but is not required for structural validation.
+OTS întărește ancorarea temporală, dar nu este necesar pentru validarea structurală.
 
 ---
 
-## Trust Minimization
+## Minimizarea încrederii
 
-Verification requires trust only in:
+Verificarea necesită încredere doar în:
 
 - SHA-256  
-- Deterministic computation  
-- Public cryptographic standards  
+- Calcul determinist  
+- Standarde criptografice publice  
 
-Not in:
+Nu în:
 
-- Proprietary servers  
-- Operator statements  
-- Visual representations  
+- Servere proprietare  
+- Declarații ale operatorului  
+- Reprezentări vizuale  
 
-VeriSeal does not assert truth.  
-It guarantees structural integrity.
+VeriSeal nu afirmă adevărul.  
+Garantează integritatea structurală.

@@ -1,40 +1,40 @@
 ---
 id: evidence-economy
-title: The Evidence Economy
-sidebar_label: 1.3 The Evidence Economy
+title: L'Économie de l'Évidence
+sidebar_label: 1.3 L'Économie de l'Évidence
 slug: /whitepaper/part1/evidence-economy
 sidebar_position: 3
 ---
 
-# The Evidence Economy
+# L'Économie de l'Évidence
 
-Digital evidence is no longer peripheral.
+Les preuves numériques ne sont plus périphériques.
 
-It is foundational to economic systems.
+Elles sont fondamentales pour les systèmes économiques.
 
-Credit risk assessment, regulatory supervision, insurance adjudication, public procurement, and international trade all rely on digital attestations.
+L'évaluation du risque de crédit, la supervision réglementaire, l'arbitrage d'assurance, les marchés publics et le commerce international reposent tous sur des attestations numériques.
 
-The integrity of these attestations now carries:
+L'intégrité de ces attestations entraîne désormais :
 
-- Financial consequences
-- Legal consequences
-- Political consequences
+- Des conséquences financières
+- Des conséquences juridiques
+- Des conséquences politiques
 
-As economies digitize, evidence becomes an economic primitive.
+À mesure que les économies se numérisent, l'évidence devient un élément économique primordial.
 
-Yet evidence remains structurally fragmented.
+Pourtant, l'évidence reste structurellement fragmentée.
 
-No internationally recognized integrity standard governs:
+Aucune norme d'intégrité reconnue internationalement ne régit :
 
-- Cross-platform proof normalization
-- Deterministic verification
-- Long-term append-only integrity
-- Sovereign-compatible deployment models
+- La normalisation des preuves inter-plateformes
+- La vérification déterministe
+- L'intégrité à long terme en mode en ajout seul
+- Les modèles de déploiement compatibles avec la souveraineté
 
-This creates a paradox:
+Cela crée un paradoxe :
 
-The economy depends on digital evidence.
+L'économie dépend des preuves numériques.
 
-But digital evidence lacks standardized structural integrity.
+Mais les preuves numériques manquent d'intégrité structurelle standardisée.
 
-The evolution from digitalization to evidence-driven economies requires a globally interoperable integrity layer.
+L'évolution de la numérisation vers des économies axées sur l'évidence nécessite une couche d'intégrité interopérable à l'échelle mondiale.

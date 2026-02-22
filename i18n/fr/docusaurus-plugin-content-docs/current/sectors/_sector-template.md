@@ -243,7 +243,7 @@ For technical teams:
 
 For regulators:
 - Transparent verification model
-- Independent recomputation capability
+- Independent recalcul capability
 
 ---
 

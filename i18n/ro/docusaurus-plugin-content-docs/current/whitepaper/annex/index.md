@@ -1,75 +1,75 @@
 ---
 id: annex-index
-title: Annex — Formal Technical Foundations
-sidebar_label: Annex
+title: Anexă — Fundamente Tehnice Formale
+sidebar_label: Anexă
 ---
 
-# Annex — Formal Technical Foundations
+# Anexă — Fundamente Tehnice Formale
 
-This Annex contains the formal technical documentation supporting the VeriSeal Whitepaper.
+Această Anexă conține documentația tehnică formală care susține Documentul Alb VeriSeal.
 
-While the core document presents the strategic, architectural, and institutional positioning of VeriSeal, this section provides the detailed technical underpinnings required for:
+În timp ce documentul principal prezintă poziționarea strategică, arhitecturală și instituțională a VeriSeal, această secțiune oferă fundamentele tehnice detaliate necesare pentru:
 
-- Security analysis
-- Cryptographic validation
-- Formal verification
-- Risk modeling
-- Institutional due diligence
+- Analiza securității
+- Validarea criptografică
+- Verificarea formală
+- Modelarea riscurilor
+- Diligența instituțională
 
-The Annex is intended for:
+Anexa este destinată pentru:
 
-- Security auditors
-- Cryptographers
-- Regulatory reviewers
-- Institutional risk committees
-- Technical integration teams
-
----
-
-## Structure of the Annex
-
-The Annex includes the following documents:
-
-1. **Threat Model**  
-   Formal analysis of adversarial capabilities, risk exposure, and attack vectors.
-
-2. **Adversarial Analysis**  
-   Detailed modeling of potential abuse scenarios and systemic resilience evaluation.
-
-3. **Security Assumptions**  
-   Explicit statement of trust boundaries, environmental assumptions, and operational constraints.
-
-4. **Verification Procedure**  
-   Step-by-step deterministic method for independent proof validation.
+- Auditori de securitate
+- Criptografi
+- Evaluatori de reglementare
+- Comitete instituționale de risc
+- Echipe de integrare tehnică
 
 ---
 
-## Normative Position
+## Structura Anexei
 
-The Annex does not introduce new marketing claims or strategic positioning.  
-It formalizes the security and verification properties described in Part II and Part III of the Whitepaper.
+Anexa include următoarele documente:
 
-The documents contained herein are structured to support:
+1. **Model de Amenințări**  
+   Analiză formală a capacităților adversariale, expunerii la risc și vectorilor de atac.
 
-- Independent security review  
-- Regulatory analysis  
-- Cross-jurisdiction evaluation  
-- Long-term archival verification  
+2. **Analiza Adversarială**  
+   Modelare detaliată a scenariilor potențiale de abuz și evaluarea rezilienței sistemice.
 
----
+3. **Presupuneri de Securitate**  
+   Declarație explicită a limitelor de încredere, presupunerilor de mediu și constrângerilor operaționale.
 
-## Relationship to the VeriSeal Standard
-
-The technical elements described in this Annex align with the normative requirements defined in:
-
-- VIP-STD-001 (Integrity Layer)
-- VIP-STD-002 (Ledger Model)
-- VIP-STD-003 (Verification Model)
-- VIP-STD-004 (Sovereignty & Governance Model)
-
-The Annex serves as the analytical complement to the formal standard framework.
+4. **Procedura de Verificare**  
+   Metodă deterministă pas cu pas pentru validarea independentă a dovezilor.
 
 ---
 
-VeriSeal Whitepaper — Annex  
-Version 1.0
+## Poziția Normativă
+
+Anexa nu introduce noi afirmații de marketing sau poziționări strategice.  
+Ea formalizează proprietățile de securitate și verificare descrise în Partea II și Partea III a Documentului Alb.
+
+Documentele conținute aici sunt structurate pentru a susține:
+
+- Revizuirea independentă a securității  
+- Analiza de reglementare  
+- Evaluarea trans-jurisdicțională  
+- Verificarea arhivării pe termen lung  
+
+---
+
+## Relația cu Standardul VeriSeal
+
+Elementele tehnice descrise în această Anexă sunt aliniate cu cerințele normative definite în:
+
+- VIP-STD-001 (Stratul de Integritate)
+- VIP-STD-002 (Modelul Registrului)
+- VIP-STD-003 (Modelul de Verificare)
+- VIP-STD-004 (Modelul de Suveranitate și Guvernanță)
+
+Anexa servește ca un complement analitic la cadrul standard formal.
+
+---
+
+Documentul Alb VeriSeal — Anexă  
+Versiunea 1.0

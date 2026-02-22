@@ -1,159 +1,156 @@
 ---
 id: vip-std-002
-title: VIP-STD-002 — Ledger Profile
+title: VIP-STD-002 — Profil Ledger
 sidebar_position: 4
 ---
 
 # VIP-STD-002  
-## Ledger Profile (Extension to VIP-STD-001)
+## Profil Ledger (Extensie la VIP-STD-001)
 
 ---
 
-# 1. Scope
+# 1. Domeniu de aplicare
 
-This document defines the optional Ledger Profile of the VeriSeal Integrity Protocol (VIP).
+Acest document definește Profilul Ledger opțional al Protocolului de Integritate VeriSeal (VIP).
 
-It specifies the append-only recording structure for proof persistence.
+Specifica structura de înregistrare doar în adăugare pentru persistența dovezilor.
 
-This profile extends VIP-STD-001 but does not modify the core integrity model.
+Acest profil extinde VIP-STD-001, dar nu modifică modelul de integritate de bază.
 
 ---
 
-# 2. Relationship to VIP-STD-001
+# 2. Relația cu VIP-STD-001
 
 VIP-STD-002:
 
-- MUST use proof objects compliant with VIP-STD-001  
-- MUST NOT alter canonicalization or hash computation  
-- MUST preserve deterministic verification  
+- TREBUIE să utilizeze obiecte de dovadă conforme cu VIP-STD-001  
+- NU TREBUIE să modifice canonizarea sau calculul hash-ului  
+- TREBUIE să păstreze verificarea deterministă  
 
-The ledger layer records proofs; it does not redefine them.
-
----
-
-# 3. Definitions
-
-**Ledger Entry**  
-A structured record containing a proof object and its chaining reference.
-
-**Previous Hash (prev_hash)**  
-The integrity hash of the preceding ledger entry.
-
-**Chain Head**  
-The most recent valid ledger entry in a sequence.
+Stratul ledger înregistrează dovezile; nu le redefinește.
 
 ---
 
-# 4. Ledger Entry Structure
+# 3. Definiții
 
-A compliant ledger entry MUST follow:
+**Intrare Ledger**  
+Un registru structurat care conține un obiect de dovadă și referința sa de înlănțuire.
+
+**Hash-ul Anterior (prev_hash)**  
+Hash-ul de integritate al intrării ledger precedente.
+
+**Capul Lanțului**  
+Cea mai recentă intrare ledger validă într-o secvență.
+
+---
+
+# 4. Structura Intrării Ledger
+
+O intrare ledger conformă TREBUIE să urmeze:
 
 ```json
 {
   "v": 1,
   "type": "LEDGER_ENTRY",
-  "proof": { ...VIP-STD-001 compliant object... },
-  "prev_hash": "<sha256-hex or null>",
+  "proof": { ...obiect conform VIP-STD-001... },
+  "prev_hash": "<sha256-hex sau null>",
   "entry_hash": "<sha256-hex>"
 }
-```
 
-Where:
+Unde:
 
-- `proof` MUST be a valid VIP-STD-001 proof object  
-- `prev_hash` MUST reference the previous entry hash or be null for the first entry  
-- `entry_hash` MUST be the SHA-256 hash of the canonicalized ledger entry excluding `entry_hash` itself  
+- `proof` TREBUIE să fie un obiect de dovadă valid VIP-STD-001  
+- `prev_hash` TREBUIE să facă referire la hash-ul intrării anterioare sau să fie null pentru prima intrare  
+- `entry_hash` TREBUIE să fie hash-ul SHA-256 al intrării ledger canonizate, excluzând `entry_hash` în sine  
 
 ---
 
-# 5. Hash Computation Rules
+# 5. Reguli de Calcul al Hash-ului
 
-5.1 Canonicalization  
-Ledger entries MUST be canonicalized using VIP-STD-001 rules.
+5.1 Canonizare  
+Intrările ledger TREBUIE să fie canonizate folosind regulile VIP-STD-001.
 
-5.2 Entry Hash  
-The `entry_hash` MUST be computed over:
+5.2 Hash-ul Intrării  
+`entry_hash` TREBUIE să fie calculat peste:
 
-```
 {
   "v",
   "type",
   "proof",
   "prev_hash"
 }
-```
 
 5.3 Determinism  
-Two identical ledger entries MUST produce identical `entry_hash` values.
+Două intrări ledger identice TREBUIE să producă valori `entry_hash` identice.
 
 ---
 
-# 6. Append-Only Requirement
+# 6. Cerința de Doar Adăugare
 
-6.1 Immutability  
-Ledger entries MUST NOT be modified after insertion.
+6.1 Imuabilitate  
+Intrările ledger NU TREBUIE să fie modificate după inserare.
 
-6.2 Ordering  
-Each entry MUST reference exactly one predecessor, except the genesis entry.
+6.2 Ordine  
+Fiecare intrare TREBUIE să facă referire exact la un predecesor, cu excepția intrării genesis.
 
-6.3 Genesis Entry  
-The first ledger entry MUST set `prev_hash` to null.
-
----
-
-# 7. Chain Validation
-
-A compliant ledger validation process MUST:
-
-1. Validate each embedded proof per VIP-STD-001  
-2. Recompute each `entry_hash`  
-3. Verify `prev_hash` chaining consistency  
-4. Confirm absence of broken links  
-
-A chain is VALID if all entries satisfy these conditions.
+6.3 Intrarea Genesis  
+Prima intrare ledger TREBUIE să seteze `prev_hash` la null.
 
 ---
 
-# 8. Storage Independence
+# 7. Validarea Lanțului
 
-The Ledger Profile:
+Un proces de validare a ledger-ului conform TREBUIE să:
 
-- Does not mandate storage backend
-- Does not mandate distributed consensus
-- Does not require blockchain implementation
-- Does not define replication rules
+1. Valideze fiecare dovadă încorporată conform VIP-STD-001  
+2. Recalculeze fiecare `entry_hash`  
+3. Verifice consistența înlănțuirii `prev_hash`  
+4. Confirme absența legăturilor rupte  
 
-It defines structural chaining only.
-
----
-
-# 9. Conformance
-
-A system claiming compliance with VIP-STD-002 MUST:
-
-1. Accept VIP-STD-001 proof objects  
-2. Implement append-only ledger structure  
-3. Enforce hash chaining integrity  
-4. Provide deterministic chain validation  
-
-Ledger implementation details MAY vary provided structural determinism is preserved.
+Un lanț este VALID dacă toate intrările îndeplinesc aceste condiții.
 
 ---
 
-# 10. Security Considerations
+# 8. Independența Stocării
 
-Security of this profile depends on:
+Profilul Ledger:
 
-- Integrity of the storage environment  
-- Protection against unauthorized modification  
-- Correct canonicalization  
+- Nu impune un backend de stocare
+- Nu impune consens distribuit
+- Nu necesită implementare blockchain
+- Nu definește reguli de replicare
 
-This profile does not prevent deletion attacks unless combined with anchoring mechanisms defined in VIP-STD-004.
+Definește doar înlănțuirea structurală.
 
 ---
 
-# 11. Conclusion
+# 9. Conformitate
 
-VIP-STD-002 defines the structural persistence layer of the VeriSeal Integrity Protocol.
+Un sistem care pretinde conformitatea cu VIP-STD-002 TREBUIE să:
 
-It ensures append-only chaining and long-term proof consistency without altering the core integrity model.
+1. Accepte obiecte de dovadă VIP-STD-001  
+2. Implementeze structura ledger doar în adăugare  
+3. Aplice integritatea înlănțuirii hash-ului  
+4. Oferă validare deterministă a lanțului  
+
+Detaliile implementării ledger-ului POT varia, cu condiția să se păstreze determinismul structural.
+
+---
+
+# 10. Considerații de Securitate
+
+Securitatea acestui profil depinde de:
+
+- Integritatea mediului de stocare  
+- Protecția împotriva modificărilor neautorizate  
+- Canonizarea corectă  
+
+Acest profil nu previne atacurile de ștergere decât dacă este combinat cu mecanisme de ancorare definite în VIP-STD-004.
+
+---
+
+# 11. Concluzie
+
+VIP-STD-002 definește stratul de persistență structurală al Protocolului de Integritate VeriSeal.
+
+Asigură înlănțuirea doar în adăugare și consistența pe termen lung a dovezilor fără a modifica modelul de integritate de bază.

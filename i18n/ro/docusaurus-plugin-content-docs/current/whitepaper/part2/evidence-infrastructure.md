@@ -1,24 +1,23 @@
 ---
 id: evidence-infrastructure
-title: Evidence Infrastructure
+title: Infrastructura Dovezilor
 ---
 
 ﻿---
-title: Evidence Infrastructure
+title: Infrastructura Dovezilor
 sidebar_position: 1
 ---
 
-# Evidence Infrastructure
+# Infrastructura Dovezilor
 
-## Proof kernel
-Hashing, Merkle roots, append-only ledger, deterministic public JSON.
+## Nucleul dovezii
+Hashing, rădăcini Merkle, registru doar adăugare, JSON public determinist.
 
-## Separation of layers
-Backend vs public verifier UI vs PDF renderer (render-only).
+## Separarea straturilor
+Backend vs interfața publică de verificare UI vs renderer PDF (doar redare).
 
-## Strong binding
-Bind UX log + media + ledger + JSON (+ PDF/OTS when enabled).
+## Legătură puternică
+Leagă jurnalul UX + media + registru + JSON (+ PDF/OTS când este activat).
 
-## Operations
-Sovereign deployment, hardened TLS, controlled keys, scheduled OTS automation.
-
+## Operațiuni
+Implementare suverană, TLS întărit, chei controlate, automatizare OTS programată.

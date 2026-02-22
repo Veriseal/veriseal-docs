@@ -1,55 +1,57 @@
+Fișier: risk-and-limitations.md
+
 ---
 id: risk-and-limitations
-title: Risk & Limitation Transparency
+title: Transparența Riscurilor și Limitărilor
 sidebar_position: 4.4
 ---
 
-# Risk & Limitation Transparency
+# Transparența Riscurilor și Limitărilor
 
-## Integrity vs Truth
+## Integritate vs Adevăr
 
-VeriSeal guarantees:
+VeriSeal garantează:
 
-- Integrity preservation
-- Structural immutability
-- Deterministic verification
+- Păstrarea integrității
+- Imuabilitate structurală
+- Verificare deterministă
 
-It does not guarantee:
+Nu garantează:
 
-- Truthfulness of content
-- Intent of actors
-- Upstream system integrity
-
----
-
-## Cryptographic Assumptions
-
-Cryptographic models rely on current assumptions.
-
-Architecture must support algorithm agility
-without invalidating historical proofs.
+- Adevărul conținutului
+- Intenția actorilor
+- Integritatea sistemului de amonte
 
 ---
 
-## Upstream Integration Risk
+## Presupuneri Criptografice
 
-Improper process integration may:
+Modelele criptografice se bazează pe presupunerile actuale.
 
-- Seal incorrect data
-- Introduce operational errors
-- Create governance inconsistencies
-
-Infrastructure must be accompanied by integration discipline.
+Arhitectura trebuie să susțină agilitatea algoritmului
+fără a invalida dovezile istorice.
 
 ---
 
-## Standardization Risk
+## Riscul Integrării de Amonte
 
-Becoming a standard requires:
+Integrarea necorespunzătoare a proceselor poate:
 
-- Cross-sector adoption
-- Governance stability
-- Backward compatibility
-- Ecosystem integration
+- Sigila date incorecte
+- Introduce erori operaționale
+- Crea inconsistențe de guvernanță
 
-Standard emergence cannot be forced.
+Infrastructura trebuie să fie însoțită de disciplină în integrare.
+
+---
+
+## Riscul Standardizării
+
+Devenirea unui standard necesită:
+
+- Adoptare intersectorială
+- Stabilitate de guvernanță
+- Compatibilitate retroactivă
+- Integrarea în ecosistem
+
+Emergența unui standard nu poate fi forțată.

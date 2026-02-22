@@ -1,77 +1,79 @@
+File: legal-sector.md
+
 ---
 id: legal-sector
-title: Legal & Notarial Systems
+title: Sisteme Legale și Notariale
 sidebar_position: 3.5
 ---
 
-# Legal & Notarial Systems
+# Sisteme Legale și Notariale
 
-## Evidentiary Fragility
+## Fragilitatea Probelor
 
-Legal systems rely on:
+Sistemele legale se bazează pe:
 
-- Document authenticity
-- Timestamp reliability
-- Chain of custody integrity
-- Verifiable origin
+- Autenticitatea documentelor
+- Fiabilitatea marcajului temporal
+- Integritatea lanțului de custodie
+- Originea verificabilă
 
-Digital transformation has increased ambiguity  
-in each of these dimensions.
-
----
-
-## Integrity at Creation Time
-
-VeriSeal seals:
-
-- Content hash
-- Metadata consistency
-- Ledger linkage
-- Optional external timestamp
-
-This produces:
-
-A deterministic evidentiary snapshot  
-at the moment of sealing.
+Transformarea digitală a crescut ambiguitatea  
+în fiecare dintre aceste dimensiuni.
 
 ---
 
-## Courtroom Implications
+## Integritatea la Momentul Creării
 
-VeriSeal does not claim legal superiority.
+VeriSeal sigilează:
 
-It provides:
+- Hash-ul conținutului
+- Consistența metadatelor
+- Legătura cu registrul
+- Marcaj temporal extern opțional
 
-- Reproducible verification procedure
-- Hash-based integrity validation
-- Independent validation capability
+Aceasta produce:
 
-Courts interpret evidence.
-
-VeriSeal strengthens structural defensibility.
-
----
-
-## Notarial Augmentation
-
-Notarial systems can:
-
-- Seal digital documents
-- Anchor certification events
-- Reinforce archival immutability
-- Provide verifiable public records
-
-VeriSeal supports institutional authority  
-without replacing it.
+Un instantaneu probatoriu determinist  
+în momentul sigilării.
 
 ---
 
-## Strategic Importance
+## Implicații în Sala de Judecată
 
-The legal sector validates:
+VeriSeal nu revendică superioritate legală.
 
-- Integrity robustness
-- Long-term archival stability
-- Governance discipline
+Oferă:
 
-This strengthens standardization legitimacy.
+- Procedură de verificare reproductibilă
+- Validarea integrității bazată pe hash
+- Capacitate de validare independentă
+
+Instanțele interpretează probele.
+
+VeriSeal întărește apărarea structurală.
+
+---
+
+## Augmentarea Notarială
+
+Sistemele notariale pot:
+
+- Sigila documente digitale
+- Ancora evenimente de certificare
+- Consolida imuabilitatea arhivelor
+- Oferi înregistrări publice verificabile
+
+VeriSeal sprijină autoritatea instituțională  
+fără a o înlocui.
+
+---
+
+## Importanța Strategică
+
+Sectorul legal validează:
+
+- Robustetea integrității
+- Stabilitatea arhivării pe termen lung
+- Disciplina guvernanței
+
+Aceasta întărește legitimitatea standardizării.

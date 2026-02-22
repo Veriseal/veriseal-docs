@@ -1,286 +1,286 @@
 ---
-title: VIP-THREAT-001 - VeriSeal Threat & Adversarial Model
+title: VIP-THREAT-001 - Modèle de Menace et d'Adversaire VeriSeal
 sidebar_label: VIP-THREAT-001
 ---
 
 # VIP-THREAT-001  
-## VeriSeal Threat & Adversarial Model
+## Modèle de Menace et d'Adversaire VeriSeal
 
-Version: 2.0  
-Status: Normative Security Profile  
-Classification: Public Security Specification  
-
----
-
-# 1. Scope
-
-This document defines the formal adversarial and threat model applicable to:
-
-- VIP-STD-001 (Integrity Core)
-- VIP-STD-002 (Ledger Profile)
-- VIP-STD-003 (Signature Profile)
-- VIP-STD-004 (Time Anchoring Profile)
-- VIP-STF-005 (Verification & Conformance Framework)
-
-This document defines:
-
-- Security objectives
-- Asset classification
-- Adversary capabilities
-- Attack surfaces
-- Formal security claims
-- Residual risks
+Version : 2.0  
+Statut : Profil de Sécurité Normatif  
+Classification : Spécification de Sécurité Publique  
 
 ---
 
-# 2. Security Objectives
+# 1. Portée
 
-The VeriSeal Integrity Framework aims to guarantee:
+Ce document définit le modèle formel de menace et d'adversaire applicable à :
 
-1. Deterministic integrity
-2. Tamper detection
-3. Structural immutability
-4. Cryptographic authenticity (if signature profile used)
-5. Ledger continuity
-6. Independent time corroboration (if anchoring profile used)
+- VIP-STD-001 (Noyau d'Intégrité)
+- VIP-STD-002 (Profil de Registre)
+- VIP-STD-003 (Profil de Signature)
+- VIP-STD-004 (Profil d'Ancrage Temporel)
+- VIP-STF-005 (Cadre de Vérification et de Conformité)
 
-The framework explicitly does NOT guarantee:
+Ce document définit :
 
-- Truthfulness of content
-- Identity validation (unless external system used)
-- Legal enforceability
-- Semantic correctness
-- Content legitimacy
-
-VeriSeal is an integrity framework, not a truth system.
+- Objectifs de sécurité
+- Classification des actifs
+- Capacités de l'adversaire
+- Surfaces d'attaque
+- Revendications de sécurité formelles
+- Risques résiduels
 
 ---
 
-# 3. Assets
+# 2. Objectifs de Sécurité
 
-The following assets are security-critical:
+Le Cadre d'Intégrité VeriSeal vise à garantir :
 
-- Canonical proof object
-- Deterministic proof_hash
-- Ledger entry
-- previous_entry_hash continuity
-- Signature material
-- Anchoring reference
-- Verification metadata
+1. Intégrité déterministe
+2. Détection de falsification
+3. Immutabilité structurelle
+4. Authenticité cryptographique (si le profil de signature est utilisé)
+5. Continuité du registre
+6. Corroboration temporelle indépendante (si le profil d'ancrage est utilisé)
 
-Integrity of these assets MUST be preserved.
+Le cadre ne garantit explicitement PAS :
 
----
+- Véracité du contenu
+- Validation d'identité (sauf si un système externe est utilisé)
+- Force exécutoire légale
+- Exactitude sémantique
+- Légitimité du contenu
 
-# 4. Adversary Classes
-
-## 4.1 Passive Observer
-
-Capabilities:
-- Full read access
-- Traffic observation
-
-Cannot:
-- Modify stored data
+VeriSeal est un cadre d'intégrité, pas un système de vérité.
 
 ---
 
-## 4.2 Active Modifier
+# 3. Actifs
 
-Capabilities:
-- Attempt record modification
-- Attempt record substitution
-- Attempt ledger reordering
+Les actifs suivants sont critiques pour la sécurité :
 
----
+- Objet de preuve canonique
+- proof_hash déterministe
+- Entrée de registre
+- Continuité de previous_entry_hash
+- Matériel de signature
+- Référence d'ancrage
+- Métadonnées de vérification
 
-## 4.3 Cryptographic Attacker
-
-Capabilities:
-- Attempt hash collision
-- Attempt signature forgery
-- Attempt anchor forgery
-- Attempt replay
-
-Bounded by classical cryptographic assumptions.
+L'intégrité de ces actifs DOIT être préservée.
 
 ---
 
-## 4.4 Insider Adversary
+# 4. Classes d'Adversaires
 
-Capabilities:
-- Modify records before sealing
-- Compromise private keys
-- Manipulate storage layer
+## 4.1 Observateur Passif
 
-Mitigation is operational, not protocol-level.
+Capacités :
+- Accès en lecture complète
+- Observation du trafic
 
----
-
-# 5. Threat Categories
-
-## 5.1 Serialization Attacks
-
-Attack:
-Manipulating field ordering or encoding to change hash.
-
-Mitigation:
-- Strict canonicalization (VIP-STD-001)
-- Byte-level determinism
-- Deterministic hashing
+Ne peut pas :
+- Modifier les données stockées
 
 ---
 
-## 5.2 Hash Substitution
+## 4.2 Modificateur Actif
 
-Attack:
-Replacing proof_hash with alternative value.
-
-Mitigation:
-- Deterministic recomputation
-- Signature binding (VIP-STD-003)
+Capacités :
+- Tenter de modifier les enregistrements
+- Tenter de substituer les enregistrements
+- Tenter de réorganiser le registre
 
 ---
 
-## 5.3 Ledger Reordering
+## 4.3 Attaquant Cryptographique
 
-Attack:
-Reordering entries to manipulate chronology.
+Capacités :
+- Tenter une collision de hash
+- Tenter une falsification de signature
+- Tenter une falsification d'ancrage
+- Tenter une réutilisation
 
-Mitigation:
-- previous_entry_hash chaining
-- Deterministic ledger verification
-
----
-
-## 5.4 Replay Attacks
-
-Attack:
-Reusing valid proof in unintended context.
-
-Mitigation:
-- Unique proof_id
-- Context binding
-- Time anchoring (optional)
+Limité par les hypothèses cryptographiques classiques.
 
 ---
 
-## 5.5 Signature Attacks
+## 4.4 Adversaire Interne
 
-Includes:
-- Forgery
-- Malleability
-- Weak randomness
+Capacités :
+- Modifier les enregistrements avant scellement
+- Compromettre les clés privées
+- Manipuler la couche de stockage
 
-Mitigation:
-- Deterministic signing (RFC 6979)
-- Low-S normalization (ECDSA)
-- Ed25519 preferred
-- Secure key management (implementation requirement)
+La mitigation est opérationnelle, non au niveau du protocole.
 
 ---
 
-## 5.6 Anchor Forgery
+# 5. Catégories de Menaces
 
-Attack:
-Providing fabricated external time references.
+## 5.1 Attaques de Sérialisation
 
-Mitigation:
-- Publicly verifiable anchoring systems
-- Independent recomputation
-- Multi-anchor strategies (optional)
+Attaque :
+Manipulation de l'ordre des champs ou de l'encodage pour changer le hash.
 
----
-
-# 6. Trust Boundaries
-
-Trust boundaries exist between:
-
-1. Proof generation
-2. Ledger storage
-3. Signature authority
-4. Anchor authority
-5. Verification actor
-
-The protocol assumes:
-
-- Independent verifier
-- Public anchor transparency
-- Secure key custody
+Mitigation :
+- Canonicalisation stricte (VIP-STD-001)
+- Déterminisme au niveau des octets
+- Hachage déterministe
 
 ---
 
-# 7. Formal Security Claims
+## 5.2 Substitution de Hash
 
-Under classical cryptographic assumptions:
+Attaque :
+Remplacement de proof_hash par une valeur alternative.
 
-If:
-- SHA-256 remains collision resistant
-- ECDSA / Ed25519 remain secure
-- RSA factoring remains computationally infeasible
-
-Then:
-
-- Tampering is detectable
-- Ledger rewriting is detectable
-- Signature forgery is infeasible
-- Anchor falsification is detectable
-
-These guarantees degrade proportionally if assumptions fail.
+Mitigation :
+- Recalcul déterministe
+- Liaison de signature (VIP-STD-003)
 
 ---
 
-# 8. Residual Risks
+## 5.3 Réorganisation du Registre
 
-The framework does not eliminate:
+Attaque :
+Réorganisation des entrées pour manipuler la chronologie.
 
-- Private key compromise
-- Weak entropy in signature generation
-- Implementation bugs
-- Storage corruption
-- Insider manipulation before sealing
-- Denial-of-service attacks
-
-These are outside protocol guarantees.
+Mitigation :
+- Chaînage de previous_entry_hash
+- Vérification déterministe du registre
 
 ---
 
-# 9. Denial of Service
+## 5.4 Attaques de Réutilisation
 
-The protocol does not provide:
+Attaque :
+Réutilisation d'une preuve valide dans un contexte non prévu.
 
-- Storage exhaustion protection
-- Anchor endpoint availability guarantees
-- Network flooding resistance
-
-Operational mitigation required.
+Mitigation :
+- proof_id unique
+- Liaison contextuelle
+- Ancrage temporel (optionnel)
 
 ---
 
-# 10. Post-Quantum Considerations
+## 5.5 Attaques de Signature
 
-Version 2.0 does not provide post-quantum security.
+Inclut :
+- Falsification
+- Malléabilité
+- Faible aléa
 
-Future revisions MAY include:
+Mitigation :
+- Signature déterministe (RFC 6979)
+- Normalisation Low-S (ECDSA)
+- Ed25519 préféré
+- Gestion sécurisée des clés (exigence de mise en œuvre)
 
-- Hash agility
-- PQ signature algorithms
-- Hybrid signature modes
+---
+
+## 5.6 Falsification d'Ancrage
+
+Attaque :
+Fournir des références temporelles externes fabriquées.
+
+Mitigation :
+- Systèmes d'ancrage vérifiables publiquement
+- Recalcul indépendant
+- Stratégies multi-ancrage (optionnel)
+
+---
+
+# 6. Limites de Confiance
+
+Les limites de confiance existent entre :
+
+1. Génération de preuve
+2. Stockage du registre
+3. Autorité de signature
+4. Autorité d'ancrage
+5. Acteur de vérification
+
+Le protocole suppose :
+
+- Vérificateur indépendant
+- Transparence publique de l'ancrage
+- Garde sécurisée des clés
+
+---
+
+# 7. Revendications de Sécurité Formelles
+
+Sous les hypothèses cryptographiques classiques :
+
+Si :
+- SHA-256 reste résistant aux collisions
+- ECDSA / Ed25519 restent sécurisés
+- Le facteur RSA reste computationnellement infaisable
+
+Alors :
+
+- La falsification est détectable
+- La réécriture du registre est détectable
+- La falsification de signature est infaisable
+- La falsification d'ancrage est détectable
+
+Ces garanties se dégradent proportionnellement si les hypothèses échouent.
+
+---
+
+# 8. Risques Résiduels
+
+Le cadre n'élimine pas :
+
+- Compromission de clé privée
+- Faible entropie dans la génération de signature
+- Bugs d'implémentation
+- Corruption de stockage
+- Manipulation interne avant scellement
+- Attaques par déni de service
+
+Ceux-ci sont en dehors des garanties du protocole.
+
+---
+
+# 9. Déni de Service
+
+Le protocole ne fournit pas :
+
+- Protection contre l'épuisement du stockage
+- Garanties de disponibilité du point d'ancrage
+- Résistance aux inondations réseau
+
+Une mitigation opérationnelle est requise.
+
+---
+
+# 10. Considérations Post-Quantiques
+
+La version 2.0 ne fournit pas de sécurité post-quantique.
+
+Les révisions futures POURRAIENT inclure :
+
+- Agilité de hash
+- Algorithmes de signature PQ
+- Modes de signature hybrides
 
 ---
 
 # 11. Conclusion
 
-The VeriSeal framework provides deterministic tamper detection under classical cryptographic assumptions.
+Le cadre VeriSeal fournit une détection déterministe de falsification sous les hypothèses cryptographiques classiques.
 
-Security guarantees depend on:
+Les garanties de sécurité dépendent de :
 
-- Strict canonicalization
-- Deterministic hashing
-- Correct ledger chaining
-- Secure key management
-- Publicly verifiable anchoring
+- Canonicalisation stricte
+- Hachage déterministe
+- Chaînage correct du registre
+- Gestion sécurisée des clés
+- Ancrage vérifiable publiquement
 
-Implementation discipline is mandatory.
+La discipline d'implémentation est obligatoire.
 
-VeriSeal defines integrity guarantees — not trust guarantees.
+VeriSeal définit des garanties d'intégrité — pas des garanties de confiance.

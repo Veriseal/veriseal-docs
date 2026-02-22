@@ -1,53 +1,53 @@
 ---
-title: VeriSeal Standard
+title: Norme VeriSeal
 sidebar_position: 1
 ---
 
-# The VeriSeal Standard
+# La Norme VeriSeal
 
-The VeriSeal Standard defines the deterministic integrity framework that governs
-how digital evidence is structured, sealed, verified, and preserved.
+La Norme VeriSeal définit le cadre d'intégrité déterministe qui régit
+la structuration, le scellement, la vérification et la préservation des preuves numériques.
 
-It is not a feature specification.
-It is a structural integrity protocol.
-
----
-
-## Purpose
-
-The standard establishes:
-
-- Deterministic cryptographic integrity
-- Append-only proof ledger architecture
-- Verification reproducibility
-- Governance and conformance model
-- Long-term archival stability
+Ce n'est pas une spécification de fonctionnalité.
+C'est un protocole d'intégrité structurelle.
 
 ---
 
-## Structure of the Standard
+## Objectif
 
-The VeriSeal Standard is composed of:
+La norme établit :
 
-- VIP-STD series — Core integrity specifications
-- VIP-REG series — Regulatory mapping
-- VIP-THREAT series — Threat modeling
-- VIP-STF — Security and trust framework
-- Roadmap & Governance layers
-
----
-
-## Positioning
-
-The VeriSeal Standard is designed to:
-
-- Operate independently of jurisdiction
-- Be commercially deployable
-- Remain sovereignty-compatible
-- Scale globally across sectors
-
-It aims to become a global integrity reference layer.
+- Intégrité cryptographique déterministe
+- Architecture de registre de preuve en ajout-seul
+- Reproductibilité de la vérification
+- Modèle de gouvernance et de conformité
+- Stabilité archivistique à long terme
 
 ---
 
-Continue with the individual standard specifications below.
+## Structure de la Norme
+
+La Norme VeriSeal est composée de :
+
+- Série VIP-STD — Spécifications d'intégrité de base
+- Série VIP-REG — Cartographie réglementaire
+- Série VIP-THREAT — Modélisation des menaces
+- VIP-STF — Cadre de sécurité et de confiance
+- Couches de feuille de route et de gouvernance
+
+---
+
+## Positionnement
+
+La Norme VeriSeal est conçue pour :
+
+- Fonctionner indépendamment de la juridiction
+- Être déployable commercialement
+- Rester compatible avec la souveraineté
+- S'adapter à l'échelle mondiale à travers les secteurs
+
+Elle vise à devenir une couche de référence mondiale en matière d'intégrité.
+
+---
+
+Continuez avec les spécifications individuelles de la norme ci-dessous.

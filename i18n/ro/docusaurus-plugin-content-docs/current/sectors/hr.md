@@ -1,507 +1,505 @@
 ---
 id: hr
-title: Hr
+title: Resurse Umane
 ---
 
 ﻿---
-title: Human Resources
-sidebar_label: HR
+title: Resurse Umane
+sidebar_label: RU
 ---
 
-# VeriSeal for Human Resources
+# VeriSeal pentru Resurse Umane
 
-VeriSeal provides a sector-agnostic cryptographic integrity layer for verifiable digital evidence.
+VeriSeal oferă un strat de integritate criptografică independent de sector pentru dovezi digitale verificabile.
 
-## Scope Clarification
+## Clarificarea Domeniului de Aplicare
 
-The scenarios presented below illustrate representative high-risk situations within this sector where document integrity, timestamp certainty, and verifiable authenticity are critical.
+Scenariile prezentate mai jos ilustrează situații reprezentative cu risc ridicat din acest sector, unde integritatea documentelor, certitudinea marcajului temporal și autenticitatea verificabilă sunt critice.
 
-They are not exhaustive.
+Acestea nu sunt exhaustive.
 
-VeriSeal is not designed to solve a single isolated use case.
-It provides a structural cryptographic integrity layer applicable to any digital document, event record, media capture, or transactional evidence requiring long-term verifiability.
+VeriSeal nu este conceput pentru a rezolva un singur caz de utilizare izolat.
+Oferă un strat structural de integritate criptografică aplicabil oricărui document digital, înregistrare de evenimente, captură media sau dovadă tranzacțională care necesită verificabilitate pe termen lung.
 
-The examples below represent structural risk categories - not functional limits.
+Exemplele de mai jos reprezintă categorii de risc structural — și nu limite funcționale.
 
+## Rezumat Executiv (Prezentare pentru Nivel C)
 
-## Executive Summary (C-Level Overview)
+Departamentele de Resurse Umane gestionează documentație sensibilă din punct de vedere legal pe parcursul ciclului de viață al angajatului.
 
-Human Resources departments manage legally sensitive documentation throughout the employee lifecycle.
+Contractele de muncă, amendamentele, evaluările, acțiunile disciplinare, rapoartele de investigație și notificările de încetare pot deveni dovezi contestate.
 
-Employment contracts, amendments, evaluations, disciplinary actions, investigation reports, and termination notices may become contested evidence.
+Risc principal nu este generarea documentelor.
 
-The core risk is not document generation.
+Risc principal este apărarea integrității structurale în disputele de muncă adversariale.
 
-The core risk is structural integrity defensibility in adversarial employment disputes.
+VeriSeal oferă:
 
-VeriSeal provides:
+- Detectare deterministă a manipulării (VIP-STD-001)
+- Cronologie opțională doar pentru adăugare (VIP-STD-003)
+- Ancorare temporală externă opțională (VIP-STD-004)
+- Legare a semnăturii instituționale (VIP-STF-005)
+- Transparența cheii publice (VIP-REG-006)
+- Capacitate de verificare independentă
 
-- Deterministic tamper detection (VIP-STD-001)
-- Optional append-only chronology (VIP-STD-003)
-- Optional external time anchoring (VIP-STD-004)
-- Institutional signature binding (VIP-STF-005)
-- Public key transparency (VIP-REG-006)
-- Independent verification capability
+Nu înlocuiește sistemele de RU.
 
-It does not replace HR systems.
+Întărește stratul de integritate structurală de sub ele.
 
-It reinforces the structural integrity layer beneath them.
+Pentru organizații, aceasta înseamnă:
 
-For organizations, this means:
-
-- Reduced litigation ambiguity
-- Stronger procedural defensibility
-- Reduced internal governance risk
-- Increased audit transparency
-- Reinforced fairness perception
-
----
-
-## When Integrity Becomes Strategic
-
-Integrity becomes strategically critical when:
-
-- Terminations are challenged
-- Disciplinary procedures are contested
-- Contract versions are disputed
-- Harassment investigations are litigated
-- Bonus calculations are contested
-- Regulatory inspections review HR processes
-- Executive-level employment agreements are scrutinized
-
-Employment disputes frequently revolve around document chronology and modification claims.
-
-Structural determinism becomes risk mitigation.
+- Reducerea ambiguității litigiilor
+- Apărare procedurală mai puternică
+- Reducerea riscului de guvernanță internă
+- Creșterea transparenței auditului
+- Întărirea percepției de corectitudine
 
 ---
 
-## 1. HR Risk Landscape
+## Când Integritatea Devine Strategică
 
-HR departments face exposure in:
+Integritatea devine critică strategic atunci când:
 
-- Contract amendment disputes
-- Alleged backdating
-- Missing annex allegations
-- Version manipulation claims
-- Investigation file challenges
-- Performance review disputes
-- Collective bargaining conflicts
-- Executive compensation litigation
+- Încetările sunt contestate
+- Procedurile disciplinare sunt contestate
+- Versiunile contractuale sunt disputate
+- Investigațiile de hărțuire sunt litigate
+- Calculul bonusurilor este contestat
+- Inspecțiile de reglementare revizuiesc procesele de RU
+- Acordurile de muncă la nivel executiv sunt analizate
 
-Integrity uncertainty increases:
+Disputele de muncă se învârt frecvent în jurul cronologiei documentelor și revendicărilor de modificare.
 
-- Legal liability
-- Settlement costs
-- Reputation risk
-- Governance fragility
-- Employee distrust
-
-Employment documentation must remain defensible across long timeframes.
+Determinismul structural devine atenuarea riscului.
 
 ---
 
-## 2. Regulatory & Legal Context
+## 1. Peisajul Riscurilor în RU
 
-HR operations are subject to:
+Departamentele de RU se confruntă cu expunere în:
 
-- Labor law
-- Employment protection regulation
-- Data protection frameworks
-- Workplace compliance obligations
-- Anti-discrimination laws
-- Internal governance rules
+- Dispute privind amendamentele contractuale
+- Acuzații de antedatare
+- Acuzații de anexe lipsă
+- Revendicări de manipulare a versiunilor
+- Provocări ale dosarelor de investigație
+- Dispute privind evaluările de performanță
+- Conflicte de negociere colectivă
+- Litigii privind compensațiile executive
 
-Courts and regulators expect:
+Incertitudinea integrității crește:
 
-- Traceable documentation
-- Timestamp reliability
-- Version clarity
-- Non-modification
-- Reproducible evidence
+- Răspunderea legală
+- Costurile de soluționare
+- Riscul reputațional
+- Fragilitatea guvernanței
+- Neîncrederea angajaților
 
-VeriSeal does not replace compliance systems.
-
-It reinforces the cryptographic integrity beneath them.
-
----
-
-## 3. Operational Pain Points
-
-## 3.1 Contract & Amendment Disputes
-
-Common disputes include:
-
-- Alleged clause modification
-- Backdated contract amendments
-- Signature authenticity challenges
-- Disputed annex versions
-- Version continuity conflicts
-
-VIP-STD-001 ensures deterministic canonical reproducibility.
-
-VIP-STD-003 optionally ensures immutable chronology.
+Documentația de muncă trebuie să rămână apărată pe perioade lungi de timp.
 
 ---
 
-## 3.2 Disciplinary & Investigation Integrity
+## 2. Contextul Reglementar și Legal
 
-In disciplinary cases:
+Operațiunile de RU sunt supuse:
 
-- Employees may allege record alteration
-- Chronology may be contested
-- Procedural fairness may be questioned
+- Legii muncii
+- Reglementărilor de protecție a muncii
+- Cadrelor de protecție a datelor
+- Obligațiilor de conformitate la locul de muncă
+- Legilor anti-discriminare
+- Regulilor de guvernanță internă
 
-Deterministic tamper detection strengthens defensibility.
+Instanțele și reglementatorii așteaptă:
 
----
+- Documentație trasabilă
+- Fiabilitatea marcajului temporal
+- Claritatea versiunilor
+- Nemodificare
+- Dovezi reproducibile
 
-## 3.3 Forged or Altered Employment Documents
+VeriSeal nu înlocuiește sistemele de conformitate.
 
-Fraud scenarios may include:
-
-- Forged employment certificates
-- Altered salary confirmations
-- Modified termination letters
-- Fake managerial approvals
-
-If institutional signatures are bound via VIP-STF-005 and public keys are transparently registered (VIP-REG-006):
-
-Forgery becomes cryptographically detectable.
+Întărește integritatea criptografică de sub ele.
 
 ---
 
-## 3.4 Long-Term Archival Requirements
+## 3. Puncte de Durere Operaționale
 
-Employment records may be required years later for:
+## 3.1 Dispute privind Contractele și Amendamentele
 
-- Litigation
-- Pension disputes
-- Regulatory audits
-- Corporate investigations
-- M&A due diligence
+Dispute comune includ:
 
-Integrity must survive:
+- Modificarea presupusă a clauzelor
+- Amendamente contractuale antedatate
+- Provocări privind autenticitatea semnăturii
+- Versiuni de anexe disputate
+- Conflicte de continuitate a versiunilor
 
-- System migration
-- Vendor replacement
-- Corporate restructuring
+VIP-STD-001 asigură reproducibilitatea canonică deterministă.
 
-Deterministic hashing ensures reproducibility independent of platform.
+VIP-STD-003 asigură opțional cronologia imuabilă.
 
 ---
 
-## 4. Where VeriSeal Changes the Risk Model
+## 3.2 Integritatea Disciplinară și a Investigațiilor
 
-VeriSeal introduces:
+În cazurile disciplinare:
 
-### Deterministic Canonical Integrity (VIP-STD-001)
+- Angajații pot susține alterarea înregistrărilor
+- Cronologia poate fi contestată
+- Corectitudinea procedurală poate fi pusă sub semnul întrebării
 
-- Strict canonical serialization
-- Byte-level reproducibility
-- SHA-256 structural binding
-
-### Append-Only Chronology (VIP-STD-003)
-
-- Immutable event sequencing
-- Version evolution traceability
-
-### Institutional Signature Binding (VIP-STF-005)
-
-- HR-level authorization validation
-- Executive sign-off authentication
-- Multi-party acknowledgment reinforcement
-
-### Public Key Transparency (VIP-REG-006)
-
-- Cross-entity verification
-- Anti-impersonation protection
-
-### External Time Anchoring (VIP-STD-004)
-
-- Independent timestamp corroboration
-- Anti-backdating reinforcement
-
-This transforms:
-
-Internal HR documentation
-into
-cryptographically defensible employment records.
+Detectarea deterministă a manipulării întărește apărarea.
 
 ---
 
-## 5. Competitive Positioning
+## 3.3 Documente de Muncă Falsificate sau Modificate
 
-## Versus Standard HR Platforms
+Scenariile de fraudă pot include:
 
-HR platforms:
-- Infrastructure-dependent
-- Vendor-controlled
-- Often governance-based rather than deterministic
+- Certificate de muncă falsificate
+- Confirmări de salariu modificate
+- Scrisori de încetare modificate
+- Aprobări manageriale false
+
+Dacă semnăturile instituționale sunt legate prin VIP-STF-005 și cheile publice sunt înregistrate transparent (VIP-REG-006):
+
+Falsificarea devine detectabilă criptografic.
+
+---
+
+## 3.4 Cerințe de Arhivare pe Termen Lung
+
+Documentele de muncă pot fi necesare ani mai târziu pentru:
+
+- Litigii
+- Dispute privind pensiile
+- Audite de reglementare
+- Investigații corporative
+- Diligență în fuziuni și achiziții
+
+Integritatea trebuie să supraviețuiască:
+
+- Migrației sistemului
+- Înlocuirii furnizorului
+- Restructurării corporative
+
+Hashing-ul determinist asigură reproducibilitatea independentă de platformă.
+
+---
+
+## 4. Unde VeriSeal Schimbă Modelul de Risc
+
+VeriSeal introduce:
+
+### Integritate Canonică Deterministă (VIP-STD-001)
+
+- Serializare canonică strictă
+- Reproducibilitate la nivel de byte
+- Legare structurală SHA-256
+
+### Cronologie Doar pentru Adăugare (VIP-STD-003)
+
+- Secvențiere imuabilă a evenimentelor
+- Trasabilitatea evoluției versiunilor
+
+### Legare a Semnăturii Instituționale (VIP-STF-005)
+
+- Validarea autorizării la nivel de RU
+- Autentificarea semnăturii executive
+- Întărirea recunoașterii multi-partite
+
+### Transparența Cheii Publice (VIP-REG-006)
+
+- Verificare între entități
+- Protecție anti-impostură
+
+### Ancorare Temporală Externă (VIP-STD-004)
+
+- Coroborare independentă a marcajului temporal
+- Întărirea anti-antedatare
+
+Aceasta transformă:
+
+Documentația internă de RU
+în
+înregistrări de muncă apărate criptografic.
+
+---
+
+## 5. Poziționare Competitivă
+
+## Față de Platformele Standard de RU
+
+Platformele de RU:
+- Dependente de infrastructură
+- Controlate de furnizor
+- Adesea bazate pe guvernanță mai degrabă decât deterministe
 
 VeriSeal:
-- Infrastructure-neutral
-- Deterministic
-- Independently verifiable
-- Recomputable without vendor dependency
+- Neutru din punct de vedere al infrastructurii
+- Determinist
+- Verificabil independent
+- Recomputabil fără dependență de furnizor
 
 ---
 
-## Versus Digital Signature Alone
+## Față de Semnătura Digitală Singură
 
-Digital signatures:
-- Validate signer identity
-- Do not enforce canonical structure
-- Do not guarantee chronological continuity
+Semnăturile digitale:
+- Validează identitatea semnatarului
+- Nu impun structură canonică
+- Nu garantează continuitatea cronologică
 
 VeriSeal:
-- Enforces structural determinism
-- Supports immutable sequencing
-- Complements signature frameworks
+- Impune determinism structural
+- Suportă secvențiere imuabilă
+- Completează cadrele de semnătură
 
 ---
 
-## Versus Blockchain-Based HR Systems
+## Față de Sistemele de RU Bazate pe Blockchain
 
-Blockchain-only HR systems:
-- Governance complexity
-- Privacy concerns
-- Operational overhead
+Sistemele de RU doar pe blockchain:
+- Complexitate de guvernanță
+- Probleme de confidențialitate
+- Suprasarcină operațională
 
 VeriSeal:
-- Lightweight
-- Privacy-compatible
-- Blockchain-optional
-- Integration-friendly
+- Ușor
+- Compatibil cu confidențialitatea
+- Opțional blockchain
+- Prietenos cu integrarea
 
 ---
 
-## 6. Deployment Architecture
+## 6. Arhitectura de Implementare
 
-VeriSeal integrates into:
+VeriSeal se integrează în:
 
-- HR management systems
-- Contract lifecycle platforms
-- Payroll systems
-- Employee onboarding workflows
-- Investigation documentation pipelines
-- Executive agreement workflows
+- Sisteme de management al RU
+- Platforme de cicluri de viață ale contractelor
+- Sisteme de salarizare
+- Fluxuri de lucru pentru integrarea angajaților
+- Fluxuri de documentare a investigațiilor
+- Fluxuri de acorduri executive
 
-Deployment models:
+Modele de implementare:
 
-- API-based integrity engine
-- On-prem cryptographic module
-- Embedded compliance layer
-- Internal verification portal
+- Motor de integritate bazat pe API
+- Modul criptografic on-prem
+- Strat de conformitate încorporat
+- Portal intern de verificare
 
-Integration remains modular and reversible.
-
----
-
-## 7. ROI & Governance Stabilization
-
-Without deterministic integrity:
-
-- Litigation volatility increases
-- Settlement leverage shifts
-- Investigation defensibility weakens
-- Governance credibility erodes
-- Audit exposure increases
-
-VeriSeal reduces:
-
-- Evidentiary ambiguity
-- Alteration allegations
-- Fraud exposure
-- Chronology manipulation risk
-
-Integrity stabilizes employment governance.
+Integrarea rămâne modulară și reversibilă.
 
 ---
 
-## 8. Target Stakeholders
+## 7. ROI și Stabilizarea Guvernanței
 
-Within organizations:
+Fără integritate deterministă:
 
-- Chief Human Resources Officers
-- HR Directors
-- Legal departments
-- Compliance officers
-- Internal audit
-- Corporate governance boards
-- Executive leadership
+- Volatilitatea litigiilor crește
+- Levierul de soluționare se schimbă
+- Apărarea investigațiilor slăbește
+- Credibilitatea guvernanței se erodează
+- Expunerea la audit crește
 
----
+VeriSeal reduce:
 
-## 9. Strategic Positioning
+- Ambiguitatea probelor
+- Acuzațiile de alterare
+- Expunerea la fraudă
+- Riscul de manipulare a cronologiei
 
-VeriSeal is:
-
-- An employment record integrity reinforcement layer
-- A fraud detectability enabler
-- A governance defensibility engine
-- A cryptographic documentation infrastructure
-- A sovereign integrity layer
-
-It is NOT:
-
-- A payroll engine
-- A talent management system
-- A policy framework
-- A regulatory authority
-
-It is integrity infrastructure.
+Integritatea stabilizează guvernanța muncii.
 
 ---
 
-## 10. Executive Perspective
+## 8. Părțile Interesate Țintă
 
-For HR Leadership:
-- Reduced litigation ambiguity
-- Stronger procedural defensibility
+În cadrul organizațiilor:
 
-For Legal:
-- Deterministic recomputation capability
-- Clear evidentiary continuity
-
-For Compliance:
-- Transparent audit reproducibility
-- Reduced documentation fragility
-
-For IT:
-- Infrastructure-neutral integration
-- Minimal architectural disruption
+- Directorii de Resurse Umane
+- Directorii de RU
+- Departamentele juridice
+- Ofițerii de conformitate
+- Auditul intern
+- Consiliile de guvernanță corporativă
+- Conducerea executivă
 
 ---
 
-## Conclusion
+## 9. Poziționare Strategică
 
-Employment relationships can become adversarial.
+VeriSeal este:
 
-In such contexts, documentation integrity determines defensibility.
+- Un strat de întărire a integrității înregistrărilor de muncă
+- Un facilitator al detectabilității fraudei
+- Un motor de apărare a guvernanței
+- O infrastructură de documentare criptografică
+- Un strat de integritate suverană
 
-VeriSeal provides:
+Nu este:
 
-- Deterministic structural integrity
-- Independent verification
-- Institutional signature validation
-- Optional external anchoring
-- Forgery detectability reinforcement
+- Un motor de salarizare
+- Un sistem de management al talentelor
+- Un cadru de politici
+- O autoritate de reglementare
 
-It strengthens HR governance without replacing HR systems.
-
-It acts as a sovereign integrity engine for employment ecosystems.
-
----
-
-## Human Resources Sector - Targeted FAQ
-
-### 1. Does VeriSeal prevent employment disputes?
-
-No.
-
-It strengthens evidentiary defensibility in case of dispute.
+Este infrastructură de integritate.
 
 ---
 
-### 2. Can HR documents be altered without detection?
+## 10. Perspectiva Executivă
 
-If protected by VeriSeal:
+Pentru Conducerea RU:
+- Reducerea ambiguității litigiilor
+- Apărare procedurală mai puternică
 
-Any modification in:
-- Content
-- Metadata
-- Timestamp
-- Ordering
+Pentru Juridic:
+- Capacitate de recalcul deterministă
+- Continuitate clară a probelor
 
-Produces a different hash.
+Pentru Conformitate:
+- Reproducibilitate transparentă a auditului
+- Reducerea fragilității documentației
 
-Integrity verification fails.
-
----
-
-### 3. Can VeriSeal prevent forged employment certificates?
-
-If institutional signatures are bound (VIP-STF-005) and keys are transparently registered (VIP-REG-006):
-
-Forgery becomes detectable.
-
-Unauthorized documents cannot be cryptographically validated.
+Pentru IT:
+- Integrare neutră din punct de vedere al infrastructurii
+- Perturbare arhitecturală minimă
 
 ---
 
-### 4. Does VeriSeal compromise employee privacy?
+## Concluzie
 
-No.
+Relațiile de muncă pot deveni adversariale.
 
-VeriSeal operates on hashes.
+În astfel de contexte, integritatea documentației determină apărarea.
 
-Hashes do not reveal content.
+VeriSeal oferă:
 
-Personal data remains institution-controlled.
+- Integritate structurală deterministă
+- Verificare independentă
+- Validarea semnăturii instituționale
+- Ancorare externă opțională
+- Întărirea detectabilității falsificării
 
----
+Întărește guvernanța RU fără a înlocui sistemele de RU.
 
-### 5. Can VeriSeal support executive-level contract defensibility?
-
-Yes.
-
-It strengthens:
-
-- Version integrity
-- Chronological consistency
-- Independent recomputation capability
+Acționează ca un motor de integritate suverană pentru ecosistemele de muncă.
 
 ---
 
-### 6. Is VeriSeal required for all HR processes?
+## Sectorul Resurse Umane - Întrebări Frecvente Țintite
 
-No.
+### 1. VeriSeal previne disputele de muncă?
 
-Adoption may focus on:
+Nu.
 
-- Executive contracts
-- High-risk terminations
-- Sensitive investigations
-- Cross-border employment
-- Regulatory-sensitive roles
-
-Deployment can remain risk-proportional.
+Întărește apărarea probelor în caz de dispută.
 
 ---
 
-### 7. In one sentence: why consider VeriSeal in HR?
+### 2. Documentele de RU pot fi modificate fără detectare?
 
-Because employment disputes often hinge on document integrity and chronology, and deterministic tamper detection strengthens institutional defensibility.
+Dacă sunt protejate de VeriSeal:
 
-## Contribution to the Global Evidence Standard
+Orice modificare în:
+- Conținut
+- Metadate
+- Marcaj temporal
+- Ordine
 
-VeriSeal deployment in this sector contributes to the emergence of a globally interoperable evidence format.
+Produce un hash diferit.
 
-Each verified proof strengthens:
+Verificarea integrității eșuează.
 
-- Cross-border evidentiary alignment
-- Deterministic verification standards
-- Interoperable cryptographic audit trails
-- Institutional-grade integrity frameworks
+---
 
-Sector adoption accelerates standardization.
+### 3. VeriSeal poate preveni certificatele de muncă falsificate?
 
-Standardization accelerates inevitability.
+Dacă semnăturile instituționale sunt legate (VIP-STF-005) și cheile sunt înregistrate transparent (VIP-REG-006):
 
-## Structural Applicability
+Falsificarea devine detectabilă.
 
-Beyond the examples described above, VeriSeal applies to any digitally generated evidence within this sector, including but not limited to:
+Documentele neautorizate nu pot fi validate criptografic.
 
-- contractual documentation
-- compliance reporting
-- internal audit trails
-- regulatory disclosures
-- transactional attestations
-- cross-institutional exchanges
-- customer-generated digital evidence
-- time-sensitive records
+---
 
-VeriSeal's role is infrastructural, not situational.
+### 4. VeriSeal compromite confidențialitatea angajaților?
 
-Its function is to establish verifiable integrity, deterministic timestamping, and independent public verification across all digital evidence categories within the sector.
+Nu.
 
+VeriSeal operează pe hash-uri.
+
+Hash-urile nu dezvăluie conținutul.
+
+Datele personale rămân controlate de instituție.
+
+---
+
+### 5. VeriSeal poate sprijini apărarea contractelor la nivel executiv?
+
+Da.
+
+Întărește:
+
+- Integritatea versiunilor
+- Consistența cronologică
+- Capacitatea de recalcul independentă
+
+---
+
+### 6. VeriSeal este necesar pentru toate procesele de RU?
+
+Nu.
+
+Adoptarea se poate concentra pe:
+
+- Contracte executive
+- Încetări cu risc ridicat
+- Investigații sensibile
+- Muncă transfrontalieră
+- Roluri sensibile la reglementare
+
+Implementarea poate rămâne proporțională cu riscul.
+
+---
+
+### 7. Într-o propoziție: de ce să considerați VeriSeal în RU?
+
+Pentru că disputele de muncă se bazează adesea pe integritatea documentelor și cronologie, iar detectarea deterministă a manipulării întărește apărarea instituțională.
+
+## Contribuția la Standardul Global de Dovezi
+
+Implementarea VeriSeal în acest sector contribuie la apariția unui format de dovezi interoperabil la nivel global.
+
+Fiecare dovadă verificată întărește:
+
+- Alinierea probelor transfrontaliere
+- Standardele de verificare deterministă
+- Urmele de audit criptografice interoperabile
+- Cadrele de integritate de nivel instituțional
+
+Adoptarea sectorială accelerează standardizarea.
+
+Standardizarea accelerează inevitabilitatea.
+
+## Aplicabilitate Structurală
+
+Dincolo de exemplele descrise mai sus, VeriSeal se aplică oricărei dovezi generate digital în acest sector, inclusiv, dar fără a se limita la:
+
+- documentație contractuală
+- raportare de conformitate
+- urme de audit intern
+- dezvăluiri de reglementare
+- atestări tranzacționale
+- schimburi interinstituționale
+- dovezi digitale generate de clienți
+- înregistrări sensibile la timp
+
+Rolul VeriSeal este infrastructural, nu situațional.
+
+Funcția sa este de a stabili integritate verificabilă, marcaj temporal determinist și verificare publică independentă în toate categoriile de dovezi digitale din sector.

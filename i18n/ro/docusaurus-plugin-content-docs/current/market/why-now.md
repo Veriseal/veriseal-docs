@@ -1,46 +1,48 @@
+Fișier: why-now.md
+
 ---
-title: Why Now
+title: De ce acum
 sidebar_position: 2
 ---
 
-# Why Now
+# De ce acum
 
-## 1. AI Reshapes Evidence
+## 1. Inteligența Artificială Restructurează Dovezile
 
-Synthetic media generation is accelerating.  
-Distinguishing authentic digital events from manipulated ones is becoming structurally complex.
+Generarea de media sintetică se accelerează.  
+Distincția între evenimentele digitale autentice și cele manipulate devine structural complexă.
 
-Traditional tools were not designed for this environment.
-
----
-
-## 2. Regulatory Pressure Is Increasing
-
-Across jurisdictions:
-
-- Financial regulators demand traceability.
-- Legal systems require evidentiary robustness.
-- Cross-border compliance complexity is rising.
-
-Integrity is no longer optional — it is strategic.
+Instrumentele tradiționale nu au fost concepute pentru acest mediu.
 
 ---
 
-## 3. Digital Fragmentation
+## 2. Presiunea Reglementară Este în Creștere
 
-Current systems operate in silos:
+În diverse jurisdicții:
 
-- Platforms verify internally.
-- Timestamping lacks structural binding.
-- Blockchain anchoring lacks governance layer.
-- E-signature lacks deterministic data structure integrity.
+- Reglementatorii financiari cer trasabilitate.
+- Sistemele juridice necesită robustețe probatorie.
+- Complexitatea conformității transfrontaliere este în creștere.
 
-There is no unified global integrity model.
+Integritatea nu mai este opțională — este strategică.
 
 ---
 
-## 4. Strategic Window
+## 3. Fragmentarea Digitală
 
-The infrastructure layer for digital proof remains undefined at global scale.
+Sistemele actuale operează în silozuri:
 
-VeriSeal enters at this structural inflection point.
+- Platformele verifică intern.
+- Marcarea temporală lipsește de legături structurale.
+- Ancorarea în blockchain lipsește de un strat de guvernanță.
+- Semnătura electronică lipsește de integritatea structurii de date deterministice.
+
+Nu există un model global unificat de integritate.
+
+---
+
+## 4. Fereastră Strategică
+
+Stratul de infrastructură pentru dovada digitală rămâne nedefinit la scară globală.
+
+VeriSeal intră în acest punct de inflexiune structurală.

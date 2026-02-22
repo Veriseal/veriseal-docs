@@ -1,149 +1,148 @@
 ---
-title: The VeriSeal Integrity Standard
+title: Standardul de Integritate VeriSeal
 sidebar_position: 1
 ---
 
-# The VeriSeal Integrity Standard
+# Standardul de Integritate VeriSeal
 
-## From product to standard
+## De la produs la standard
 
-VeriSeal is not positioned as a software product.
+VeriSeal nu este poziționat ca un produs software.
 
-It is structured as an integrity framework that can operate as:
+Este structurat ca un cadru de integritate care poate funcționa ca:
 
-- A proprietary engine
-- An open verification format
-- A sectoral compliance layer
-- A future global integrity standard
+- Un motor proprietar
+- Un format deschis de verificare
+- Un strat de conformitate sectorial
+- Un viitor standard global de integritate
 
-The long-term objective is structural adoption - not software dependency.
-
----
-
-## Why a standard is necessary
-
-Digital systems have standards for:
-
-- Payments
-- Identity
-- Messaging
-- Encryption
-
-But there is no widely adopted standard for:
-
-> Verifiable digital evidence integrity.
-
-Most systems produce logs.
-
-Few produce mathematically verifiable events.
-
-The absence of an integrity standard creates:
-
-- Jurisdictional fragility
-- Vendor lock-in
-- Regulatory inconsistency
-- Evidence incompatibility across sectors
+Obiectivul pe termen lung este adoptarea structurală — și nu dependența de software.
 
 ---
 
-## The structural layers
+## De ce este necesar un standard
 
-The VeriSeal Standard is organized into distinct layers:
+Sistemele digitale au standarde pentru:
 
-### 1. Canonicalization layer
-Deterministic formatting of digital events.
+- Plăți
+- Identitate
+- Mesagerie
+- Criptare
 
-### 2. Hashing layer
-SHA-256 deterministic hashing of payloads.
+Dar nu există un standard larg adoptat pentru:
 
-### 3. Ledger layer
-Append-only chain using `prev_hash` continuity.
+> Integritatea verificabilă a dovezilor digitale.
 
-### 4. Proof binding layer
-Binding of UX events, media, identity, and ledger entry.
+Majoritatea sistemelor produc jurnale.
 
-### 5. Public verification layer
-JSON-based public verification endpoints.
+Puține produc evenimente verificabile matematic.
 
-### 6. External anchoring layer
-Optional Bitcoin anchoring via OpenTimestamps.
+Absenta unui standard de integritate creează:
 
-Each layer is independently verifiable.
-
----
-
-## Vendor independence
-
-The integrity model is designed so that:
-
-- Verification does not require VeriSeal servers.
-- Proof bundles remain verifiable without SaaS dependency.
-- Public JSON acts as canonical source of truth.
-- PDF is render-only and not authoritative.
-
-The system can survive institutional failure.
+- Fragilitate jurisdicțională
+- Blocare de furnizor
+- Inconsistență de reglementare
+- Incompatibilitate a dovezilor între sectoare
 
 ---
 
-## Governance model
+## Straturile structurale
 
-The standard can evolve toward:
+Standardul VeriSeal este organizat în straturi distincte:
 
-- Open documentation
-- Sectoral adoption frameworks
-- Compliance mapping
-- Certification models
-- Conformance testing
+### 1. Strat de canonicizare
+Formatarea deterministă a evenimentelor digitale.
 
-VeriSeal as a company builds the engine.
+### 2. Strat de hashing
+Hashing determinist SHA-256 al datelor.
 
-VeriSeal as a standard defines the format.
+### 3. Strat de registru
+Lanț adăugare-doar folosind continuitatea `prev_hash`.
 
-These are structurally separable.
+### 4. Strat de legare a dovezilor
+Legarea evenimentelor UX, media, identitate și înregistrare în registru.
+
+### 5. Strat de verificare publică
+Puncte de verificare publică bazate pe JSON.
+
+### 6. Strat de ancorare externă
+Ancorare opțională Bitcoin prin OpenTimestamps.
+
+Fiecare strat este verificabil independent.
+
+---
+
+## Independența față de furnizor
+
+Modelul de integritate este conceput astfel încât:
+
+- Verificarea nu necesită servere VeriSeal.
+- Pachetele de dovezi rămân verificabile fără dependență de SaaS.
+- JSON public acționează ca sursă canonică de adevăr.
+- PDF-ul este doar pentru redare și nu este autoritar.
+
+Sistemul poate supraviețui eșecului instituțional.
+
+---
+
+## Model de guvernanță
+
+Standardul poate evolua către:
+
+- Documentație deschisă
+- Cadre de adoptare sectorială
+- Mapare de conformitate
+- Modele de certificare
+- Testare de conformitate
+
+VeriSeal ca și companie construiește motorul.
+
+VeriSeal ca și standard definește formatul.
+
+Acestea sunt structural separabile.
 
 ---
 
 ## Standard vs. SaaS
 
-SaaS model:
-- Access-controlled
-- Platform-dependent
-- Closed verification logic
+Model SaaS:
+- Acces controlat
+- Dependent de platformă
+- Logică de verificare închisă
 
-Integrity standard model:
-- Publicly documented
-- Independently verifiable
-- Cryptographically deterministic
-- Interoperable across sectors
+Model de standard de integritate:
+- Documentat public
+- Verificabil independent
+- Determinist criptografic
+- Interoperabil între sectoare
 
-VeriSeal is architected toward the second model.
-
----
-
-## Path toward global adoption
-
-Standardization requires:
-
-1. Cross-sector interoperability
-2. Regulatory compatibility
-3. Institutional-grade documentation
-4. Auditability
-5. Long-term cryptographic durability
-
-VeriSeal is structured to meet these requirements incrementally.
+VeriSeal este arhitecturat către al doilea model.
 
 ---
 
-## Strategic positioning
+## Calea către adoptarea globală
 
-In the long term, digital ecosystems will differentiate between:
+Standardizarea necesită:
 
-- Systems that generate unverifiable logs
-- Systems that produce verifiable proof objects
+1. Interoperabilitate între sectoare
+2. Compatibilitate de reglementare
+3. Documentație de nivel instituțional
+4. Auditabilitate
+5. Durabilitate criptografică pe termen lung
 
-The VeriSeal Integrity Standard defines the second category.
+VeriSeal este structurat pentru a îndeplini aceste cerințe treptat.
 
-This is not a feature.
+---
 
-It is infrastructure.
+## Poziționare strategică
 
+Pe termen lung, ecosistemele digitale vor diferenția între:
+
+- Sisteme care generează jurnale neverificabile
+- Sisteme care produc obiecte de dovadă verificabile
+
+Standardul de Integritate VeriSeal definește a doua categorie.
+
+Aceasta nu este o caracteristică.
+
+Este infrastructură.

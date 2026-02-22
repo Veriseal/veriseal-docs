@@ -1,28 +1,28 @@
 ---
 id: threat-model
-title: Threat Model
+title: Modèle de Menace
 ---
 
 ﻿---
-title: Threat Model & Adversarial Analysis
-sidebar_label: Threat Model (Annex)
+title: Modèle de Menace & Analyse Adversariale
+sidebar_label: Modèle de Menace (Annexe)
 ---
 
-# Threat Model & Adversarial Analysis
+# Modèle de Menace & Analyse Adversariale
 
-This annex provides a structured adversarial analysis of the VeriSeal integrity infrastructure.
+Cette annexe fournit une analyse adversariale structurée de l'infrastructure d'intégrité de VeriSeal.
 
-## Scope
+## Portée
 
-This document defines:
+Ce document définit :
 
-- Threat actors
-- Trust boundaries
-- Attack surfaces
-- Mitigations
-- Residual risks
-- Governance requirements
+- Acteurs menaçants
+- Limites de confiance
+- Surfaces d'attaque
+- Atténuations
+- Risques résiduels
+- Exigences de gouvernance
 
-VeriSeal secures structural integrity, not semantic truth.
+VeriSeal sécurise l'intégrité structurelle, non la vérité sémantique.
 
-(Full detailed content already injected previously.)
+(Contenu détaillé complet déjà injecté précédemment.)

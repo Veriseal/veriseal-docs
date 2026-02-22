@@ -1,181 +1,181 @@
 ---
-title: VIP-STD-003 - VeriSeal Signature Profile
+title: VIP-STD-003 - Profilul de Semnătură VeriSeal
 sidebar_label: VIP-STD-003
 ---
 
-# VIP-STD-003 - VeriSeal Signature Profile Specification
+# VIP-STD-003 - Specificația Profilului de Semnătură VeriSeal
 
-Version: 1.0
-Status: Public Draft
-Classification: Open Integrity Standard
-
----
-
-## 1. Scope
-
-This document defines the signature profile for the VeriSeal Integrity Protocol.
-
-VIP-STD-003 specifies:
-
-- Signature coverage requirements
-- Permitted signature algorithms
-- Deterministic verification rules
-- Signature object structure
-- Compliance constraints
-
-This specification builds upon VIP-STD-001 and VIP-STD-002.
+Versiune: 1.0
+Stare: Proiect Public
+Clasificare: Standard de Integritate Deschis
 
 ---
 
-## 2. Signature Model Overview
+## 1. Domeniu de Aplicare
 
-Signatures are OPTIONAL in VIP-STD-001 but become formally defined in this profile.
+Acest document definește profilul de semnătură pentru Protocolul de Integritate VeriSeal.
 
-A signature MUST cryptographically bind:
+VIP-STD-003 specifică:
 
-- The canonical proof object (VIP-STD-001)
-- The proof hash
-- Optionally the ledger entry (VIP-STD-002)
+- Cerințele de acoperire a semnăturii
+- Algoritmii de semnătură permiși
+- Reguli de verificare deterministice
+- Structura obiectului semnăturii
+- Constrângeri de conformitate
 
-Signature coverage MUST be deterministic.
+Această specificație se bazează pe VIP-STD-001 și VIP-STD-002.
 
 ---
 
-## 3. Signature Coverage Rules
+## 2. Prezentare Generală a Modelului de Semnătură
 
-The signature MUST be computed over:
+Semnăturile sunt OPȚIONALE în VIP-STD-001, dar devin definite formal în acest profil.
+
+O semnătură TREBUIE să lege criptografic:
+
+- Obiectul de dovadă canonic (VIP-STD-001)
+- Hash-ul dovezii
+- Opțional, înregistrarea în registru (VIP-STD-002)
+
+Acoperirea semnăturii TREBUIE să fie deterministă.
+
+---
+
+## 3. Reguli de Acoperire a Semnăturii
+
+Semnătura TREBUIE să fie calculată peste:
 
 SHA-256(canonical_proof_object)
 
-The exact byte representation defined in VIP-STD-001 Appendix C MUST be used.
+Reprezentarea exactă a octeților definită în Anexa C a VIP-STD-001 TREBUIE utilizată.
 
-No reserialization is permitted during verification.
+Nu este permisă nicio reserializare în timpul verificării.
 
 ---
 
-## 4. Signature Object Structure
+## 4. Structura Obiectului Semnăturii
 
-If present, a signature object MUST include:
+Dacă este prezent, un obiect de semnătură TREBUIE să includă:
 
 - signature_algorithm
 - public_key
 - signature_value
 
-No additional fields are permitted in version 1.0.
+Nu sunt permise câmpuri suplimentare în versiunea 1.0.
 
 ---
 
-## 5. Field Definitions
+## 5. Definiții ale Câmpurilor
 
 signature_algorithm
-MUST be one of:
+TREBUIE să fie unul dintre:
 
 - Ed25519
 - ECDSA-secp256k1
 - RSA-3072
 
 public_key
-MUST be encoded in hexadecimal or base64, depending on algorithm specification.
+TREBUIE să fie codificat în hexazecimal sau base64, în funcție de specificația algoritmului.
 
 signature_value
-MUST represent the raw signature bytes encoded in hexadecimal.
+TREBUIE să reprezinte octeții semnăturii brute codificați în hexazecimal.
 
 ---
 
-## 6. Deterministic Verification
+## 6. Verificare Deterministă
 
-Verification MUST:
+Verificarea TREBUIE să:
 
-1. Recompute proof hash
-2. Reconstruct canonical byte representation
-3. Verify signature against provided public_key
-4. Reject non-matching signatures
+1. Recalculeze hash-ul dovezii
+2. Reconstruiască reprezentarea canonică a octeților
+3. Verifice semnătura în raport cu public_key furnizat
+4. Respinge semnăturile care nu corespund
 
-Signature verification MUST be deterministic.
+Verificarea semnăturii TREBUIE să fie deterministă.
 
 ---
 
-## 7. Algorithm Requirements
+## 7. Cerințe ale Algoritmului
 
 ## 7.1 Ed25519
 
-- Deterministic by design
-- 64-byte signature
-- Public key 32 bytes
+- Determinist prin design
+- Semnătură de 64 de octeți
+- Cheie publică de 32 de octeți
 
 ## 7.2 ECDSA-secp256k1
 
-- Signature MUST be low-S normalized
-- Deterministic RFC 6979 signing REQUIRED
+- Semnătura TREBUIE să fie normalizată low-S
+- Semnarea deterministă RFC 6979 ESTE NECESARĂ
 
 ## 7.3 RSA-3072
 
-- Padding MUST use PKCS#1 v1.5 or PSS
-- Minimum modulus size 3072 bits
+- Padding-ul TREBUIE să utilizeze PKCS#1 v1.5 sau PSS
+- Dimensiunea minimă a modulului 3072 biți
 
 ---
 
-## 8. Security Considerations
+## 8. Considerații de Securitate
 
-Implementations MUST protect against:
+Implementările TREBUIE să protejeze împotriva:
 
-- Signature malleability
-- Signature stripping attacks
-- Key substitution attacks
-- Weak randomness in ECDSA
-- Replay attacks
+- Maleabilității semnăturii
+- Atacurilor de eliminare a semnăturii
+- Atacurilor de substituție a cheii
+- Randomizării slabe în ECDSA
+- Atacurilor de redare
 
-If a signature is present and invalid, the proof MUST be considered invalid.
-
----
-
-## 9. Compliance Requirements
-
-To claim compliance with VIP-STD-003:
-
-- Signature coverage MUST match Section 3
-- Algorithm MUST be one of the permitted algorithms
-- Verification MUST be deterministic
-- Invalid signatures MUST cause rejection
-
-Partial signature validation MUST NOT claim compliance.
+Dacă o semnătură este prezentă și invalidă, dovada TREBUIE considerată invalidă.
 
 ---
 
-## 10. Relationship to Other Standards
+## 9. Cerințe de Conformitate
 
-VIP-STD-003 extends:
+Pentru a revendica conformitatea cu VIP-STD-003:
 
-- VIP-STD-001 (canonical proof integrity)
-- VIP-STD-002 (ledger integrity)
+- Acoperirea semnăturii TREBUIE să corespundă Secțiunii 3
+- Algoritmul TREBUIE să fie unul dintre algoritmii permiși
+- Verificarea TREBUIE să fie deterministă
+- Semnăturile invalide TREBUIE să determine respingerea
 
-Full compliance requires adherence to all applicable profiles.
-
----
-
-## 11. Future Extensions
-
-Future versions MAY introduce:
-
-- Post-quantum signature algorithms
-- Multi-signature support
-- Threshold signatures
-- Certificate chain integration
-- Identity binding extensions
-
-Backward compatibility SHOULD be maintained.
+Validarea parțială a semnăturii NU TREBUIE să revendice conformitatea.
 
 ---
 
-## 12. Conclusion
+## 10. Relația cu Alte Standarde
 
-VIP-STD-003 defines the deterministic signature layer of VeriSeal.
+VIP-STD-003 extinde:
 
-It ensures:
+- VIP-STD-001 (integritatea dovezii canonice)
+- VIP-STD-002 (integritatea registrului)
 
-- Cryptographic authenticity
-- Deterministic verification
-- Algorithm constraints
-- Interoperable signature validation
+Conformitatea completă necesită respectarea tuturor profilurilor aplicabile.
 
-It completes the cryptographic integrity stack of VeriSeal.
+---
+
+## 11. Extensii Viitoare
+
+Versiunile viitoare POT introduce:
+
+- Algoritmi de semnătură post-cuantică
+- Suport pentru multi-semnături
+- Semnături de prag
+- Integrarea lanțului de certificate
+- Extensii de legare a identității
+
+Compatibilitatea retroactivă AR TREBUI să fie menținută.
+
+---
+
+## 12. Concluzie
+
+VIP-STD-003 definește stratul de semnătură deterministă al VeriSeal.
+
+Asigură:
+
+- Autenticitate criptografică
+- Verificare deterministă
+- Constrângeri ale algoritmului
+- Validare interoperabilă a semnăturii
+
+Completează stiva de integritate criptografică a VeriSeal.

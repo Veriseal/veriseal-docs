@@ -1,36 +1,36 @@
 ---
-title: Sector Applications
+title: Aplicații Sectoriale
 sidebar_position: 1
 ---
 
-# Sector Applications
+# Aplicații Sectoriale
 
-VeriSeal is sector-agnostic but integrity-critical.
+VeriSeal este independent de sector, dar esențial pentru integritate.
 
-This section explains how the framework applies
-to industries where digital proof has economic or legal consequences.
-
----
-
-## Primary Target Sectors
-
-- Financial & Banking Infrastructure
-- Insurance
-- Legal & Notarial Systems
-- Public Sector & Procurement
-- Digital Identity
-- Healthcare
-- Supply Chain
+Această secțiune explică modul în care cadrul se aplică
+industriilor în care dovada digitală are consecințe economice sau legale.
 
 ---
 
-## Deployment Philosophy
+## Sectoare Țintă Primare
 
-VeriSeal integrates:
+- Infrastructura Financiară și Bancară
+- Asigurări
+- Sisteme Legale și Notariale
+- Sector Public și Achiziții
+- Identitate Digitală
+- Sănătate
+- Lanț de Aprovizionare
 
-- As an API layer
-- As a verification backend
-- As a certification framework
-- As a compliance integrity module
+---
 
-Each sector implementation preserves the same deterministic core.
+## Filosofia de Implementare
+
+VeriSeal se integrează:
+
+- Ca un strat API
+- Ca un backend de verificare
+- Ca un cadru de certificare
+- Ca un modul de integritate pentru conformitate
+
+Fiecare implementare sectorială păstrează același nucleu determinist.

@@ -1,32 +1,32 @@
 ---
-title: Whitepaper
+title: Carte Albă
 sidebar_position: 1
 ---
 
-# VeriSeal Whitepaper
+# Carte Albă VeriSeal
 
-The whitepaper provides the full narrative and analytical foundation
-of the VeriSeal framework.
+Cartea albă oferă narațiunea completă și fundamentul analitic
+al cadrului VeriSeal.
 
-It is structured in five parts:
+Este structurată în cinci părți:
 
-1. The Proof Crisis
-2. Cryptographic Foundations
-3. Institutional & Sector Implications
-4. Industrialization & Deployment
-5. Long-Term Positioning
-
----
-
-## Purpose
-
-This document explains:
-
-- Why digital integrity must be deterministic
-- Why existing systems fail structurally
-- How VeriSeal establishes a new integrity layer
-- How it scales commercially and institutionally
+1. Criza Dovezilor
+2. Fundamentele Criptografice
+3. Implicații Instituționale și Sectoriale
+4. Industrializare și Implementare
+5. Poziționare pe Termen Lung
 
 ---
 
-The whitepaper is the conceptual backbone of the protocol.
+## Scop
+
+Acest document explică:
+
+- De ce integritatea digitală trebuie să fie deterministă
+- De ce sistemele existente eșuează structural
+- Cum VeriSeal stabilește un nou strat de integritate
+- Cum se extinde comercial și instituțional
+
+---
+
+Cartea albă este coloana vertebrală conceptuală a protocolului.

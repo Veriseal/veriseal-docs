@@ -1,202 +1,202 @@
 ---
-title: VIP-REG-001 - VeriSeal Regulatory Mapping
+title: VIP-REG-001 - Cartografierea Reglementară VeriSeal
 sidebar_label: VIP-REG-001
 ---
 
-# VIP-REG-001 - VeriSeal Regulatory Mapping
+# VIP-REG-001 - Cartografierea Reglementară VeriSeal
 
-Version: 1.0
-Status: Informational
-Classification: Regulatory Positioning
-
----
-
-## 1. Introduction
-
-This document provides a non-binding regulatory mapping of the VeriSeal Integrity Framework against selected European regulatory instruments.
-
-It is intended for:
-
-- Regulatory discussions
-- Institutional presentations
-- Compliance architecture analysis
-- Integration planning
-
-This document does NOT constitute legal advice.
+Versiune: 1.0
+Stare: Informativ
+Clasificare: Poziționare Reglementară
 
 ---
 
-## 2. Scope of Mapping
+## 1. Introducere
 
-The mapping references:
+Acest document oferă o cartografiere reglementară neobligatorie a Cadrului de Integritate VeriSeal în raport cu instrumentele reglementare europene selectate.
 
-- eIDAS Regulation (EU) No 910/2014
-- eIDAS 2.0 framework evolution
+Este destinat pentru:
+
+- Discuții reglementare
+- Prezentări instituționale
+- Analiza arhitecturii de conformitate
+- Planificarea integrării
+
+Acest document NU constituie consultanță juridică.
+
+---
+
+## 2. Domeniul de Aplicare al Cartografierii
+
+Cartografierea face referire la:
+
+- Regulamentul eIDAS (UE) nr. 910/2014
+- Evoluția cadrului eIDAS 2.0
 - ISO/IEC 27001
 - ISO/IEC 27002
-- NIS2 Directive
-- ETSI standards for electronic signatures and timestamping
+- Directiva NIS2
+- Standardele ETSI pentru semnături electronice și marcarea temporală
 
-This mapping focuses on technical alignment, not certification status.
-
----
-
-## 3. eIDAS Mapping
-
-## 3.1 Electronic Evidence Integrity
-
-VIP-STD-001 ensures:
-
-- Deterministic integrity
-- Tamper detection
-- Structural immutability
-
-This aligns with:
-
-- Article 41 (Integrity of electronic documents)
-- Electronic evidence preservation principles
-
-VeriSeal does NOT provide:
-
-- Qualified electronic signature status
-- Qualified trust service provider status
+Această cartografiere se concentrează pe alinierea tehnică, nu pe statutul de certificare.
 
 ---
 
-## 3.2 Electronic Signatures
+## 3. Cartografiere eIDAS
 
-VIP-STD-003 provides:
+## 3.1 Integritatea Dovezilor Electronice
 
-- Cryptographic authenticity
-- Deterministic verification
+VIP-STD-001 asigură:
 
-However:
+- Integritate deterministă
+- Detectarea modificărilor
+- Imuabilitate structurală
 
-- Identity verification is outside scope
-- Qualified signature certification is not included
-- Certificate trust chain validation is not defined in current version
+Aceasta se aliniază cu:
 
----
+- Articolul 41 (Integritatea documentelor electronice)
+- Principiile de păstrare a dovezilor electronice
 
-## 3.3 Timestamping
+VeriSeal NU oferă:
 
-VIP-STD-004 provides:
-
-- External temporal anchoring
-- Public verifiability
-- Deterministic anchor hash binding
-
-This aligns conceptually with:
-
-- ETSI EN 319 421 (Time-Stamping Policy and Security Requirements)
-
-It does NOT claim qualified timestamp authority status.
+- Statut de semnătură electronică calificată
+- Statut de furnizor de servicii de încredere calificat
 
 ---
 
-## 4. ISO/IEC 27001 Alignment
+## 3.2 Semnături Electronice
 
-The framework contributes to:
+VIP-STD-003 oferă:
 
-- A.8 - Asset Integrity
-- A.12 - Logging and Monitoring
-- A.14 - System Integrity Controls
-- A.18 - Compliance Evidence Preservation
+- Autenticitate criptografică
+- Verificare deterministă
 
-The framework itself is not an ISMS.
+Totuși:
 
-It may serve as a technical control component within an ISMS.
-
----
-
-## 5. NIS2 Directive Alignment
-
-VIP-STD-002 and VIP-STD-004 contribute to:
-
-- Incident traceability
-- Evidence preservation
-- Deterministic event integrity
-
-However, NIS2 requires:
-
-- Organizational governance
-- Risk management procedures
-- Incident reporting frameworks
-
-These are external to the protocol.
+- Verificarea identității este în afara domeniului
+- Certificarea semnăturii calificate nu este inclusă
+- Validarea lanțului de încredere al certificatului nu este definită în versiunea curentă
 
 ---
 
-## 6. Sovereignty Positioning
+## 3.3 Marcarea Temporală
 
-The framework is:
+VIP-STD-004 oferă:
 
-- Infrastructure-neutral
-- Vendor-neutral
-- Cryptographically deterministic
-- Openly verifiable
+- Ancorare temporală externă
+- Verificabilitate publică
+- Legare deterministă a hash-ului de ancorare
 
-It does not require:
+Aceasta se aliniază conceptual cu:
 
-- Foreign cloud dependency
-- Proprietary validation services
-- Closed verification infrastructure
+- ETSI EN 319 421 (Politica și cerințele de securitate pentru marcarea temporală)
 
-This supports digital sovereignty objectives.
+Nu revendică statutul de autoritate de marcă temporală calificată.
 
 ---
 
-## 7. Compliance Boundaries
+## 4. Alinierea la ISO/IEC 27001
 
-The VeriSeal Integrity Framework:
+Cadrul contribuie la:
 
-- Provides technical integrity guarantees
-- Does NOT provide legal certification
-- Does NOT provide identity assurance
-- Does NOT replace trust service providers
+- A.8 - Integritatea activelor
+- A.12 - Jurnalizare și monitorizare
+- A.14 - Controale de integritate a sistemului
+- A.18 - Păstrarea dovezilor de conformitate
 
-It may complement regulated trust services.
+Cadrul în sine nu este un ISMS.
 
----
-
-## 8. Regulatory Strategy Implications
-
-The framework may be positioned as:
-
-- Cryptographic evidence infrastructure
-- Integrity layer for regulated systems
-- Audit-supporting infrastructure
-- Complementary to qualified trust services
-
-It is NOT positioned as a replacement for:
-
-- Qualified Electronic Signature Providers
-- Qualified Timestamp Authorities
-- National PKI infrastructures
+Poate servi ca o componentă de control tehnic în cadrul unui ISMS.
 
 ---
 
-## 9. Future Regulatory Alignment
+## 5. Alinierea la Directiva NIS2
 
-Future extensions MAY include:
+VIP-STD-002 și VIP-STD-004 contribuie la:
 
-- Qualified timestamp profile
-- eIDAS 2.0 wallet integration
-- Identity binding profile
-- ETSI conformity alignment
-- Certification support profile
+- Trasabilitatea incidentelor
+- Păstrarea dovezilor
+- Integritatea deterministă a evenimentelor
+
+Totuși, NIS2 necesită:
+
+- Guvernanță organizațională
+- Proceduri de management al riscurilor
+- Cadre de raportare a incidentelor
+
+Acestea sunt externe protocolului.
 
 ---
 
-## 10. Conclusion
+## 6. Poziționarea Suveranității
 
-The VeriSeal Integrity Framework aligns technically with European regulatory integrity principles.
+Cadrul este:
 
-It provides:
+- Neutru din punct de vedere al infrastructurii
+- Neutru din punct de vedere al furnizorului
+- Determinist criptografic
+- Verificabil deschis
 
-- Deterministic tamper detection
-- Cryptographic structural integrity
-- External temporal corroboration
-- Modular compliance integration
+Nu necesită:
 
-Regulatory certification requires additional organizational, legal, and operational layers.
+- Dependență de cloud străin
+- Servicii de validare proprietare
+- Infrastructură de verificare închisă
+
+Aceasta sprijină obiectivele de suveranitate digitală.
+
+---
+
+## 7. Limitele Conformității
+
+Cadrul de Integritate VeriSeal:
+
+- Oferă garanții tehnice de integritate
+- NU oferă certificare legală
+- NU oferă asigurare de identitate
+- NU înlocuiește furnizorii de servicii de încredere
+
+Poate completa serviciile de încredere reglementate.
+
+---
+
+## 8. Implicațiile Strategiei Reglementare
+
+Cadrul poate fi poziționat ca:
+
+- Infrastructură de dovezi criptografice
+- Strat de integritate pentru sisteme reglementate
+- Infrastructură de suport pentru audit
+- Complementar serviciilor de încredere calificate
+
+NU este poziționat ca un înlocuitor pentru:
+
+- Furnizorii de Semnături Electronice Calificate
+- Autoritățile de Marcă Temporală Calificate
+- Infrastructurile PKI naționale
+
+---
+
+## 9. Alinierea Reglementară Viitoare
+
+Extensiile viitoare POT include:
+
+- Profil de marcă temporală calificată
+- Integrarea portofelului eIDAS 2.0
+- Profil de legare a identității
+- Alinierea conformității ETSI
+- Profil de suport pentru certificare
+
+---
+
+## 10. Concluzie
+
+Cadrul de Integritate VeriSeal se aliniază tehnic cu principiile de integritate reglementare europene.
+
+Oferă:
+
+- Detectarea deterministă a modificărilor
+- Integritate structurală criptografică
+- Coroborare temporală externă
+- Integrare modulară a conformității
+
+Certificarea reglementară necesită straturi suplimentare organizaționale, juridice și operaționale.

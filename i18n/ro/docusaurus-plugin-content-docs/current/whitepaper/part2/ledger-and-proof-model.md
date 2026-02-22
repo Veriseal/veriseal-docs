@@ -1,67 +1,67 @@
 ---
-title: Ledger & Proof Model
-sidebar_label: 2.2 Ledger & Proof Model
+title: Modelul Registrului și al Dovezilor
+sidebar_label: 2.2 Modelul Registrului și al Dovezilor
 slug: /whitepaper/part2/ledger-and-proof-model
 sidebar_position: 2.2
 ---
 
-# 2.2 Ledger & Proof Model
+# 2.2 Modelul Registrului și al Dovezilor
 
-The ledger is the structural backbone of VeriSeal.
+Registrul este coloana vertebrală structurală a VeriSeal.
 
-It is not a blockchain.
-It is a deterministic append-only integrity journal.
-
----
-
-## Proof Entry Structure
-
-Each proof entry contains:
-
-- proof_identifier (hash or merkle_root)
-- metadata reference
-- timestamp (UTC)
-- previous entry hash
-
-This creates chain continuity.
+Nu este un blockchain.
+Este un jurnal de integritate determinist, doar pentru adăugare.
 
 ---
 
-## Immutability Principle
+## Structura Înregistrării Dovezilor
 
-The ledger is:
+Fiecare înregistrare a dovezilor conține:
 
-- Append-only  
-- Hash-linked  
-- Deterministic  
+- identificator_dovadă (hash sau merkle_root)
+- referință la metadate
+- marcaj temporal (UTC)
+- hash-ul înregistrării anterioare
 
-Any historical alteration invalidates forward continuity.
+Aceasta creează continuitatea lanțului.
 
 ---
 
-## Public Identifier Stability
+## Principiul Imuabilității
 
-The proof identifier:
+Registrul este:
+
+- Doar pentru adăugare  
+- Legat prin hash  
+- Determinist  
+
+Orice modificare istorică invalidează continuitatea viitoare.
+
+---
+
+## Stabilitatea Identificatorului Public
+
+Identificatorul dovezii:
 
 `{merkle_root}`
 
-Functions as:
+Funcționează ca:
 
-- Permanent public reference
-- Cross-system integrity anchor
-- Audit-stable identifier
+- Referință publică permanentă
+- Ancoră de integritate între sisteme
+- Identificator stabil pentru audit
 
-It must remain stable over time.
+Trebuie să rămână stabil în timp.
 
 ---
 
-## Institutional Advantage
+## Avantaj Instituțional
 
-Unlike blockchain-based systems:
+Spre deosebire de sistemele bazate pe blockchain:
 
-- No probabilistic consensus
-- No fork instability
-- No dependency on external miners
+- Fără consens probabilistic
+- Fără instabilitate a bifurcațiilor
+- Fără dependență de mineri externi
 
-Integrity is mathematical.
-Not political.
+Integritatea este matematică.
+Nu politică.

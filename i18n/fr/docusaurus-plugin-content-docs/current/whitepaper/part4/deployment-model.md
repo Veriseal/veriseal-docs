@@ -1,47 +1,47 @@
 ---
 id: deployment-model
-title: Deployment Model
+title: Modèle de Déploiement
 sidebar_position: 4.2
 ---
 
-# Deployment Model
+# Modèle de Déploiement
 
-## Reference Stack
+## Pile de Référence
 
-Typical architecture may include:
+L'architecture typique peut inclure :
 
-- Application layer (e.g., FastAPI)
-- Deterministic proof generation
-- Append-only ledger database
-- Canonical JSON output
-- Optional timestamp anchoring
-- TLS-secured gateway layer
+- Couche d'application (par exemple, FastAPI)
+- Génération de preuve déterministe
+- Base de données de registre en en ajout seul
+- Sortie JSON canonique
+- Ancrage d'horodatage optionnel
+- Couche de passerelle sécurisée par TLS
 
-The specific stack may evolve.
+La pile spécifique peut évoluer.
 
-The deterministic proof model must remain stable.
-
----
-
-## Sovereign Configurations
-
-Institutions may require:
-
-- Data residency guarantees
-- Isolated infrastructure
-- Private verification endpoints
-- Internal governance controls
-
-Verification logic must remain interoperable across deployments.
+Le modèle de preuve déterministe doit rester stable.
 
 ---
 
-## Public Verification Separation
+## Configurations Souveraines
 
-Verification endpoints can operate independently from:
+Les institutions peuvent exiger :
 
-- Authentication systems
-- Business logic
-- Data storage
+- Garanties de résidence des données
+- Infrastructure isolée
+- Points de terminaison de vérification privés
+- Contrôles de gouvernance internes
 
-This ensures long-term verifiability even under organizational change.
+La logique de vérification doit rester interopérable entre les déploiements.
+
+---
+
+## Séparation de la Vérification Publique
+
+Les points de terminaison de vérification peuvent fonctionner indépendamment de :
+
+- Systèmes d'authentification
+- Logique métier
+- Stockage de données
+
+Cela garantit la vérifiabilité à long terme même en cas de changement organisationnel.

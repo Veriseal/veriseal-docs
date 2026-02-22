@@ -1,53 +1,53 @@
 ---
-title: Sector Applications
+title: Applications Sectorielles
 sidebar_position: 5
 ---
 
-# Sector Applications
+# Applications Sectorielles
 
-VeriSeal is cross-sector by design.
-
----
-
-## Banking & Financial Infrastructure
-
-- Transaction proof integrity
-- Cross-border compliance evidence
-- Fraud dispute mitigation
-- Regulatory audit traceability
+VeriSeal est conçu pour être intersectoriel.
 
 ---
 
-## Legal & Notarial
+## Banque & Infrastructure Financière
 
-- Deterministic document integrity
-- Long-term admissibility robustness
-- Structural evidence certification
-
----
-
-## Insurance
-
-- Claim event integrity
-- Evidence timeline stabilization
-- Adversarial dispute reduction
+- Intégrité des preuves de transaction
+- Preuve de conformité transfrontalière
+- Atténuation des litiges pour fraude
+- Traçabilité des audits réglementaires
 
 ---
 
-## Public Sector
+## Juridique & Notarial
 
-- Procurement traceability
-- Administrative proof logging
-- Inter-agency verification compatibility
-
----
-
-## Digital Platforms
-
-- User event certification
-- Content integrity protection
-- High-value transaction validation
+- Intégrité déterministe des documents
+- Robustesse de l'admissibilité à long terme
+- Certification des preuves structurelles
 
 ---
 
-VeriSeal is infrastructure-grade, not sector-specific software.
+## Assurance
+
+- Intégrité des événements de réclamation
+- Stabilisation de la chronologie des preuves
+- Réduction des litiges adverses
+
+---
+
+## Secteur Public
+
+- Traçabilité des approvisionnements
+- Journalisation des preuves administratives
+- Compatibilité de vérification inter-agences
+
+---
+
+## Plateformes Numériques
+
+- Certification des événements utilisateurs
+- Protection de l'intégrité du contenu
+- Validation des transactions de haute valeur
+
+---
+
+VeriSeal est une infrastructure de qualité, et non un logiciel spécifique à un secteur.

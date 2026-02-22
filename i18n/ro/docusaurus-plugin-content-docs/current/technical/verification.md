@@ -1,52 +1,51 @@
 ---
 id: verification
-title: Verification
+title: Verificare
 ---
 
 ﻿---
-title: Verification
+title: Verificare
 sidebar_position: 3
 ---
 
-# Verification
+# Verificare
 
-Verification is deterministic and does not rely on trusting VeriSeal.
+Verificarea este deterministă și nu se bazează pe încrederea în VeriSeal.
 
-## Source of truth order
+## Ordinea sursei de adevăr
 
-1) Ledger entry
-2) Public JSON
-3) PDF (presentation only)
+1) Înregistrare în registru
+2) JSON public
+3) PDF (doar pentru prezentare)
 
-## Procedure
+## Procedură
 
-1) Fetch canonical JSON:
+1) Obțineți JSON-ul canonic:
    - /public/verify/`{merkle_root}`/json
 
-2) Verify hashes:
-   - compute SHA-256 for artifacts (or bundle ZIP),
-   - compare to hashes in JSON.
+2) Verificați hash-urile:
+   - calculați SHA-256 pentru artefacte (sau arhiva ZIP),
+   - comparați cu hash-urile din JSON.
 
-3) Recompute Merkle root:
-   - from declared leaves and rules,
-   - confirm it matches merkle_root.
+3) Recalculați rădăcina Merkle:
+   - din frunzele și regulile declarate,
+   - confirmați că se potrivește cu merkle_root.
 
-4) Verify ledger chaining (when available):
-   - validate entry_hash and prev_hash consistency.
+4) Verificați înlănțuirea în registru (când este disponibilă):
+   - validați consistența entry_hash și prev_hash.
 
-5) Verify signatures (if present):
-   - PDF signature verification,
-   - optional JSON signature verification.
+5) Verificați semnăturile (dacă sunt prezente):
+   - verificarea semnăturii PDF,
+   - verificarea opțională a semnăturii JSON.
 
-6) Verify OpenTimestamps (if present):
-   - confirm stamped digest equals merkle_root/bundle hash,
-   - upgrade/verify and record state.
+6) Verificați OpenTimestamps (dacă sunt prezente):
+   - confirmați că digestul ștampilat este egal cu merkle_root/hash-ul pachetului,
+   - actualizați/verificați și înregistrați starea.
 
-## What to retain (regulated contexts)
+## Ce să rețineți (în contexte reglementate)
 
-- fetched public JSON,
-- artifacts (or bundle ZIP),
-- computed hashes,
-- signature verification outputs,
-- .ots file and verification output (if used).
-
+- JSON-ul public obținut,
+- artefactele (sau arhiva ZIP),
+- hash-urile calculate,
+- rezultatele verificării semnăturilor,
+- fișierul .ots și rezultatul verificării (dacă este utilizat).

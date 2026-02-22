@@ -1,27 +1,27 @@
 ---
 id: verification-procedure
-title: Verification Procedure
+title: Procédure de Vérification
 ---
 
 ﻿---
-title: Independent Verification Procedure
-sidebar_label: Verification Procedure
+title: Procédure de Vérification Indépendante
+sidebar_label: Procédure de Vérification
 ---
 
-# Independent Verification Procedure
+# Procédure de Vérification Indépendante
 
-Verification of a proof requires:
+La vérification d'une preuve nécessite :
 
-1. The canonical JSON payload
-2. The artifact (if applicable)
-3. The verification endpoint
+1. La charge utile JSON canonique
+2. L'artéfact (le cas échéant)
+3. Le point de terminaison de vérification
 
-Verification steps:
+Étapes de vérification :
 
-1. Recompute SHA-256 of artifact
-2. Compare digest with canonical JSON
-3. Verify signature
-4. Confirm ledger continuity (previous_entry_hash)
-5. If anchored, verify external timestamp
+1. Recalculer le SHA-256 de l'artéfact
+2. Comparer le digest avec le JSON canonique
+3. Vérifier la signature
+4. Confirmer la continuité du registre (previous_entry_hash)
+5. Si ancré, vérifier l'horodatage externe
 
-Verification is reproducible and deterministic.
+La vérification est reproductible et déterministe.

@@ -1,26 +1,25 @@
 ---
 id: legal-admissibility
-title: Legal Admissibility Framework
-sidebar_label: Legal Admissibility
+title: Cadrul de Admisibilitate Legală
+sidebar_label: Admisibilitate Legală
 ---
 
-# Legal Admissibility Framework
+# Cadrul de Admisibilitate Legală
 
-VeriSeal provides deterministic structural integrity compatible with:
+VeriSeal oferă integritate structurală deterministă compatibilă cu:
 
-- EU eIDAS environments  
-- US evidentiary principles  
-- ISO governance standards  
-- Audit and compliance frameworks  
+- medii eIDAS din UE  
+- principii probatorii din SUA  
+- standarde de guvernanță ISO  
+- cadre de audit și conformitate  
 
-VeriSeal does not create legal truth.
+VeriSeal nu creează adevăr juridic.
 
-It provides cryptographic determinism.
+Oferă determinism criptografic.
 
-Legal weight depends on jurisdictional interpretation, procedural context, and integration.
+Greutatea juridică depinde de interpretarea jurisdicțională, contextul procedural și integrare.
 
-Its role is infrastructural reinforcement — not legal substitution.
+Rolul său este de întărire infrastructurală — nu de substituție legală.
 
 ---
 
-End of Document

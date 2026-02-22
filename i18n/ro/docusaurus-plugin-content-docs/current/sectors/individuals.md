@@ -1,513 +1,514 @@
+File: individuals.md
+
 ---
 id: individuals
-title: Individuals
+title: Persoane Fizice
 ---
 
 ﻿---
-title: Individuals
-sidebar_label: Individuals
+title: Persoane Fizice
+sidebar_label: Persoane Fizice
 ---
 
-# VeriSeal for Individuals & Independent Professionals
+# VeriSeal pentru Persoane Fizice și Profesioniști Independenți
 
-VeriSeal provides a sector-agnostic cryptographic integrity layer for verifiable digital evidence.
+VeriSeal oferă un strat de integritate criptografică independent de sector pentru dovezi digitale verificabile.
 
-## Scope Clarification
+## Clarificarea Domeniului de Aplicare
 
-The scenarios presented below illustrate representative high-risk situations within this sector where document integrity, timestamp certainty, and verifiable authenticity are critical.
+Scenariile prezentate mai jos ilustrează situații reprezentative cu risc ridicat din acest sector, unde integritatea documentelor, certitudinea marcajului temporal și autenticitatea verificabilă sunt critice.
 
-They are not exhaustive.
+Acestea nu sunt exhaustive.
 
-VeriSeal is not designed to solve a single isolated use case.
-It provides a structural cryptographic integrity layer applicable to any digital document, event record, media capture, or transactional evidence requiring long-term verifiability.
+VeriSeal nu este conceput pentru a rezolva un singur caz de utilizare izolat.
+Oferă un strat structural de integritate criptografică aplicabil oricărui document digital, înregistrare de eveniment, captură media sau dovadă tranzacțională care necesită verificabilitate pe termen lung.
 
-The examples below represent structural risk categories - not functional limits.
+Exemplele de mai jos reprezintă categorii de risc structural — și nu limite funcționale.
 
 
-## Executive Summary
+## Rezumat Executiv
 
-In a fully digital society, individuals increasingly depend on digital records to protect:
+Într-o societate complet digitală, persoanele fizice depind din ce în ce mai mult de înregistrările digitale pentru a proteja:
 
-- Contracts
-- Creative works
-- Freelance deliverables
-- Intellectual property
-- Communications
-- Identity artifacts
-- Evidence in civil disputes
+- Contracte
+- Lucrări creative
+- Livrabile freelance
+- Proprietate intelectuală
+- Comunicații
+- Artefacte de identitate
+- Dovezi în dispute civile
 
-The core challenge is not file storage.
+Provocarea principală nu este stocarea fișierelor.
 
-The core challenge is independent structural proof of integrity.
+Provocarea principală este dovada structurală independentă a integrității.
 
-VeriSeal provides:
+VeriSeal oferă:
 
-- Deterministic tamper detection (VIP-STD-001)
-- Optional append-only chronology (VIP-STD-003)
-- Optional external time anchoring (VIP-STD-004)
-- Optional personal signature binding (VIP-STF-005)
-- Optional public key transparency (VIP-REG-006)
-- Independent verification capability
+- Detectare deterministă a modificărilor (VIP-STD-001)
+- Cronologie opțională doar pentru adăugare (VIP-STD-003)
+- Ancorare temporală externă opțională (VIP-STD-004)
+- Legare opțională a semnăturii personale (VIP-STF-005)
+- Transparență opțională a cheii publice (VIP-REG-006)
+- Capacitate de verificare independentă
 
-It brings institutional-grade integrity infrastructure to individuals.
-
----
-
-## When Personal Integrity Becomes Strategic
-
-Personal integrity becomes critical when:
-
-- Authorship is disputed
-- A client denies deliverable receipt
-- A collaborator contests version history
-- A payment dispute escalates
-- Harassment evidence must be preserved
-- An idea's creation date is challenged
-- Informal agreements are later contested
-
-In adversarial contexts, personal documentation must be independently reproducible.
+Aduce infrastructură de integritate de nivel instituțional persoanelor fizice.
 
 ---
 
-## 1. Individual Risk Landscape
+## Când Integritatea Personală Devine Strategică
 
-Individuals face exposure in:
+Integritatea personală devine critică atunci când:
 
-- Contract disputes
-- Intellectual property conflicts
-- Freelance payment disagreements
-- Digital content theft
-- Defamation cases
-- Identity misuse
-- Consent disputes
-- Informal agreement conflicts
+- Autoratul este contestat
+- Un client neagă primirea livrabilului
+- Un colaborator contestă istoricul versiunilor
+- O dispută de plată escaladează
+- Dovezile de hărțuire trebuie păstrate
+- Data creării unei idei este contestată
+- Acordurile informale sunt ulterior contestate
 
-Unlike institutions, individuals lack:
-
-- Internal audit systems
-- Legal infrastructure
-- Compliance departments
-- Evidence preservation frameworks
-
-Integrity becomes asymmetry reduction.
+În contexte adversariale, documentația personală trebuie să fie reproductibilă independent.
 
 ---
 
-## 2. Common Use Cases
+## 1. Peisajul de Risc pentru Persoane Fizice
 
-## 2.1 Intellectual Property & Creative Work
+Persoanele fizice se confruntă cu expunere în:
 
-Creators may need to demonstrate:
+- Dispute contractuale
+- Conflicte de proprietate intelectuală
+- Neînțelegeri privind plata freelance
+- Furt de conținut digital
+- Cazuri de defăimare
+- Utilizarea greșită a identității
+- Dispute de consimțământ
+- Conflicte de acorduri informale
 
-- Existence at a specific time
-- Structural integrity of content
-- Non-modification since sealing
-- Version chronology
+Spre deosebire de instituții, persoanele fizice nu dispun de:
 
-VIP-STD-001 ensures deterministic canonical reproducibility.
+- Sisteme interne de audit
+- Infrastructură legală
+- Departamente de conformitate
+- Cadre de păstrare a dovezilor
 
-VIP-STD-004 optionally reinforces timestamp defensibility.
-
----
-
-## 2.2 Freelance & Professional Deliverables
-
-Freelancers may need to demonstrate:
-
-- Delivery timing
-- Scope of work state
-- Version continuity
-- Contract annex stability
-
-VIP-STD-003 optionally enables append-only sequencing of deliverables.
+Integritatea devine reducerea asimetriei.
 
 ---
 
-## 2.3 Informal & Semi-Formal Agreements
+## 2. Cazuri de Utilizare Comune
 
-Individuals may rely on:
+## 2.1 Proprietate Intelectuală și Lucrări Creative
 
-- Email-based agreements
-- Digital collaboration files
-- Messaging-based confirmations
-- Shared document drafts
+Creatorii pot avea nevoie să demonstreze:
 
-VeriSeal transforms these artifacts into reproducible proof objects.
+- Existența la un moment specific
+- Integritatea structurală a conținutului
+- Nemodificarea de la sigilare
+- Cronologia versiunilor
 
----
+VIP-STD-001 asigură reproductibilitate canonică deterministă.
 
-## 2.4 Evidence Preservation
-
-In cases involving:
-
-- Harassment
-- Fraud
-- Civil disputes
-- Consumer protection claims
-
-Preserving unmodified digital evidence becomes critical.
-
-VeriSeal seals evidence into reproducible integrity bundles.
+VIP-STD-004 întărește opțional apărarea marcajului temporal.
 
 ---
 
-## 3. Where VeriSeal Changes the Risk Model
+## 2.2 Livrabile Freelance și Profesionale
 
-VeriSeal converts personal digital artifacts into cryptographically defensible proof bundles.
+Freelancerii pot avea nevoie să demonstreze:
 
-### Deterministic Canonical Integrity (VIP-STD-001)
+- Momentul livrării
+- Starea domeniului de lucru
+- Continuitatea versiunilor
+- Stabilitatea anexelor contractuale
 
-- Strict canonical serialization
-- Byte-level reproducibility
-- SHA-256 structural binding
-
-### Append-Only Chronology (VIP-STD-003)
-
-- Immutable event sequencing
-- Version evolution traceability
-
-### Personal Signature Binding (VIP-STF-005)
-
-- Individual cryptographic signing
-- Multi-party acknowledgment support
-- Identity-bound document state
-
-### Public Key Transparency (VIP-REG-006)
-
-- Cross-party verification capability
-- Anti-impersonation protection (when applicable)
-
-### External Time Anchoring (VIP-STD-004)
-
-- Independent timestamp corroboration
-- Anti-backdating reinforcement
-
-This transforms:
-
-Personal files
-into
-independently verifiable proof artifacts.
+VIP-STD-003 permite opțional secvențierea doar pentru adăugare a livrabilelor.
 
 ---
 
-## 4. Competitive Positioning
+## 2.3 Acorduri Informale și Semi-Formale
 
-## Versus Cloud Storage
+Persoanele fizice pot depinde de:
 
-Cloud platforms:
-- Store files
-- Provide access control
-- Do not guarantee deterministic canonical reproducibility
+- Acorduri bazate pe email
+- Fișiere de colaborare digitală
+- Confirmări bazate pe mesagerie
+- Schițe de documente partajate
+
+VeriSeal transformă aceste artefacte în obiecte de dovadă reproductibile.
+
+---
+
+## 2.4 Păstrarea Dovezilor
+
+În cazuri care implică:
+
+- Hărțuire
+- Fraudă
+- Dispute civile
+- Reclamatii de protecție a consumatorului
+
+Păstrarea dovezilor digitale nemodificate devine critică.
+
+VeriSeal sigilează dovezile în pachete de integritate reproductibile.
+
+---
+
+## 3. Unde VeriSeal Schimbă Modelul de Risc
+
+VeriSeal convertește artefactele digitale personale în pachete de dovadă criptografic defensibile.
+
+### Integritate Canonică Deterministă (VIP-STD-001)
+
+- Serializare canonică strictă
+- Reproductibilitate la nivel de byte
+- Legare structurală SHA-256
+
+### Cronologie Doar pentru Adăugare (VIP-STD-003)
+
+- Secvențiere imuabilă a evenimentelor
+- Trasabilitatea evoluției versiunilor
+
+### Legare a Semnăturii Personale (VIP-STF-005)
+
+- Semnare criptografică individuală
+- Suport pentru recunoaștere multi-parte
+- Stare document legată de identitate
+
+### Transparența Cheii Publice (VIP-REG-006)
+
+- Capacitate de verificare între părți
+- Protecție anti-impersonare (când este aplicabilă)
+
+### Ancorare Temporală Externă (VIP-STD-004)
+
+- Coroborare independentă a marcajului temporal
+- Întărirea anti-retrodaterii
+
+Aceasta transformă:
+
+Fișiere personale
+în
+artefacte de dovadă verificabile independent.
+
+---
+
+## 4. Poziționare Competitivă
+
+## Versus Stocare în Cloud
+
+Platformele cloud:
+- Stochează fișiere
+- Oferă control al accesului
+- Nu garantează reproductibilitate canonică deterministă
 
 VeriSeal:
-- Enforces structural determinism
-- Enables independent recomputation
-- Reduces reliance on vendor infrastructure
+- Impune determinism structural
+- Permite recalcul independentă
+- Reduce dependența de infrastructura furnizorului
 
 ---
 
-## Versus Basic Timestamping Tools
+## Versus Instrumente de Marcaj Temporal de Bază
 
-Basic timestamping:
-- Proves existence at time T
-- Does not enforce structural immutability
-- Does not support event continuity
+Marcajul temporal de bază:
+- Dovedește existența la momentul T
+- Nu impune imuabilitate structurală
+- Nu suportă continuitatea evenimentelor
 
 VeriSeal:
-- Enforces canonical integrity
-- Enables chained chronology
-- Complements timestamping
+- Impune integritate canonică
+- Permite cronologie înlănțuită
+- Completează marcajul temporal
 
 ---
 
-## Versus Blockchain-Only Proof Tools
+## Versus Instrumente de Dovadă Doar pe Blockchain
 
-Blockchain-only tools:
-- May require technical expertise
-- May expose metadata publicly
-- May create privacy concerns
+Instrumentele doar pe blockchain:
+- Pot necesita expertiză tehnică
+- Pot expune metadate public
+- Pot crea preocupări de confidențialitate
 
 VeriSeal:
-- Privacy-compatible
-- Infrastructure-neutral
-- Blockchain-optional
-- Lightweight for individuals
+- Compatibil cu confidențialitatea
+- Neutru din punct de vedere al infrastructurii
+- Opțional pe blockchain
+- Ușor pentru persoane fizice
 
 ---
 
-## 5. Deployment Model
+## 5. Model de Implementare
 
-Individuals may access VeriSeal through:
+Persoanele fizice pot accesa VeriSeal prin:
 
-- Web-based integrity portals
-- Creator-focused integrations
-- Freelancer workflow tools
-- Evidence preservation utilities
-- Personal cryptographic modules
+- Portaluri web de integritate
+- Integrări axate pe creatori
+- Instrumente de flux de lucru pentru freelanceri
+- Utilități de păstrare a dovezilor
+- Module criptografice personale
 
-It can function as:
+Poate funcționa ca:
 
-- A personal integrity engine
-- A creator protection layer
-- A freelance defensibility tool
-- A citizen evidence reinforcement mechanism
+- Un motor personal de integritate
+- Un strat de protecție pentru creatori
+- Un instrument de apărare pentru freelanceri
+- Un mecanism de întărire a dovezilor cetățenești
 
 ---
 
-## 6. Legal & Evidentiary Considerations
+## 6. Considerații Legale și de Dovadă
 
 VeriSeal:
 
-- Does not grant intellectual property rights
-- Does not create contractual enforceability
-- Does not determine legal outcome
-- Does not replace judicial evaluation
+- Nu acordă drepturi de proprietate intelectuală
+- Nu creează forță executorie contractuală
+- Nu determină rezultatul legal
+- Nu înlocuiește evaluarea judiciară
 
-It strengthens structural proof of integrity.
+Întărește dovada structurală a integrității.
 
-Legal effect depends on:
+Efectul legal depinde de:
 
-- Applicable jurisdiction
-- Admissibility standards
-- Judicial discretion
-- Contract formation rules
+- Jurisdicția aplicabilă
+- Standardele de admisibilitate
+- Discreția judiciară
+- Regulile de formare a contractului
 
-VeriSeal reinforces evidence - it does not replace law.
-
----
-
-## 7. ROI & Personal Risk Stabilization
-
-Without deterministic integrity:
-
-- Evidence credibility weakens
-- Disputes become harder to defend
-- Power asymmetry increases
-- Legal vulnerability rises
-
-VeriSeal reduces:
-
-- Modification ambiguity
-- Chronology disputes
-- Version manipulation risk
-- Proof fragility
-
-Integrity reduces asymmetry between individuals and institutions.
+VeriSeal întărește dovezile — și nu înlocuiește legea.
 
 ---
 
-## 8. Target Profiles
+## 7. ROI și Stabilizarea Riscului Personal
 
-VeriSeal serves:
+Fără integritate deterministă:
 
-- Freelancers
-- Journalists
-- Content creators
-- Developers
-- Consultants
-- Researchers
-- Entrepreneurs
-- Citizens preserving evidence
-- Independent contractors
+- Credibilitatea dovezilor slăbește
+- Disputele devin mai greu de apărat
+- Asimetria de putere crește
+- Vulnerabilitatea legală crește
 
----
+VeriSeal reduce:
 
-## 9. Strategic Positioning
+- Ambiguitatea modificărilor
+- Disputele de cronologie
+- Riscul de manipulare a versiunilor
+- Fragilitatea dovezilor
 
-VeriSeal is:
-
-- A personal cryptographic integrity engine
-- A sovereign digital evidence layer
-- A structural non-repudiation reinforcement tool
-- A power-asymmetry stabilizer
-
-It is NOT:
-
-- A legal advisory service
-- A copyright registry
-- A dispute resolution authority
-- A regulatory institution
-
-It is integrity infrastructure.
+Integritatea reduce asimetria între persoane fizice și instituții.
 
 ---
 
-## 10. Long-Term Vision
+## 8. Profiluri Țintă
 
-As digital life expands, individuals require:
+VeriSeal servește:
 
-- Independent proof mechanisms
-- Structural reproducibility
-- Accessible cryptographic protection
-- Sovereign digital defensibility
-
-VeriSeal extends institutional-grade integrity to citizens.
-
----
-
-## Conclusion
-
-In digital environments, credibility depends on structural integrity.
-
-Individuals often lack institutional evidence frameworks.
-
-VeriSeal provides:
-
-- Deterministic structural integrity
-- Independent verification
-- Optional authenticity binding
-- Optional external anchoring
-- Chronological reproducibility
-
-It empowers individuals with sovereign digital integrity.
-
-It acts as a personal integrity engine in contested digital ecosystems.
+- Freelanceri
+- Jurnaliști
+- Creatori de conținut
+- Dezvoltatori
+- Consultanți
+- Cercetători
+- Antreprenori
+- Cetățeni care păstrează dovezi
+- Contractori independenți
 
 ---
 
-## Individuals - Targeted FAQ
+## 9. Poziționare Strategică
 
-### 1. Does VeriSeal prove authorship?
+VeriSeal este:
 
-No.
+- Un motor personal de integritate criptografică
+- Un strat suveran de dovezi digitale
+- Un instrument de întărire a nerepudierii structurale
+- Un stabilizator al asimetriei de putere
 
-VeriSeal proves structural integrity of a digital artifact at a given state.
+Nu este:
 
-Authorship must be demonstrated separately.
+- Un serviciu de consultanță legală
+- Un registru de drepturi de autor
+- O autoritate de soluționare a disputelor
+- O instituție de reglementare
 
-Integrity ≠ identity.
-
----
-
-### 2. Can personal documents be altered without detection?
-
-If sealed under VIP-STD-001:
-
-Any modification changes the hash.
-
-Integrity verification fails.
-
-Tampering becomes detectable.
+Este infrastructură de integritate.
 
 ---
 
-### 3. Can VeriSeal protect intellectual property?
+## 10. Viziune pe Termen Lung
 
-VeriSeal does not create IP rights.
+Pe măsură ce viața digitală se extinde, persoanele fizice necesită:
 
-It strengthens:
+- Mecanisme independente de dovadă
+- Reproductibilitate structurală
+- Protecție criptografică accesibilă
+- Apărare digitală suverană
 
-- Proof of existence
-- Chronological defensibility
-- Demonstration of unchanged content
-
-Legal protection depends on jurisdiction.
-
----
-
-### 4. Does VeriSeal expose private information?
-
-No.
-
-VeriSeal operates on cryptographic hashes.
-
-Hashes:
-- Do not reveal content
-- Do not expose personal data
-- Do not publish documents
-
-Privacy remains user-controlled.
+VeriSeal extinde integritatea de nivel instituțional către cetățeni.
 
 ---
 
-### 5. Can VeriSeal strengthen informal agreements?
+## Concluzie
 
-Yes.
+În medii digitale, credibilitatea depinde de integritatea structurală.
 
-It reinforces:
+Persoanele fizice adesea nu dispun de cadre instituționale de dovezi.
 
-- Document state integrity
-- Delivery timing clarity
-- Version consistency
-- Evidence reproducibility
+VeriSeal oferă:
 
-It does not replace contract law.
+- Integritate structurală deterministă
+- Verificare independentă
+- Legare opțională a autenticității
+- Ancorare externă opțională
+- Reproductibilitate cronologică
 
----
+Empowerizează persoanele fizice cu integritate digitală suverană.
 
-### 6. Can VeriSeal reduce power imbalance in disputes?
-
-It may reduce asymmetry by:
-
-- Providing independent verification
-- Enabling reproducible proof
-- Limiting modification allegations
-
-Outcome remains legally determined.
+Acționează ca un motor personal de integritate în ecosistemele digitale contestate.
 
 ---
 
-### 7. Is VeriSeal difficult to use?
+## Persoane Fizice - Întrebări Frecvente Țintite
 
-Core verification requires:
+### 1. VeriSeal dovedește autoratul?
 
-- Canonical document
-- SHA-256 computation
-- Verification rules
+Nu.
 
-User-facing tools may abstract complexity.
+VeriSeal dovedește integritatea structurală a unui artefact digital într-o stare dată.
 
-Technical complexity depends on implementation.
+Autoratul trebuie demonstrat separat.
 
----
-
-### 8. Is VeriSeal legally binding?
-
-VeriSeal strengthens evidence integrity.
-
-Legal binding effect depends on:
-
-- Applicable law
-- Judicial interpretation
-- Contractual framework
-
-It reinforces evidentiary posture.
+Integritate ≠ identitate.
 
 ---
 
-### 9. In one sentence: why consider VeriSeal as an individual?
+### 2. Documentele personale pot fi modificate fără a fi detectate?
 
-Because digital disputes often hinge on integrity and chronology, and deterministic tamper detection strengthens personal defensibility.
+Dacă sunt sigilate sub VIP-STD-001:
 
-## Contribution to the Global Evidence Standard
+Orice modificare schimbă hash-ul.
 
-VeriSeal deployment in this sector contributes to the emergence of a globally interoperable evidence format.
+Verificarea integrității eșuează.
 
-Each verified proof strengthens:
+Modificarea devine detectabilă.
 
-- Cross-border evidentiary alignment
-- Deterministic verification standards
-- Interoperable cryptographic audit trails
-- Institutional-grade integrity frameworks
+---
 
-Sector adoption accelerates standardization.
+### 3. VeriSeal poate proteja proprietatea intelectuală?
 
-Standardization accelerates inevitability.
+VeriSeal nu creează drepturi de proprietate intelectuală.
 
-## Structural Applicability
+Întărește:
 
-Beyond the examples described above, VeriSeal applies to any digitally generated evidence within this sector, including but not limited to:
+- Dovada existenței
+- Apărarea cronologică
+- Demonstrarea conținutului nemodificat
 
-- contractual documentation
-- compliance reporting
-- internal audit trails
-- regulatory disclosures
-- transactional attestations
-- cross-institutional exchanges
-- customer-generated digital evidence
-- time-sensitive records
+Protecția legală depinde de jurisdicție.
 
-VeriSeal's role is infrastructural, not situational.
+---
 
-Its function is to establish verifiable integrity, deterministic timestamping, and independent public verification across all digital evidence categories within the sector.
+### 4. VeriSeal expune informații private?
 
+Nu.
+
+VeriSeal operează pe hash-uri criptografice.
+
+Hash-urile:
+- Nu dezvăluie conținutul
+- Nu expun date personale
+- Nu publică documente
+
+Confidențialitatea rămâne controlată de utilizator.
+
+---
+
+### 5. VeriSeal poate întări acordurile informale?
+
+Da.
+
+Întărește:
+
+- Integritatea stării documentului
+- Claritatea momentului livrării
+- Consistența versiunii
+- Reproductibilitatea dovezilor
+
+Nu înlocuiește legea contractului.
+
+---
+
+### 6. VeriSeal poate reduce dezechilibrul de putere în dispute?
+
+Poate reduce asimetria prin:
+
+- Oferirea de verificare independentă
+- Permisiunea dovezii reproductibile
+- Limitarea acuzațiilor de modificare
+
+Rezultatul rămâne determinat legal.
+
+---
+
+### 7. VeriSeal este dificil de utilizat?
+
+Verificarea de bază necesită:
+
+- Document canonic
+- Calcul SHA-256
+- Reguli de verificare
+
+Instrumentele orientate către utilizator pot abstractiza complexitatea.
+
+Complexitatea tehnică depinde de implementare.
+
+---
+
+### 8. VeriSeal este obligatoriu din punct de vedere legal?
+
+VeriSeal întărește integritatea dovezilor.
+
+Efectul obligatoriu legal depinde de:
+
+- Legea aplicabilă
+- Interpretarea judiciară
+- Cadrul contractual
+
+Întărește poziția probatorie.
+
+---
+
+### 9. Într-o propoziție: de ce să consideri VeriSeal ca persoană fizică?
+
+Pentru că disputele digitale adesea se bazează pe integritate și cronologie, iar detectarea deterministă a modificărilor întărește apărarea personală.
+
+## Contribuția la Standardul Global de Dovezi
+
+Implementarea VeriSeal în acest sector contribuie la apariția unui format de dovezi interoperabil la nivel global.
+
+Fiecare dovadă verificată întărește:
+
+- Alinierea probatorie transfrontalieră
+- Standardele de verificare deterministă
+- Urme de audit criptografice interoperabile
+- Cadre de integritate de nivel instituțional
+
+Adoptarea sectorială accelerează standardizarea.
+
+Standardizarea accelerează inevitabilitatea.
+
+## Aplicabilitate Structurală
+
+Dincolo de exemplele descrise mai sus, VeriSeal se aplică oricărei dovezi generate digital în acest sector, inclusiv, dar fără a se limita la:
+
+- documentație contractuală
+- raportare de conformitate
+- urme de audit intern
+- dezvăluiri de reglementare
+- atestări tranzacționale
+- schimburi interinstituționale
+- dovezi digitale generate de clienți
+- înregistrări sensibile la timp
+
+Rolul VeriSeal este infrastructural, nu situațional.
+
+Funcția sa este de a stabili integritatea verificabilă, marcajul temporal determinist și verificarea publică independentă în toate categoriile de dovezi digitale din sector.

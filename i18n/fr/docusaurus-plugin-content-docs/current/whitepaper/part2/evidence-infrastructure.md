@@ -1,24 +1,23 @@
 ---
 id: evidence-infrastructure
-title: Evidence Infrastructure
+title: Infrastructure de Preuve
 ---
 
 ﻿---
-title: Evidence Infrastructure
+title: Infrastructure de Preuve
 sidebar_position: 1
 ---
 
-# Evidence Infrastructure
+# Infrastructure de Preuve
 
-## Proof kernel
-Hashing, Merkle roots, append-only ledger, deterministic public JSON.
+## Noyau de preuve
+Hachage, racines de Merkle, registre en en ajout seul, JSON public déterministe.
 
-## Separation of layers
-Backend vs public verifier UI vs PDF renderer (render-only).
+## Séparation des couches
+Backend vs interface utilisateur de vérification publique vs rendu PDF (rendu uniquement).
 
-## Strong binding
-Bind UX log + media + ledger + JSON (+ PDF/OTS when enabled).
+## Liaison forte
+Lier le journal UX + médias + registre + JSON (+ PDF/OTS lorsque activé).
 
-## Operations
-Sovereign deployment, hardened TLS, controlled keys, scheduled OTS automation.
-
+## Opérations
+Déploiement souverain, TLS renforcé, clés contrôlées, automatisation OTS programmée.

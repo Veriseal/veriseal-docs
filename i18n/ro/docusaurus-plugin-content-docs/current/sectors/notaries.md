@@ -1,313 +1,315 @@
+Fișier: notaries.md
+
 ---
 id: notaries
-title: Notaries
+title: Notari & Autentificare Publică
 ---
 
 ﻿---
 id: notaries
-title: Notaries & Public Authentication
+title: Notari & Autentificare Publică
 sidebar_position: 2
 ---
 
-# Notaries & Public Authentication
+# Notari & Autentificare Publică
 
-VeriSeal provides a cryptographic integrity layer designed to reinforce documentary authenticity, timestamp determinism, and cross-jurisdiction verifiability within notarial and public authentication frameworks.
-
----
-
-## Scope Clarification
-
-The examples presented below illustrate representative structural risks observed in notarial environments.
-
-They are not exhaustive.
-
-VeriSeal does not replace legal authority, public mandate, or statutory recognition.
-It reinforces documentary integrity through deterministic cryptographic reproducibility.
-
-The scenarios below represent evidentiary risk categories - not functional limits.
+VeriSeal oferă un strat de integritate criptografică conceput pentru a întări autenticitatea documentară, determinismul temporal și verificabilitatea trans-jurisdicțională în cadrul structurilor notariale și de autentificare publică.
 
 ---
 
-## Executive Overview
+## Clarificarea Domeniului
 
-Notarial systems exist to create legal certainty.
+Exemplele prezentate mai jos ilustrează riscuri structurale reprezentative observate în mediile notariale.
 
-Yet increasingly, notarial workflows rely on digital documents, remote identity procedures, electronic copies, scanned archives, and cross-border exchanges.
+Acestea nu sunt exhaustive.
 
-As documentation dematerializes, authenticity assumptions increase while structural verifiability decreases.
+VeriSeal nu înlocuiește autoritatea legală, mandatul public sau recunoașterea statutară.
+Întărește integritatea documentară prin reproductibilitate criptografică deterministă.
 
-VeriSeal introduces:
-
-- Deterministic document sealing
-- Independent timestamp verification
-- Cryptographic continuity
-- Cross-party verification symmetry
-
-It does not redefine notarial authority.
-It strengthens documentary defensibility.
+Scenariile de mai jos reprezintă categorii de risc probatoriu — și nu limite funcționale.
 
 ---
 
-## The Structural Weakness in Digital Notarial Contexts
+## Prezentare Executivă
 
-Modern notarial ecosystems face emerging structural vulnerabilities:
+Sistemele notariale există pentru a crea certitudine legală.
 
-1. Digital copies are visually identical but not cryptographically bound
-2. Remote authentication increases identity-layer complexity
-3. Electronic archives depend on platform trust
-4. Cross-border document exchange introduces authenticity uncertainty
+Totuși, din ce în ce mai mult, fluxurile de lucru notariale se bazează pe documente digitale, proceduri de identificare la distanță, copii electronice, arhive scanate și schimburi transfrontaliere.
 
-Traditional safeguards assume:
+Pe măsură ce documentația se dematerializează, presupunerile de autenticitate cresc, în timp ce verificabilitatea structurală scade.
 
-- Physical presence
-- Physical stamping
-- Paper immutability
-- Archive custody control
+VeriSeal introduce:
 
-Digital workflows disrupt these assumptions.
+- Sigilare deterministă a documentelor
+- Verificare independentă a marcajului temporal
+- Continuitate criptografică
+- Simetrie de verificare între părți
 
-Visual sameness is not structural integrity.
-
-PDF format is not proof.
-
-Platform timestamps are not neutral.
-
-As notarial digitalization accelerates, **proof determinism becomes essential**.
+Nu redefinește autoritatea notarială.
+Întărește apărarea documentară.
 
 ---
 
-## Why This Matters Now
+## Slăbiciunea Structurală în Contextele Notariale Digitale
 
-Remote notarization, digital land registries, electronic corporate filings, and cross-border documentation have increased exponentially.
+Ecosistemele notariale moderne se confruntă cu vulnerabilități structurale emergente:
 
-Legal disputes increasingly hinge on:
+1. Copiile digitale sunt identice vizual, dar nu sunt legate criptografic
+2. Autentificarea la distanță crește complexitatea stratului de identitate
+3. Arhivele electronice depind de încrederea în platformă
+4. Schimbul de documente transfrontalier introduce incertitudine de autenticitate
 
-- Whether a document existed in a given form at a specific time
-- Whether a digital copy is identical to the original
-- Whether an archive record has been altered
-- Whether remote authentication steps can be independently verified
+Garanțiile tradiționale presupun:
 
-The issue is not authority.
+- Prezență fizică
+- Ștampilare fizică
+- Imutabilitatea hârtiei
+- Controlul custodiei arhivelor
 
-The issue is reproducibility.
+Fluxurile de lucru digitale perturbă aceste presupuneri.
 
-Legal systems increasingly require technological certainty to support institutional certainty.
+Similaritatea vizuală nu este integritate structurală.
 
----
+Formatul PDF nu este dovadă.
 
-## Commercial Layer - What VeriSeal Enables
+Marcajele temporale ale platformei nu sunt neutre.
 
-## 1. Deterministic Document Sealing
-
-At issuance, a notarial act or certified document can be:
-
-- Canonicalized
-- Hashed deterministically
-- Recorded in an append-only ledger
-- Anchored to independent timestamp infrastructure
-
-Any subsequent alteration invalidates structural integrity.
-
-Authenticity becomes cryptographically demonstrable.
+Pe măsură ce digitalizarea notarială se accelerează, **determinismul probatoriu devine esențial**.
 
 ---
 
-## 2. Archive Integrity Reinforcement
+## De ce Contează Acum
 
-Electronic notarial archives may be reinforced through:
+Notarizarea la distanță, registrele funciare digitale, depunerile corporative electronice și documentația transfrontalieră au crescut exponențial.
 
-- Periodic ledger sealing
-- Batch anchoring
-- Integrity continuity verification
+Disputele legale se bazează din ce în ce mai mult pe:
 
-This does not replace archive governance.
-It adds cryptographic defensibility.
+- Dacă un document a existat într-o formă dată la un moment specific
+- Dacă o copie digitală este identică cu originalul
+- Dacă un document de arhivă a fost modificat
+- Dacă pașii de autentificare la distanță pot fi verificați independent
 
----
+Problema nu este autoritatea.
 
-## 3. Remote Authentication Support
+Problema este reproductibilitatea.
 
-For remote or hybrid procedures:
-
-- Identity verification milestones
-- Document acceptance confirmations
-- Session event records
-
-may be sealed deterministically.
-
-This strengthens defensibility in contested remote authentication scenarios.
+Sistemele legale necesită din ce în ce mai mult certitudine tehnologică pentru a susține certitudinea instituțională.
 
 ---
 
-## 4. Cross-Border Document Certainty
+## Strat Comercial - Ce Permite VeriSeal
 
-When documents circulate internationally:
+## 1. Sigilare Deterministă a Documentelor
 
-- Integrity proof can travel with the document
-- Timestamp determinism remains verifiable
-- Authenticity validation does not depend on origin platform access
+La emitere, un act notarial sau un document certificat poate fi:
 
-This reduces cross-jurisdiction ambiguity.
+- Canonicalizat
+- Hashed determinist
+- Înregistrat într-un registru doar adăugare
+- Ancorat la infrastructura independentă de marcaj temporal
 
----
+Orice modificare ulterioară invalidează integritatea structurală.
 
-## Illustrative Risk Scenarios (Non-Exhaustive)
-
----
-
-### Scenario 1 - Modified Certified Copy
-
-A certified digital copy is altered subtly after issuance.
-
-Without cryptographic sealing:
-
-- Detection depends on manual inspection
-- Visual similarity creates ambiguity
-
-With VeriSeal:
-
-- Original issuance hash is verifiable
-- Any alteration invalidates the proof
-- Authenticity becomes binary, not interpretative
+Autenticitatea devine demonstrabilă criptografic.
 
 ---
 
-### Scenario 2 - Disputed Remote Notarial Session
+## 2. Întărirea Integrității Arhivelor
 
-A party contests that a remote authentication session occurred under different circumstances than recorded.
+Arhivele notariale electronice pot fi întărite prin:
 
-Without deterministic sealing of session artifacts:
+- Sigilare periodică a registrului
+- Ancorare în loturi
+- Verificarea continuității integrității
 
-- Evidence relies on platform logs
-- Interpretation becomes procedural
-
-With VeriSeal:
-
-- Session records are sealed
-- Timestamp determinism is independently verifiable
-- Integrity becomes reproducible
+Aceasta nu înlocuiește guvernanța arhivelor.
+Adaugă apărare criptografică.
 
 ---
 
-### Scenario 3 - Archive Tampering Allegation
+## 3. Suport pentru Autentificarea la Distanță
 
-A historical document stored digitally is alleged to have been modified post-archival.
+Pentru procedurile la distanță sau hibride:
 
-With traditional systems:
+- Etape de verificare a identității
+- Confirmări de acceptare a documentelor
+- Înregistrări ale evenimentelor sesiunii
 
-- Integrity relies on access control trust
+pot fi sigilate determinist.
 
-With VeriSeal reinforcement:
-
-- Archive batches can be periodically sealed
-- Ledger continuity demonstrates absence of retroactive mutation
-
-The burden shifts from trust to reproducibility.
+Aceasta întărește apărarea în scenariile contestate de autentificare la distanță.
 
 ---
 
-## Institutional Layer - Standardization Perspective
+## 4. Certitudine Documentară Transfrontalieră
 
-## Architectural Model
+Când documentele circulă internațional:
 
-VeriSeal operates independently of legal authority and integrates as a structural integrity layer:
+- Dovada integrității poate călători cu documentul
+- Determinismul marcajului temporal rămâne verificabil
+- Validarea autenticității nu depinde de accesul la platforma de origine
 
-1. Canonicalization + SHA-256 hashing
-2. Append-only cryptographic ledger
-3. Optional external anchoring (e.g., OpenTimestamps)
-4. Public verification mechanisms
-
-It does not claim legal authority.
-It reinforces evidentiary robustness.
+Aceasta reduce ambiguitatea trans-jurisdicțională.
 
 ---
 
-## Regulatory Compatibility
-
-VeriSeal is:
-
-- Technology-neutral
-- Jurisdiction-agnostic
-- Compatible with electronic document frameworks
-- Compatible with eIDAS-aligned environments
-- Independent of specific signature schemes
-
-It strengthens documentary certainty without altering statutory mandates.
+## Scenarii de Risc Ilustrative (Non-Exhaustive)
 
 ---
 
-## Strategic Positioning
+### Scenariul 1 - Copie Certificată Modificată
 
-VeriSeal is not:
+O copie digitală certificată este modificată subtil după emitere.
 
-- A replacement for notarial authority
-- A legal certification system
-- A digital signature provider
+Fără sigilare criptografică:
 
-It is a **cryptographic integrity reinforcement layer**.
+- Detectarea depinde de inspecția manuală
+- Similaritatea vizuală creează ambiguitate
 
-Its commercial adoption enhances standardization credibility.
+Cu VeriSeal:
 
-Its standardization ambition strengthens institutional adoption.
-
----
-
-## Risk Reduction Impact
-
-Notarial institutions benefit from:
-
-- Reduced evidentiary ambiguity
-- Increased archive defensibility
-- Improved cross-border confidence
-- Strengthened procedural robustness
-
-Digital authenticity becomes demonstrable.
+- Hash-ul emiterii originale este verificabil
+- Orice modificare invalidează dovada
+- Autenticitatea devine binară, nu interpretativă
 
 ---
 
-## Long-Term Vision
+### Scenariul 2 - Sesiune Notarială la Distanță Contestată
 
-As public authentication digitizes globally, systems will require:
+O parte contestă că o sesiune de autentificare la distanță a avut loc în circumstanțe diferite decât cele înregistrate.
 
-- Deterministic document reproducibility
-- Cross-border integrity interoperability
-- Independent timestamp verification
-- Neutral verification standards
+Fără sigilare deterministă a artefactelor sesiunii:
 
-VeriSeal positions as:
+- Dovada se bazează pe jurnalele platformei
+- Interpretarea devine procedurală
 
-- A deployable integrity reinforcement layer
-- A candidate global documentary integrity standard
-- A structural complement to legal authority
+Cu VeriSeal:
 
-Commercial deployment and standardization ambition reinforce one another.
+- Înregistrările sesiunii sunt sigilate
+- Determinismul marcajului temporal este verificabil independent
+- Integritatea devine reproductibilă
 
 ---
 
-## Structural Applicability
+### Scenariul 3 - Acuzație de Manipulare a Arhivei
 
-Beyond the examples described above, VeriSeal may reinforce:
+Un document istoric stocat digital este acuzat că a fost modificat post-arhivare.
 
-- Property transfer documentation
-- Corporate registration acts
-- Inheritance documents
-- Commercial certifications
-- International apostille workflows
-- Judicial filings
-- Digital certified extracts
-- Registry interactions
+Cu sistemele tradiționale:
 
-Its role is infrastructural.
+- Integritatea se bazează pe încrederea în controlul accesului
 
-It provides deterministic integrity, verifiable timestamping, and independent validation across documentary ecosystems.
+Cu întărirea VeriSeal:
+
+- Loturile de arhivă pot fi sigilate periodic
+- Continuitatea registrului demonstrează absența mutației retroactive
+
+Povara se mută de la încredere la reproductibilitate.
 
 ---
 
-## Summary
+## Strat Instituțional - Perspectiva Standardizării
 
-VeriSeal does not replace notarial authority.
+## Model Arhitectural
 
-It transforms documentary authenticity from procedural assumption
-into reproducible cryptographic verification.
+VeriSeal operează independent de autoritatea legală și se integrează ca un strat de integritate structurală:
 
-That shift strengthens legal defensibility, cross-border certainty, and institutional robustness in a progressively digital legal environment.
+1. Canonicalizare + hashing SHA-256
+2. Registru criptografic doar adăugare
+3. Ancorare externă opțională (de exemplu, OpenTimestamps)
+4. Mecanisme publice de verificare
+
+Nu revendică autoritate legală.
+Întărește robustețea probatorie.
+
+---
+
+## Compatibilitate Reglementară
+
+VeriSeal este:
+
+- Neutru din punct de vedere tehnologic
+- Agnostic din punct de vedere jurisdicțional
+- Compatibil cu cadrele de documente electronice
+- Compatibil cu medii aliniate eIDAS
+- Independent de scheme de semnătură specifice
+
+Întărește certitudinea documentară fără a modifica mandatele statutare.
+
+---
+
+## Poziționare Strategică
+
+VeriSeal nu este:
+
+- Un înlocuitor pentru autoritatea notarială
+- Un sistem de certificare legală
+- Un furnizor de semnături digitale
+
+Este un **strat de întărire a integrității criptografice**.
+
+Adoptarea sa comercială îmbunătățește credibilitatea standardizării.
+
+Ambiția sa de standardizare întărește adoptarea instituțională.
+
+---
+
+## Impactul Reducerii Riscului
+
+Instituțiile notariale beneficiază de:
+
+- Reducerea ambiguității probatorii
+- Creșterea apărării arhivelor
+- Îmbunătățirea încrederii transfrontaliere
+- Întărirea robusteții procedurale
+
+Autenticitatea digitală devine demonstrabilă.
+
+---
+
+## Viziune pe Termen Lung
+
+Pe măsură ce autentificarea publică se digitalizează la nivel global, sistemele vor necesita:
+
+- Reproductibilitate deterministă a documentelor
+- Interoperabilitate a integrității transfrontaliere
+- Verificare independentă a marcajului temporal
+- Standarde neutre de verificare
+
+VeriSeal se poziționează ca:
+
+- Un strat de întărire a integrității implementabil
+- Un candidat la standardul global de integritate documentară
+- Un complement structural pentru autoritatea legală
+
+Implementarea comercială și ambiția de standardizare se întăresc reciproc.
+
+---
+
+## Aplicabilitate Structurală
+
+Dincolo de exemplele descrise mai sus, VeriSeal poate întări:
+
+- Documentația de transfer de proprietate
+- Actele de înregistrare corporativă
+- Documentele de moștenire
+- Certificările comerciale
+- Fluxurile de lucru internaționale de apostilă
+- Depunerile judiciare
+- Extrasele certificate digital
+- Interacțiunile cu registrele
+
+Rolul său este infrastructural.
+
+Oferă integritate deterministă, marcare temporală verificabilă și validare independentă în ecosistemele documentare.
+
+---
+
+## Rezumat
+
+VeriSeal nu înlocuiește autoritatea notarială.
+
+Transformă autenticitatea documentară dintr-o presupunere procedurală
+într-o verificare criptografică reproductibilă.
+
+Această schimbare întărește apărarea legală, certitudinea transfrontalieră și robustețea instituțională într-un mediu legal progresiv digital.

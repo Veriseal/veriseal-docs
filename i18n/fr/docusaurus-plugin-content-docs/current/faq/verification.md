@@ -1,319 +1,319 @@
 ---
 id: verification
-title: Verification
+title: Vérification
 ---
 
 ﻿---
-title: Verification & Audit FAQ
-sidebar_label: Verification & Audit
+title: FAQ sur la vérification et l'audit
+sidebar_label: Vérification et audit
 ---
 
-# Verification & Audit FAQ
+# FAQ sur la vérification et l'audit
 
-This section explains how integrity verification works within the VeriSeal framework.
+Cette section explique comment fonctionne la vérification de l'intégrité dans le cadre de VeriSeal.
 
-Verification is deterministic.
+La vérification est déterministe.
 
-It does not depend on trust.
-
----
-
-## 1. What does verification mean in VeriSeal?
-
-Verification means:
-
-Recomputing the hash of a canonical proof object
-and confirming that it matches the recorded integrity value.
-
-If the values match:
-
-The record has not been altered since sealing.
+Elle ne dépend pas de la confiance.
 
 ---
 
-## 2. Does verification require proprietary infrastructure?
+## 1. Que signifie la vérification dans VeriSeal ?
 
-No.
+La vérification signifie :
 
-Verification requires only:
+Recalculer le hash d'un objet de preuve canonique
+et confirmer qu'il correspond à la valeur d'intégrité enregistrée.
 
-- The canonical proof object
-- The hash algorithm (SHA-256)
-- The documented protocol rules
+Si les valeurs correspondent :
 
-No proprietary network or vendor permission is required.
-
----
-
-## 3. Can verification be performed independently?
-
-Yes.
-
-Independent parties may:
-
-- Reconstruct the canonical object
-- Recompute the SHA-256 hash
-- Validate integrity consistency
-- Validate optional chain continuity
-- Validate optional signature binding
-
-Verification is vendor-neutral.
+L'enregistrement n'a pas été altéré depuis le scellement.
 
 ---
 
-## 4. Can regulators verify proofs themselves?
+## 2. La vérification nécessite-t-elle une infrastructure propriétaire ?
 
-Yes.
+Non.
 
-Regulators do not require:
+La vérification nécessite uniquement :
 
-- Network membership
-- Token access
-- Vendor approval
-- Centralized database access
+- L'objet de preuve canonique
+- L'algorithme de hash (SHA-256)
+- Les règles de protocole documentées
 
-Verification can be performed using documented rules.
-
----
-
-## 5. What happens if verification fails?
-
-If recomputed hash differs:
-
-- The record has changed
-- The canonical structure has been altered
-- Integrity is compromised
-
-Verification failure indicates structural inconsistency.
-
-It does not automatically determine intent.
+Aucun réseau propriétaire ou autorisation de fournisseur n'est requis.
 
 ---
 
-## 6. Can verification detect partial data manipulation?
+## 3. La vérification peut-elle être effectuée de manière indépendante ?
 
-Yes.
+Oui.
 
-Any change in:
+Des parties indépendantes peuvent :
 
-- Content
-- Metadata included in canonical object
-- Timestamp field
-- Structural ordering
+- Reconstruire l'objet canonique
+- Recalculer le hash SHA-256
+- Valider la cohérence de l'intégrité
+- Valider la continuité de la chaîne optionnelle
+- Valider la liaison de signature optionnelle
 
-Will produce a different hash.
-
-Even minimal changes are detectable.
-
----
-
-## 7. Does verification confirm authenticity?
-
-No.
-
-Verification confirms integrity.
-
-Authenticity (identity binding) requires:
-
-- Digital signature
-- Identity assurance mechanisms
-- Qualified signature schemes (where applicable)
-
-Integrity and authenticity are distinct properties.
+La vérification est neutre vis-à-vis des fournisseurs.
 
 ---
 
-## 8. Can verification confirm chronology?
+## 4. Les régulateurs peuvent-ils vérifier eux-mêmes les preuves ?
 
-Chronology may be reinforced when:
+Oui.
 
-- Timestamp fields are included
-- Event chaining is enabled
-- External anchoring is used
+Les régulateurs n'ont pas besoin de :
 
-Verification can confirm structural consistency of chronological claims.
+- Adhésion au réseau
+- Accès aux jetons
+- Approbation du fournisseur
+- Accès à une base de données centralisée
 
-It does not create statutory time authority.
-
----
-
-## 9. Does verification depend on consensus mechanisms?
-
-No.
-
-Verification is local and deterministic.
-
-It does not require:
-
-- Validator agreement
-- Network synchronization
-- Token consensus
-
-Integrity is mathematical, not social.
+La vérification peut être effectuée en utilisant les règles documentées.
 
 ---
 
-## 10. Can verification be automated?
+## 5. Que se passe-t-il si la vérification échoue ?
 
-Yes.
+Si le hash recalculé diffère :
 
-Verification can be:
+- L'enregistrement a changé
+- La structure canonique a été altérée
+- L'intégrité est compromise
 
-- Scripted
-- Integrated into audit pipelines
-- Embedded into compliance workflows
-- Used in automated reconciliation systems
+L'échec de la vérification indique une incohérence structurelle.
 
-It supports machine-based validation.
-
----
-
-## 11. Is verification scalable?
-
-Yes.
-
-SHA-256 hashing is computationally efficient.
-
-Verification can scale across:
-
-- High-volume transaction systems
-- Enterprise records
-- Sector-wide deployments
-
-Scalability depends on integration design.
+Il ne détermine pas automatiquement l'intention.
 
 ---
 
-## 12. Can verification operate in air-gapped environments?
+## 6. La vérification peut-elle détecter une manipulation partielle des données ?
 
-Yes.
+Oui.
 
-Verification requires:
+Tout changement dans :
 
-- Canonical object
-- Hash algorithm
-- Documented rules
+- Le contenu
+- Les métadonnées incluses dans l'objet canonique
+- Le champ de l'horodatage
+- L'ordre structurel
 
-No internet connectivity is required.
+Produira un hash différent.
 
----
-
-## 13. What happens if the ledger is corrupted?
-
-Individual proof verification remains possible.
-
-Ledger corruption affects:
-
-- Chain continuity validation
-- Event sequence reconstruction
-
-It does not invalidate recomputation of individual proof hashes.
+Même les changements minimes sont détectables.
 
 ---
 
-## 14. Can multiple parties verify the same proof?
+## 7. La vérification confirme-t-elle l'authenticité ?
 
-Yes.
+Non.
 
-Any party with access to:
+La vérification confirme l'intégrité.
 
-- The canonical object
-- The proof hash
+L'authenticité (liaison d'identité) nécessite :
 
-Can independently verify integrity.
+- Une signature numérique
+- Des mécanismes d'assurance d'identité
+- Des schémas de signature qualifiés (le cas échéant)
 
-Verification is reproducible across environments.
-
----
-
-## 15. Does verification prove that the content is true?
-
-No.
-
-Verification proves:
-
-That the content has not changed since sealing.
-
-It does not prove:
-
-- Factual correctness
-- Legal validity
-- Identity authenticity (unless signed)
-
-Integrity is not truth validation.
+L'intégrité et l'authenticité sont des propriétés distinctes.
 
 ---
 
-## 16. Can verification support expert judicial analysis?
+## 8. La vérification peut-elle confirmer la chronologie ?
 
-Yes.
+La chronologie peut être renforcée lorsque :
 
-Because verification is:
+- Les champs d'horodatage sont inclus
+- Le chaînage d'événements est activé
+- L'ancrage externe est utilisé
 
-- Deterministic
-- Reproducible
-- Hash-based
-- Technology-neutral
+La vérification peut confirmer la cohérence structurelle des revendications chronologiques.
 
-Experts can independently:
-
-- Recompute hashes
-- Validate structure
-- Confirm chain consistency (if used)
-
-Judicial interpretation remains jurisdiction-dependent.
+Elle ne crée pas d'autorité temporelle statutaire.
 
 ---
 
-## 17. Can verification be integrated into audit processes?
+## 9. La vérification dépend-elle des mécanismes de consensus ?
 
-Yes.
+Non.
 
-Verification can support:
+La vérification est locale et déterministe.
 
-- Internal audit review
-- Compliance validation
-- Regulatory inspections
-- Forensic investigations
+Elle ne nécessite pas :
 
-It strengthens structural audit defensibility.
+- L'accord des validateurs
+- La synchronisation du réseau
+- Le consensus des jetons
 
----
-
-## 18. What risk does verification reduce?
-
-Verification reduces:
-
-- Undetected tampering risk
-- Record manipulation risk
-- Chronological dispute risk
-- Internal alteration exposure
-- Post-incident evidentiary fragility
-
-It strengthens institutional defensibility.
+L'intégrité est mathématique, non sociale.
 
 ---
 
-## 19. Does verification require long-term vendor access?
+## 10. La vérification peut-elle être automatisée ?
 
-No.
+Oui.
 
-Verification relies on:
+La vérification peut être :
 
-- Publicly documented hashing algorithm
-- Documented canonicalization rules
-- Mathematical recomputation
+- Scriptée
+- Intégrée dans des pipelines d'audit
+- Intégrée dans des flux de travail de conformité
+- Utilisée dans des systèmes de réconciliation automatisés
 
-Vendor continuity is not required for validation.
+Elle prend en charge la validation par machine.
 
 ---
 
-## 20. What is verification in one sentence?
+## 11. La vérification est-elle évolutive ?
 
-Verification confirms that a digital record remains
-exactly in the same structural state
-as when it was sealed.
+Oui.
 
-Nothing more.
+Le hashage SHA-256 est efficace sur le plan computationnel.
 
-Nothing less.
+La vérification peut évoluer à travers :
+
+- Des systèmes de transactions à haut volume
+- Des enregistrements d'entreprise
+- Des déploiements à l'échelle du secteur
+
+L'évolutivité dépend de la conception de l'intégration.
+
+---
+
+## 12. La vérification peut-elle fonctionner dans des environnements isolés ?
+
+Oui.
+
+La vérification nécessite :
+
+- L'objet canonique
+- L'algorithme de hash
+- Les règles documentées
+
+Aucune connexion Internet n'est requise.
+
+---
+
+## 13. Que se passe-t-il si le registre est corrompu ?
+
+La vérification individuelle des preuves reste possible.
+
+La corruption du registre affecte :
+
+- La validation de la continuité de la chaîne
+- La reconstruction de la séquence d'événements
+
+Elle n'invalide pas le recalcul des hashes de preuves individuelles.
+
+---
+
+## 14. Plusieurs parties peuvent-elles vérifier la même preuve ?
+
+Oui.
+
+Toute partie ayant accès à :
+
+- L'objet canonique
+- Le hash de la preuve
+
+Peut vérifier l'intégrité de manière indépendante.
+
+La vérification est reproductible à travers les environnements.
+
+---
+
+## 15. La vérification prouve-t-elle que le contenu est vrai ?
+
+Non.
+
+La vérification prouve :
+
+Que le contenu n'a pas changé depuis le scellement.
+
+Elle ne prouve pas :
+
+- L'exactitude factuelle
+- La validité légale
+- L'authenticité de l'identité (sauf si signée)
+
+L'intégrité n'est pas une validation de la vérité.
+
+---
+
+## 16. La vérification peut-elle soutenir une analyse judiciaire experte ?
+
+Oui.
+
+Parce que la vérification est :
+
+- Déterministe
+- Reproductible
+- Basée sur le hash
+- Neutre technologiquement
+
+Les experts peuvent indépendamment :
+
+- Recalculer les hashes
+- Valider la structure
+- Confirmer la cohérence de la chaîne (si utilisée)
+
+L'interprétation judiciaire reste dépendante de la juridiction.
+
+---
+
+## 17. La vérification peut-elle être intégrée dans les processus d'audit ?
+
+Oui.
+
+La vérification peut soutenir :
+
+- La révision d'audit interne
+- La validation de conformité
+- Les inspections réglementaires
+- Les enquêtes judiciaires
+
+Elle renforce la défensibilité structurelle de l'audit.
+
+---
+
+## 18. Quel risque la vérification réduit-elle ?
+
+La vérification réduit :
+
+- Le risque de falsification non détectée
+- Le risque de manipulation des enregistrements
+- Le risque de litige chronologique
+- L'exposition à l'altération interne
+- La fragilité des preuves après incident
+
+Elle renforce la défensibilité institutionnelle.
+
+---
+
+## 19. La vérification nécessite-t-elle un accès à long terme au fournisseur ?
+
+Non.
+
+La vérification repose sur :
+
+- Un algorithme de hashage documenté publiquement
+- Des règles de canonisation documentées
+- Un recalcul mathématique
+
+La continuité du fournisseur n'est pas requise pour la validation.
+
+---
+
+## 20. Qu'est-ce que la vérification en une phrase ?
+
+La vérification confirme qu'un enregistrement numérique reste
+exactement dans le même état structurel
+que lorsqu'il a été scellé.
+
+Rien de plus.
+
+Rien de moins.

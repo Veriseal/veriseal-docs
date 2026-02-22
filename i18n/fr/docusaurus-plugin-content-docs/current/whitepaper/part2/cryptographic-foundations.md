@@ -1,27 +1,27 @@
 ---
 id: cryptographic-foundations
-title: Cryptographic Foundations
+title: Fondations Cryptographiques
 ---
 
 ﻿---
-title: Cryptographic Foundations
-sidebar_label: 2.1 Cryptographic Foundations
+title: Fondations Cryptographiques
+sidebar_label: 2.1 Fondations Cryptographiques
 slug: /whitepaper/part2/cryptographic-foundations
 sidebar_position: 2.1
 ---
 
-# Cryptographic Foundations
+# Fondations Cryptographiques
 
-VeriSeal relies on established cryptographic primitives:
-- hashing (e.g., SHA-256),
-- asymmetric signatures for attestations,
-- optional timestamp anchoring (e.g., blockchain/OpenTimestamps).
+VeriSeal repose sur des primitives cryptographiques établies :
+- hachage (par exemple, SHA-256),
+- signatures asymétriques pour les attestations,
+- ancrage temporel optionnel (par exemple, blockchain/OpenTimestamps).
 
-The goal is not novelty. The goal is determinism.
+L'objectif n'est pas la nouveauté. L'objectif est le déterminisme.
 
-A proof must be:
-- reproducible,
-- verifiable by third parties,
-- stable over time.
+Une preuve doit être :
+- reproductible,
+- vérifiable par des tiers,
+- stable dans le temps.
 
-Cryptography provides mathematical integrity, not semantic truth.
+La cryptographie fournit l'intégrité mathématique, pas la vérité sémantique.

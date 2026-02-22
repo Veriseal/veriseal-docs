@@ -1,31 +1,31 @@
 ---
-title: Part II – The VeriSeal Architecture
-sidebar_label: Part II – Architecture
+title: Partie II – L'Architecture de VeriSeal
+sidebar_label: Partie II – Architecture
 slug: /whitepaper/part2
 sidebar_position: 2
 ---
 
-# Part II – The VeriSeal Architecture
+# Partie II – L'Architecture de VeriSeal
 
-Part II describes the technical architecture that transforms VeriSeal from a conceptual integrity thesis into a deployable infrastructure.
+La Partie II décrit l'architecture technique qui transforme VeriSeal d'une thèse conceptuelle d'intégrité en une infrastructure déployable.
 
-The architecture is designed to satisfy three simultaneous constraints:
+L'architecture est conçue pour satisfaire trois contraintes simultanées :
 
-1. **Deterministic cryptographic integrity**
-2. **Institutional-grade operational robustness**
-3. **Independent public verifiability**
+1. **Intégrité cryptographique déterministe**
+2. **Robustesse opérationnelle de niveau institutionnel**
+3. **Vérifiabilité publique indépendante**
 
-VeriSeal is not built as a blockchain.
-It is built as a structured integrity layer.
+VeriSeal n'est pas construit comme une blockchain.
+Il est construit comme une couche d'intégrité structurée.
 
-This section covers:
+Cette section couvre :
 
-- Canonicalization and hashing model  
-- Merkle aggregation and multi-artifact binding  
-- Append-only ledger structure  
-- Public verification architecture  
-- Sovereignty and deployment model  
-- Hybrid governance positioning  
+- Modèle de canonicalisation et de hachage  
+- Agrégation Merkle et liaison multi-artéfacts  
+- Structure de registre en mode en ajout seul  
+- Architecture de vérification publique  
+- Modèle de souveraineté et de déploiement  
+- Positionnement de gouvernance hybride  
 
-The objective is not novelty.  
-The objective is structural reliability.
+L'objectif n'est pas la nouveauté.  
+L'objectif est la fiabilité structurelle.

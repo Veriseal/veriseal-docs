@@ -1,59 +1,61 @@
----
-title: Executive Objection Playbook
----
-
-# Executive Objection Playbook
-
-Objections are structural — not technical.
+File: executive-objection-playbook.md
 
 ---
+title: Manual de Gestionare a Obiecțiilor Executive
+---
 
-## "We already use blockchain."
+# Manual de Gestionare a Obiecțiilor Executive
 
-Blockchain provides anchoring.
-It does not provide governance, structure, or deterministic verification continuity.
-
-VeriSeal operates at the protocol layer above anchoring.
+Obiecțiile sunt structurale — nu tehnice.
 
 ---
 
-## "We already use electronic signatures."
+## "Deja folosim blockchain."
 
-Signatures validate authorship.
-They do not guarantee structural immutability or cross-system verification.
+Blockchain oferă ancorare.
+Nu oferă guvernanță, structură sau continuitate de verificare deterministă.
 
-VeriSeal complements signature systems.
-
----
-
-## "Is this legally admissible?"
-
-VeriSeal does not replace legal frameworks.
-
-It strengthens evidentiary robustness through:
-
-- Deterministic hashing
-- Append-only ledger continuity
-- Transparent verification protocol
-
-Legal admissibility increases with structural clarity.
+VeriSeal operează la nivelul de protocol deasupra ancorării.
 
 ---
 
-## "Is this too complex?"
+## "Deja folosim semnături electronice."
 
-VeriSeal integrates via API.
+Semnăturile validează autoratul.
+Nu garantează imuabilitatea structurală sau verificarea între sisteme.
 
-Verification complexity is abstracted from end-users.
-
-Institutional systems remain intact.
+VeriSeal completează sistemele de semnături.
 
 ---
 
-## "Is this necessary now?"
+## "Este acest lucru admisibil legal?"
 
-Integrity failures scale with AI capabilities.
+VeriSeal nu înlocuiește cadrele legale.
 
-Waiting increases exposure.
+Întărește robustețea probatorie prin:
 
-Early adoption positions institutions ahead of regulatory enforcement.
+- Hashing determinist
+- Continuitatea registrului doar în adăugare
+- Protocol de verificare transparent
+
+Admisibilitatea legală crește cu claritatea structurală.
+
+---
+
+## "Este prea complex?"
+
+VeriSeal se integrează prin API.
+
+Complexitatea verificării este abstractizată de la utilizatorii finali.
+
+Sistemele instituționale rămân intacte.
+
+---
+
+## "Este necesar acum?"
+
+Eșecurile de integritate cresc odată cu capacitățile AI.
+
+Așteptarea crește expunerea.
+
+Adoptarea timpurie poziționează instituțiile înaintea aplicării reglementărilor.

@@ -1,51 +1,51 @@
 ---
 id: why-existing-systems-fail
-title: Why Existing Systems Fail
-sidebar_label: 1.4 Why Existing Systems Fail
+title: De ce eșuează sistemele existente
+sidebar_label: 1.4 De ce eșuează sistemele existente
 slug: /whitepaper/part1/why-existing-systems-fail
 sidebar_position: 4
 ---
 
-# Why Existing Systems Fail
+# De ce eșuează sistemele existente
 
-Existing solutions address fragments of the integrity problem.
+Soluțiile existente abordează fragmente ale problemei integrității.
 
-They do not solve the structural challenge.
+Ele nu rezolvă provocarea structurală.
 
-### Platform-Centric Logging
+### Jurnalizare Centrată pe Platformă
 
-Internal audit trails operate within proprietary trust boundaries.
+Urmele de audit interne operează în limitele de încredere proprietare.
 
-They cannot provide cross-system determinism.
+Ele nu pot oferi determinism între sisteme.
 
-### Document-Centric Signatures
+### Semnături Centrate pe Documente
 
-Signatures authenticate actors.
+Semnăturile autentifică actorii.
 
-They do not guarantee structural immutability across lifecycle transformations.
+Ele nu garantează imuabilitatea structurală pe parcursul transformărilor ciclului de viață.
 
-### Blockchain Anchoring
+### Ancorare Blockchain
 
-Blockchain provides timestamping.
+Blockchain oferă marcarea temporală.
 
-It does not normalize evidence structures or define verification governance.
+Nu normalizează structurile de dovezi și nu definește guvernanța verificării.
 
-### Regulatory Frameworks
+### Cadrul de Reglementare
 
-Regulation defines admissibility thresholds.
+Reglementarea definește pragurile de admisibilitate.
 
-It does not define deterministic technical architectures.
+Nu definește arhitecturi tehnice deterministe.
 
-Each solution addresses a layer.
+Fiecare soluție abordează un strat.
 
-None provides a standardized, cross-sector integrity architecture.
+Niciuna nu oferă o arhitectură de integritate standardizată, intersectorială.
 
-The missing element is a protocol-grade integrity layer:
+Elementul lipsă este un strat de integritate de nivel protocol:
 
-- Deterministic
-- Reproducible
-- Cross-jurisdictional
-- Governance-compatible
-- Technically verifiable
+- Determinist
+- Reproductibil
+- Trans-jurisdicțional
+- Compatibil cu guvernanța
+- Verificabil tehnic
 
-Without such a layer, digital evidence remains structurally dependent on platform trust.
+Fără un astfel de strat, dovezile digitale rămân structural dependente de încrederea în platformă.

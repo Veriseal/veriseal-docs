@@ -1,93 +1,452 @@
 {
-  "theme.ErrorPageContent.title": { "message": "Cette page a planté.", "description": "The title of the fallback page when the page crashed" },
-  "theme.BackToTopButton.buttonAriaLabel": { "message": "Retour au début de la page", "description": "The ARIA label for the back to top button" },
-  "theme.blog.archive.title": { "message": "Archive", "description": "The page & hero title of the blog archive page" },
-  "theme.blog.archive.description": { "message": "Archive", "description": "The page & hero description of the blog archive page" },
-  "theme.blog.paginator.navAriaLabel": { "message": "Pagination de la liste des articles du blog", "description": "The ARIA label for the blog pagination" },
-  "theme.blog.paginator.newerEntries": { "message": "Nouvelles entrées", "description": "The label used to navigate to the newer blog posts page (previous page)" },
-  "theme.blog.paginator.olderEntries": { "message": "Anciennes entrées", "description": "The label used to navigate to the older blog posts page (next page)" },
-  "theme.blog.post.paginator.navAriaLabel": { "message": "Pagination des articles du blog", "description": "The ARIA label for the blog posts pagination" },
-  "theme.blog.post.paginator.newerPost": { "message": "Article plus récent", "description": "The blog post button label to navigate to the newer/previous post" },
-  "theme.blog.post.paginator.olderPost": { "message": "Article plus ancien", "description": "The blog post button label to navigate to the older/next post" },
-  "theme.tags.tagsPageLink": { "message": "Voir tous les tags", "description": "The label of the link targeting the tag list page" },
-  "theme.colorToggle.ariaLabel.mode.system": { "message": "system mode", "description": "The name for the system color mode" },
-  "theme.colorToggle.ariaLabel.mode.light": { "message": "mode clair", "description": "The name for the light color mode" },
-  "theme.colorToggle.ariaLabel.mode.dark": { "message": "mode sombre", "description": "The name for the dark color mode" },
-  "theme.colorToggle.ariaLabel": { "message": "Basculer entre le mode sombre et clair (actuellement {mode})", "description": "The ARIA label for the color mode toggle" },
-  "theme.docs.DocCard.categoryDescription.plurals": { "message": "1 élément|{count} éléments", "description": "Pluralized label for category card items count" },
-  "theme.docs.breadcrumbs.navAriaLabel": { "message": "Fil d'Ariane", "description": "The ARIA label for the breadcrumbs" },
-  "theme.docs.paginator.navAriaLabel": { "message": "Pages de documentation", "description": "The ARIA label for the docs pagination" },
-  "theme.docs.paginator.previous": { "message": "Précédent", "description": "The label used to navigate to the previous doc" },
-  "theme.docs.paginator.next": { "message": "Suivant", "description": "The label used to navigate to the next doc" },
-  "theme.docs.tagDocListPageTitle.nDocsTagged": { "message": "Un document tagué|{count} documents tagués", "description": "Pluralized label for docs tagged" },
-  "theme.docs.tagDocListPageTitle": { "message": "{nDocsTagged} avec \"{tagName}\"", "description": "The title of the page for a docs tag" },
-  "theme.docs.versionBadge.label": { "message": "Version: {versionLabel}" },
-  "theme.docs.versions.unreleasedVersionLabel": { "message": "Ceci est la documentation de la prochaine version {versionLabel} de {siteTitle}.", "description": "Unreleased doc version" },
-  "theme.docs.versions.unmaintainedVersionLabel": { "message": "Ceci est la documentation de {siteTitle} {versionLabel}, qui n'est plus activement maintenue.", "description": "Unmaintained doc version" },
-  "theme.docs.versions.latestVersionSuggestionLabel": { "message": "Pour une documentation à jour, consultez la {latestVersionLink} ({versionLabel}).", "description": "Latest version suggestion" },
-  "theme.docs.versions.latestVersionLinkLabel": { "message": "dernière version", "description": "Latest version label" },
-  "theme.common.editThisPage": { "message": "Éditer cette page", "description": "Edit page link" },
-  "theme.common.headingLinkTitle": { "message": "Lien direct vers {heading}", "description": "Heading link title" },
-  "theme.lastUpdated.atDate": { "message": " le {date}", "description": "Last updated date" },
-  "theme.lastUpdated.byUser": { "message": " par {user}", "description": "Last updated by user" },
-  "theme.lastUpdated.lastUpdatedAtBy": { "message": "Dernière mise à jour{atDate}{byUser}", "description": "Last updated combined" },
-  "theme.navbar.mobileVersionsDropdown.label": { "message": "Versions", "description": "Navbar versions dropdown" },
-  "theme.NotFound.title": { "message": "Page introuvable", "description": "404 title" },
-  "theme.tags.tagsListLabel": { "message": "Tags :", "description": "Tag list label" },
-  "theme.admonition.caution": { "message": "attention", "description": "Caution admonition" },
-  "theme.admonition.danger": { "message": "danger", "description": "Danger admonition" },
-  "theme.admonition.info": { "message": "info", "description": "Info admonition" },
-  "theme.admonition.note": { "message": "remarque", "description": "Note admonition" },
-  "theme.admonition.tip": { "message": "astuce", "description": "Tip admonition" },
-  "theme.admonition.warning": { "message": "attention", "description": "Warning admonition" },
-  "theme.AnnouncementBar.closeButtonAriaLabel": { "message": "Fermer", "description": "Close announcement bar" },
-  "theme.blog.sidebar.navAriaLabel": { "message": "Navigation article de blog récent", "description": "Blog sidebar nav" },
-  "theme.DocSidebarItem.expandCategoryAriaLabel": { "message": "Développer la catégorie '{label}' de la barre latérale", "description": "Expand category" },
-  "theme.DocSidebarItem.collapseCategoryAriaLabel": { "message": "Réduire la catégorie '{label}' de la barre latérale", "description": "Collapse category" },
-  "theme.IconExternalLink.ariaLabel": { "message": "(opens in new tab)", "description": "External link icon" },
-  "theme.NavBar.navAriaLabel": { "message": "Main", "description": "Main nav label" },
-  "theme.navbar.mobileLanguageDropdown.label": { "message": "Langues", "description": "Mobile language dropdown" },
-  "theme.NotFound.p1": { "message": "Nous n'avons pas trouvé ce que vous recherchez.", "description": "404 paragraph 1" },
-  "theme.NotFound.p2": { "message": "Veuillez contacter le propriétaire du site qui vous a lié à l'URL d'origine et leur faire savoir que leur lien est cassé.", "description": "404 paragraph 2" },
-  "theme.TOCCollapsible.toggleButtonLabel": { "message": "Sur cette page", "description": "TOC label" },
-  "theme.blog.post.readMore": { "message": "Lire plus", "description": "Read more label" },
-  "theme.blog.post.readMoreLabel": { "message": "En savoir plus sur {title}", "description": "Read more aria label" },
-  "theme.blog.post.readingTime.plurals": { "message": "Une minute de lecture|{readingTime} minutes de lecture", "description": "Reading time label" },
-  "theme.CodeBlock.copy": { "message": "Copier", "description": "Copy code button" },
-  "theme.CodeBlock.copied": { "message": "Copié", "description": "Copied state" },
-  "theme.CodeBlock.copyButtonAriaLabel": { "message": "Copier le code", "description": "Copy code aria" },
-  "theme.CodeBlock.wordWrapToggle": { "message": "Activer/désactiver le retour à la ligne", "description": "Word wrap toggle" },
-  "theme.docs.breadcrumbs.home": { "message": "Page d'accueil", "description": "Breadcrumb home" },
-  "theme.docs.sidebar.collapseButtonTitle": { "message": "Réduire le menu latéral", "description": "Collapse sidebar title" },
-  "theme.docs.sidebar.collapseButtonAriaLabel": { "message": "Réduire le menu latéral", "description": "Collapse sidebar aria" },
-  "theme.docs.sidebar.navAriaLabel": { "message": "Docs sidebar", "description": "Docs sidebar aria" },
-  "theme.docs.sidebar.closeSidebarButtonAriaLabel": { "message": "Fermer la barre de navigation", "description": "Close sidebar aria" },
-  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": { "message": "← Retour au menu principal", "description": "Back to main menu" },
-  "theme.docs.sidebar.toggleSidebarButtonAriaLabel": { "message": "Ouvrir/fermer la barre de navigation", "description": "Toggle nav" },
-  "theme.navbar.mobileDropdown.collapseButton.expandAriaLabel": { "message": "Expand the dropdown", "description": "Expand dropdown" },
-  "theme.navbar.mobileDropdown.collapseButton.collapseAriaLabel": { "message": "Collapse the dropdown", "description": "Collapse dropdown" },
-  "theme.docs.sidebar.expandButtonTitle": { "message": "Déplier le menu latéral", "description": "Expand sidebar title" },
-  "theme.docs.sidebar.expandButtonAriaLabel": { "message": "Déplier le menu latéral", "description": "Expand sidebar aria" },
-  "theme.blog.post.plurals": { "message": "Un article|{count} articles", "description": "Post plural label" },
-  "theme.blog.tagTitle": { "message": "{nPosts} tagués avec « {tagName} »", "description": "Blog tag title" },
-  "theme.blog.author.pageTitle": { "message": "{authorName} - {nPosts}", "description": "Author page title" },
-  "theme.blog.authorsList.pageTitle": { "message": "Authors", "description": "Authors page title" },
-  "theme.blog.authorsList.viewAll": { "message": "View All Authors", "description": "View all authors" },
-  "theme.blog.author.noPosts": { "message": "This author has not written any posts yet.", "description": "No posts" },
-  "theme.contentVisibility.unlistedBanner.title": { "message": "Page non répertoriée", "description": "Unlisted banner title" },
-  "theme.contentVisibility.unlistedBanner.message": { "message": "Cette page n'est pas répertoriée. Les moteurs de recherche ne l'indexeront pas, et seuls les utilisateurs ayant un lien direct peuvent y accéder.", "description": "Unlisted banner message" },
-  "theme.contentVisibility.draftBanner.title": { "message": "Draft page", "description": "Draft banner title" },
-  "theme.contentVisibility.draftBanner.message": { "message": "This page is a draft. It will only be visible in dev and be excluded from the production build.", "description": "Draft banner message" },
-  "theme.ErrorPageContent.tryAgain": { "message": "Réessayer", "description": "Try again button" },
-  "theme.common.skipToMainContent": { "message": "Aller au contenu principal", "description": "Skip to main content" },
-  "theme.tags.tagsPageTitle": { "message": "Tags", "description": "The title of the tag list page" },
-
-  "homepage.title": { "message": "VeriSeal — Infrastructure Cryptographique de Preuve", "description": "Homepage title" },
-  "homepage.description": { "message": "Infrastructure souveraine européenne pour l’intégrité vérifiable et l’ancrage cryptographique.", "description": "Homepage meta description" },
-  "homepage.hero.title.part1": { "message": "La crise mondiale de la", "description": "Hero title part 1" },
-  "homepage.hero.title.accent": { "message": "preuve numérique", "description": "Hero accent" },
-  "homepage.hero.title.part2": { "message": "exige un nouveau standard.", "description": "Hero title part 2" },
-  "homepage.hero.subtitle": { "message": "VeriSeal établit une couche de preuve indépendante, vérifiable mathématiquement.", "description": "Hero subtitle" },
-  "homepage.cta.whitepaper": { "message": "Lire le Whitepaper", "description": "CTA whitepaper" },
-  "homepage.cta.standard": { "message": "Découvrir le Standard", "description": "CTA standard" }
+  "theme.ErrorPageContent.title": {
+    "message": "Cette page a rencontré une erreur.",
+    "description": "The title of the fallback page when the page crashed"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "Retour en haut de la page",
+    "description": "The ARIA label for the back to top button"
+  },
+  "theme.blog.archive.title": {
+    "message": "Archives",
+    "description": "The page & hero title of the blog archive page"
+  },
+  "theme.blog.archive.description": {
+    "message": "Archives",
+    "description": "The page & hero description of the blog archive page"
+  },
+  "theme.blog.paginator.navAriaLabel": {
+    "message": "Navigation entre les pages du blog",
+    "description": "The ARIA label for the blog pagination"
+  },
+  "theme.blog.paginator.newerEntries": {
+    "message": "Articles récents",
+    "description": "The label used to navigate to the newer blog posts page (previous page)"
+  },
+  "theme.blog.paginator.olderEntries": {
+    "message": "Articles précédents",
+    "description": "The label used to navigate to the older blog posts page (next page)"
+  },
+  "theme.blog.post.paginator.navAriaLabel": {
+    "message": "Navigation entre les articles du blog",
+    "description": "The ARIA label for the blog posts pagination"
+  },
+  "theme.blog.post.paginator.newerPost": {
+    "message": "Article suivant",
+    "description": "The blog post button label to navigate to the newer/previous post"
+  },
+  "theme.blog.post.paginator.olderPost": {
+    "message": "Article précédent",
+    "description": "The blog post button label to navigate to the older/next post"
+  },
+  "theme.tags.tagsPageLink": {
+    "message": "Voir tous les tags",
+    "description": "The label of the link targeting the tag list page"
+  },
+  "theme.colorToggle.ariaLabel.mode.system": {
+    "message": "mode système",
+    "description": "The name for the system color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.light": {
+    "message": "mode clair",
+    "description": "The name for the light color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.dark": {
+    "message": "mode sombre",
+    "description": "The name for the dark color mode"
+  },
+  "theme.colorToggle.ariaLabel": {
+    "message": "Basculer entre le mode sombre et le mode clair (actuellement : {mode})",
+    "description": "The ARIA label for the color mode toggle"
+  },
+  "theme.docs.DocCard.categoryDescription.plurals": {
+    "message": "1 article|{count} articles",
+    "description": "The default description for a category card in the generated index about how many items this category includes"
+  },
+  "theme.docs.breadcrumbs.navAriaLabel": {
+    "message": "Fil d'Ariane",
+    "description": "The ARIA label for the breadcrumbs"
+  },
+  "theme.docs.paginator.navAriaLabel": {
+    "message": "Navigation dans la documentation",
+    "description": "The ARIA label for the docs pagination"
+  },
+  "theme.docs.paginator.previous": {
+    "message": "Précédent",
+    "description": "The label used to navigate to the previous doc"
+  },
+  "theme.docs.paginator.next": {
+    "message": "Suivant",
+    "description": "The label used to navigate to the next doc"
+  },
+  "theme.docs.tagDocListPageTitle.nDocsTagged": {
+    "message": "Un document tagué|{count} documents tagués",
+    "description": "Pluralized label for \"{count} docs tagged\"."
+  },
+  "theme.docs.tagDocListPageTitle": {
+    "message": "{nDocsTagged} avec « {tagName} »",
+    "description": "The title of the page for a docs tag"
+  },
+  "theme.docs.versionBadge.label": {
+    "message": "Version : {versionLabel}"
+  },
+  "theme.docs.versions.unreleasedVersionLabel": {
+    "message": "Il s'agit de la documentation de la version {versionLabel} de {siteTitle}, qui n'est pas encore publiée.",
+    "description": "The label used to tell the user that he's browsing an unreleased doc version"
+  },
+  "theme.docs.versions.unmaintainedVersionLabel": {
+    "message": "Il s'agit de la documentation de {siteTitle} {versionLabel}, qui n'est plus activement maintenue.",
+    "description": "The label used to tell the user that he's browsing an unmaintained doc version"
+  },
+  "theme.docs.versions.latestVersionSuggestionLabel": {
+    "message": "Pour une documentation à jour, consultez la {latestVersionLink} ({versionLabel}).",
+    "description": "The label used to tell the user to check the latest version"
+  },
+  "theme.docs.versions.latestVersionLinkLabel": {
+    "message": "dernière version",
+    "description": "The label used for the latest version suggestion link label"
+  },
+  "theme.common.editThisPage": {
+    "message": "Modifier cette page",
+    "description": "The link label to edit the current page"
+  },
+  "theme.common.headingLinkTitle": {
+    "message": "Lien direct vers {heading}",
+    "description": "Title for link to heading"
+  },
+  "theme.lastUpdated.atDate": {
+    "message": " le {date}",
+    "description": "The words used to describe on which date a page has been last updated"
+  },
+  "theme.lastUpdated.byUser": {
+    "message": " par {user}",
+    "description": "The words used to describe by who the page has been last updated"
+  },
+  "theme.lastUpdated.lastUpdatedAtBy": {
+    "message": "Dernière mise à jour{atDate}{byUser}",
+    "description": "The sentence used to display when a page has been last updated, and by who"
+  },
+  "theme.navbar.mobileVersionsDropdown.label": {
+    "message": "Versions",
+    "description": "The label for the navbar versions dropdown on mobile view"
+  },
+  "theme.NotFound.title": {
+    "message": "Page introuvable",
+    "description": "The title of the 404 page"
+  },
+  "theme.tags.tagsListLabel": {
+    "message": "Tags :",
+    "description": "The label alongside a tag list"
+  },
+  "theme.admonition.caution": {
+    "message": "attention",
+    "description": "The default label used for the Caution admonition (:::caution)"
+  },
+  "theme.admonition.danger": {
+    "message": "danger",
+    "description": "The default label used for the Danger admonition (:::danger)"
+  },
+  "theme.admonition.info": {
+    "message": "information",
+    "description": "The default label used for the Info admonition (:::info)"
+  },
+  "theme.admonition.note": {
+    "message": "remarque",
+    "description": "The default label used for the Note admonition (:::note)"
+  },
+  "theme.admonition.tip": {
+    "message": "conseil",
+    "description": "The default label used for the Tip admonition (:::tip)"
+  },
+  "theme.admonition.warning": {
+    "message": "avertissement",
+    "description": "The default label used for the Warning admonition (:::warning)"
+  },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "Fermer",
+    "description": "The ARIA label for close button of announcement bar"
+  },
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "Navigation — articles récents",
+    "description": "The ARIA label for recent posts in the blog sidebar"
+  },
+  "theme.DocSidebarItem.expandCategoryAriaLabel": {
+    "message": "Développer la catégorie « {label} »",
+    "description": "The ARIA label to expand the sidebar category"
+  },
+  "theme.DocSidebarItem.collapseCategoryAriaLabel": {
+    "message": "Réduire la catégorie « {label} »",
+    "description": "The ARIA label to collapse the sidebar category"
+  },
+  "theme.IconExternalLink.ariaLabel": {
+    "message": "(s'ouvre dans un nouvel onglet)",
+    "description": "The ARIA label for the external link icon"
+  },
+  "theme.NavBar.navAriaLabel": {
+    "message": "Navigation principale",
+    "description": "The ARIA label for the main navigation"
+  },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "Langue",
+    "description": "The label for the mobile language switcher dropdown"
+  },
+  "theme.NotFound.p1": {
+    "message": "La page que vous recherchez est introuvable.",
+    "description": "The first paragraph of the 404 page"
+  },
+  "theme.NotFound.p2": {
+    "message": "Si vous avez suivi un lien externe, il est possible qu'il soit obsolète. Contactez le propriétaire du site source pour l'en informer.",
+    "description": "The 2nd paragraph of the 404 page"
+  },
+  "theme.TOCCollapsible.toggleButtonLabel": {
+    "message": "Sur cette page",
+    "description": "The label used by the button on the collapsible TOC component"
+  },
+  "theme.blog.post.readMore": {
+    "message": "Lire la suite",
+    "description": "The label used in blog post item excerpts to link to full blog posts"
+  },
+  "theme.blog.post.readMoreLabel": {
+    "message": "Lire la suite : {title}",
+    "description": "The ARIA label for the link to full blog posts from excerpts"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "1 minute de lecture|{readingTime} minutes de lecture",
+    "description": "Pluralized label for \"{readingTime} min read\"."
+  },
+  "theme.CodeBlock.copy": {
+    "message": "Copier",
+    "description": "The copy button label on code blocks"
+  },
+  "theme.CodeBlock.copied": {
+    "message": "Copié !",
+    "description": "The copied button label on code blocks"
+  },
+  "theme.CodeBlock.copyButtonAriaLabel": {
+    "message": "Copier le code dans le presse-papiers",
+    "description": "The ARIA label for copy code blocks button"
+  },
+  "theme.CodeBlock.wordWrapToggle": {
+    "message": "Activer/désactiver le retour à la ligne automatique",
+    "description": "The title attribute for toggle word wrapping button of code block lines"
+  },
+  "theme.docs.breadcrumbs.home": {
+    "message": "Accueil",
+    "description": "The ARIA label for the home page in the breadcrumbs"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "Réduire la barre latérale",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.collapseButtonAriaLabel": {
+    "message": "Réduire la barre latérale",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.navAriaLabel": {
+    "message": "Barre latérale de la documentation",
+    "description": "The ARIA label for the sidebar navigation"
+  },
+  "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
+    "message": "Fermer la barre de navigation",
+    "description": "The ARIA label for close button of mobile sidebar"
+  },
+  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
+    "message": "← Retour au menu principal",
+    "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu"
+  },
+  "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
+    "message": "Ouvrir/fermer la barre de navigation",
+    "description": "The ARIA label for hamburger menu button of mobile navigation"
+  },
+  "theme.navbar.mobileDropdown.collapseButton.expandAriaLabel": {
+    "message": "Déplier le menu",
+    "description": "The ARIA label of the button to expand the mobile dropdown navbar item"
+  },
+  "theme.navbar.mobileDropdown.collapseButton.collapseAriaLabel": {
+    "message": "Replier le menu",
+    "description": "The ARIA label of the button to collapse the mobile dropdown navbar item"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "Déplier la barre latérale",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.docs.sidebar.expandButtonAriaLabel": {
+    "message": "Déplier la barre latérale",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.blog.post.plurals": {
+    "message": "1 article|{count} articles",
+    "description": "Pluralized label for \"{count} posts\"."
+  },
+  "theme.blog.tagTitle": {
+    "message": "{nPosts} tagué(s) avec « {tagName} »",
+    "description": "The title of the page for a blog tag"
+  },
+  "theme.blog.author.pageTitle": {
+    "message": "{authorName} — {nPosts}",
+    "description": "The title of the page for a blog author"
+  },
+  "theme.blog.authorsList.pageTitle": {
+    "message": "Auteurs",
+    "description": "The title of the authors page"
+  },
+  "theme.blog.authorsList.viewAll": {
+    "message": "Voir tous les auteurs",
+    "description": "The label of the link targeting the blog authors page"
+  },
+  "theme.blog.author.noPosts": {
+    "message": "Cet auteur n'a pas encore publié d'article.",
+    "description": "The text for authors with 0 blog post"
+  },
+  "theme.contentVisibility.unlistedBanner.title": {
+    "message": "Page non référencée",
+    "description": "The unlisted content banner title"
+  },
+  "theme.contentVisibility.unlistedBanner.message": {
+    "message": "Cette page n'est pas référencée. Elle ne sera pas indexée par les moteurs de recherche et reste accessible uniquement via un lien direct.",
+    "description": "The unlisted content banner message"
+  },
+  "theme.contentVisibility.draftBanner.title": {
+    "message": "Page en cours de rédaction",
+    "description": "The draft content banner title"
+  },
+  "theme.contentVisibility.draftBanner.message": {
+    "message": "Cette page est un brouillon. Elle est visible uniquement en environnement de développement et sera exclue du build de production.",
+    "description": "The draft content banner message"
+  },
+  "theme.ErrorPageContent.tryAgain": {
+    "message": "Réessayer",
+    "description": "The label of the button to try again rendering when the React error boundary captures an error"
+  },
+  "theme.common.skipToMainContent": {
+    "message": "Accéder au contenu principal",
+    "description": "The skip to content label used for accessibility"
+  },
+  "theme.tags.tagsPageTitle": {
+    "message": "Tags",
+    "description": "The title of the tag list page"
+  },
+  "homepage.description": {
+    "message": "Infrastructure cryptographique déterministe sécurisant les preuves numériques et les registres institutionnels."
+  },
+  "homepage.hero.subtitle": {
+    "message": "Infrastructure cryptographique déterministe garantissant l’intégrité des preuves numériques, des transactions et des registres institutionnels entre juridictions.."
+  },
+  "homepage.hero.punchline": {
+    "message": "L'infrastructure indépendante de preuve cryptographique de l'économie numérique"
+  },
+  "homepage.cta.primary": {
+    "message": "Découvrir la vision stratégique"
+  },
+  "homepage.cta.secondary": {
+    "message": "Explorer les applications sectorielles"
+  },
+  "homepage.title": {
+    "message": "VeriSeal — Infrastructure d'Intégrité Mondiale"
+  },
+  "homepage.gap.title": {
+    "message": "La faille structurelle de l’intégrité numérique"
+  },
+  "homepage.gap.item1": {
+    "message": "La preuve numérique repose sur la confiance accordée aux systèmes."
+  },
+  "homepage.gap.item2": {
+    "message": "L’horodatage ne garantit pas l’immuabilité structurelle."
+  },
+  "homepage.gap.item3": {
+    "message": "Les signatures valident l’identité — pas l’architecture."
+  },
+  "homepage.gap.item4": {
+    "message": "L’ancrage blockchain ne remplace pas la gouvernance."
+  },
+  "homepage.gap.item5": {
+    "message": "Le contenu généré par l’IA accroît l’ambiguïté probatoire."
+  },
+  "homepage.gap.conclusion": {
+    "message": "L’économie numérique fonctionne sans standard d’intégrité déterministe."
+  },
+  "homepage.how.title": {
+    "message": "Comment fonctionne VeriSeal"
+  },
+  "homepage.how.step1.title": {
+    "message": "Canonicaliser"
+  },
+  "homepage.how.step1.desc": {
+    "message": "Normaliser les données dans un format déterministe éliminant toute ambiguïté structurelle."
+  },
+  "homepage.how.step2.title": {
+    "message": "Sceller"
+  },
+  "homepage.how.step2.desc": {
+    "message": "Générer un hash cryptographique et une entrée en registre en ajout seul, créant une structure de preuve immuable."
+  },
+  "homepage.how.step3.title": {
+    "message": "Vérifier"
+  },
+  "homepage.how.step3.desc": {
+    "message": "Vérification indépendante à travers les juridictions et dans le temps."
+  },
+  "homepage.positioning.title": {
+    "message": "Double Positionnement Stratégique"
+  },
+  "homepage.positioning.card1.title": {
+    "message": "Infrastructure Commerciale"
+  },
+  "homepage.positioning.card1.item1": {
+    "message": "Architecture native API"
+  },
+  "homepage.positioning.card1.item2": {
+    "message": "Prêt pour le déploiement en entreprise"
+  },
+  "homepage.positioning.card1.item3": {
+    "message": "Déploiement multisectoriel"
+  },
+  "homepage.positioning.card1.item4": {
+    "message": "Interopérabilité mondiale"
+  },
+  "homepage.positioning.card2.title": {
+    "message": "Standard Mondial Émergent"
+  },
+  "homepage.positioning.card2.item1": {
+    "message": "Cadre de gouvernance et de conformité"
+  },
+  "homepage.positioning.card2.item2": {
+    "message": "Modèle prêt à la certification"
+  },
+  "homepage.positioning.card2.item3": {
+    "message": "Conception compatible avec la souveraineté"
+  },
+  "homepage.positioning.card2.item4": {
+    "message": "Résilience d’archivage à long terme"
+  },
+  "homepage.sectors.title": {
+    "message": "Applications Immédiates"
+  },
+  "homepage.sectors.item1": {
+    "message": "Banque & Infrastructure Financière"
+  },
+  "homepage.sectors.item2": {
+    "message": "Systèmes Juridiques & Notariaux"
+  },
+  "homepage.sectors.item3": {
+    "message": "Secteur Public & Marchés Publics"
+  },
+  "homepage.sectors.item4": {
+    "message": "Assurance & Sinistres"
+  },
+  "homepage.sectors.item5": {
+    "message": "Identité Numérique"
+  },
+  "homepage.sectors.item6": {
+    "message": "Chaîne d’Approvisionnement & Plateformes"
+  },
+  "homepage.final.title": {
+    "message": "VeriSeal est une Infrastructure"
+  },
+  "homepage.final.claim": {
+    "message": "Pas un SaaS de flux de travail. Pas un outil de signature. Pas une surcouche blockchain."
+  },
+  "homepage.final.desc": {
+    "message": "VeriSeal est une couche d’intégrité cryptographique structurelle conçue pour réduire l’incertitude numérique et ancrer la confiance institutionnelle dans une vérification déterministe."
+  }
 }

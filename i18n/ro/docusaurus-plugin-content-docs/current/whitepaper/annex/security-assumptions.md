@@ -1,21 +1,21 @@
 ---
 id: security-assumptions
-title: Security Assumptions
+title: Presupuneri de Securitate
 ---
 
 ﻿---
-title: Security Assumptions
-sidebar_label: Security Assumptions
+title: Presupuneri de Securitate
+sidebar_label: Presupuneri de Securitate
 ---
 
-# Security Assumptions
+# Presupuneri de Securitate
 
-VeriSeal relies on the following assumptions:
+VeriSeal se bazează pe următoarele presupuneri:
 
-- SHA-256 remains collision resistant
-- Signature schemes remain secure
-- Canonical serialization is deterministic
-- Private keys are protected under institutional governance
-- Append-only ledger policy is enforced operationally
+- SHA-256 rămâne rezistent la coliziuni
+- Schemele de semnătură rămân sigure
+- Serializarea canonică este deterministă
+- Cheile private sunt protejate sub guvernanță instituțională
+- Politica registrului doar în adăugare este aplicată operațional
 
-Security is cryptographic, but resilience is governance-dependent.
+Securitatea este criptografică, dar reziliența depinde de guvernanță.

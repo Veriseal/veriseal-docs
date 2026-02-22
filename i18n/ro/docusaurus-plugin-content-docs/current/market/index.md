@@ -1,61 +1,61 @@
 ---
-title: Market Overview
+title: Prezentare Generală a Pieței
 sidebar_position: 1
 ---
 
 # VeriSeal  
-## The Global Integrity Infrastructure
+## Infrastructura Globală de Integritate
 
-VeriSeal is a deterministic cryptographic proof infrastructure designed to reduce structural digital uncertainty across regulated and high-value sectors.
+VeriSeal este o infrastructură de dovadă criptografică deterministă proiectată pentru a reduce incertitudinea digitală structurală în sectoarele reglementate și de mare valoare.
 
-It is not a productivity tool.  
-It is not a simple timestamping service.  
-It is not a blockchain wrapper.
+Nu este un instrument de productivitate.  
+Nu este un serviciu simplu de marcare temporală.  
+Nu este un înveliș pentru blockchain.
 
-VeriSeal is a foundational integrity layer.
-
----
-
-## Why This Matters
-
-Digital systems are increasingly exposed to:
-
-- Synthetic media (AI-generated content)
-- Cross-border regulatory fragmentation
-- Non-deterministic verification models
-- Evidence disputes and legal ambiguity
-
-The global economy lacks a unified, deterministic integrity architecture.
-
-VeriSeal addresses that gap.
+VeriSeal este un strat fundamental de integritate.
 
 ---
 
-## Dual Nature
+## De ce este important
 
-VeriSeal operates simultaneously as:
+Sistemele digitale sunt din ce în ce mai expuse la:
 
-### 1. Commercial Infrastructure
-- API-native deployment
-- Enterprise integration ready
-- Multi-sector applicability
-- Rapid adoption capability
+- Media sintetică (conținut generat de AI)
+- Fragmentarea reglementară transfrontalieră
+- Modele de verificare nedeterministe
+- Dispute de dovezi și ambiguități legale
 
-### 2. Emerging Global Integrity Standard
-- Structured protocol framework
-- Conformance and certification model
-- Governance-compatible architecture
-- Long-term archival stability
+Economia globală nu dispune de o arhitectură de integritate unificată și deterministă.
+
+VeriSeal abordează această lacună.
 
 ---
 
-## How to Navigate
+## Natură Duală
 
-- **Why Now** → Structural urgency  
-- **Problem** → The Proof Crisis  
-- **Solution** → Deterministic Integrity Model  
-- **Sector Applications** → Commercial deployment  
-- **Competitive Positioning** → Market differentiation  
-- **Executive Brief** → 3-minute institutional summary  
+VeriSeal funcționează simultan ca:
 
-VeriSeal is positioned for international commercial expansion.
+### 1. Infrastructură Comercială
+- Implementare nativă API
+- Pregătit pentru integrarea în întreprinderi
+- Aplicabilitate multi-sectorială
+- Capacitate de adoptare rapidă
+
+### 2. Standard Global de Integritate Emergent
+- Cadru de protocol structurat
+- Model de conformitate și certificare
+- Arhitectură compatibilă cu guvernanța
+- Stabilitate arhivistică pe termen lung
+
+---
+
+## Cum să Navigați
+
+- **De ce Acum** → Urgență structurală  
+- **Problemă** → Criza Dovadă  
+- **Soluție** → Model de Integritate Determinist  
+- **Aplicații Sectoriale** → Implementare comercială  
+- **Poziționare Competitivă** → Diferențiere pe piață  
+- **Rezumat Executiv** → Rezumat instituțional de 3 minute  
+
+VeriSeal este poziționat pentru expansiune comercială internațională.

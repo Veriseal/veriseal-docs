@@ -1,286 +1,290 @@
+Traducere a documentului Markdown în limba română:
+
+Fișier: vip-threat-001.md
+
 ---
-title: VIP-THREAT-001 - VeriSeal Threat & Adversarial Model
+title: VIP-THREAT-001 - Model de Amenințare și Adversitate VeriSeal
 sidebar_label: VIP-THREAT-001
 ---
 
 # VIP-THREAT-001  
-## VeriSeal Threat & Adversarial Model
+## Model de Amenințare și Adversitate VeriSeal
 
-Version: 2.0  
-Status: Normative Security Profile  
-Classification: Public Security Specification  
-
----
-
-# 1. Scope
-
-This document defines the formal adversarial and threat model applicable to:
-
-- VIP-STD-001 (Integrity Core)
-- VIP-STD-002 (Ledger Profile)
-- VIP-STD-003 (Signature Profile)
-- VIP-STD-004 (Time Anchoring Profile)
-- VIP-STF-005 (Verification & Conformance Framework)
-
-This document defines:
-
-- Security objectives
-- Asset classification
-- Adversary capabilities
-- Attack surfaces
-- Formal security claims
-- Residual risks
+Versiune: 2.0  
+Stare: Profil de Securitate Normativ  
+Clasificare: Specificație de Securitate Publică  
 
 ---
 
-# 2. Security Objectives
+# 1. Domeniu de Aplicare
 
-The VeriSeal Integrity Framework aims to guarantee:
+Acest document definește modelul formal de adversitate și amenințare aplicabil pentru:
 
-1. Deterministic integrity
-2. Tamper detection
-3. Structural immutability
-4. Cryptographic authenticity (if signature profile used)
-5. Ledger continuity
-6. Independent time corroboration (if anchoring profile used)
+- VIP-STD-001 (Nucleu de Integritate)
+- VIP-STD-002 (Profil Ledger)
+- VIP-STD-003 (Profil Semnătură)
+- VIP-STD-004 (Profil Ancorare Temporală)
+- VIP-STF-005 (Cadru de Verificare și Conformitate)
 
-The framework explicitly does NOT guarantee:
+Acest document definește:
 
-- Truthfulness of content
-- Identity validation (unless external system used)
-- Legal enforceability
-- Semantic correctness
-- Content legitimacy
-
-VeriSeal is an integrity framework, not a truth system.
+- Obiective de securitate
+- Clasificarea activelor
+- Capacitățile adversarului
+- Suprafața de atac
+- Pretenții formale de securitate
+- Riscuri reziduale
 
 ---
 
-# 3. Assets
+# 2. Obiective de Securitate
 
-The following assets are security-critical:
+Cadrul de Integritate VeriSeal își propune să garanteze:
 
-- Canonical proof object
-- Deterministic proof_hash
-- Ledger entry
-- previous_entry_hash continuity
-- Signature material
-- Anchoring reference
-- Verification metadata
+1. Integritate deterministă
+2. Detectarea modificărilor neautorizate
+3. Imuabilitate structurală
+4. Autenticitate criptografică (dacă se utilizează profilul de semnătură)
+5. Continuitatea ledger-ului
+6. Coroborare temporală independentă (dacă se utilizează profilul de ancorare)
 
-Integrity of these assets MUST be preserved.
+Cadrul nu garantează în mod explicit:
 
----
+- Veridicitatea conținutului
+- Validarea identității (decât dacă se utilizează un sistem extern)
+- Forța juridică
+- Corectitudinea semantică
+- Legitimitatea conținutului
 
-# 4. Adversary Classes
-
-## 4.1 Passive Observer
-
-Capabilities:
-- Full read access
-- Traffic observation
-
-Cannot:
-- Modify stored data
+VeriSeal este un cadru de integritate, nu un sistem de adevăr.
 
 ---
 
-## 4.2 Active Modifier
+# 3. Active
 
-Capabilities:
-- Attempt record modification
-- Attempt record substitution
-- Attempt ledger reordering
+Următoarele active sunt critice pentru securitate:
 
----
+- Obiectul de dovadă canonic
+- proof_hash determinist
+- Înregistrare ledger
+- Continuitatea previous_entry_hash
+- Material de semnătură
+- Referință de ancorare
+- Metadate de verificare
 
-## 4.3 Cryptographic Attacker
-
-Capabilities:
-- Attempt hash collision
-- Attempt signature forgery
-- Attempt anchor forgery
-- Attempt replay
-
-Bounded by classical cryptographic assumptions.
+Integritatea acestor active TREBUIE să fie păstrată.
 
 ---
 
-## 4.4 Insider Adversary
+# 4. Clase de Adversari
 
-Capabilities:
-- Modify records before sealing
-- Compromise private keys
-- Manipulate storage layer
+## 4.1 Observator Pasiv
 
-Mitigation is operational, not protocol-level.
+Capacități:
+- Acces complet la citire
+- Observarea traficului
 
----
-
-# 5. Threat Categories
-
-## 5.1 Serialization Attacks
-
-Attack:
-Manipulating field ordering or encoding to change hash.
-
-Mitigation:
-- Strict canonicalization (VIP-STD-001)
-- Byte-level determinism
-- Deterministic hashing
+Nu poate:
+- Modifica datele stocate
 
 ---
 
-## 5.2 Hash Substitution
+## 4.2 Modificator Activ
 
-Attack:
-Replacing proof_hash with alternative value.
-
-Mitigation:
-- Deterministic recomputation
-- Signature binding (VIP-STD-003)
+Capacități:
+- Încercarea de modificare a înregistrărilor
+- Încercarea de substituire a înregistrărilor
+- Încercarea de reordonare a ledger-ului
 
 ---
 
-## 5.3 Ledger Reordering
+## 4.3 Atacator Criptografic
 
-Attack:
-Reordering entries to manipulate chronology.
+Capacități:
+- Încercarea de coliziune hash
+- Încercarea de falsificare a semnăturii
+- Încercarea de falsificare a ancorei
+- Încercarea de reluare
 
-Mitigation:
-- previous_entry_hash chaining
-- Deterministic ledger verification
-
----
-
-## 5.4 Replay Attacks
-
-Attack:
-Reusing valid proof in unintended context.
-
-Mitigation:
-- Unique proof_id
-- Context binding
-- Time anchoring (optional)
+Limitat de presupunerile criptografice clasice.
 
 ---
 
-## 5.5 Signature Attacks
+## 4.4 Adversar Intern
 
-Includes:
-- Forgery
-- Malleability
-- Weak randomness
+Capacități:
+- Modificarea înregistrărilor înainte de sigilare
+- Compromiterea cheilor private
+- Manipularea stratului de stocare
 
-Mitigation:
-- Deterministic signing (RFC 6979)
-- Low-S normalization (ECDSA)
-- Ed25519 preferred
-- Secure key management (implementation requirement)
+Mitigarea este operațională, nu la nivel de protocol.
 
 ---
 
-## 5.6 Anchor Forgery
+# 5. Categorii de Amenințări
 
-Attack:
-Providing fabricated external time references.
+## 5.1 Atacuri de Serializare
 
-Mitigation:
-- Publicly verifiable anchoring systems
-- Independent recomputation
-- Multi-anchor strategies (optional)
+Atac:
+Manipularea ordinii câmpurilor sau a codificării pentru a schimba hash-ul.
 
----
-
-# 6. Trust Boundaries
-
-Trust boundaries exist between:
-
-1. Proof generation
-2. Ledger storage
-3. Signature authority
-4. Anchor authority
-5. Verification actor
-
-The protocol assumes:
-
-- Independent verifier
-- Public anchor transparency
-- Secure key custody
+Mitigare:
+- Canonizare strictă (VIP-STD-001)
+- Determinism la nivel de byte
+- Hashing determinist
 
 ---
 
-# 7. Formal Security Claims
+## 5.2 Substituirea Hash-ului
 
-Under classical cryptographic assumptions:
+Atac:
+Înlocuirea proof_hash cu o valoare alternativă.
 
-If:
-- SHA-256 remains collision resistant
-- ECDSA / Ed25519 remain secure
-- RSA factoring remains computationally infeasible
-
-Then:
-
-- Tampering is detectable
-- Ledger rewriting is detectable
-- Signature forgery is infeasible
-- Anchor falsification is detectable
-
-These guarantees degrade proportionally if assumptions fail.
+Mitigare:
+- Recalculare deterministă
+- Legare prin semnătură (VIP-STD-003)
 
 ---
 
-# 8. Residual Risks
+## 5.3 Reordonarea Ledger-ului
 
-The framework does not eliminate:
+Atac:
+Reordonarea înregistrărilor pentru a manipula cronologia.
 
-- Private key compromise
-- Weak entropy in signature generation
-- Implementation bugs
-- Storage corruption
-- Insider manipulation before sealing
-- Denial-of-service attacks
-
-These are outside protocol guarantees.
+Mitigare:
+- Înlănțuirea previous_entry_hash
+- Verificarea deterministă a ledger-ului
 
 ---
 
-# 9. Denial of Service
+## 5.4 Atacuri de Reluare
 
-The protocol does not provide:
+Atac:
+Reutilizarea unei dovezi valide într-un context neintenționat.
 
-- Storage exhaustion protection
-- Anchor endpoint availability guarantees
-- Network flooding resistance
-
-Operational mitigation required.
-
----
-
-# 10. Post-Quantum Considerations
-
-Version 2.0 does not provide post-quantum security.
-
-Future revisions MAY include:
-
-- Hash agility
-- PQ signature algorithms
-- Hybrid signature modes
+Mitigare:
+- proof_id unic
+- Legare de context
+- Ancorare temporală (opțional)
 
 ---
 
-# 11. Conclusion
+## 5.5 Atacuri asupra Semnăturii
 
-The VeriSeal framework provides deterministic tamper detection under classical cryptographic assumptions.
+Include:
+- Falsificare
+- Maleabilitate
+- Randomizare slabă
 
-Security guarantees depend on:
+Mitigare:
+- Semnare deterministă (RFC 6979)
+- Normalizare Low-S (ECDSA)
+- Ed25519 preferat
+- Management securizat al cheilor (cerință de implementare)
 
-- Strict canonicalization
-- Deterministic hashing
-- Correct ledger chaining
-- Secure key management
-- Publicly verifiable anchoring
+---
 
-Implementation discipline is mandatory.
+## 5.6 Falsificarea Ancorei
 
-VeriSeal defines integrity guarantees — not trust guarantees.
+Atac:
+Furnizarea de referințe temporale externe fabricate.
+
+Mitigare:
+- Sisteme de ancorare verificabile public
+- Recalculare independentă
+- Strategii multi-ancoră (opțional)
+
+---
+
+# 6. Limite de Încredere
+
+Limitele de încredere există între:
+
+1. Generarea dovezii
+2. Stocarea ledger-ului
+3. Autoritatea semnăturii
+4. Autoritatea ancorei
+5. Actorul de verificare
+
+Protocolul presupune:
+
+- Verificator independent
+- Transparența publică a ancorei
+- Custodia securizată a cheilor
+
+---
+
+# 7. Pretenții Formale de Securitate
+
+Sub presupunerile criptografice clasice:
+
+Dacă:
+- SHA-256 rămâne rezistent la coliziuni
+- ECDSA / Ed25519 rămân sigure
+- Factorizarea RSA rămâne computațional imposibilă
+
+Atunci:
+
+- Modificările sunt detectabile
+- Rescrierea ledger-ului este detectabilă
+- Falsificarea semnăturii este imposibilă
+- Falsificarea ancorei este detectabilă
+
+Aceste garanții se degradează proporțional dacă presupunerile eșuează.
+
+---
+
+# 8. Riscuri Reziduale
+
+Cadrul nu elimină:
+
+- Compromiterea cheilor private
+- Entropia slabă în generarea semnăturii
+- Erori de implementare
+- Corupția stocării
+- Manipularea internă înainte de sigilare
+- Atacuri de refuz al serviciului
+
+Acestea sunt în afara garanțiilor protocolului.
+
+---
+
+# 9. Refuzul Serviciului
+
+Protocolul nu oferă:
+
+- Protecție împotriva epuizării stocării
+- Garanții de disponibilitate a punctului de ancorare
+- Rezistență la inundații de rețea
+
+Este necesară o atenuare operațională.
+
+---
+
+# 10. Considerații Post-Quantum
+
+Versiunea 2.0 nu oferă securitate post-quantum.
+
+Revisii viitoare POT include:
+
+- Agilitate hash
+- Algoritmi de semnătură PQ
+- Mode de semnătură hibridă
+
+---
+
+# 11. Concluzie
+
+Cadrul VeriSeal oferă detectarea deterministă a modificărilor neautorizate sub presupunerile criptografice clasice.
+
+Garanțiile de securitate depind de:
+
+- Canonizare strictă
+- Hashing determinist
+- Înlănțuirea corectă a ledger-ului
+- Management securizat al cheilor
+- Ancorare verificabilă public
+
+Disciplina de implementare este obligatorie.
+
+VeriSeal definește garanții de integritate — nu garanții de încredere.

@@ -1,95 +1,98 @@
+Traducerea documentului Markdown în limba română:
+
+Fișier: executive-summary.md
+
 ---
 id: executive-summary
-title: Executive Summary
-sidebar_label: Executive Summary
+title: Rezumat Executiv
+sidebar_label: Rezumat Executiv
 ---
 
-# Executive Summary
+# Rezumat Executiv
 
-## The Global Integrity Problem
+## Problema Globală a Integrității
 
-Modern institutions operate through digital events that carry legal, financial, and regulatory consequences.
+Instituțiile moderne operează prin evenimente digitale care au consecințe legale, financiare și de reglementare.
 
-Yet most digital infrastructures rely on:
+Cu toate acestea, majoritatea infrastructurilor digitale se bazează pe:
 
-- Internal logs  
-- Platform-controlled timestamps  
-- Centralized databases  
-- Vendor-managed signature stacks  
+- Jurnale interne  
+- Marcaje temporale controlate de platformă  
+- Baze de date centralizate  
+- Stive de semnături gestionate de furnizori  
 
-They generate records.
+Ele generează înregistrări.
 
-They do not always generate independently verifiable proof.
+Nu generează întotdeauna dovezi verificabile independent.
 
-As digital disputes increase, so does structural exposure.
-
----
-
-## The Infrastructure Gap
-
-Global digital infrastructure includes payment rails, identity systems, signature ecosystems, and compliance platforms.
-
-What it lacks is a deterministic integrity layer capable of producing independently verifiable proof objects.
-
-This gap creates:
-
-- Litigation risk  
-- Regulatory vulnerability  
-- Cross-border evidentiary friction  
-- Institutional distrust  
+Pe măsură ce disputele digitale cresc, la fel crește și expunerea structurală.
 
 ---
 
-## The VeriSeal Proposition
+## Lacuna Infrastructurii
 
-VeriSeal is a deterministic cryptographic proof infrastructure.
+Infrastructura digitală globală include rețele de plăți, sisteme de identitate, ecosisteme de semnături și platforme de conformitate.
 
-It enables institutions to:
+Ceea ce îi lipsește este un strat de integritate determinist capabil să producă obiecte de dovadă verificabile independent.
 
-- Canonicalize events  
-- Hash them deterministically  
-- Record them in append-only ledgers  
-- Chain them cryptographically  
-- Anchor them externally  
-- Produce reproducible verification artifacts  
+Această lacună creează:
 
-Verification depends on recomputation, not operator trust.
+- Risc de litigiu  
+- Vulnerabilitate de reglementare  
+- Fricțiuni probatorii transfrontaliere  
+- Neîncredere instituțională  
 
 ---
 
-## Institutional Impact
+## Propunerea VeriSeal
 
-VeriSeal transforms digital systems from:
+VeriSeal este o infrastructură criptografică de dovadă deterministă.
 
-Operational platforms with internal logs  
+Permite instituțiilor să:
 
-into  
+- Canonizeze evenimentele  
+- Le hash-eze în mod determinist  
+- Le înregistreze în registre doar pentru adăugare  
+- Le lege criptografic  
+- Le ancoreze extern  
+- Producă artefacte de verificare reproductibile  
 
-Evidence-producing infrastructures.
-
-This improves:
-
-- Audit defensibility  
-- Litigation posture  
-- Regulatory credibility  
-- Cross-border enforceability  
+Verificarea depinde de recalcul, nu de încrederea în operator.
 
 ---
 
-## Strategic Outlook
+## Impactul Instituțional
 
-Digital infrastructure will increasingly require provable integrity.
+VeriSeal transformă sistemele digitale din:
 
-VeriSeal positions itself as:
+Platforme operaționale cu jurnale interne  
 
-A commercially deployable integrity infrastructure  
-and  
-a candidate global verification standard.
+în  
 
-The future of digital trust will not be declared.
+Infrastructuri care produc dovezi.
 
-It will be demonstrable.
+Aceasta îmbunătățește:
+
+- Apărarea auditului  
+- Poziția în litigii  
+- Credibilitatea de reglementare  
+- Aplicabilitatea transfrontalieră  
 
 ---
 
-End of Document
+## Perspective Strategice
+
+Infrastructura digitală va necesita din ce în ce mai mult integritate demonstrabilă.
+
+VeriSeal se poziționează ca:
+
+O infrastructură de integritate comercializabilă  
+și  
+un candidat pentru un standard global de verificare.
+
+Viitorul încrederii digitale nu va fi declarat.
+
+Va fi demonstrabil.
+
+---
+

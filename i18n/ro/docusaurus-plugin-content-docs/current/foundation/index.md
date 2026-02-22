@@ -1,18 +1,17 @@
 ---
-title: Conceptual Foundations
+title: Fundamente Conceptuale
 sidebar_position: 1
 ---
 
-# Conceptual Foundations
+# Fundamente Conceptuale
 
-This section explains the philosophical
-and structural assumptions behind the VeriSeal framework.
+Această secțiune explică presupunerile filosofice și structurale din spatele cadrului VeriSeal.
 
-Topics include:
+Subiectele includ:
 
-- Integrity vs trust
-- Determinism in digital systems
-- Structural dependence risks
-- Evidence economy transformation
+- Integritate vs încredere
+- Determinismul în sistemele digitale
+- Riscurile dependenței structurale
+- Transformarea economiei bazate pe dovezi
 
-It supports the strategic and technical layers.
+Aceasta susține straturile strategice și tehnice.

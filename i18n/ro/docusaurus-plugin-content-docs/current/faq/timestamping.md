@@ -1,300 +1,302 @@
+File: timestamping.md
+
 ---
 id: timestamping
-title: Timestamping
+title: Marcarea temporală
 ---
 
 ﻿---
-title: Timestamping & Anchoring FAQ
-sidebar_label: Timestamping & Anchoring
+title: Întrebări frecvente despre Marcarea Temporală și Ancorare
+sidebar_label: Marcarea Temporală și Ancorare
 ---
 
-# Timestamping & Anchoring FAQ
+# Întrebări frecvente despre Marcarea Temporală și Ancorare
 
-This section clarifies the role of timestamping and external anchoring within the VeriSeal integrity model.
+Această secțiune clarifică rolul marcării temporale și al ancorării externe în cadrul modelului de integritate VeriSeal.
 
-Timestamping strengthens temporal defensibility.
+Marcarea temporală întărește apărarea temporală.
 
-It does not replace structural integrity.
-
----
-
-## 1. Is timestamping mandatory in VeriSeal?
-
-No.
-
-Core integrity in VeriSeal is achieved through:
-
-- Deterministic canonicalization
-- SHA-256 hashing
-- Independent recomputation capability
-
-Timestamping is optional.
-
-It strengthens temporal defensibility.
+Nu înlocuiește integritatea structurală.
 
 ---
 
-## 2. What is the difference between integrity and timestamping?
+## 1. Este marcarea temporală obligatorie în VeriSeal?
 
-Integrity answers:
+Nu.
 
-"Has this content changed?"
+Integritatea de bază în VeriSeal este realizată prin:
 
-Timestamping answers:
+- Canonicalizare deterministă
+- Hashing SHA-256
+- Capacitate de recalcul independentă
 
-"When did this state exist?"
+Marcarea temporală este opțională.
 
-Integrity is foundational.
-
-Timestamping is complementary.
-
----
-
-## 3. What does external anchoring provide?
-
-External anchoring provides:
-
-- Additional temporal corroboration
-- External existence proof
-- Increased dispute resilience
-
-It strengthens chronological defensibility.
-
-It does not replace internal integrity mechanisms.
+Întărește apărarea temporală.
 
 ---
 
-## 4. Does VeriSeal require blockchain anchoring?
+## 2. Care este diferența dintre integritate și marcarea temporală?
 
-No.
+Integritatea răspunde la întrebarea:
 
-VeriSeal is not dependent on blockchain.
+"A fost modificat acest conținut?"
 
-External anchoring mechanisms may be used optionally.
+Marcarea temporală răspunde la întrebarea:
 
-Integrity does not require consensus networks.
+"Când a existat acest statut?"
 
----
+Integritatea este fundamentală.
 
-## 5. If blockchain anchoring is used, does it expose data?
-
-No.
-
-Only hashes may be anchored.
-
-Hashes:
-
-- Do not reveal underlying content
-- Do not expose confidential data
-- Do not broadcast sensitive information
-
-The original data remains private.
+Marcarea temporală este complementară.
 
 ---
 
-## 6. Does anchoring create regulatory exposure?
+## 3. Ce oferă ancorarea externă?
 
-No.
+Ancorarea externă oferă:
 
-Anchoring a hash does not:
+- Coroborare temporală suplimentară
+- Dovadă de existență externă
+- Reziliență sporită la dispute
 
-- Publish personal data
-- Transfer business records
-- Create reporting obligations
+Întărește apărarea cronologică.
 
-Regulatory exposure depends on implementation design.
-
----
-
-## 7. What happens if external anchoring services disappear?
-
-Integrity proofs remain valid without anchoring.
-
-Anchoring strengthens temporal defensibility.
-
-It does not determine structural validity.
-
-Vendor disappearance does not invalidate proof recomputation.
+Nu înlocuiește mecanismele interne de integritate.
 
 ---
 
-## 8. Can anchoring be performed internally?
+## 4. Necesită VeriSeal ancorare pe blockchain?
 
-Yes.
+Nu.
 
-Institutions may:
+VeriSeal nu depinde de blockchain.
 
-- Use internal timestamp authorities
-- Use external trust providers
-- Use public networks
-- Combine approaches
+Mecanismele de ancorare externă pot fi utilizate opțional.
 
-Deployment model is institution-controlled.
+Integritatea nu necesită rețele de consens.
 
 ---
 
-## 9. Does anchoring create dependence on Bitcoin or other networks?
+## 5. Dacă se folosește ancorarea pe blockchain, expune datele?
 
-No structural dependence exists.
+Nu.
 
-If anchoring is used:
+Doar hash-urile pot fi ancorate.
 
-- It is optional
-- It strengthens time corroboration
-- It does not affect core integrity verification
+Hash-urile:
 
-Integrity remains independent of consensus networks.
+- Nu dezvăluie conținutul de bază
+- Nu expun date confidențiale
+- Nu difuzează informații sensibile
 
----
-
-## 10. Is timestamping legally binding?
-
-Timestamping strengthens:
-
-- Evidence of existence
-- Chronological claims
-- Dispute defensibility
-
-Legal weight depends on:
-
-- Jurisdiction
-- Applicable evidentiary standards
-- Judicial interpretation
-
-Timestamping enhances defensibility.
-
-It does not create automatic legal authority.
+Datele originale rămân private.
 
 ---
 
-## 11. Can timestamps be falsified?
+## 6. Creează ancorarea expunere la reglementări?
 
-If timestamps are part of canonical proof objects:
+Nu.
 
-- Any alteration changes the hash
-- Integrity validation fails
+Ancorarea unui hash nu:
 
-If external anchoring is used:
+- Publică date personale
+- Transferă înregistrări de afaceri
+- Creează obligații de raportare
 
-- Independent verification of anchor inclusion is possible
-
-VeriSeal makes timestamp manipulation detectable.
-
----
-
-## 12. Does timestamping replace qualified timestamp services?
-
-No.
-
-Qualified timestamp services (where applicable) operate under:
-
-- Regulatory frameworks
-- Legal recognition schemes
-
-VeriSeal timestamping strengthens integrity.
-
-It does not claim regulatory equivalence.
-
-They may complement each other.
+Expunerea la reglementări depinde de designul implementării.
 
 ---
 
-## 13. Should every record be anchored externally?
+## 7. Ce se întâmplă dacă serviciile externe de ancorare dispar?
 
-Not necessarily.
+Dovezile de integritate rămân valabile fără ancorare.
 
-Anchoring strategy depends on:
+Ancorarea întărește apărarea temporală.
 
-- Risk profile
-- Regulatory exposure
-- Litigation likelihood
-- Business criticality
-- Cost considerations
+Nu determină validitatea structurală.
 
-Selective anchoring is often appropriate.
+Dispariția furnizorului nu invalidează recomputarea dovezilor.
 
 ---
 
-## 14. Does timestamping increase cost?
+## 8. Poate fi ancorarea realizată intern?
 
-External anchoring may introduce:
+Da.
 
-- Transactional fees
-- Operational overhead
+Instituțiile pot:
 
-Core integrity does not require external anchoring.
+- Folosi autorități interne de marcare temporală
+- Folosi furnizori de încredere externi
+- Folosi rețele publice
+- Combina abordările
 
-Cost-benefit analysis should be risk-driven.
-
----
-
-## 15. What risk does timestamping reduce?
-
-Timestamping reduces:
-
-- Backdating dispute risk
-- Chronological manipulation risk
-- Allegations of retroactive alteration
-- Evidentiary fragility in litigation
-
-It strengthens temporal defensibility.
+Modelul de implementare este controlat de instituție.
 
 ---
 
-## 16. Can regulators verify anchored proofs independently?
+## 9. Creează ancorarea dependență de Bitcoin sau alte rețele?
 
-Yes.
+Nu există dependență structurală.
 
-If anchoring is used:
+Dacă se folosește ancorarea:
 
-- Inclusion proofs may be verified
-- Anchor hashes may be validated
-- Timestamp presence may be checked independently
+- Este opțională
+- Întărește coroborarea temporală
+- Nu afectează verificarea integrității de bază
 
-Verification does not require vendor permission.
-
----
-
-## 17. Does anchoring create permanent public records?
-
-If public networks are used:
-
-- Only hashes are visible
-- Underlying content remains confidential
-
-No readable business data is exposed.
+Integritatea rămâne independentă de rețelele de consens.
 
 ---
 
-## 18. What is VeriSeal's timestamping philosophy?
+## 10. Este marcarea temporală obligatorie din punct de vedere legal?
 
-Integrity first.
+Marcarea temporală întărește:
 
-Anchoring second.
+- Dovada existenței
+- Pretențiile cronologice
+- Apărarea în dispute
 
-Timestamping is a reinforcement layer.
+Greutatea legală depinde de:
 
-Not the foundation.
+- Jurisdicție
+- Standardele probatorii aplicabile
+- Interpretarea judiciară
 
----
+Marcarea temporală îmbunătățește apărarea.
 
-## 19. Is timestamping suitable for highly regulated sectors?
-
-Yes, provided:
-
-- Legal teams validate anchoring model
-- Deployment respects regulatory frameworks
-- Confidentiality constraints are maintained
-
-Timestamping strengthens dispute defensibility.
+Nu creează autoritate legală automată.
 
 ---
 
-## 20. What is timestamping in one sentence?
+## 11. Pot fi falsificate marcajele temporale?
 
-Timestamping strengthens the ability to demonstrate
-that a specific record state existed at a certain time.
+Dacă marcajele temporale fac parte din obiectele de dovadă canonice:
 
-It does not replace structural integrity.
+- Orice modificare schimbă hash-ul
+- Validarea integrității eșuează
 
-It reinforces it.
+Dacă se folosește ancorarea externă:
+
+- Verificarea independentă a includerii ancorei este posibilă
+
+VeriSeal face detectabilă manipularea marcajelor temporale.
+
+---
+
+## 12. Înlocuiește marcarea temporală serviciile de marcare temporală calificate?
+
+Nu.
+
+Serviciile de marcare temporală calificate (unde este cazul) operează sub:
+
+- Cadre de reglementare
+- Scheme de recunoaștere legală
+
+Marcarea temporală VeriSeal întărește integritatea.
+
+Nu pretinde echivalență reglementară.
+
+Ele se pot completa reciproc.
+
+---
+
+## 13. Ar trebui fiecare înregistrare să fie ancorată extern?
+
+Nu neapărat.
+
+Strategia de ancorare depinde de:
+
+- Profilul de risc
+- Expunerea la reglementări
+- Probabilitatea litigiilor
+- Criticitatea afacerii
+- Considerațiile de cost
+
+Ancorarea selectivă este adesea adecvată.
+
+---
+
+## 14. Crește marcarea temporală costul?
+
+Ancorarea externă poate introduce:
+
+- Taxe tranzacționale
+- Suprasarcină operațională
+
+Integritatea de bază nu necesită ancorare externă.
+
+Analiza cost-beneficiu ar trebui să fie bazată pe risc.
+
+---
+
+## 15. Ce risc reduce marcarea temporală?
+
+Marcarea temporală reduce:
+
+- Riscul de dispute privind retrodatarea
+- Riscul de manipulare cronologică
+- Acuzațiile de modificare retroactivă
+- Fragilitatea probatorie în litigii
+
+Întărește apărarea temporală.
+
+---
+
+## 16. Pot autoritățile de reglementare verifica independent dovezile ancorate?
+
+Da.
+
+Dacă se folosește ancorarea:
+
+- Dovezile de includere pot fi verificate
+- Hash-urile ancorei pot fi validate
+- Prezența marcajului temporal poate fi verificată independent
+
+Verificarea nu necesită permisiunea furnizorului.
+
+---
+
+## 17. Creează ancorarea înregistrări publice permanente?
+
+Dacă se folosesc rețele publice:
+
+- Doar hash-urile sunt vizibile
+- Conținutul de bază rămâne confidențial
+
+Nu se expun date de afaceri lizibile.
+
+---
+
+## 18. Care este filosofia de marcare temporală a VeriSeal?
+
+Integritatea pe primul loc.
+
+Ancorarea pe al doilea loc.
+
+Marcarea temporală este un strat de întărire.
+
+Nu este fundația.
+
+---
+
+## 19. Este marcarea temporală potrivită pentru sectoarele puternic reglementate?
+
+Da, cu condiția ca:
+
+- Echipele juridice să valideze modelul de ancorare
+- Implementarea să respecte cadrele de reglementare
+- Să fie menținute constrângerile de confidențialitate
+
+Marcarea temporală întărește apărarea în dispute.
+
+---
+
+## 20. Ce este marcarea temporală într-o singură propoziție?
+
+Marcarea temporală întărește capacitatea de a demonstra
+că un anumit statut al unei înregistrări a existat la un moment dat.
+
+Nu înlocuiește integritatea structurală.
+
+O întărește.

@@ -1,235 +1,235 @@
 ---
 id: vip-cert-006
-title: VIP-CERT-006 — Certification & Conformance Framework
-sidebar_label: VIP-CERT-006 Certification Framework
+title: VIP-CERT-006 — Cadru de Certificare și Conformitate
+sidebar_label: VIP-CERT-006 Cadru de Certificare
 ---
 
 # VIP-CERT-006  
-## Certification & Conformance Framework
+## Cadru de Certificare și Conformitate
 
 ---
 
-## 1. Purpose
+## 1. Scop
 
-This document defines the certification and conformance model applicable to implementations of the VeriSeal Integrity Protocol (VIP).
+Acest document definește modelul de certificare și conformitate aplicabil implementărilor Protocolului de Integritate VeriSeal (VIP).
 
-It establishes:
+Stabilește:
 
-- Conformance levels
-- Certification tiers
-- Audit requirements
-- Governance principles
-- Label usage conditions
+- Niveluri de conformitate
+- Niveluri de certificare
+- Cerințe de audit
+- Principii de guvernanță
+- Condiții de utilizare a etichetelor
 
-This framework ensures that the VeriSeal standard can operate as a globally interoperable and institutionally credible integrity infrastructure.
-
----
-
-## 2. Scope
-
-VIP-CERT-006 applies to:
-
-- Software implementations of VIP-STD-001 to VIP-STD-004
-- Infrastructure deployments
-- Enterprise integrations
-- API-based proof services
-- Embedded systems using the VeriSeal integrity layer
-
-It does not define legal admissibility requirements.  
-It defines structural and cryptographic conformity only.
+Acest cadru asigură că standardul VeriSeal poate funcționa ca o infrastructură de integritate interoperabilă la nivel global și credibilă instituțional.
 
 ---
 
-## 3. Conformance Levels
+## 2. Domeniu de aplicare
 
-### 3.1 Level 1 — Core Conformance
+VIP-CERT-006 se aplică la:
 
-Requirements:
+- Implementări software ale VIP-STD-001 până la VIP-STD-004
+- Implementări de infrastructură
+- Integrări în întreprinderi
+- Servicii de dovadă bazate pe API
+- Sisteme încorporate care utilizează stratul de integritate VeriSeal
 
-- Full implementation of VIP-STD-001 (Deterministic Integrity Model)
-- SHA-256 (or stronger) hashing
-- Canonical proof structure
-- Deterministic verification procedure
-- No mutable post-seal state
-
-No external anchoring required.
-
----
-
-### 3.2 Level 2 — Ledger Conformance
-
-Includes Level 1 plus:
-
-- Append-only ledger structure (VIP-STD-002)
-- Deterministic entry hashing
-- Immutable historical record
-- Entry ordering integrity
+Nu definește cerințele de admisibilitate legală.  
+Definește doar conformitatea structurală și criptografică.
 
 ---
 
-### 3.3 Level 3 — Anchored Integrity
+## 3. Niveluri de Conformitate
 
-Includes Level 2 plus:
+### 3.1 Nivel 1 — Conformitate de Bază
 
-- External timestamp anchoring (VIP-STD-004)
-- Public verifiability of anchor
-- Independent verification path
+Cerințe:
 
----
+- Implementare completă a VIP-STD-001 (Model de Integritate Determinist)
+- Hashing SHA-256 (sau mai puternic)
+- Structură de dovadă canonică
+- Procedură de verificare deterministă
+- Fără stare post-sigilare modificabilă
 
-### 3.4 Level 4 — Institutional Grade
-
-Includes Level 3 plus:
-
-- Operational security controls
-- Key management policy
-- Backup & redundancy architecture
-- Documented verification procedure
-- Threat model compliance (VIP-THREAT-001)
-
-This level is required for institutional certification.
+Nu este necesară ancorarea externă.
 
 ---
 
-## 4. Certification Tiers
+### 3.2 Nivel 2 — Conformitate Ledger
 
-Certification tiers represent verified compliance with conformance levels.
+Include Nivelul 1 plus:
 
-### Tier A — Verified Core
-
-- Conformance Level 1
-- Self-declared compliance
-- Verification procedure published
-
----
-
-### Tier B — Audited Conformance
-
-- Conformance Level 2 or 3
-- Independent technical audit
-- Reproducibility test
+- Structură ledger doar pentru adăugare (VIP-STD-002)
+- Hashing determinist al înregistrărilor
+- Istoric imuabil
+- Integritatea ordonării înregistrărilor
 
 ---
 
-### Tier C — Institutional Certification
+### 3.3 Nivel 3 — Integritate Ancorată
 
-- Conformance Level 4
-- Independent third-party audit
-- Security controls assessment
-- Governance documentation review
+Include Nivelul 2 plus:
 
----
-
-## 5. Certification Process
-
-### 5.1 Application
-
-The implementer submits:
-
-- Technical documentation
-- Implementation details
-- Verification procedure
-- Hash reproducibility evidence
+- Ancorare temporală externă (VIP-STD-004)
+- Verificabilitate publică a ancorei
+- Cale de verificare independentă
 
 ---
 
-### 5.2 Technical Assessment
+### 3.4 Nivel 4 — Grad Instituțional
 
-Assessment includes:
+Include Nivelul 3 plus:
 
-- Deterministic verification test
-- Integrity validation
-- Ledger immutability validation
-- Timestamp anchoring validation (if applicable)
+- Controale de securitate operațională
+- Politică de gestionare a cheilor
+- Arhitectură de backup și redundanță
+- Procedură de verificare documentată
+- Conformitate cu modelul de amenințare (VIP-THREAT-001)
+
+Acest nivel este necesar pentru certificarea instituțională.
+
+---
+
+## 4. Niveluri de Certificare
+
+Nivelurile de certificare reprezintă conformitatea verificată cu nivelurile de conformitate.
+
+### Nivel A — Bază Verificată
+
+- Nivel de Conformitate 1
+- Conformitate auto-declarată
+- Procedura de verificare publicată
+
+---
+
+### Nivel B — Conformitate Auditată
+
+- Nivel de Conformitate 2 sau 3
+- Audit tehnic independent
+- Test de reproductibilitate
+
+---
+
+### Nivel C — Certificare Instituțională
+
+- Nivel de Conformitate 4
+- Audit independent de terță parte
+- Evaluarea controalelor de securitate
+- Revizuirea documentației de guvernanță
+
+---
+
+## 5. Procesul de Certificare
+
+### 5.1 Aplicare
+
+Implementatorul depune:
+
+- Documentație tehnică
+- Detalii de implementare
+- Procedura de verificare
+- Dovezi de reproductibilitate a hash-ului
+
+---
+
+### 5.2 Evaluare Tehnică
+
+Evaluarea include:
+
+- Test de verificare deterministă
+- Validarea integrității
+- Validarea imuabilității ledger-ului
+- Validarea ancorării temporale (dacă este aplicabil)
 
 ---
 
 ### 5.3 Audit
 
-For Tier B and C:
+Pentru Nivelurile B și C:
 
-- Independent audit required
-- Audit must verify reproducibility
-- Audit report must be archived
-
----
-
-### 5.4 Certification Issuance
-
-Upon validation:
-
-- Certification ID assigned
-- Conformance level recorded
-- Public certification registry updated
+- Audit independent necesar
+- Auditul trebuie să verifice reproductibilitatea
+- Raportul de audit trebuie arhivat
 
 ---
 
-## 6. Certification Validity
+### 5.4 Emiterea Certificării
 
-Certification validity period:
+După validare:
 
-- Tier A: 12 months
-- Tier B: 24 months
-- Tier C: 36 months
-
-Renewal requires updated conformity review.
+- ID de certificare atribuit
+- Nivel de conformitate înregistrat
+- Registrul public de certificare actualizat
 
 ---
 
-## 7. Label Usage
+## 6. Valabilitatea Certificării
 
-Certified implementations may display:
+Perioada de valabilitate a certificării:
 
-- "VIP Core Conformant"
-- "VIP Audited Conformance"
-- "VIP Institutional Grade"
+- Nivel A: 12 luni
+- Nivel B: 24 luni
+- Nivel C: 36 luni
 
-Misuse of labels invalidates certification.
-
----
-
-## 8. Public Registry
-
-The VeriSeal Certification Registry shall include:
-
-- Certification ID
-- Tier
-- Conformance level
-- Audit date
-- Expiration date
-- Certification authority
-
-The registry must be publicly verifiable.
+Reînnoirea necesită revizuirea actualizată a conformității.
 
 ---
 
-## 9. Independence Principle
+## 7. Utilizarea Etichetelor
 
-Certification authority must be structurally independent from:
+Implementările certificate pot afișa:
 
-- Implementation vendors
-- Hosting providers
-- Anchoring providers
+- "Conformitate de Bază VIP"
+- "Conformitate Auditată VIP"
+- "Grad Instituțional VIP"
 
-This prevents conflict of interest and preserves credibility.
-
----
-
-## 10. Interoperability Principle
-
-Certification must not restrict:
-
-- Open implementation
-- Alternative infrastructure
-- Cross-border deployment
-
-The standard remains implementation-neutral.
+Utilizarea incorectă a etichetelor invalidează certificarea.
 
 ---
 
-## 11. Relationship to Other Documents
+## 8. Registrul Public
 
-VIP-CERT-006 depends on:
+Registrul de Certificare VeriSeal va include:
+
+- ID de certificare
+- Nivel
+- Nivel de conformitate
+- Data auditului
+- Data expirării
+- Autoritatea de certificare
+
+Registrul trebuie să fie verificabil public.
+
+---
+
+## 9. Principiul Independenței
+
+Autoritatea de certificare trebuie să fie structural independentă de:
+
+- Furnizorii de implementare
+- Furnizorii de găzduire
+- Furnizorii de ancorare
+
+Acest lucru previne conflictul de interese și păstrează credibilitatea.
+
+---
+
+## 10. Principiul Interoperabilității
+
+Certificarea nu trebuie să restricționeze:
+
+- Implementarea deschisă
+- Infrastructura alternativă
+- Implementarea transfrontalieră
+
+Standardul rămâne neutru față de implementare.
+
+---
+
+## 11. Relația cu Alte Documente
+
+VIP-CERT-006 depinde de:
 
 - VIP-STD-001
 - VIP-STD-002
@@ -240,17 +240,16 @@ VIP-CERT-006 depends on:
 
 ---
 
-## 12. Strategic Objective
+## 12. Obiectiv Strategic
 
-The purpose of this certification framework is to:
+Scopul acestui cadru de certificare este să:
 
-- Enable structured global adoption
-- Provide institutional confidence
-- Avoid proprietary lock-in
-- Support international standardization pathways
+- Permită adoptarea globală structurată
+- Oferă încredere instituțională
+- Evite blocarea proprietară
+- Susțină căile de standardizare internațională
 
-VIP-CERT-006 enables the transition of VeriSeal from commercial engine to internationally recognized integrity standard.
+VIP-CERT-006 facilitează tranziția VeriSeal de la un motor comercial la un standard de integritate recunoscut internațional.
 
 ---
 
-End of Document

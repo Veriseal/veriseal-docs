@@ -1,46 +1,46 @@
 ---
-title: Why Now
+title: Pourquoi Maintenant
 sidebar_position: 2
 ---
 
-# Why Now
+# Pourquoi Maintenant
 
-## 1. AI Reshapes Evidence
+## 1. L'IA Reshape les Preuves
 
-Synthetic media generation is accelerating.  
-Distinguishing authentic digital events from manipulated ones is becoming structurally complex.
+La génération de médias synthétiques s'accélère.  
+Distinguer les événements numériques authentiques des événements manipulés devient structurellement complexe.
 
-Traditional tools were not designed for this environment.
-
----
-
-## 2. Regulatory Pressure Is Increasing
-
-Across jurisdictions:
-
-- Financial regulators demand traceability.
-- Legal systems require evidentiary robustness.
-- Cross-border compliance complexity is rising.
-
-Integrity is no longer optional — it is strategic.
+Les outils traditionnels n'ont pas été conçus pour cet environnement.
 
 ---
 
-## 3. Digital Fragmentation
+## 2. La Pression Réglementaire Augmente
 
-Current systems operate in silos:
+Dans toutes les juridictions :
 
-- Platforms verify internally.
-- Timestamping lacks structural binding.
-- Blockchain anchoring lacks governance layer.
-- E-signature lacks deterministic data structure integrity.
+- Les régulateurs financiers exigent la traçabilité.
+- Les systèmes juridiques requièrent une robustesse probante.
+- La complexité de la conformité transfrontalière augmente.
 
-There is no unified global integrity model.
+L'intégrité n'est plus optionnelle — elle est stratégique.
 
 ---
 
-## 4. Strategic Window
+## 3. Fragmentation Numérique
 
-The infrastructure layer for digital proof remains undefined at global scale.
+Les systèmes actuels fonctionnent en silos :
 
-VeriSeal enters at this structural inflection point.
+- Les plateformes vérifient en interne.
+- L'horodatage manque de liaison structurelle.
+- L'ancrage blockchain manque de couche de gouvernance.
+- La signature électronique manque d'intégrité de structure de données déterministe.
+
+Il n'existe pas de modèle d'intégrité global unifié.
+
+---
+
+## 4. Fenêtre Stratégique
+
+La couche d'infrastructure pour la preuve numérique reste indéfinie à l'échelle mondiale.
+
+VeriSeal entre à ce point d'inflexion structurel.

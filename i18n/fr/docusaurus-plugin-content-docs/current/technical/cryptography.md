@@ -1,51 +1,51 @@
 ---
 id: cryptography
-title: Cryptography
+title: Cryptographie
 slug: /technical/cryptography
 sidebar_position: 1
 ---
 
-# Cryptography
+# Cryptographie
 
-VeriSeal uses conservative, widely deployed primitives to make evidence independently verifiable.
+VeriSeal utilise des primitives conservatrices et largement déployées pour rendre les preuves vérifiables de manière indépendante.
 
-## Hashing (SHA-256)
+## Hachage (SHA-256)
 
-SHA-256 fingerprints:
-- files (video, image, PDFs),
-- canonical JSON payloads,
-- bundle manifests,
-- ledger entries.
+Empreintes SHA-256 :
+- fichiers (vidéo, image, PDFs),
+- données JSON canoniques,
+- manifestes de paquets,
+- entrées de registre.
 
-Hashes are represented as lowercase hex.
+Les hachages sont représentés en hexadécimal minuscule.
 
-## Canonicalization
+## Canonicalisation
 
-For structured data (JSON/messages), VeriSeal applies deterministic canonicalization so independent parties can reproduce the same digest.
+Pour les données structurées (JSON/messages), VeriSeal applique une canonicalisation déterministe afin que des parties indépendantes puissent reproduire le même digest.
 
-## Merkle commitments
+## Engagements Merkle
 
-When multiple components must be committed (media hash, UX log hash, metadata hash), VeriSeal builds a Merkle tree:
-- leaves are component digests,
-- internal nodes are SHA-256(left || right),
-- the Merkle root is the public proof identifier.
+Lorsque plusieurs composants doivent être engagés (hachage média, hachage journal UX, hachage métadonnées), VeriSeal construit un arbre de Merkle :
+- les feuilles sont des digests de composants,
+- les nœuds internes sont SHA-256(gauche || droite),
+- la racine Merkle est l'identifiant de preuve public.
 
-## Append-only ledger chaining
+## Chaînage de registre en ajout seul
 
-Each entry includes entry_hash, prev_hash, and created_at_utc (UTC). Any modification breaks the chain.
+Chaque entrée inclut entry_hash, prev_hash, et created_at_utc (UTC). Toute modification brise la chaîne.
 
-## Signatures (optional)
+## Signatures (optionnelles)
 
-- PDF evidence can be signed (RSA-3072).
-- JSON exports can be signed for offline verification.
+- Les preuves PDF peuvent être signées (RSA-3072).
+- Les exportations JSON peuvent être signées pour une vérification hors ligne.
 
-PDF is render-only; verification must always validate against public JSON.
+Le PDF est uniquement rendu ; la vérification doit toujours être validée contre le JSON public.
 
-## OpenTimestamps (optional)
+## OpenTimestamps (optionnel)
 
-OpenTimestamps anchors a digest externally and can become VERIFIED on the Bitcoin blockchain.
+OpenTimestamps ancre un digest de manière externe et peut devenir VÉRIFIÉ sur la blockchain Bitcoin.
 
-## Threat model (summary)
+## Modèle de menace (résumé)
 
-Mitigates: post-hoc modification, evidence substitution, contestable timestamps, platform conflict of interest.  
-Not in scope: compromised capture device, malware before capture, coercion/impersonation without identity flows.
+Atténue : modification post-hoc, substitution de preuves, horodatages contestables, conflit d'intérêt de la plateforme.  
+Hors périmètre : dispositif de capture compromis, malware avant capture, coercition/usurpation d'identité sans flux d'identité.

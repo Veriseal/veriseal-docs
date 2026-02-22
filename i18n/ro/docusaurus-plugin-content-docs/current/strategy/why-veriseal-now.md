@@ -1,74 +1,76 @@
----
-title: Why VeriSeal — Why Now
----
-
-# Why VeriSeal — Why Now
-
-## The Structural Shift
-
-We are entering a period where digital certainty is collapsing faster than institutions can adapt.
-
-Three irreversible forces are converging:
-
-- Artificial intelligence generating indistinguishable synthetic content  
-- Cross-border digital transactions increasing in volume and complexity  
-- Regulatory escalation in data integrity, traceability, and accountability  
-
-Digital systems were built for speed and scale — not for deterministic integrity.
-
-The result is a structural integrity gap.
+Fișier: why-veriseal-now.md
 
 ---
+title: De ce VeriSeal — De ce Acum
+---
 
-## The Integrity Gap
+# De ce VeriSeal — De ce Acum
 
-Current digital trust mechanisms are insufficient:
+## Schimbarea Structurală
 
-- Signatures prove authorship, not structural immutability  
-- Timestamping proves existence, not integrity continuity  
-- Blockchain anchoring proves inclusion, not governance alignment  
-- Internal logs prove nothing externally  
+Intrăm într-o perioadă în care certitudinea digitală se prăbușește mai rapid decât se pot adapta instituțiile.
 
-No global deterministic verification layer exists.
+Trei forțe ireversibile converg:
+
+- Inteligența artificială generează conținut sintetic indistinctibil  
+- Tranzacțiile digitale transfrontaliere cresc în volum și complexitate  
+- Escaladarea reglementărilor în integritatea datelor, trasabilitate și responsabilitate  
+
+Sistemele digitale au fost construite pentru viteză și scalabilitate — nu pentru integritate deterministă.
+
+Rezultatul este un decalaj de integritate structurală.
 
 ---
 
-## Why This Moment Is Different
+## Decalajul de Integritate
 
-The acceleration of AI-generated content changes everything.
+Mecanismele actuale de încredere digitală sunt insuficiente:
 
-The cost of producing plausible false evidence is collapsing.  
-The cost of verifying authenticity is rising exponentially.
+- Semnăturile dovedesc autoratul, nu imuabilitatea structurală  
+- Marcarea temporală dovedește existența, nu continuitatea integrității  
+- Ancorarea în blockchain dovedește includerea, nu alinierea guvernanței  
+- Jurnalele interne nu dovedesc nimic extern  
 
-Institutions will not tolerate probabilistic trust in high-stakes environments.
-
-Deterministic verification will become mandatory infrastructure.
-
----
-
-## Market Timing
-
-Global macro conditions align:
-
-- Regulatory tightening (financial, healthcare, public procurement)
-- Increased litigation exposure
-- Sovereignty concerns over foreign-controlled infrastructure
-- Growing demand for auditability and compliance traceability
-
-VeriSeal is not a response to trend.  
-It is a structural answer to a systemic integrity failure.
+Nu există un strat global de verificare deterministă.
 
 ---
 
-## Strategic Position
+## De ce Acest Moment Este Diferit
 
-VeriSeal is positioned as:
+Accelerarea conținutului generat de AI schimbă totul.
 
-- A commercially deployable integrity infrastructure  
-- A candidate global standard for deterministic digital proof  
-- A sovereignty-compatible architecture  
-- A cross-sector integrity layer  
+Costul producerii de dovezi false plauzibile se prăbușește.  
+Costul verificării autenticității crește exponențial.
 
-The question is no longer whether deterministic verification is needed.
+Instituțiile nu vor tolera încrederea probabilistică în medii cu miză mare.
 
-The only question is who defines the standard.
+Verificarea deterministă va deveni infrastructură obligatorie.
+
+---
+
+## Sincronizarea Pieței
+
+Condițiile macro globale se aliniază:
+
+- Întărirea reglementărilor (financiare, sănătate, achiziții publice)
+- Expunerea crescută la litigii
+- Îngrijorări privind suveranitatea asupra infrastructurii controlate de străini
+- Cererea în creștere pentru auditabilitate și trasabilitatea conformității
+
+VeriSeal nu este un răspuns la o tendință.  
+Este un răspuns structural la un eșec sistemic de integritate.
+
+---
+
+## Poziționare Strategică
+
+VeriSeal este poziționat ca:
+
+- O infrastructură de integritate comercializabilă  
+- Un candidat standard global pentru dovada digitală deterministă  
+- O arhitectură compatibilă cu suveranitatea  
+- Un strat de integritate trans-sectorial  
+
+Întrebarea nu mai este dacă este necesară verificarea deterministă.
+
+Singura întrebare este cine definește standardul.

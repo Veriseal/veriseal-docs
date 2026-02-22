@@ -1,52 +1,52 @@
 ---
-title: The VeriSeal Solution
+title: Soluția VeriSeal
 sidebar_position: 4
 ---
 
-# Deterministic Integrity Infrastructure
+# Infrastructura de Integritate Deterministă
 
-VeriSeal introduces a layered integrity model.
-
----
-
-## 1. Deterministic Hashing Model
-
-- Canonical data normalization
-- Cryptographic hashing (SHA-256 class)
-- Immutable binding across proof elements
-
-Integrity becomes mathematically reproducible.
+VeriSeal introduce un model de integritate stratificat.
 
 ---
 
-## 2. Append-Only Ledger Model
+## 1. Modelul de Hashare Deterministă
 
-- Structured proof entries
-- Sequential hash chaining
-- Long-term verification stability
+- Normalizare canonică a datelor
+- Hashare criptografică (clasa SHA-256)
+- Legare imuabilă între elementele de probă
 
-No retroactive modification possible.
-
----
-
-## 3. Verification Protocol
-
-- Independent reproducibility
-- No reliance on proprietary black-box logic
-- Transparent validation procedure
-
-Verification is structural, not declarative.
+Integritatea devine matematic reproductibilă.
 
 ---
 
-## 4. Governance Layer
+## 2. Modelul de Registru Doar pentru Adăugare
 
-- Conformance model
-- Certification logic
-- Sector-specific implementation guidance
+- Înregistrări de probă structurate
+- Înlănțuire secvențială de hash-uri
+- Stabilitate pe termen lung a verificării
 
-Infrastructure + Governance = Institutional viability.
+Nu este posibilă modificarea retroactivă.
 
 ---
 
-VeriSeal operates beneath systems — not above them.
+## 3. Protocol de Verificare
+
+- Reproductibilitate independentă
+- Fără dependență de logică proprietară de tip cutie neagră
+- Procedură de validare transparentă
+
+Verificarea este structurală, nu declarativă.
+
+---
+
+## 4. Strat de Guvernanță
+
+- Model de conformitate
+- Logică de certificare
+- Ghid de implementare specific sectorului
+
+Infrastructură + Guvernanță = Viabilitate instituțională.
+
+---
+
+VeriSeal operează sub sisteme — nu deasupra lor.

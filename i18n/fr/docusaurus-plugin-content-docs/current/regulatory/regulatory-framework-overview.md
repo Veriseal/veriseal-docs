@@ -1,262 +1,262 @@
 ---
-title: Regulatory & Compliance Framework Overview
-sidebar_label: Regulatory Framework
+title: Aperçu du Cadre Réglementaire et de Conformité
+sidebar_label: Cadre Réglementaire
 ---
 
-# Regulatory & Compliance Framework Overview
+# Aperçu du Cadre Réglementaire et de Conformité
 
-## Structural Integrity and Regulatory Alignment
+## Intégrité Structurelle et Alignement Réglementaire
 
-VeriSeal is designed as a structural integrity protocol.
+VeriSeal est conçu comme un protocole d'intégrité structurelle.
 
-It does not replace regulatory frameworks.
+Il ne remplace pas les cadres réglementaires.
 
-It reinforces them.
+Il les renforce.
 
-Its role is to provide:
+Son rôle est de fournir :
 
-- Deterministic integrity
-- Tamper detection
-- Independent verifiability
-- Optional non-repudiation support
-- Optional timestamp corroboration
+- Intégrité déterministe
+- Détection de falsification
+- Vérifiabilité indépendante
+- Support optionnel de non-répudiation
+- Corroboration optionnelle de l'horodatage
 
-These properties align with regulatory expectations across multiple sectors.
-
----
-
-## Regulatory Philosophy
-
-VeriSeal does not claim legal equivalence.
-
-It provides technical guarantees that:
-
-- Strengthen evidentiary reliability
-- Reduce manipulation risk
-- Improve audit defensibility
-- Enhance operational transparency
-
-Regulatory compliance remains the responsibility of the implementing institution.
-
-VeriSeal provides cryptographic structural support.
+Ces propriétés sont alignées avec les attentes réglementaires dans plusieurs secteurs.
 
 ---
 
-## Multi-Layer Regulatory Mapping
+## Philosophie Réglementaire
 
-VeriSeal operates across four architectural layers:
+VeriSeal ne revendique pas l'équivalence légale.
 
-Layer 1 - Protocol
-Layer 2 - Core Implementation
-Layer 3 - Sector Modules
-Layer 4 - Operational Applications
+Il fournit des garanties techniques qui :
 
-Regulatory alignment varies per layer.
+- Renforcent la fiabilité des preuves
+- Réduisent le risque de manipulation
+- Améliorent la défensibilité des audits
+- Accroissent la transparence opérationnelle
 
----
+La conformité réglementaire reste la responsabilité de l'institution qui l'implémente.
 
-## Layer 1 - Protocol Level Alignment
-
-At the protocol level, VeriSeal provides:
-
-- Deterministic canonicalization
-- Reproducible hashing
-- Immutable proof structure
-- Independent verification capability
-
-These properties align with regulatory expectations for:
-
-- Data integrity controls
-- Audit trail robustness
-- Record tamper detection
-- Evidence preservation mechanisms
-
-The protocol does not interpret regulatory obligations.
-
-It supports structural compliance capability.
+VeriSeal fournit un support structurel cryptographique.
 
 ---
 
-## Layer 2 - Core Implementation Alignment
+## Cartographie Réglementaire Multi-Couches
 
-At the implementation layer, alignment depends on:
+VeriSeal opère à travers quatre couches architecturales :
 
-- Secure key management
-- Controlled access governance
-- Logging practices
-- Infrastructure security
+Couche 1 - Protocole
+Couche 2 - Implémentation de Base
+Couche 3 - Modules Sectoriels
+Couche 4 - Applications Opérationnelles
 
-VeriSeal Core may support compliance in relation to:
-
-- Internal control frameworks
-- Information security management systems
-- Audit readiness requirements
-- Record retention obligations
-
-Operational governance remains external to the protocol.
+L'alignement réglementaire varie selon la couche.
 
 ---
 
-## Layer 3 - Sector-Specific Regulatory Alignment
+## Couche 1 - Alignement au Niveau du Protocole
 
-Sector modules contextualize the protocol in regulated environments.
+Au niveau du protocole, VeriSeal fournit :
 
-Examples include:
+- Canonicalisation déterministe
+- Hachage reproductible
+- Structure de preuve immuable
+- Capacité de vérification indépendante
 
-Financial sector:
-- Operational resilience
-- Transaction integrity
-- Audit traceability
+Ces propriétés sont alignées avec les attentes réglementaires pour :
 
-Healthcare:
-- Medical record integrity
-- Documentation non-alteration
-- Clinical audit trails
+- Contrôles d'intégrité des données
+- Robustesse des pistes d'audit
+- Détection de falsification des enregistrements
+- Mécanismes de préservation des preuves
 
-Insurance:
-- Claim documentation integrity
-- Evidence preservation
-- Fraud mitigation
+Le protocole n'interprète pas les obligations réglementaires.
 
-Legal sector:
-- Document authenticity reinforcement
-- Chronological consistency
-- Dispute defensibility
-
-Public procurement:
-- Tender integrity
-- Submission immutability
-- Transparency reinforcement
-
-VeriSeal provides structural support but does not substitute regulatory process design.
+Il soutient la capacité de conformité structurelle.
 
 ---
 
-## Layer 4 - Operational Compliance
+## Couche 2 - Alignement de l'Implémentation de Base
 
-At the operational layer, institutions must integrate:
+Au niveau de l'implémentation, l'alignement dépend de :
 
-- Data protection compliance
-- Access control enforcement
-- Encryption systems
-- Legal admissibility standards
-- Jurisdiction-specific obligations
+- Gestion sécurisée des clés
+- Gouvernance d'accès contrôlée
+- Pratiques de journalisation
+- Sécurité de l'infrastructure
 
-VeriSeal strengthens evidentiary defensibility.
+VeriSeal Core peut soutenir la conformité en relation avec :
 
-It does not define legal validity.
+- Cadres de contrôle interne
+- Systèmes de gestion de la sécurité de l'information
+- Exigences de préparation à l'audit
+- Obligations de conservation des enregistrements
 
----
-
-## Cross-Jurisdictional Compatibility
-
-VeriSeal is:
-
-- Jurisdiction-neutral
-- Infrastructure-agnostic
-- Blockchain-optional
-- Database-independent
-
-Its cryptographic properties support:
-
-- Evidence preservation requirements
-- Audit robustness expectations
-- Record immutability controls
-- Anti-manipulation safeguards
-
-Regulatory interpretation varies by jurisdiction.
-
-The protocol remains structurally adaptable.
+La gouvernance opérationnelle reste externe au protocole.
 
 ---
 
-## Compliance Contribution Areas
+## Couche 3 - Alignement Réglementaire Spécifique au Secteur
 
-VeriSeal contributes to regulatory objectives in the following domains:
+Les modules sectoriels contextualisent le protocole dans des environnements réglementés.
 
-Data Integrity
-Evidence Reliability
-Chronological Traceability
-Tamper Detection
-Record Authenticity Reinforcement
-Operational Transparency
+Exemples incluent :
 
-It does not provide:
+Secteur financier :
+- Résilience opérationnelle
+- Intégrité des transactions
+- Traçabilité des audits
 
-Identity verification by default
-Legal certification
-Regulatory reporting automation
-Automated compliance adjudication
+Santé :
+- Intégrité des dossiers médicaux
+- Non-altération de la documentation
+- Pistes d'audit cliniques
 
-These remain external processes.
+Assurance :
+- Intégrité de la documentation des réclamations
+- Préservation des preuves
+- Atténuation de la fraude
 
----
+Secteur juridique :
+- Renforcement de l'authenticité des documents
+- Cohérence chronologique
+- Défensibilité des litiges
 
-## Alignment with Control Frameworks
+Marchés publics :
+- Intégrité des appels d'offres
+- Immutabilité des soumissions
+- Renforcement de la transparence
 
-VeriSeal supports internal control systems by providing:
-
-- Deterministic verification capability
-- Structural audit trail reinforcement
-- Cryptographic tamper detection
-- Optional independent timestamp corroboration
-
-It may complement:
-
-- Risk management frameworks
-- Information security governance
-- Internal audit methodologies
-- Operational resilience programs
-
-It does not replace governance structures.
+VeriSeal fournit un support structurel mais ne remplace pas la conception des processus réglementaires.
 
 ---
 
-## Regulatory Evolution Readiness
+## Couche 4 - Conformité Opérationnelle
 
-The layered architecture enables:
+Au niveau opérationnel, les institutions doivent intégrer :
 
-- Controlled protocol evolution
-- Backward compatibility maintenance
-- Sector adaptation flexibility
-- Jurisdictional adjustment capability
+- Conformité à la protection des données
+- Application du contrôle d'accès
+- Systèmes de cryptage
+- Normes d'admissibilité légale
+- Obligations spécifiques à la juridiction
 
-This supports long-term regulatory adaptation.
+VeriSeal renforce la défensibilité des preuves.
+
+Il ne définit pas la validité légale.
 
 ---
 
-## Institutional Positioning
+## Compatibilité Transjuridictionnelle
 
-VeriSeal should be positioned as:
+VeriSeal est :
 
-A structural integrity protocol.
+- Neutre en termes de juridiction
+- Indépendant de l'infrastructure
+- Optionnellement basé sur la blockchain
+- Indépendant de la base de données
 
-Not as:
+Ses propriétés cryptographiques soutiennent :
 
-A legal certification authority
-A regulatory compliance substitute
-A substitute for institutional governance
+- Exigences de préservation des preuves
+- Attentes de robustesse des audits
+- Contrôles d'immuabilité des enregistrements
+- Sauvegardes anti-manipulation
 
-Its value lies in:
+L'interprétation réglementaire varie selon la juridiction.
 
-Reducing structural risk
-Increasing evidentiary defensibility
-Reinforcing audit robustness
-Enhancing integrity guarantees
+Le protocole reste structurellement adaptable.
+
+---
+
+## Domaines de Contribution à la Conformité
+
+VeriSeal contribue aux objectifs réglementaires dans les domaines suivants :
+
+Intégrité des Données
+Fiabilité des Preuves
+Traçabilité Chronologique
+Détection de Falsification
+Renforcement de l'Authenticité des Enregistrements
+Transparence Opérationnelle
+
+Il ne fournit pas :
+
+Vérification d'identité par défaut
+Certification légale
+Automatisation des rapports réglementaires
+Adjudication automatique de la conformité
+
+Ces processus restent externes.
+
+---
+
+## Alignement avec les Cadres de Contrôle
+
+VeriSeal soutient les systèmes de contrôle interne en fournissant :
+
+- Capacité de vérification déterministe
+- Renforcement structurel des pistes d'audit
+- Détection cryptographique de falsification
+- Corroboration optionnelle d'horodatage indépendant
+
+Il peut compléter :
+
+- Cadres de gestion des risques
+- Gouvernance de la sécurité de l'information
+- Méthodologies d'audit interne
+- Programmes de résilience opérationnelle
+
+Il ne remplace pas les structures de gouvernance.
+
+---
+
+## Préparation à l'Évolution Réglementaire
+
+L'architecture en couches permet :
+
+- Évolution contrôlée du protocole
+- Maintien de la compatibilité ascendante
+- Flexibilité d'adaptation sectorielle
+- Capacité d'ajustement juridictionnel
+
+Cela soutient l'adaptation réglementaire à long terme.
+
+---
+
+## Positionnement Institutionnel
+
+VeriSeal doit être positionné comme :
+
+Un protocole d'intégrité structurelle.
+
+Pas comme :
+
+Une autorité de certification légale
+Un substitut de conformité réglementaire
+Un substitut à la gouvernance institutionnelle
+
+Sa valeur réside dans :
+
+Réduire le risque structurel
+Augmenter la défensibilité des preuves
+Renforcer la robustesse des audits
+Améliorer les garanties d'intégrité
 
 ---
 
 ## Conclusion
 
-VeriSeal is compatible with regulatory frameworks because it reinforces structural integrity.
+VeriSeal est compatible avec les cadres réglementaires car il renforce l'intégrité structurelle.
 
-It provides:
+Il fournit :
 
-- Deterministic proof mechanisms
-- Independent verification capability
-- Modular integration flexibility
-- Infrastructure neutrality
+- Mécanismes de preuve déterministes
+- Capacité de vérification indépendante
+- Flexibilité d'intégration modulaire
+- Neutralité de l'infrastructure
 
-Regulatory compliance remains institution-driven.
+La conformité réglementaire reste dirigée par l'institution.
 
-VeriSeal strengthens the technical foundation upon which compliance rests.
+VeriSeal renforce la fondation technique sur laquelle repose la conformité.

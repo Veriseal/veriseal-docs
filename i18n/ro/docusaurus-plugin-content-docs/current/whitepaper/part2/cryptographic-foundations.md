@@ -1,27 +1,27 @@
 ---
 id: cryptographic-foundations
-title: Cryptographic Foundations
+title: Fundamentele Criptografice
 ---
 
 ﻿---
-title: Cryptographic Foundations
-sidebar_label: 2.1 Cryptographic Foundations
+title: Fundamentele Criptografice
+sidebar_label: 2.1 Fundamentele Criptografice
 slug: /whitepaper/part2/cryptographic-foundations
 sidebar_position: 2.1
 ---
 
-# Cryptographic Foundations
+# Fundamentele Criptografice
 
-VeriSeal relies on established cryptographic primitives:
-- hashing (e.g., SHA-256),
-- asymmetric signatures for attestations,
-- optional timestamp anchoring (e.g., blockchain/OpenTimestamps).
+VeriSeal se bazează pe primitive criptografice consacrate:
+- hashing (de exemplu, SHA-256),
+- semnături asimetrice pentru atestări,
+- ancorare opțională a marcajului temporal (de exemplu, blockchain/OpenTimestamps).
 
-The goal is not novelty. The goal is determinism.
+Scopul nu este noutatea. Scopul este determinismul.
 
-A proof must be:
-- reproducible,
-- verifiable by third parties,
-- stable over time.
+O dovadă trebuie să fie:
+- reproductibilă,
+- verificabilă de terți,
+- stabilă în timp.
 
-Cryptography provides mathematical integrity, not semantic truth.
+Criptografia oferă integritate matematică, nu adevăr semantic.

@@ -1,202 +1,202 @@
 ---
-title: VIP-REG-001 - VeriSeal Regulatory Mapping
+title: VIP-REG-001 - Cartographie Réglementaire VeriSeal
 sidebar_label: VIP-REG-001
 ---
 
-# VIP-REG-001 - VeriSeal Regulatory Mapping
+# VIP-REG-001 - Cartographie Réglementaire VeriSeal
 
-Version: 1.0
-Status: Informational
-Classification: Regulatory Positioning
+Version : 1.0
+Statut : Informatif
+Classification : Positionnement Réglementaire
 
 ---
 
 ## 1. Introduction
 
-This document provides a non-binding regulatory mapping of the VeriSeal Integrity Framework against selected European regulatory instruments.
+Ce document fournit une cartographie réglementaire non contraignante du cadre d'intégrité VeriSeal par rapport à certains instruments réglementaires européens.
 
-It is intended for:
+Il est destiné à :
 
-- Regulatory discussions
-- Institutional presentations
-- Compliance architecture analysis
-- Integration planning
+- Discussions réglementaires
+- Présentations institutionnelles
+- Analyse de l'architecture de conformité
+- Planification de l'intégration
 
-This document does NOT constitute legal advice.
+Ce document ne constitue PAS un avis juridique.
 
 ---
 
-## 2. Scope of Mapping
+## 2. Portée de la Cartographie
 
-The mapping references:
+La cartographie fait référence à :
 
-- eIDAS Regulation (EU) No 910/2014
-- eIDAS 2.0 framework evolution
+- Règlement eIDAS (UE) n° 910/2014
+- Évolution du cadre eIDAS 2.0
 - ISO/IEC 27001
 - ISO/IEC 27002
-- NIS2 Directive
-- ETSI standards for electronic signatures and timestamping
+- Directive NIS2
+- Normes ETSI pour les signatures électroniques et l'horodatage
 
-This mapping focuses on technical alignment, not certification status.
-
----
-
-## 3. eIDAS Mapping
-
-## 3.1 Electronic Evidence Integrity
-
-VIP-STD-001 ensures:
-
-- Deterministic integrity
-- Tamper detection
-- Structural immutability
-
-This aligns with:
-
-- Article 41 (Integrity of electronic documents)
-- Electronic evidence preservation principles
-
-VeriSeal does NOT provide:
-
-- Qualified electronic signature status
-- Qualified trust service provider status
+Cette cartographie se concentre sur l'alignement technique, pas sur le statut de certification.
 
 ---
 
-## 3.2 Electronic Signatures
+## 3. Cartographie eIDAS
 
-VIP-STD-003 provides:
+## 3.1 Intégrité des Preuves Électroniques
 
-- Cryptographic authenticity
-- Deterministic verification
+VIP-STD-001 assure :
 
-However:
+- Intégrité déterministe
+- Détection de falsification
+- Immutabilité structurelle
 
-- Identity verification is outside scope
-- Qualified signature certification is not included
-- Certificate trust chain validation is not defined in current version
+Cela s'aligne avec :
 
----
+- Article 41 (Intégrité des documents électroniques)
+- Principes de préservation des preuves électroniques
 
-## 3.3 Timestamping
+VeriSeal ne fournit PAS :
 
-VIP-STD-004 provides:
-
-- External temporal anchoring
-- Public verifiability
-- Deterministic anchor hash binding
-
-This aligns conceptually with:
-
-- ETSI EN 319 421 (Time-Stamping Policy and Security Requirements)
-
-It does NOT claim qualified timestamp authority status.
+- Statut de signature électronique qualifiée
+- Statut de prestataire de services de confiance qualifié
 
 ---
 
-## 4. ISO/IEC 27001 Alignment
+## 3.2 Signatures Électroniques
 
-The framework contributes to:
+VIP-STD-003 fournit :
 
-- A.8 - Asset Integrity
-- A.12 - Logging and Monitoring
-- A.14 - System Integrity Controls
-- A.18 - Compliance Evidence Preservation
+- Authenticité cryptographique
+- Vérification déterministe
 
-The framework itself is not an ISMS.
+Cependant :
 
-It may serve as a technical control component within an ISMS.
-
----
-
-## 5. NIS2 Directive Alignment
-
-VIP-STD-002 and VIP-STD-004 contribute to:
-
-- Incident traceability
-- Evidence preservation
-- Deterministic event integrity
-
-However, NIS2 requires:
-
-- Organizational governance
-- Risk management procedures
-- Incident reporting frameworks
-
-These are external to the protocol.
+- La vérification d'identité est hors du champ
+- La certification de signature qualifiée n'est pas incluse
+- La validation de la chaîne de confiance des certificats n'est pas définie dans la version actuelle
 
 ---
 
-## 6. Sovereignty Positioning
+## 3.3 Horodatage
 
-The framework is:
+VIP-STD-004 fournit :
 
-- Infrastructure-neutral
-- Vendor-neutral
-- Cryptographically deterministic
-- Openly verifiable
+- Ancrage temporel externe
+- Vérifiabilité publique
+- Liaison déterministe de hachage d'ancrage
 
-It does not require:
+Cela s'aligne conceptuellement avec :
 
-- Foreign cloud dependency
-- Proprietary validation services
-- Closed verification infrastructure
+- ETSI EN 319 421 (Politique et exigences de sécurité pour l'horodatage)
 
-This supports digital sovereignty objectives.
+Il ne revendique PAS le statut d'autorité d'horodatage qualifiée.
 
 ---
 
-## 7. Compliance Boundaries
+## 4. Alignement ISO/IEC 27001
 
-The VeriSeal Integrity Framework:
+Le cadre contribue à :
 
-- Provides technical integrity guarantees
-- Does NOT provide legal certification
-- Does NOT provide identity assurance
-- Does NOT replace trust service providers
+- A.8 - Intégrité des actifs
+- A.12 - Journalisation et surveillance
+- A.14 - Contrôles d'intégrité du système
+- A.18 - Préservation des preuves de conformité
 
-It may complement regulated trust services.
+Le cadre lui-même n'est pas un SGSI.
 
----
-
-## 8. Regulatory Strategy Implications
-
-The framework may be positioned as:
-
-- Cryptographic evidence infrastructure
-- Integrity layer for regulated systems
-- Audit-supporting infrastructure
-- Complementary to qualified trust services
-
-It is NOT positioned as a replacement for:
-
-- Qualified Electronic Signature Providers
-- Qualified Timestamp Authorities
-- National PKI infrastructures
+Il peut servir de composant de contrôle technique au sein d'un SGSI.
 
 ---
 
-## 9. Future Regulatory Alignment
+## 5. Alignement Directive NIS2
 
-Future extensions MAY include:
+VIP-STD-002 et VIP-STD-004 contribuent à :
 
-- Qualified timestamp profile
-- eIDAS 2.0 wallet integration
-- Identity binding profile
-- ETSI conformity alignment
-- Certification support profile
+- Traçabilité des incidents
+- Préservation des preuves
+- Intégrité déterministe des événements
+
+Cependant, NIS2 exige :
+
+- Gouvernance organisationnelle
+- Procédures de gestion des risques
+- Cadres de signalement des incidents
+
+Ceux-ci sont externes au protocole.
+
+---
+
+## 6. Positionnement de Souveraineté
+
+Le cadre est :
+
+- Neutre en termes d'infrastructure
+- Neutre en termes de fournisseur
+- Cryptographiquement déterministe
+- Vérifiable ouvertement
+
+Il ne nécessite pas :
+
+- Dépendance au cloud étranger
+- Services de validation propriétaires
+- Infrastructure de vérification fermée
+
+Cela soutient les objectifs de souveraineté numérique.
+
+---
+
+## 7. Limites de Conformité
+
+Le cadre d'intégrité VeriSeal :
+
+- Fournit des garanties d'intégrité technique
+- Ne fournit PAS de certification légale
+- Ne fournit PAS d'assurance d'identité
+- Ne remplace PAS les prestataires de services de confiance
+
+Il peut compléter les services de confiance réglementés.
+
+---
+
+## 8. Implications Stratégiques Réglementaires
+
+Le cadre peut être positionné comme :
+
+- Infrastructure de preuves cryptographiques
+- Couche d'intégrité pour les systèmes réglementés
+- Infrastructure de soutien à l'audit
+- Complémentaire aux services de confiance qualifiés
+
+Il n'est PAS positionné comme un remplacement pour :
+
+- Prestataires de signatures électroniques qualifiées
+- Autorités d'horodatage qualifiées
+- Infrastructures PKI nationales
+
+---
+
+## 9. Alignement Réglementaire Futur
+
+Les extensions futures PEUVENT inclure :
+
+- Profil d'horodatage qualifié
+- Intégration du portefeuille eIDAS 2.0
+- Profil de liaison d'identité
+- Alignement de conformité ETSI
+- Profil de support de certification
 
 ---
 
 ## 10. Conclusion
 
-The VeriSeal Integrity Framework aligns technically with European regulatory integrity principles.
+Le cadre d'intégrité VeriSeal s'aligne techniquement avec les principes d'intégrité réglementaire européens.
 
-It provides:
+Il fournit :
 
-- Deterministic tamper detection
-- Cryptographic structural integrity
-- External temporal corroboration
-- Modular compliance integration
+- Détection déterministe de falsification
+- Intégrité structurelle cryptographique
+- Corroboration temporelle externe
+- Intégration modulaire de conformité
 
-Regulatory certification requires additional organizational, legal, and operational layers.
+La certification réglementaire nécessite des couches organisationnelles, juridiques et opérationnelles supplémentaires.

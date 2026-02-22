@@ -1,98 +1,98 @@
 ---
 id: vip-stf-005
-title: VIP-STF-005 — Conformance & Certification Framework
+title: VIP-STF-005 — Cadre de Conformité et de Certification
 sidebar_position: 7
 ---
 
 # VIP-STF-005  
-## Conformance & Certification Framework
+## Cadre de Conformité et de Certification
 
 ---
 
-# 1. Scope
+# 1. Portée
 
-This framework defines conformance levels and certification procedures for implementations of the VeriSeal Integrity Protocol.
-
----
-
-# 2. Conformance Levels
-
-Level 1 — Core Compliance  
-- Implements VIP-STD-001  
-
-Level 2 — Ledger Compliance  
-- Implements VIP-STD-001 + VIP-STD-002  
-
-Level 3 — Signature Compliance  
-- Implements VIP-STD-001 + VIP-STD-003  
-
-Level 4 — Anchored Integrity  
-- Implements VIP-STD-001 + VIP-STD-002 + VIP-STD-004  
-
-Level 5 — Full Institutional Profile  
-- Implements 001–004  
-- Undergoes independent audit  
+Ce cadre définit les niveaux de conformité et les procédures de certification pour les implémentations du Protocole d'Intégrité VeriSeal.
 
 ---
 
-# 3. Certification Requirements
+# 2. Niveaux de Conformité
 
-Certification MAY require:
+Niveau 1 — Conformité de Base  
+- Implémente VIP-STD-001  
 
-- Deterministic test vectors  
-- Canonicalization verification  
-- Hash reproducibility checks  
-- Ledger chain validation  
-- Anchor validation proof  
+Niveau 2 — Conformité au Registre  
+- Implémente VIP-STD-001 + VIP-STD-002  
 
----
+Niveau 3 — Conformité à la Signature  
+- Implémente VIP-STD-001 + VIP-STD-003  
 
-# 4. Audit Model
+Niveau 4 — Intégrité Ancrée  
+- Implémente VIP-STD-001 + VIP-STD-002 + VIP-STD-004  
 
-Certification bodies MUST verify:
-
-- Canonicalization correctness  
-- Hash determinism  
-- Structural integrity  
-- Implementation consistency  
-
-Audit procedures MUST be reproducible.
+Niveau 5 — Profil Institutionnel Complet  
+- Implémente 001–004  
+- Soumis à un audit indépendant  
 
 ---
 
-# 5. Reference Test Suite
+# 3. Exigences de Certification
 
-The standard SHOULD define:
+La certification PEUT nécessiter :
 
-- Canonical JSON test cases  
-- Hash validation fixtures  
-- Chain validation datasets  
-- Signature verification scenarios  
-
----
-
-# 6. Governance
-
-Certification governance MAY be:
-
-- Centralized  
-- Federated  
-- Multi-institutional  
-
-The protocol does not mandate governance structure.
+- Vecteurs de test déterministes  
+- Vérification de la canonicalisation  
+- Vérifications de la reproductibilité du hash  
+- Validation de la chaîne de registre  
+- Preuve de validation d'ancrage  
 
 ---
 
-# 7. Standard Evolution
+# 4. Modèle d'Audit
 
-Future versions MUST:
+Les organismes de certification DOIVENT vérifier :
 
-- Preserve backward verification compatibility  
-- Maintain deterministic properties  
-- Provide migration guidance  
+- Exactitude de la canonicalisation  
+- Déterminisme du hash  
+- Intégrité structurelle  
+- Cohérence de l'implémentation  
+
+Les procédures d'audit DOIVENT être reproductibles.
+
+---
+
+# 5. Suite de Tests de Référence
+
+La norme DEVRAIT définir :
+
+- Cas de test JSON canoniques  
+- Fixtures de validation de hash  
+- Ensembles de données de validation de chaîne  
+- Scénarios de vérification de signature  
+
+---
+
+# 6. Gouvernance
+
+La gouvernance de la certification PEUT être :
+
+- Centralisée  
+- Fédérée  
+- Multi-institutionnelle  
+
+Le protocole n'impose pas de structure de gouvernance.
+
+---
+
+# 7. Évolution de la Norme
+
+Les versions futures DOIVENT :
+
+- Préserver la compatibilité de vérification rétroactive  
+- Maintenir les propriétés déterministes  
+- Fournir des directives de migration  
 
 ---
 
 # 8. Conclusion
 
-VIP-STF-005 defines the pathway from technical specification to institutional-grade certification.
+VIP-STF-005 définit le chemin de la spécification technique à la certification de niveau institutionnel.

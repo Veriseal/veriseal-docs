@@ -1,300 +1,298 @@
 ---
-title: VeriSeal Protocol Framework
-sidebar_label: VeriSeal Protocol Framework
+title: Cadrul Protocolului VeriSeal
+sidebar_label: Cadrul Protocolului VeriSeal
 ---
 
-# VeriSeal Protocol Framework
+# Cadrul Protocolului VeriSeal
 
-VeriSeal provides a sector-agnostic cryptographic integrity layer for verifiable digital evidence.
+VeriSeal oferă un strat de integritate criptografică independent de sector pentru dovezi digitale verificabile.
 
-## Scope Clarification
+## Clarificarea Domeniului de Aplicare
 
-The scenarios presented below illustrate representative high-risk situations within this sector where document integrity, timestamp certainty, and verifiable authenticity are critical.
+Scenariile prezentate mai jos ilustrează situații reprezentative cu risc ridicat în acest sector, unde integritatea documentelor, certitudinea marcajului temporal și autenticitatea verificabilă sunt critice.
 
-They are not exhaustive.
+Acestea nu sunt exhaustive.
 
-VeriSeal is not designed to solve a single isolated use case.
-It provides a structural cryptographic integrity layer applicable to any digital document, event record, media capture, or transactional evidence requiring long-term verifiability.
+VeriSeal nu este conceput pentru a rezolva un singur caz de utilizare izolat.
+Oferă un strat structural de integritate criptografică aplicabil oricărui document digital, înregistrare de eveniment, captură media sau dovadă tranzacțională care necesită verificabilitate pe termen lung.
 
-The examples below represent structural risk categories - not functional limits.
+Exemplele de mai jos reprezintă categorii de risc structural — și nu limite funcționale.
 
+## O Arhitectură de Integritate Multi-Strat
 
-## A Multi-Layer Integrity Architecture
+VeriSeal este structurat ca un cadru de integritate multi-strat.
 
-VeriSeal is structured as a multi-layer integrity framework.
+Acesta separă:
 
-It separates:
+- Standardele criptografice
+- Implementările de referință
+- Adaptările specifice sectorului
+- Aplicațiile operaționale
 
-- Cryptographic standards
-- Reference implementations
-- Sector-specific adaptations
-- Operational applications
+Această arhitectură stratificată permite:
 
-This layered architecture enables:
-
-- Standardization
-- Interoperability
-- Modular adoption
-- Long-term governance evolution
-- Vendor neutrality
-
----
-
-## Layer 1 - VeriSeal Protocol
-
-## The Standard Layer
-
-At its foundation, VeriSeal defines a protocol-level standard:
-
-- Canonical serialization rules
-- Deterministic hashing requirements
-- Proof object structure
-- Verification procedures
-- Optional ledger chaining model
-- Optional signature binding model
-- Optional anchoring model
-
-The protocol defines structural integrity logic only.
-
-It does not define:
-
-- Business workflows
-- Sector logic
-- Regulatory interpretation
-- Application design
-
-The protocol is infrastructure-agnostic.
-
-The current formal specification is defined in:
-
-VIP-STD-001 - VeriSeal Integrity Protocol.
-
-This layer is intended to be:
-
-- Openly documentable
-- Independently implementable
-- Verifiable without vendor dependency
-- Eligible for future formal standardization
+- Standardizare
+- Interoperabilitate
+- Adoptare modulară
+- Evoluție guvernamentală pe termen lung
+- Neutralitate față de furnizori
 
 ---
 
-## Layer 2 - VeriSeal Core
+## Stratul 1 - Protocolul VeriSeal
 
-## The Reference Implementation
+## Stratul Standard
 
-VeriSeal Core is the operational engine implementing the protocol.
+La bază, VeriSeal definește un standard la nivel de protocol:
 
-It provides:
+- Reguli de serializare canonică
+- Cerințe de hashing determinist
+- Structura obiectului de probă
+- Proceduri de verificare
+- Model opțional de înlănțuire a registrului
+- Model opțional de legare a semnăturii
+- Model opțional de ancorare
 
-- Canonicalization engine
-- Hash computation engine
-- Proof object generator
-- Verification endpoints
-- Optional ledger continuity module
-- Optional signature integration
-- Optional external anchoring support
+Protocolul definește doar logica de integritate structurală.
 
-VeriSeal Core does not modify protocol rules.
+Nu definește:
 
-It enforces them.
+- Fluxuri de lucru de afaceri
+- Logica sectorială
+- Interpretarea reglementărilor
+- Designul aplicației
 
-Multiple independent implementations could theoretically exist.
+Protocolul este independent de infrastructură.
 
-This separation preserves:
+Specificația formală actuală este definită în:
 
-- Vendor neutrality
-- Standard independence
-- Implementation flexibility
+VIP-STD-001 - Protocolul de Integritate VeriSeal.
 
----
+Acest strat este destinat să fie:
 
-## Layer 3 - Sector Modules
-
-## Domain Adaptation Layer
-
-Sector modules adapt the protocol to specific environments.
-
-Examples include:
-
-- Financial module
-- Insurance module
-- Healthcare module
-- Legal module
-- Identity module
-- Supply chain module
-- Public procurement module
-- HR module
-- Platform module
-- Individual module
-
-Sector modules define:
-
-- Integration patterns
-- Event models
-- Deployment architecture
-- Risk mapping
-- Compliance positioning
-
-They do not modify the protocol.
-
-They apply it.
+- Documentabil deschis
+- Implementabil independent
+- Verificabil fără dependență de furnizori
+- Eligibil pentru standardizare formală viitoare
 
 ---
 
-## Layer 4 - Applications & Integrations
+## Stratul 2 - Nucleul VeriSeal
 
-## Operational Layer
+## Implementarea de Referință
 
-At the top layer are actual implementations within organizations.
+Nucleul VeriSeal este motorul operațional care implementează protocolul.
 
-Examples:
+Oferă:
 
-- Core banking integration
-- EHR integration
-- Procurement platforms
-- Identity verification systems
-- SaaS platforms
-- ERP systems
-- Legal document management
-- Individual creator tools
+- Motor de canonizare
+- Motor de calcul al hash-ului
+- Generator de obiecte de probă
+- Puncte finale de verificare
+- Modul opțional de continuitate a registrului
+- Integrare opțională a semnăturii
+- Suport opțional de ancorare externă
 
-Applications consume:
+Nucleul VeriSeal nu modifică regulile protocolului.
 
-- The protocol rules
-- The core implementation
-- The sector-specific adaptation
+Le aplică.
 
-This preserves architectural clarity.
+Teoretic, ar putea exista multiple implementări independente.
 
----
+Această separare păstrează:
 
-## Architectural Separation Benefits
-
-The multi-layer model provides:
-
-- Clear standard governance boundaries
-- Implementation independence
-- Long-term protocol stability
-- Sector-specific flexibility
-- Compatibility across vendors
-- Potential multi-implementation ecosystem
-
-It avoids:
-
-- Protocol-product confusion
-- Vendor lock-in perception
-- Sector fragmentation
-- Governance ambiguity
+- Neutralitatea față de furnizori
+- Independența standardului
+- Flexibilitatea implementării
 
 ---
 
-## Standard Governance Vision
+## Stratul 3 - Module Sectoriale
 
-The protocol layer may evolve through:
+## Stratul de Adaptare Domenială
 
-- Versioned specifications
-- Controlled backward compatibility
-- Hash agility introduction
-- Signature normalization extensions
-- Interoperability improvements
+Modulele sectoriale adaptează protocolul la medii specifice.
 
-Protocol evolution remains independent of product evolution.
+Exemple includ:
 
-This separation enables:
+- Modul financiar
+- Modul de asigurări
+- Modul de sănătate
+- Modul juridic
+- Modul de identitate
+- Modul de lanț de aprovizionare
+- Modul de achiziții publice
+- Modul de resurse umane
+- Modul de platformă
+- Modul individual
 
-- Regulatory credibility
-- Institutional trust
-- Long-term stability
-- Future certification pathways
+Modulele sectoriale definesc:
 
----
+- Modele de integrare
+- Modele de evenimente
+- Arhitectura de implementare
+- Maparea riscurilor
+- Poziționarea conformității
 
-## Relationship with Commercial Deployment
+Ele nu modifică protocolul.
 
-Commercial deployments:
-
-- Implement the core engine
-- Integrate sector modules
-- Deploy within applications
-
-But the protocol remains:
-
-- Conceptually independent
-- Technically documentable
-- Reproducible outside commercial control
-
-This distinction is critical for global standard positioning.
+Îl aplică.
 
 ---
 
-## Strategic Positioning
+## Stratul 4 - Aplicații și Integrări
 
-The VeriSeal Framework establishes:
+## Stratul Operațional
 
-Layer 1: Protocol (Standard)
-Layer 2: Core (Reference Engine)
-Layer 3: Sector Modules (Domain Adaptation)
-Layer 4: Applications (Operational Use)
+La stratul superior sunt implementările reale în cadrul organizațiilor.
 
-This structure supports:
+Exemple:
 
-- Global standard ambition
-- Institutional adoption
-- Cross-sector scalability
-- Regulatory mapping
-- Future certification initiatives
+- Integrare bancară de bază
+- Integrare EHR
+- Platforme de achiziții
+- Sisteme de verificare a identității
+- Platforme SaaS
+- Sisteme ERP
+- Managementul documentelor juridice
+- Instrumente individuale de creare
+
+Aplicațiile consumă:
+
+- Regulile protocolului
+- Implementarea de bază
+- Adaptarea specifică sectorului
+
+Aceasta păstrează claritatea arhitecturală.
 
 ---
 
-## Conclusion
+## Beneficiile Separării Arhitecturale
 
-VeriSeal is not a single product.
+Modelul multi-strat oferă:
 
-It is a structured integrity framework composed of:
+- Limite clare de guvernanță a standardului
+- Independența implementării
+- Stabilitatea pe termen lung a protocolului
+- Flexibilitate specifică sectorului
+- Compatibilitate între furnizori
+- Ecosistem potențial multi-implementare
 
-- A protocol layer
-- A reference engine
-- Sector adaptation modules
-- Operational integrations
+Evită:
 
-This separation enables:
+- Confuzia protocol-produs
+- Percepția de blocare a furnizorului
+- Fragmentarea sectorului
+- Ambiguitatea guvernanței
 
-- Deterministic integrity
-- Independent verification
-- Modular adoption
-- Long-term standard viability
+---
 
-It positions VeriSeal as a foundational integrity protocol for digital systems.
+## Viziunea Guvernanței Standardului
 
-## Contribution to the Global Evidence Standard
+Stratul protocolului poate evolua prin:
 
-VeriSeal deployment in this sector contributes to the emergence of a globally interoperable evidence format.
+- Specificații versiuni
+- Compatibilitate inversă controlată
+- Introducerea agilității hash-ului
+- Extensii de normalizare a semnăturii
+- Îmbunătățiri ale interoperabilității
 
-Each verified proof strengthens:
+Evoluția protocolului rămâne independentă de evoluția produsului.
 
-- Cross-border evidentiary alignment
-- Deterministic verification standards
-- Interoperable cryptographic audit trails
-- Institutional-grade integrity frameworks
+Această separare permite:
 
-Sector adoption accelerates standardization.
+- Credibilitate reglementară
+- Încredere instituțională
+- Stabilitate pe termen lung
+- Căi viitoare de certificare
 
-Standardization accelerates inevitability.
+---
 
-## Structural Applicability
+## Relația cu Implementarea Comercială
 
-Beyond the examples described above, VeriSeal applies to any digitally generated evidence within this sector, including but not limited to:
+Implementările comerciale:
 
-- contractual documentation
-- compliance reporting
-- internal audit trails
-- regulatory disclosures
-- transactional attestations
-- cross-institutional exchanges
-- customer-generated digital evidence
-- time-sensitive records
+- Implementează motorul de bază
+- Integrează modulele sectoriale
+- Se implementează în cadrul aplicațiilor
 
-VeriSeal's role is infrastructural, not situational.
+Dar protocolul rămâne:
 
-Its function is to establish verifiable integrity, deterministic timestamping, and independent public verification across all digital evidence categories within the sector.
+- Conceptual independent
+- Documentabil tehnic
+- Reproducibil în afara controlului comercial
 
+Această distincție este critică pentru poziționarea standardului global.
+
+---
+
+## Poziționare Strategică
+
+Cadrul VeriSeal stabilește:
+
+Stratul 1: Protocol (Standard)
+Stratul 2: Nucleu (Motor de Referință)
+Stratul 3: Module Sectoriale (Adaptare Domenială)
+Stratul 4: Aplicații (Utilizare Operațională)
+
+Această structură susține:
+
+- Ambiția standardului global
+- Adoptarea instituțională
+- Scalabilitate intersectorială
+- Maparea reglementărilor
+- Inițiative viitoare de certificare
+
+---
+
+## Concluzie
+
+VeriSeal nu este un singur produs.
+
+Este un cadru de integritate structurat compus din:
+
+- Un strat de protocol
+- Un motor de referință
+- Module de adaptare sectorială
+- Integrări operaționale
+
+Această separare permite:
+
+- Integritate deterministă
+- Verificare independentă
+- Adoptare modulară
+- Viabilitate pe termen lung a standardului
+
+Poziționează VeriSeal ca un protocol de integritate fundamental pentru sistemele digitale.
+
+## Contribuția la Standardul Global de Dovezi
+
+Implementarea VeriSeal în acest sector contribuie la apariția unui format de dovezi interoperabil la nivel global.
+
+Fiecare probă verificată întărește:
+
+- Alinierea probatorie transfrontalieră
+- Standarde de verificare deterministă
+- Urme de audit criptografice interoperabile
+- Cadre de integritate la nivel instituțional
+
+Adoptarea sectorială accelerează standardizarea.
+
+Standardizarea accelerează inevitabilitatea.
+
+## Aplicabilitate Structurală
+
+Dincolo de exemplele descrise mai sus, VeriSeal se aplică oricărei dovezi generate digital în acest sector, inclusiv, dar fără a se limita la:
+
+- documentație contractuală
+- raportare de conformitate
+- urme de audit intern
+- dezvăluiri reglementare
+- atestări tranzacționale
+- schimburi interinstituționale
+- dovezi digitale generate de clienți
+- înregistrări sensibile la timp
+
+Rolul VeriSeal este infrastructural, nu situațional.
+
+Funcția sa este de a stabili integritatea verificabilă, marcarea temporală deterministă și verificarea publică independentă în toate categoriile de dovezi digitale din sector.

@@ -4,379 +4,378 @@ title: Legal
 ---
 
 ﻿---
-title: Legal & Regulatory FAQ
-sidebar_label: Legal & Regulatory
+title: Întrebări frecvente legale și de reglementare
+sidebar_label: Legal și de reglementare
 ---
 
-# Legal & Regulatory FAQ
+# Întrebări frecvente legale și de reglementare
 
-This section addresses legal, evidentiary, liability and regulatory considerations related to VeriSeal.
+Această secțiune abordează considerațiile legale, probatorii, de răspundere și de reglementare legate de VeriSeal.
 
-VeriSeal is an integrity protocol.
+VeriSeal este un protocol de integritate.
 
-It strengthens structural proof.
+Întărește dovada structurală.
 
-It does not replace legal frameworks.
-
----
-
-## 1. Does VeriSeal make a document legally valid?
-
-No.
-
-VeriSeal does not grant legal validity to a document.
-
-Legal validity depends on:
-
-- Applicable law
-- Formal requirements
-- Signature requirements
-- Jurisdictional rules
-
-VeriSeal strengthens structural integrity.
-
-It does not substitute statutory requirements.
+Nu înlocuiește cadrele legale.
 
 ---
 
-## 2. Does VeriSeal guarantee legal admissibility in court?
+## 1. Face VeriSeal un document legal valid?
 
-No system can guarantee admissibility in every jurisdiction.
+Nu.
 
-Admissibility depends on:
+VeriSeal nu conferă validitate legală unui document.
 
-- National procedural law
-- Evidence rules
-- Judicial discretion
+Validitatea legală depinde de:
 
-VeriSeal enhances evidentiary robustness by providing:
+- Legea aplicabilă
+- Cerințele formale
+- Cerințele de semnătură
+- Regulile jurisdicționale
 
-- Deterministic integrity verification
-- Reproducible hashing
-- Structural tamper detection
-- Chronological consistency validation
+VeriSeal întărește integritatea structurală.
 
-It strengthens evidentiary position.
-
-Final admissibility remains court-dependent.
+Nu înlocuiește cerințele legale.
 
 ---
 
-## 3. Who carries liability?
+## 2. Garantează VeriSeal admisibilitatea legală în instanță?
 
-VeriSeal is an integrity layer.
+Niciun sistem nu poate garanta admisibilitatea în fiecare jurisdicție.
 
-It does not assume:
+Admisibilitatea depinde de:
 
-- Transactional liability
-- Contractual liability
-- Regulatory responsibility
-- Business outcome responsibility
+- Legea procedurală națională
+- Regulile de probă
+- Discreția judiciară
 
-The implementing institution remains responsible for:
+VeriSeal îmbunătățește robustețea probatorie prin furnizarea de:
 
-- Legal compliance
-- Data governance
-- Process design
-- Regulatory adherence
+- Verificare deterministă a integrității
+- Hashing reproductibil
+- Detectarea modificărilor structurale
+- Validarea consistenței cronologice
 
-VeriSeal strengthens integrity posture.
+Întărește poziția probatorie.
 
-It does not transfer legal responsibility.
-
----
-
-## 4. Does VeriSeal replace qualified electronic signatures?
-
-No.
-
-Electronic signature schemes (including qualified signatures under eIDAS) address:
-
-- Identity binding
-- Intent confirmation
-- Legal presumption of authorship
-
-VeriSeal addresses:
-
-- Structural integrity
-- Hash reproducibility
-- Tamper detection
-- Chronological consistency
-
-They serve different functions.
-
-They may complement each other.
+Admisibilitatea finală rămâne dependentă de instanță.
 
 ---
 
-## 5. Can a record be modified after sealing?
+## 3. Cine poartă răspunderea?
 
-If the underlying record is altered:
+VeriSeal este un strat de integritate.
 
-- The recomputed hash will not match
-- The integrity proof fails
-- Tampering becomes detectable
+Nu își asumă:
 
-VeriSeal does not prevent modification.
+- Răspunderea tranzacțională
+- Răspunderea contractuală
+- Responsabilitatea de reglementare
+- Responsabilitatea pentru rezultatele afacerii
 
-It makes modification detectable.
+Instituția implementatoare rămâne responsabilă pentru:
 
----
+- Conformitatea legală
+- Guvernanța datelor
+- Proiectarea proceselor
+- Respectarea reglementărilor
 
-## 6. Can records be backdated?
+VeriSeal întărește postura de integritate.
 
-Backdating is detectable when:
-
-- Timestamp fields are part of canonical proof objects
-- Optional chaining or anchoring mechanisms are used
-
-VeriSeal strengthens chronological defensibility.
-
-It does not create legal time authority.
+Nu transferă responsabilitatea legală.
 
 ---
 
-## 7. Does VeriSeal create regulatory exposure?
+## 4. Înlocuiește VeriSeal semnăturile electronice calificate?
 
-No.
+Nu.
 
-VeriSeal does not:
+Schemele de semnătură electronică (inclusiv semnăturile calificate conform eIDAS) abordează:
 
-- Transmit regulated data
-- Store financial transactions
-- Broadcast confidential information
-- Create reporting obligations
+- Legătura de identitate
+- Confirmarea intenției
+- Prezumția legală de autorat
 
-It produces integrity proofs.
+VeriSeal abordează:
 
-Regulatory exposure depends on how institutions deploy it.
+- Integritatea structurală
+- Reproductibilitatea hash-ului
+- Detectarea modificărilor
+- Consistența cronologică
 
----
+Servesc funcții diferite.
 
-## 8. Is VeriSeal compliant with specific regulations?
-
-VeriSeal is technology-neutral.
-
-It can support compliance objectives such as:
-
-- Record integrity requirements
-- Audit traceability expectations
-- Operational resilience frameworks
-- Data governance obligations
-
-Compliance must be assessed by the implementing institution
-within its regulatory context.
-
-VeriSeal strengthens integrity evidence.
-
-It does not certify compliance.
+Se pot completa reciproc.
 
 ---
 
-## 9. What if VeriSeal ceases to operate?
+## 5. Poate fi modificat un document după sigilare?
 
-Verification does not depend on vendor continuity.
+Dacă documentul de bază este modificat:
 
-Proof verification requires:
+- Hash-ul recalculat nu va corespunde
+- Dovada integrității eșuează
+- Modificarea devine detectabilă
 
-- The canonical data
-- The hash algorithm (SHA-256)
-- The documented protocol rules
+VeriSeal nu previne modificarea.
 
-Verification can be performed independently.
-
-Vendor disappearance does not invalidate proofs.
+Face modificarea detectabilă.
 
 ---
 
-## 10. Who owns the data?
+## 6. Pot fi documentele antedatate?
 
-The implementing institution retains:
+Antedatarea este detectabilă când:
 
-- Data ownership
-- Data control
-- Governance responsibility
+- Câmpurile de timp sunt parte a obiectelor de dovadă canonice
+- Sunt utilizate mecanisme opționale de înlănțuire sau ancorare
 
-VeriSeal does not require:
+VeriSeal întărește apărarea cronologică.
 
-- Public broadcast
-- Centralized storage
-- External custody
-
-Deployment models remain institution-controlled.
+Nu creează autoritate legală de timp.
 
 ---
 
-## 11. Can regulators independently verify proofs?
+## 7. Creează VeriSeal expunere la reglementări?
 
-Yes.
+Nu.
 
-Verification does not require:
+VeriSeal nu:
 
-- Proprietary infrastructure
-- Token access
-- Network membership
-- Vendor permission
+- Transmite date reglementate
+- Stochează tranzacții financiare
+- Difuzează informații confidențiale
+- Creează obligații de raportare
 
-Regulators may independently:
+Produce dovezi de integritate.
 
-- Recompute hashes
-- Validate proof consistency
-- Validate chain continuity (if used)
-- Validate signature consistency (if applied)
-
-Independent verification strengthens transparency.
+Expunerea la reglementări depinde de modul în care instituțiile îl implementează.
 
 ---
 
-## 12. Does VeriSeal create new legal risks?
+## 8. Este VeriSeal conform cu reglementări specifice?
 
-VeriSeal does not introduce:
+VeriSeal este neutru din punct de vedere tehnologic.
 
-- New legal presumptions
-- New statutory obligations
-- New regulatory categories
+Poate sprijini obiective de conformitate precum:
 
-It introduces:
+- Cerințe de integritate a documentelor
+- Așteptări de trasabilitate a auditului
+- Cadre de reziliență operațională
+- Obligații de guvernanță a datelor
 
-- Additional structural integrity evidence
+Conformitatea trebuie evaluată de instituția implementatoare
+în contextul său de reglementare.
 
-Legal exposure depends on implementation design.
+VeriSeal întărește dovezile de integritate.
 
----
-
-## 13. Is VeriSeal suitable for highly regulated sectors?
-
-Yes, provided:
-
-- Implementation respects sector regulations
-- Legal teams validate integration model
-- Governance frameworks remain intact
-
-VeriSeal is sector-agnostic.
-
-It strengthens integrity across:
-
-- Financial services
-- Legal professions
-- Healthcare
-- Insurance
-- Public procurement
-- Enterprise environments
+Nu certifică conformitatea.
 
 ---
 
-## 14. Does VeriSeal replace compliance controls?
+## 9. Ce se întâmplă dacă VeriSeal încetează să funcționeze?
 
-No.
+Verificarea nu depinde de continuitatea furnizorului.
 
-It complements:
+Verificarea dovezilor necesită:
 
-- Access control
-- Audit logging
-- Governance mechanisms
-- Segregation of duties
-- Regulatory reporting systems
+- Datele canonice
+- Algoritmul hash (SHA-256)
+- Regulile documentate ale protocolului
 
-Integrity reinforcement does not replace governance.
+Verificarea poate fi efectuată independent.
 
-It strengthens demonstrability.
+Dispariția furnizorului nu invalidează dovezile.
 
 ---
 
-## 15. What is the legal nature of a VeriSeal proof?
+## 10. Cine deține datele?
 
-A VeriSeal proof is:
+Instituția implementatoare păstrează:
 
-A cryptographic integrity artifact.
+- Proprietatea datelor
+- Controlul datelor
+- Responsabilitatea guvernanței
 
-It demonstrates:
+VeriSeal nu necesită:
 
-- That a specific canonical object existed
-- In a specific structural form
-- At a determinable time context (if timestamped)
+- Difuzare publică
+- Stocare centralizată
+- Custodie externă
 
-It does not attest to:
-
-- Truthfulness of content
-- Identity authenticity (unless signed)
-- Legal enforceability
-
-It attests to structural integrity.
+Modelele de implementare rămân controlate de instituție.
 
 ---
 
-## 16. Can VeriSeal be used in cross-border contexts?
+## 11. Pot reglementatorii verifica independent dovezile?
 
-Yes.
+Da.
 
-Because it relies on:
+Verificarea nu necesită:
 
-- SHA-256 hashing
-- Deterministic canonicalization
-- Technology-neutral verification
+- Infrastructură proprietară
+- Acces la token
+- Apartenență la rețea
+- Permisiunea furnizorului
 
-Its integrity model is jurisdiction-agnostic.
+Reglementatorii pot independent:
 
-Legal interpretation remains jurisdiction-specific.
+- Recalcula hash-uri
+- Valida consistența dovezilor
+- Valida continuitatea lanțului (dacă este utilizat)
+- Valida consistența semnăturilor (dacă sunt aplicate)
 
----
-
-## 17. Does VeriSeal create evidentiary presumption?
-
-No automatic presumption is created.
-
-VeriSeal provides:
-
-- Reproducible mathematical verification
-- Structural tamper detection capability
-
-Courts may evaluate such evidence based on national standards.
+Verificarea independentă întărește transparența.
 
 ---
 
-## 18. Is VeriSeal compatible with data protection laws?
+## 12. Creează VeriSeal noi riscuri legale?
 
-VeriSeal does not require storage of personal data in proofs.
+VeriSeal nu introduce:
 
-Hashing may reference underlying data
-without exposing that data.
+- Noi prezumții legale
+- Noi obligații legale
+- Noi categorii de reglementare
 
-Data protection compliance depends on implementation design.
+Introduce:
 
-VeriSeal does not inherently conflict with data protection frameworks.
+- Dovezi suplimentare de integritate structurală
 
----
-
-## 19. Can VeriSeal support dispute resolution?
-
-Yes.
-
-It provides:
-
-- Deterministic integrity verification
-- Chronological reconstruction (if chaining is used)
-- Independent recomputation
-
-It strengthens dispute defensibility.
-
-It does not replace judicial determination.
+Expunerea legală depinde de designul implementării.
 
 ---
 
-## 20. What is VeriSeal's legal positioning?
+## 13. Este VeriSeal potrivit pentru sectoare puternic reglementate?
 
-VeriSeal is:
+Da, cu condiția ca:
 
-An integrity protocol layer.
+- Implementarea să respecte reglementările sectorului
+- Echipele juridice să valideze modelul de integrare
+- Cadrele de guvernanță să rămână intacte
 
-It strengthens structural reliability.
+VeriSeal este agnostic sectorial.
 
-It does not claim:
+Întărește integritatea în:
 
-- Legal supremacy
-- Regulatory replacement
-- Statutory authority
+- Servicii financiare
+- Profesii juridice
+- Sănătate
+- Asigurări
+- Achiziții publice
+- Medii de întreprindere
 
-It reinforces digital evidence integrity.
+---
 
+## 14. Înlocuiește VeriSeal controalele de conformitate?
+
+Nu.
+
+Completează:
+
+- Controlul accesului
+- Jurnalizarea auditului
+- Mecanismele de guvernanță
+- Separarea atribuțiilor
+- Sistemele de raportare de reglementare
+
+Întărirea integrității nu înlocuiește guvernanța.
+
+Întărește demonstrabilitatea.
+
+---
+
+## 15. Care este natura legală a unei dovezi VeriSeal?
+
+O dovadă VeriSeal este:
+
+Un artefact criptografic de integritate.
+
+Demonstrează:
+
+- Că un obiect canonic specific a existat
+- Într-o formă structurală specifică
+- Într-un context temporal determinabil (dacă este marcat temporal)
+
+Nu atestă:
+
+- Adevărul conținutului
+- Autenticitatea identității (dacă nu este semnat)
+- Forța legală
+
+Atestă integritatea structurală.
+
+---
+
+## 16. Poate fi utilizat VeriSeal în contexte transfrontaliere?
+
+Da.
+
+Deoarece se bazează pe:
+
+- Hashing SHA-256
+- Canonicalizare deterministă
+- Verificare neutră din punct de vedere tehnologic
+
+Modelul său de integritate este agnostic jurisdicțional.
+
+Interpretarea legală rămâne specifică jurisdicției.
+
+---
+
+## 17. Creează VeriSeal prezumție probatorie?
+
+Nu se creează nicio prezumție automată.
+
+VeriSeal oferă:
+
+- Verificare matematică reproductibilă
+- Capacitate de detectare a modificărilor structurale
+
+Instanțele pot evalua astfel de dovezi pe baza standardelor naționale.
+
+---
+
+## 18. Este VeriSeal compatibil cu legile privind protecția datelor?
+
+VeriSeal nu necesită stocarea datelor personale în dovezi.
+
+Hashing-ul poate face referire la datele de bază
+fără a expune acele date.
+
+Conformitatea cu protecția datelor depinde de designul implementării.
+
+VeriSeal nu intră în conflict în mod inerent cu cadrele de protecție a datelor.
+
+---
+
+## 19. Poate VeriSeal sprijini rezolvarea disputelor?
+
+Da.
+
+Oferă:
+
+- Verificare deterministă a integrității
+- Reconstrucție cronologică (dacă este utilizată înlănțuirea)
+- Recalculare independentă
+
+Întărește apărarea în dispute.
+
+Nu înlocuiește determinarea judiciară.
+
+---
+
+## 20. Care este poziționarea legală a VeriSeal?
+
+VeriSeal este:
+
+Un strat de protocol de integritate.
+
+Întărește fiabilitatea structurală.
+
+Nu pretinde:
+
+- Suprematie legală
+- Înlocuirea reglementărilor
+- Autoritate legală
+
+Întărește integritatea dovezilor digitale.

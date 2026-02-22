@@ -1,83 +1,83 @@
 ---
 id: banking-financial-infrastructure
-title: Banking Financial Infrastructure
+title: Infrastructure Financière Bancaire
 ---
 
 ﻿---
-title: Banking & Financial Infrastructure
-sidebar_label: Banking & Finance
+title: Infrastructure Bancaire & Financière
+sidebar_label: Banque & Finance
 slug: /whitepaper/part3/banking-financial-infrastructure
 sidebar_position: 3.2
 ---
 
-# Banking & Financial Infrastructure
+# Infrastructure Bancaire & Financière
 
-## Structural Digital Dependence
+## Dépendance Numérique Structurelle
 
-Modern banking operations depend on digital records:
-- core banking transaction logs,
-- payment messages,
-- client onboarding documentation (KYC/AML),
-- loan contracts and approvals,
-- internal controls and compliance evidence,
-- regulatory reporting snapshots,
-- incident and audit documentation.
+Les opérations bancaires modernes dépendent des enregistrements numériques :
+- journaux de transactions bancaires de base,
+- messages de paiement,
+- documentation d'intégration des clients (KYC/AML),
+- contrats de prêt et approbations,
+- contrôles internes et preuves de conformité,
+- instantanés de rapports réglementaires,
+- documentation d'incidents et d'audits.
 
-These records:
-- carry legal weight,
-- are subject to audit,
-- often appear in litigation.
+Ces enregistrements :
+- ont une valeur légale,
+- sont soumis à audit,
+- apparaissent souvent dans les litiges.
 
-Integrity is frequently guaranteed internally, not independently.
+L'intégrité est fréquemment garantie en interne, non indépendamment.
 
-## Regulatory Pressure (Capability Context)
+## Pression Réglementaire (Contexte de Capacité)
 
-Banks operate under demanding frameworks (e.g., DORA, AML, PSD2, MiFID, MiCA, GDPR, Basel).
-These increase traceability and audit burden, but do not provide a neutral cryptographic proof layer.
+Les banques opèrent sous des cadres exigeants (par exemple, DORA, AML, PSD2, MiFID, MiCA, GDPR, Bâle).
+Ces cadres augmentent la traçabilité et la charge d'audit, mais ne fournissent pas une couche de preuve cryptographique neutre.
 
-## Risk Categories
+## Catégories de Risque
 
-Banking evidence risk includes:
-- transaction disputes (timing, authorization, state),
-- KYC/AML documentation disputes,
-- internal investigation integrity,
-- regulatory sanction exposure due to weak evidentiary defensibility,
-- cross-border admissibility challenges.
+Le risque lié aux preuves bancaires inclut :
+- litiges de transactions (chronologie, autorisation, état),
+- litiges de documentation KYC/AML,
+- intégrité des enquêtes internes,
+- exposition aux sanctions réglementaires en raison d'une faible défensibilité des preuves,
+- défis d'admissibilité transfrontalière.
 
-## VeriSeal as an Independent Integrity Layer
+## VeriSeal comme Couche d'Intégrité Indépendante
 
-VeriSeal does not replace:
-- core banking,
-- payment rails,
-- messaging networks.
+VeriSeal ne remplace pas :
+- la banque de base,
+- les rails de paiement,
+- les réseaux de messagerie.
 
-It provides an independent integrity layer:
-- seal evidence bundles at creation time,
-- anchor snapshots in an append-only ledger,
-- enable vendor-neutral verification,
-- optionally anchor timestamps externally.
+Il fournit une couche d'intégrité indépendante :
+- scelle les ensembles de preuves au moment de leur création,
+- ancre les instantanés dans un registre en ajout seul,
+- permet une vérification neutre vis-à-vis des fournisseurs,
+- ancre éventuellement les horodatages à l'externe.
 
-## Deployment Flexibility
+## Flexibilité de Déploiement
 
-VeriSeal supports:
-- SaaS integration,
-- private deployment,
-- on-prem institutional nodes,
-- sovereign configurations.
+VeriSeal prend en charge :
+- l'intégration SaaS,
+- le déploiement privé,
+- les nœuds institutionnels sur site,
+- les configurations souveraines.
 
-Verification logic remains consistent across environments.
+La logique de vérification reste cohérente dans tous les environnements.
 
-## Open Verification & Controlled Core
+## Vérification Ouverte & Cœur Contrôlé
 
-Publicly verifiable:
-- proof JSON structure,
-- hashing methodology,
-- ledger chaining,
-- verification procedures.
+Vérifiable publiquement :
+- structure JSON de preuve,
+- méthodologie de hachage,
+- chaînage de registre,
+- procédures de vérification.
 
-Proprietary:
+Propriétaire :
 - orchestration,
-- infrastructure operations,
-- optimization and automation.
+- opérations d'infrastructure,
+- optimisation et automatisation.
 
-This structure is aligned with institutional expectations: verify independently, operate sustainably.
+Cette structure est alignée avec les attentes institutionnelles : vérifier indépendamment, opérer durablement.

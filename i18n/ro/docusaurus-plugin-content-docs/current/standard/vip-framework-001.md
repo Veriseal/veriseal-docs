@@ -1,207 +1,207 @@
 ---
 id: vip-framework-001
-title: VIP-FRAMEWORK-001 — Architectural & Normative Framework
+title: VIP-FRAMEWORK-001 — Cadru Arhitectural și Normativ
 sidebar_position: 2
 ---
 
 # VIP-FRAMEWORK-001  
-## Architectural & Normative Framework of the VeriSeal Integrity Protocol
+## Cadru Arhitectural și Normativ al Protocolului de Integritate VeriSeal
 
 ---
 
-# 1. Scope
+# 1. Domeniu de Aplicare
 
-This document defines the architectural structure, normative layering, and dependency model of the VeriSeal Integrity Protocol (VIP).
+Acest document definește structura arhitecturală, stratificarea normativă și modelul de dependență al Protocolului de Integritate VeriSeal (VIP).
 
-It establishes the structural logic governing all normative standards within the VIP Suite.
-
----
-
-# 2. Terminology
-
-For the purposes of this document:
-
-- **Integrity Proof**: A cryptographic record derived from canonicalized data.
-- **Ledger Entry**: An append-only cryptographic record representing a proof event.
-- **Verification Event**: A deterministic recomputation validating integrity.
-- **Anchoring Mechanism**: A timestamping or external reference binding a proof to a temporal anchor.
-
-Normative language may progressively adopt:
-
-- MUST
-- SHOULD
-- MAY
-
-Future revisions may formalize strict RFC-style language.
+Stabilește logica structurală care guvernează toate standardele normative din cadrul Suitei VIP.
 
 ---
 
-# 3. Architectural Layers
+# 2. Terminologie
 
-The VIP architecture consists of five functional layers.
+În scopul acestui document:
 
----
+- **Dovadă de Integritate**: Un registru criptografic derivat din date canonizate.
+- **Înregistrare în Registru**: Un registru criptografic doar pentru adăugare, care reprezintă un eveniment de dovadă.
+- **Eveniment de Verificare**: O recalcul deterministă care validează integritatea.
+- **Mecanism de Ancorare**: Un mecanism de marcare temporală sau referință externă care leagă o dovadă de un ancoră temporală.
 
-## 3.1 Layer 1 — Integrity Layer
+Limbajul normativ poate adopta progresiv:
 
-Defined in VIP-STD-001.
+- TREBUIE
+- AR TREBUI
+- POATE
 
-Responsibilities:
-
-- Canonicalization of input data
-- SHA-256 hashing
-- Deterministic integrity fingerprint generation
-
-This layer ensures data immutability at generation time.
-
----
-
-## 3.2 Layer 2 — Ledger Layer
-
-Defined in VIP-STD-002.
-
-Responsibilities:
-
-- Append-only proof recording
-- Hash chaining logic
-- Ledger entry structure
-- Structural immutability
-
-This layer ensures proof persistence integrity.
+Revisiunile viitoare pot formaliza un limbaj strict în stil RFC.
 
 ---
 
-## 3.3 Layer 3 — Verification Layer
+# 3. Straturi Arhitecturale
 
-Defined in VIP-STD-003.
-
-Responsibilities:
-
-- Deterministic recomputation
-- Public verification capability
-- Reproducible validation procedure
-- Integrity status determination
-
-This layer ensures independent verifiability.
+Arhitectura VIP constă din cinci straturi funcționale.
 
 ---
 
-## 3.4 Layer 4 — Anchoring & Timestamp Layer
+## 3.1 Strat 1 — Strat de Integritate
 
-Defined in VIP-STD-004.
+Definit în VIP-STD-001.
 
-Responsibilities:
+Responsabilități:
 
-- Timestamp integration
-- External anchoring compatibility
-- Proof-of-time guarantees
-- Temporal binding reproducibility
+- Canonizarea datelor de intrare
+- Hashing SHA-256
+- Generarea deterministă a amprentei de integritate
 
-This layer ensures temporal determinism.
+Acest strat asigură imuabilitatea datelor la momentul generării.
 
 ---
 
-## 3.5 Layer 5 — Security & Governance Layer
+## 3.2 Strat 2 — Strat de Registru
 
-Defined across:
+Definit în VIP-STD-002.
+
+Responsabilități:
+
+- Înregistrarea dovezilor doar pentru adăugare
+- Logica de înlănțuire a hash-urilor
+- Structura înregistrării în registru
+- Imuabilitatea structurală
+
+Acest strat asigură integritatea persistenței dovezilor.
+
+---
+
+## 3.3 Strat 3 — Strat de Verificare
+
+Definit în VIP-STD-003.
+
+Responsabilități:
+
+- Recomputație deterministă
+- Capacitate de verificare publică
+- Procedură de validare reproductibilă
+- Determinarea statutului de integritate
+
+Acest strat asigură verificabilitatea independentă.
+
+---
+
+## 3.4 Strat 4 — Strat de Ancorare și Marcare Temporală
+
+Definit în VIP-STD-004.
+
+Responsabilități:
+
+- Integrarea marcării temporale
+- Compatibilitate cu ancorarea externă
+- Garanții de dovadă a timpului
+- Reproductibilitatea legăturii temporale
+
+Acest strat asigură determinismul temporal.
+
+---
+
+## 3.5 Strat 5 — Strat de Securitate și Guvernanță
+
+Definit în:
 
 - VIP-THREAT-001
 - VIP-STF-005
 - VIP-REG-006
 
-Responsibilities:
+Responsabilități:
 
-- Threat modeling
-- Risk boundary definition
-- Governance articulation
-- Regulatory alignment profiles
+- Modelarea amenințărilor
+- Definirea limitelor de risc
+- Articularea guvernanței
+- Profile de aliniere la reglementări
 
-This layer ensures institutional robustness.
-
----
-
-# 4. Dependency Model
-
-Layer dependency is strictly hierarchical:
-
-Integrity → Ledger → Verification → Anchoring → Governance
-
-No lower layer depends on higher-layer constructs.
-
-This prevents circular dependency and preserves modular verification.
+Acest strat asigură robustețea instituțională.
 
 ---
 
-# 5. Conformance Logic
+# 4. Model de Dependență
 
-A system claiming compliance with the VeriSeal Integrity Protocol MUST:
+Dependența între straturi este strict ierarhică:
 
-1. Implement canonicalization as defined in VIP-STD-001
-2. Maintain append-only ledger integrity per VIP-STD-002
-3. Support deterministic verification per VIP-STD-003
-4. Ensure reproducible timestamp anchoring per VIP-STD-004
+Integritate → Registru → Verificare → Ancorare → Guvernanță
 
-Security annexes define extended compliance requirements.
+Niciun strat inferior nu depinde de construcțiile straturilor superioare.
 
----
-
-# 6. Interoperability Model
-
-The VIP Framework is:
-
-- Blockchain-independent
-- Storage-neutral
-- Jurisdiction-neutral
-- Application-agnostic
-
-It defines integrity logic, not application behavior.
+Aceasta previne dependența circulară și păstrează verificarea modulară.
 
 ---
 
-# 7. Versioning Discipline
+# 5. Logica de Conformitate
 
-The Framework follows:
+Un sistem care pretinde conformitatea cu Protocolul de Integritate VeriSeal TREBUIE:
 
-- Incremental minor revisions for clarification
-- Major revision only for structural changes
-- Backward-compatible verification guarantees
+1. Să implementeze canonizarea așa cum este definită în VIP-STD-001
+2. Să mențină integritatea registrului doar pentru adăugare conform VIP-STD-002
+3. Să susțină verificarea deterministă conform VIP-STD-003
+4. Să asigure ancorarea temporală reproductibilă conform VIP-STD-004
 
-Breaking changes require formal version increment.
-
----
-
-# 8. Risk Boundaries
-
-The Framework does not:
-
-- Guarantee legal admissibility
-- Guarantee identity verification
-- Guarantee data authenticity beyond integrity
-
-It guarantees deterministic integrity verification within defined cryptographic assumptions.
-
-Threat assumptions are detailed in VIP-THREAT-001.
+Anexele de securitate definesc cerințe extinse de conformitate.
 
 ---
 
-# 9. Positioning
+# 6. Model de Interoperabilitate
 
-VIP-FRAMEWORK-001 provides the architectural spine of the VeriSeal Integrity Protocol Suite.
+Cadrul VIP este:
 
-It bridges:
+- Independent de blockchain
+- Neutru din punct de vedere al stocării
+- Neutru din punct de vedere al jurisdicției
+- Independent de aplicație
 
-- Strategic Charter (VIP-SUITE-000)
-- Normative Standards (VIP-STD series)
-- Security & Governance Annexes
-
-It serves as the structural backbone of the standardization candidate.
+Definește logica de integritate, nu comportamentul aplicației.
 
 ---
 
-# 10. Conclusion
+# 7. Disciplina de Versiune
 
-This Framework defines the deterministic architectural model underpinning the VeriSeal Integrity Protocol.
+Cadrul urmează:
 
-It formalizes the structural dependencies required for institutional-grade digital integrity.
+- Revizuiri minore incrementale pentru clarificare
+- Revizuire majoră doar pentru schimbări structurale
+- Garanții de verificare compatibile înapoi
 
-All normative standards operate under this architectural discipline.
+Schimbările care întrerup compatibilitatea necesită o creștere formală a versiunii.
+
+---
+
+# 8. Limitele Riscului
+
+Cadrul nu:
+
+- Garantează admisibilitatea legală
+- Garantează verificarea identității
+- Garantează autenticitatea datelor dincolo de integritate
+
+Garantează verificarea deterministă a integrității în cadrul presupunerilor criptografice definite.
+
+Presupunerile privind amenințările sunt detaliate în VIP-THREAT-001.
+
+---
+
+# 9. Poziționare
+
+VIP-FRAMEWORK-001 oferă coloana vertebrală arhitecturală a Suitei Protocolului de Integritate VeriSeal.
+
+Leagă:
+
+- Carta Strategică (VIP-SUITE-000)
+- Standarde Normative (seria VIP-STD)
+- Anexe de Securitate și Guvernanță
+
+Servește ca coloana vertebrală structurală a candidatului la standardizare.
+
+---
+
+# 10. Concluzie
+
+Acest Cadru definește modelul arhitectural determinist care stă la baza Protocolului de Integritate VeriSeal.
+
+Formalizează dependențele structurale necesare pentru integritatea digitală de nivel instituțional.
+
+Toate standardele normative operează sub această disciplină arhitecturală.

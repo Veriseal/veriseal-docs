@@ -1,95 +1,95 @@
 ---
 id: governance-trust-model
-title: Governance & Trust Model
+title: Model de Guvernanță și Încredere
 sidebar_position: 3.2
 ---
 
-# Governance & Trust Model
+# Model de Guvernanță și Încredere
 
-## The Governance Problem
+## Problema Guvernanței
 
-Any infrastructure aspiring to global relevance must answer:
+Orice infrastructură care aspiră la relevanță globală trebuie să răspundă:
 
-- Who controls verification?
-- How is evolution managed?
-- How is lock-in avoided?
-- How are historical proofs preserved?
+- Cine controlează verificarea?
+- Cum este gestionată evoluția?
+- Cum este evitată blocarea?
+- Cum sunt păstrate dovezile istorice?
 
-Without governance clarity, trust collapses.
-
----
-
-## Layer Separation
-
-VeriSeal separates:
-
-### 1. Proof Layer (Verifiable)
-- JSON canonical output
-- Hash structure
-- Chaining logic
-- Verification rules
-
-### 2. Execution Layer (Controlled)
-- Infrastructure orchestration
-- Optimization
-- Deployment logic
-- Operational tooling
-
-Verification does not depend on execution control.
+Fără claritate în guvernanță, încrederea se prăbușește.
 
 ---
 
-## Vendor Independence
+## Separarea Straturilor
 
-Proofs must remain verifiable:
+VeriSeal separă:
 
-- without operator permission,
-- across time,
-- across organizational restructuring,
-- across jurisdictional boundaries.
+### 1. Strat de Dovadă (Verificabil)
+- Ieșire canonică JSON
+- Structură de hash
+- Logică de înlănțuire
+- Reguli de verificare
 
-Verification logic is reproducible.
+### 2. Strat de Execuție (Controlat)
+- Orchestrarea infrastructurii
+- Optimizare
+- Logică de implementare
+- Instrumente operaționale
 
----
-
-## Backward Compatibility
-
-Protocol evolution must preserve:
-
-- Immutable historical proofs
-- Deterministic verification
-- Non-destructive upgrades
-
-Infrastructure cannot break history.
+Verificarea nu depinde de controlul execuției.
 
 ---
 
-## Sovereignty Compatibility
+## Independența de Furnizor
 
-VeriSeal supports:
+Dovezile trebuie să rămână verificabile:
 
-- SaaS deployment
-- Private nodes
-- Sovereign on-premise infrastructure
-- Hybrid models
+- fără permisiunea operatorului,
+- de-a lungul timpului,
+- în cadrul restructurării organizaționale,
+- peste granițele jurisdicționale.
 
-Verification remains consistent.
-
-This enables adoption across jurisdictions  
-without architectural fragmentation.
+Logica de verificare este reproductibilă.
 
 ---
 
-## Hybrid Governance Model
+## Compatibilitate Retrospectivă
 
-Total openness risks commoditization and fragmentation.  
-Total opacity blocks adoption.
+Evoluția protocolului trebuie să păstreze:
 
-VeriSeal operates through:
+- Dovezi istorice imuabile
+- Verificare deterministă
+- Actualizări non-distructive
 
-- Transparent verification logic
-- Controlled execution layer
-- Commercial sustainability
-- Governance discipline
+Infrastructura nu poate distruge istoria.
 
-Trust requires structure, not rhetoric.
+---
+
+## Compatibilitate cu Suveranitatea
+
+VeriSeal suportă:
+
+- Implementare SaaS
+- Noduri private
+- Infrastructură suverană on-premise
+- Modele hibride
+
+Verificarea rămâne constantă.
+
+Aceasta permite adoptarea peste jurisdicții  
+fără fragmentare arhitecturală.
+
+---
+
+## Model de Guvernanță Hibrid
+
+Deschiderea totală riscă comoditizarea și fragmentarea.  
+Opacitatea totală blochează adoptarea.
+
+VeriSeal operează prin:
+
+- Logică de verificare transparentă
+- Strat de execuție controlat
+- Sustenabilitate comercială
+- Disciplină de guvernanță
+
+Încrederea necesită structură, nu retorică.

@@ -1,47 +1,49 @@
+Fișier: deployment-model.md
+
 ---
 id: deployment-model
-title: Deployment Model
+title: Model de Implementare
 sidebar_position: 4.2
 ---
 
-# Deployment Model
+# Model de Implementare
 
-## Reference Stack
+## Stivă de Referință
 
-Typical architecture may include:
+Arhitectura tipică poate include:
 
-- Application layer (e.g., FastAPI)
-- Deterministic proof generation
-- Append-only ledger database
-- Canonical JSON output
-- Optional timestamp anchoring
-- TLS-secured gateway layer
+- Strat de aplicație (de exemplu, FastAPI)
+- Generare deterministă de dovezi
+- Bază de date jurnal doar pentru adăugare
+- Ieșire JSON canonică
+- Ancorare opțională a marcajului temporal
+- Strat de gateway securizat TLS
 
-The specific stack may evolve.
+Stiva specifică poate evolua.
 
-The deterministic proof model must remain stable.
-
----
-
-## Sovereign Configurations
-
-Institutions may require:
-
-- Data residency guarantees
-- Isolated infrastructure
-- Private verification endpoints
-- Internal governance controls
-
-Verification logic must remain interoperable across deployments.
+Modelul de dovezi deterministe trebuie să rămână stabil.
 
 ---
 
-## Public Verification Separation
+## Configurații Suverane
 
-Verification endpoints can operate independently from:
+Instituțiile pot necesita:
 
-- Authentication systems
-- Business logic
-- Data storage
+- Garanții de rezidență a datelor
+- Infrastructură izolată
+- Endpoint-uri de verificare private
+- Controale interne de guvernanță
 
-This ensures long-term verifiability even under organizational change.
+Logica de verificare trebuie să rămână interoperabilă între implementări.
+
+---
+
+## Separarea Verificării Publice
+
+Endpoint-urile de verificare pot funcționa independent de:
+
+- Sisteme de autentificare
+- Logica de afaceri
+- Stocarea datelor
+
+Aceasta asigură verificabilitatea pe termen lung chiar și în cazul schimbărilor organizaționale.

@@ -1,283 +1,283 @@
 ---
-title: VeriSeal Protocol Framework
-sidebar_label: VeriSeal Protocol Framework
+title: Cadru de Protocol VeriSeal
+sidebar_label: Cadru de Protocol VeriSeal
 ---
 
-# VeriSeal Protocol Framework
+# Cadru de Protocol VeriSeal
 
-## Executive Positioning
+## Poziționare Executivă
 
-VeriSeal is not a sector-specific product.
+VeriSeal nu este un produs specific unui sector.
 
-It is a deterministic integrity protocol framework designed to operate as a global, infrastructure-neutral standard.
+Este un cadru de protocol de integritate determinist, conceput să funcționeze ca un standard global, neutru din punct de vedere al infrastructurii.
 
-Sector implementations (banking, legal, healthcare, supply chain, identity, etc.) are instantiations of the same structural integrity kernel.
+Implementările pe sectoare (bancar, juridic, sănătate, lanț de aprovizionare, identitate etc.) sunt instanțieri ale aceluiași nucleu de integritate structurală.
 
-The framework is modular, layered, and composable.
+Cadrul este modular, stratificat și compozabil.
 
-It enables organizations to select integrity layers proportionate to their risk exposure and regulatory environment.
-
----
-
-## 1. Architectural Philosophy
-
-VeriSeal is built upon five core principles:
-
-1. Determinism over discretion
-2. Structural integrity over system trust
-3. Infrastructure neutrality
-4. Independent recomputability
-5. Layered modularity
-
-Integrity must not depend on vendor, platform, jurisdiction, or governance model.
-
-It must be reproducible independently.
+Permite organizațiilor să selecteze straturi de integritate proporționale cu expunerea lor la risc și mediul de reglementare.
 
 ---
 
-## 2. Layered Protocol Architecture
+## 1. Filosofia Arhitecturală
 
-VeriSeal operates as a layered protocol stack.
+VeriSeal este construit pe cinci principii de bază:
 
-Each layer corresponds to a defined VIP standard.
+1. Determinism în loc de discreție
+2. Integritate structurală în loc de încredere în sistem
+3. Neutralitate a infrastructurii
+4. Recomputație independentă
+5. Modularitate stratificată
+
+Integritatea nu trebuie să depindă de furnizor, platformă, jurisdicție sau model de guvernanță.
+
+Trebuie să fie reproductibilă independent.
 
 ---
 
-## Layer 1 - Structural Integrity Core
+## 2. Arhitectura Protocolului Stratificat
+
+VeriSeal funcționează ca un stivă de protocol stratificată.
+
+Fiecare strat corespunde unui standard VIP definit.
+
+---
+
+## Strat 1 - Nucleul de Integritate Structurală
 **VIP-STD-001**
 
-Purpose:
+Scop:
 
-- Deterministic canonical serialization
-- SHA-256 structural hashing
-- Byte-level reproducibility
-- Independent recomputation
+- Serializare canonică deterministă
+- Hashing structural SHA-256
+- Reproducibilitate la nivel de byte
+- Recomputație independentă
 
-This layer guarantees that any modification to the canonical object produces a different hash.
+Acest strat garantează că orice modificare a obiectului canonic produce un hash diferit.
 
-It establishes the foundational integrity invariant.
+Stabilește invariantul fundamental de integritate.
 
-All sector implementations rely on this layer.
+Toate implementările pe sectoare se bazează pe acest strat.
 
 ---
 
-## Layer 2 - Chronology & Continuity
+## Strat 2 - Cronologie și Continuitate
 **VIP-STD-003**
 
-Purpose:
+Scop:
 
-- Append-only chaining
-- Immutable sequence validation
-- Version continuity traceability
+- Înlănțuire doar în adăugare
+- Validare a secvenței imuabile
+- Trasabilitate a continuității versiunii
 
-This layer prevents silent document evolution.
+Acest strat previne evoluția tăcută a documentelor.
 
-It enforces chronological integrity.
+Implementează integritatea cronologică.
 
-Optional but critical in high-dispute environments.
+Opțional, dar critic în medii cu dispute ridicate.
 
 ---
 
-## Layer 3 - Institutional Authenticity Binding
+## Strat 3 - Legătură de Autenticitate Instituțională
 **VIP-STF-005**
 
-Purpose:
+Scop:
 
-- Cryptographic signature binding
-- Institutional authorization validation
-- Multi-party attestation capability
+- Legătură prin semnătură criptografică
+- Validare a autorizației instituționale
+- Capacitate de atestare multi-parte
 
-This layer strengthens authenticity demonstrability.
+Acest strat întărește demonstrabilitatea autenticității.
 
-It does not replace legal authority.
+Nu înlocuiește autoritatea legală.
 
-It reinforces structural non-repudiation.
+Întărește nerepudierea structurală.
 
 ---
 
-## Layer 4 - Public Key Transparency
+## Strat 4 - Transparența Cheii Publice
 **VIP-REG-006**
 
-Purpose:
+Scop:
 
-- Transparent institutional public key registry
-- Anti-impersonation reinforcement
-- Cross-entity validation capability
+- Registru transparent al cheilor publice instituționale
+- Întărirea anti-impersonare
+- Capacitate de validare între entități
 
-This layer enables verification beyond organizational boundaries.
+Acest strat permite verificarea dincolo de limitele organizaționale.
 
-It strengthens trust in institutional signatures.
+Întărește încrederea în semnăturile instituționale.
 
 ---
 
-## Layer 5 - External Anchoring
+## Strat 5 - Ancorare Externă
 **VIP-STD-004**
 
-Purpose:
+Scop:
 
-- Independent timestamp corroboration
-- Anti-backdating protection
-- Third-party verifiability
+- Coroborare independentă a marcajului temporal
+- Protecție anti-antidatate
+- Verificabilitate de către terți
 
-Anchoring is optional.
+Ancorarea este opțională.
 
-It increases time defensibility in adversarial contexts.
+Crește defensibilitatea temporală în contexte adversariale.
 
 ---
 
-## 3. Sector Instantiation Model
+## 3. Model de Instanțiere pe Sectoare
 
-Each sector deploys a configuration of layers appropriate to its risk profile.
+Fiecare sector implementează o configurație de straturi adecvată profilului său de risc.
 
-Examples:
+Exemple:
 
-Banking:
-- Layer 1 + Layer 2 + Layer 3 + Layer 4
-- Optional Layer 5 for regulatory-sensitive flows
+Bancar:
+- Strat 1 + Strat 2 + Strat 3 + Strat 4
+- Strat 5 opțional pentru fluxuri sensibile la reglementări
 
 Notarial:
-- Layer 1 + Layer 3
-- Optional Layer 5 for timestamp defensibility
+- Strat 1 + Strat 3
+- Strat 5 opțional pentru defensibilitatea marcajului temporal
 
-Supply Chain:
-- Layer 1 + Layer 2
-- Optional Layer 3 for supplier validation
+Lanț de Aprovizionare:
+- Strat 1 + Strat 2
+- Strat 3 opțional pentru validarea furnizorilor
 
-HR:
-- Layer 1
-- Optional Layer 2 for disciplinary chronology
+Resurse Umane:
+- Strat 1
+- Strat 2 opțional pentru cronologia disciplinară
 
-Identity:
-- Layer 1
-- Optional Layer 2 + 3 + 4 depending on regulatory exposure
+Identitate:
+- Strat 1
+- Strat 2 + 3 + 4 opțional în funcție de expunerea la reglementări
 
-Individuals:
-- Layer 1
-- Optional Layer 5 for timestamp reinforcement
+Indivizi:
+- Strat 1
+- Strat 5 opțional pentru întărirea marcajului temporal
 
-The protocol remains constant.
+Protocolul rămâne constant.
 
-Only layer composition varies.
-
----
-
-## 4. Integrity vs Application Layer
-
-VeriSeal does not manage:
-
-- Business logic
-- Regulatory decision-making
-- Identity verification
-- Financial transactions
-- Legal interpretation
-- Workflow orchestration
-
-It operates strictly at the integrity layer.
-
-It strengthens applications without replacing them.
+Doar compoziția straturilor variază.
 
 ---
 
-## 5. Deterministic Integrity Model
+## 4. Integritate vs Strat de Aplicație
 
-The framework enforces:
+VeriSeal nu gestionează:
 
-- Canonical object serialization
-- Explicit hash algorithm specification
-- Reproducible verification rules
-- Independence from storage medium
+- Logica de afaceri
+- Decizii de reglementare
+- Verificarea identității
+- Tranzacții financiare
+- Interpretare legală
+- Orchestrarea fluxului de lucru
 
-Verification must not depend on:
+Funcționează strict la stratul de integritate.
 
-- Vendor platform
-- Server logs
-- Administrative privilege
-- Internal governance assertions
-
-Integrity must be mathematically demonstrable.
+Întărește aplicațiile fără a le înlocui.
 
 ---
 
-## 6. Fraud Detectability Model
+## 5. Model de Integritate Deterministă
 
-VeriSeal does not detect fraud patterns.
+Cadrul impune:
 
-It makes structural tampering detectable.
+- Serializare canonică a obiectelor
+- Specificarea explicită a algoritmului de hash
+- Reguli de verificare reproductibile
+- Independență față de mediul de stocare
 
-If combined with:
+Verificarea nu trebuie să depindă de:
 
-- Institutional signatures (Layer 3)
-- Public key transparency (Layer 4)
+- Platforma furnizorului
+- Jurnalele serverului
+- Privilegii administrative
+- Aserțiuni de guvernanță internă
 
-Forgery and impersonation become cryptographically identifiable.
-
-Fraud prevention remains system-driven.
-
-Fraud detectability becomes protocol-driven.
+Integritatea trebuie să fie demonstrabilă matematic.
 
 ---
 
-## 7. Regulatory Neutrality
+## 6. Model de Detectabilitate a Fraudelor
+
+VeriSeal nu detectează tipare de fraudă.
+
+Face detectabilă manipularea structurală.
+
+Dacă este combinat cu:
+
+- Semnături instituționale (Strat 3)
+- Transparența cheii publice (Strat 4)
+
+Falsificarea și impersonarea devin identificabile criptografic.
+
+Prevenirea fraudei rămâne condusă de sistem.
+
+Detectabilitatea fraudei devine condusă de protocol.
+
+---
+
+## 7. Neutralitate Reglementară
 
 VeriSeal:
 
-- Does not replace statutory frameworks
-- Does not grant legal enforceability
-- Does not override court authority
-- Does not modify compliance obligations
+- Nu înlocuiește cadrele statutare
+- Nu conferă forță executorie legală
+- Nu anulează autoritatea instanțelor
+- Nu modifică obligațiile de conformitate
 
-It strengthens integrity demonstrability within existing frameworks.
+Întărește demonstrabilitatea integrității în cadrul cadrelor existente.
 
-It is jurisdiction-agnostic by design.
-
----
-
-## 8. Global Standard Ambition
-
-The objective of the VeriSeal Protocol Framework is:
-
-To provide a composable, infrastructure-neutral integrity protocol
-that can operate across industries and jurisdictions
-without altering business models or regulatory authority.
-
-Sector documentation represents applied configurations of this framework.
-
-The protocol itself remains universal.
+Este agnostic din punct de vedere jurisdicțional prin design.
 
 ---
 
-## 9. Strategic Positioning
+## 8. Ambiția Standardului Global
 
-VeriSeal is:
+Obiectivul Cadrului de Protocol VeriSeal este:
 
-- A deterministic integrity kernel
-- A layered protocol architecture
-- A modular evidentiary reinforcement framework
-- A cross-sector structural trust mechanism
+Să ofere un protocol de integritate compozabil, neutru din punct de vedere al infrastructurii
+care poate funcționa în diverse industrii și jurisdicții
+fără a altera modelele de afaceri sau autoritatea de reglementare.
 
-It is not:
+Documentația pe sectoare reprezintă configurații aplicate ale acestui cadru.
 
-- A vertical SaaS product
-- A blockchain network
-- A regulatory instrument
-- A legal authority
-
-It is an integrity standard.
+Protocolul în sine rămâne universal.
 
 ---
 
-## Conclusion
+## 9. Poziționare Strategică
 
-Integrity is a foundational layer of digital trust.
+VeriSeal este:
 
-Applications evolve.
-Regulations evolve.
-Infrastructure evolves.
+- Un nucleu de integritate determinist
+- O arhitectură de protocol stratificată
+- Un cadru modular de întărire probatorie
+- Un mecanism de încredere structurală intersectorială
 
-Deterministic structural integrity must remain stable.
+Nu este:
 
-VeriSeal defines that stability.
+- Un produs SaaS vertical
+- O rețea blockchain
+- Un instrument de reglementare
+- O autoritate legală
 
-Sector deployments instantiate the protocol.
+Este un standard de integritate.
 
-The protocol itself remains invariant.
+---
+
+## Concluzie
+
+Integritatea este un strat fundamental al încrederii digitale.
+
+Aplicațiile evoluează.
+Reglementările evoluează.
+Infrastructura evoluează.
+
+Integritatea structurală deterministă trebuie să rămână stabilă.
+
+VeriSeal definește acea stabilitate.
+
+Implementările pe sectoare instanțiază protocolul.
+
+Protocolul în sine rămâne invariabil.

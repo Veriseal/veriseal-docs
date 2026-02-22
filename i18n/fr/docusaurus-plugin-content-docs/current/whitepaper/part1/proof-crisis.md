@@ -1,40 +1,40 @@
 ---
 id: proof-crisis
-title: The Proof Crisis
-sidebar_label: 1.2 The Proof Crisis
+title: La Crise de la Preuve
+sidebar_label: 1.2 La Crise de la Preuve
 slug: /whitepaper/part1/proof-crisis
 sidebar_position: 2
 ---
 
-# The Proof Crisis
+# La Crise de la Preuve
 
-Digital systems generate massive volumes of records.
+Les systèmes numériques génèrent des volumes massifs de documents.
 
-But volume does not equal verifiability.
+Mais le volume n'équivaut pas à la vérifiabilité.
 
-A structural proof crisis has emerged:
+Une crise structurelle de la preuve a émergé :
 
-- Timestamping does not guarantee integrity.
-- Digital signatures do not ensure structural immutability.
-- Blockchain anchoring does not replace governance.
-- Platform logs are not sovereign evidence.
+- L'horodatage ne garantit pas l'intégrité.
+- Les signatures numériques n'assurent pas l'immuabilité structurelle.
+- L'ancrage sur la blockchain ne remplace pas la gouvernance.
+- Les journaux de plateforme ne constituent pas des preuves souveraines.
 
-Institutions increasingly face disputes in which:
+Les institutions sont de plus en plus confrontées à des litiges dans lesquels :
 
-- Evidence exists,
-- But cannot be independently verified,
-- Or lacks deterministic reproducibility.
+- Les preuves existent,
+- Mais ne peuvent pas être vérifiées de manière indépendante,
+- Ou manquent de reproductibilité déterministe.
 
-The rise of AI-generated content intensifies this crisis.
+La montée du contenu généré par l'IA intensifie cette crise.
 
-Synthetic audio, video, and documents introduce epistemic uncertainty at scale.
+L'audio, la vidéo et les documents synthétiques introduisent une incertitude épistémique à grande échelle.
 
-The question is no longer:
+La question n'est plus :
 
-"Was this recorded?"
+"Est-ce que cela a été enregistré ?"
 
-The question is:
+La question est :
 
-"Can this be independently and deterministically verified?"
+"Peut-on le vérifier de manière indépendante et déterministe ?"
 
-Without a standardized integrity framework, digital evidence remains structurally fragile.
+Sans un cadre d'intégrité standardisé, les preuves numériques restent structurellement fragiles.

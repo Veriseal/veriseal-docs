@@ -1,53 +1,55 @@
+Fișier: index.md
+
 ---
-title: VeriSeal Standard
+title: Standardul VeriSeal
 sidebar_position: 1
 ---
 
-# The VeriSeal Standard
+# Standardul VeriSeal
 
-The VeriSeal Standard defines the deterministic integrity framework that governs
-how digital evidence is structured, sealed, verified, and preserved.
+Standardul VeriSeal definește cadrul de integritate deterministă care reglementează
+modul în care sunt structurate, sigilate, verificate și păstrate dovezile digitale.
 
-It is not a feature specification.
-It is a structural integrity protocol.
-
----
-
-## Purpose
-
-The standard establishes:
-
-- Deterministic cryptographic integrity
-- Append-only proof ledger architecture
-- Verification reproducibility
-- Governance and conformance model
-- Long-term archival stability
+Nu este o specificație de caracteristici.
+Este un protocol de integritate structurală.
 
 ---
 
-## Structure of the Standard
+## Scop
 
-The VeriSeal Standard is composed of:
+Standardul stabilește:
 
-- VIP-STD series — Core integrity specifications
-- VIP-REG series — Regulatory mapping
-- VIP-THREAT series — Threat modeling
-- VIP-STF — Security and trust framework
-- Roadmap & Governance layers
-
----
-
-## Positioning
-
-The VeriSeal Standard is designed to:
-
-- Operate independently of jurisdiction
-- Be commercially deployable
-- Remain sovereignty-compatible
-- Scale globally across sectors
-
-It aims to become a global integrity reference layer.
+- Integritate criptografică deterministă
+- Arhitectură de registru de dovadă doar în adăugare
+- Reproducibilitatea verificării
+- Model de guvernanță și conformitate
+- Stabilitate arhivistică pe termen lung
 
 ---
 
-Continue with the individual standard specifications below.
+## Structura Standardului
+
+Standardul VeriSeal este compus din:
+
+- Seria VIP-STD — Specificații de bază ale integrității
+- Seria VIP-REG — Mapare reglementară
+- Seria VIP-THREAT — Modelare a amenințărilor
+- VIP-STF — Cadru de securitate și încredere
+- Straturi de foaie de parcurs și guvernanță
+
+---
+
+## Poziționare
+
+Standardul VeriSeal este conceput pentru a:
+
+- Funcționa independent de jurisdicție
+- Fi implementabil comercial
+- Rămâne compatibil cu suveranitatea
+- Se scala global în toate sectoarele
+
+Acesta își propune să devină un strat de referință global pentru integritate.
+
+---
+
+Continuați cu specificațiile individuale ale standardului de mai jos.

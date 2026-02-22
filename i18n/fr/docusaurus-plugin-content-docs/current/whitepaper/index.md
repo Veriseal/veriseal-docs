@@ -1,32 +1,32 @@
 ---
-title: Whitepaper
+title: Livre blanc
 sidebar_position: 1
 ---
 
-# VeriSeal Whitepaper
+# Livre blanc de VeriSeal
 
-The whitepaper provides the full narrative and analytical foundation
-of the VeriSeal framework.
+Le livre blanc fournit le récit complet et la base analytique
+du cadre VeriSeal.
 
-It is structured in five parts:
+Il est structuré en cinq parties :
 
-1. The Proof Crisis
-2. Cryptographic Foundations
-3. Institutional & Sector Implications
-4. Industrialization & Deployment
-5. Long-Term Positioning
-
----
-
-## Purpose
-
-This document explains:
-
-- Why digital integrity must be deterministic
-- Why existing systems fail structurally
-- How VeriSeal establishes a new integrity layer
-- How it scales commercially and institutionally
+1. La crise de la preuve
+2. Fondations cryptographiques
+3. Implications institutionnelles et sectorielles
+4. Industrialisation et déploiement
+5. Positionnement à long terme
 
 ---
 
-The whitepaper is the conceptual backbone of the protocol.
+## Objectif
+
+Ce document explique :
+
+- Pourquoi l'intégrité numérique doit être déterministe
+- Pourquoi les systèmes existants échouent structurellement
+- Comment VeriSeal établit une nouvelle couche d'intégrité
+- Comment il s'adapte commercialement et institutionnellement
+
+---
+
+Le livre blanc est l'épine dorsale conceptuelle du protocole.

@@ -1,28 +1,28 @@
 ---
 id: threat-model
-title: Threat Model
+title: Model de Amenințare
 ---
 
 ﻿---
-title: Threat Model & Adversarial Analysis
-sidebar_label: Threat Model (Annex)
+title: Model de Amenințare și Analiză Adversarială
+sidebar_label: Model de Amenințare (Anexă)
 ---
 
-# Threat Model & Adversarial Analysis
+# Model de Amenințare și Analiză Adversarială
 
-This annex provides a structured adversarial analysis of the VeriSeal integrity infrastructure.
+Această anexă oferă o analiză adversarială structurată a infrastructurii de integritate VeriSeal.
 
-## Scope
+## Domeniu de aplicare
 
-This document defines:
+Acest document definește:
 
-- Threat actors
-- Trust boundaries
-- Attack surfaces
-- Mitigations
-- Residual risks
-- Governance requirements
+- Actorii amenințărilor
+- Limitele de încredere
+- Suprafețele de atac
+- Măsuri de atenuare
+- Riscuri reziduale
+- Cerințe de guvernanță
 
-VeriSeal secures structural integrity, not semantic truth.
+VeriSeal asigură integritatea structurală, nu adevărul semantic.
 
-(Full detailed content already injected previously.)
+(Conținutul detaliat complet a fost deja injectat anterior.)

@@ -1,66 +1,66 @@
 ---
-title: Economic Model
-sidebar_label: 5.2 Economic Model
+title: Modèle Économique
+sidebar_label: 5.2 Modèle Économique
 sidebar_position: 5.2
 ---
 
-# 5.2 Economic Model
+# 5.2 Modèle Économique
 
-## Integrity-as-Infrastructure
+## Intégrité en tant qu'Infrastructure
 
-VeriSeal is monetized not as storage,
-but as:
+VeriSeal est monétisé non pas comme un stockage,
+mais comme :
 
-Proof Infrastructure.
+Infrastructure de Preuve.
 
-The core unit is:
+L'unité centrale est :
 
-Deterministic Proof Generation.
-
----
-
-## Monetization Layers
-
-### API Metered Usage
-- Per proof generation
-- Per verification call
-- Per anchor submission
-
-### Enterprise Licensing
-- Volume-based usage tiers
-- Governance-ready deployment
-- Audit documentation support
-
-### Sovereign Deployment
-- Dedicated infrastructure
-- Custom governance configuration
-- Long-term operational commitment
+Génération de Preuve Déterministe.
 
 ---
 
-## Structural Value Creation
+## Couches de Monétisation
 
-Value derives from:
+### Utilisation Mesurée de l'API
+- Par génération de preuve
+- Par appel de vérification
+- Par soumission d'ancrage
 
-- Litigation compression
-- Audit simplification
-- Fraud exposure reduction
-- Compliance automation
-- Cross-system trust acceleration
+### Licence d'Entreprise
+- Paliers d'utilisation basés sur le volume
+- Déploiement prêt pour la gouvernance
+- Support de documentation d'audit
 
-Integrity becomes a cost-reduction vector.
+### Déploiement Souverain
+- Infrastructure dédiée
+- Configuration de gouvernance personnalisée
+- Engagement opérationnel à long terme
 
 ---
 
-## Infrastructure Economics
+## Création de Valeur Structurelle
 
-Infrastructure businesses exhibit:
+La valeur provient de :
 
-- High initial trust threshold
-- Long adoption cycles
-- Strong retention once embedded
-- Network-reinforced expansion
+- Compression des litiges
+- Simplification des audits
+- Réduction de l'exposition à la fraude
+- Automatisation de la conformité
+- Accélération de la confiance inter-systèmes
 
-Proof infrastructure aligns with this pattern.
+L'intégrité devient un vecteur de réduction des coûts.
 
-The economic model is built for stability, not volatility.
+---
+
+## Économie de l'Infrastructure
+
+Les entreprises d'infrastructure présentent :
+
+- Seuil de confiance initial élevé
+- Cycles d'adoption longs
+- Forte rétention une fois intégrées
+- Expansion renforcée par le réseau
+
+L'infrastructure de preuve s'aligne sur ce modèle.
+
+Le modèle économique est conçu pour la stabilité, non la volatilité.

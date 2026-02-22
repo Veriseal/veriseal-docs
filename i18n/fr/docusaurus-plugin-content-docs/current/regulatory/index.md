@@ -1,21 +1,21 @@
 ---
-title: Regulatory Framework
+title: Cadre Réglementaire
 sidebar_position: 1
 ---
 
-# Regulatory Framework
+# Cadre Réglementaire
 
-VeriSeal does not depend on regulation,
-but it is compatible with regulatory environments.
+VeriSeal ne dépend pas de la réglementation,
+mais il est compatible avec les environnements réglementaires.
 
-This section maps the protocol against:
+Cette section cartographie le protocole par rapport à :
 
-- Financial compliance frameworks
-- Legal admissibility standards
-- Digital identity regulations
-- Cross-border evidence requirements
+- Cadres de conformité financière
+- Normes d'admissibilité légale
+- Réglementations sur l'identité numérique
+- Exigences de preuve transfrontalières
 
 ---
 
-The objective is structural compatibility,
-not regulatory dependency.
+L'objectif est la compatibilité structurelle,
+non la dépendance réglementaire.

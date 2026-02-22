@@ -1,55 +1,55 @@
 ---
 id: risk-and-limitations
-title: Risk & Limitation Transparency
+title: Transparence des Risques et Limitations
 sidebar_position: 4.4
 ---
 
-# Risk & Limitation Transparency
+# Transparence des Risques et Limitations
 
-## Integrity vs Truth
+## Intégrité vs Vérité
 
-VeriSeal guarantees:
+VeriSeal garantit :
 
-- Integrity preservation
-- Structural immutability
-- Deterministic verification
+- Préservation de l'intégrité
+- Immutabilité structurelle
+- Vérification déterministe
 
-It does not guarantee:
+Il ne garantit pas :
 
-- Truthfulness of content
-- Intent of actors
-- Upstream system integrity
-
----
-
-## Cryptographic Assumptions
-
-Cryptographic models rely on current assumptions.
-
-Architecture must support algorithm agility
-without invalidating historical proofs.
+- Véracité du contenu
+- Intention des acteurs
+- Intégrité des systèmes en amont
 
 ---
 
-## Upstream Integration Risk
+## Hypothèses Cryptographiques
 
-Improper process integration may:
+Les modèles cryptographiques reposent sur des hypothèses actuelles.
 
-- Seal incorrect data
-- Introduce operational errors
-- Create governance inconsistencies
-
-Infrastructure must be accompanied by integration discipline.
+L'architecture doit soutenir l'agilité des algorithmes
+sans invalider les preuves historiques.
 
 ---
 
-## Standardization Risk
+## Risque d'Intégration en Amont
 
-Becoming a standard requires:
+Une intégration de processus incorrecte peut :
 
-- Cross-sector adoption
-- Governance stability
-- Backward compatibility
-- Ecosystem integration
+- Sceller des données incorrectes
+- Introduire des erreurs opérationnelles
+- Créer des incohérences de gouvernance
 
-Standard emergence cannot be forced.
+L'infrastructure doit être accompagnée d'une discipline d'intégration.
+
+---
+
+## Risque de Normalisation
+
+Devenir une norme nécessite :
+
+- Adoption intersectorielle
+- Stabilité de la gouvernance
+- Compatibilité ascendante
+- Intégration de l'écosystème
+
+L'émergence d'une norme ne peut être forcée.

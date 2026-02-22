@@ -1,27 +1,27 @@
 ---
 id: verification-procedure
-title: Verification Procedure
+title: Procedura de Verificare
 ---
 
 ﻿---
-title: Independent Verification Procedure
-sidebar_label: Verification Procedure
+title: Procedura de Verificare Independentă
+sidebar_label: Procedura de Verificare
 ---
 
-# Independent Verification Procedure
+# Procedura de Verificare Independentă
 
-Verification of a proof requires:
+Verificarea unei dovezi necesită:
 
-1. The canonical JSON payload
-2. The artifact (if applicable)
-3. The verification endpoint
+1. Payload-ul JSON canonic
+2. Artefactul (dacă este aplicabil)
+3. Endpoint-ul de verificare
 
-Verification steps:
+Pașii de verificare:
 
-1. Recompute SHA-256 of artifact
-2. Compare digest with canonical JSON
-3. Verify signature
-4. Confirm ledger continuity (previous_entry_hash)
-5. If anchored, verify external timestamp
+1. Recalcularea SHA-256 a artefactului
+2. Compararea digestei cu JSON-ul canonic
+3. Verificarea semnăturii
+4. Confirmarea continuității registrului (previous_entry_hash)
+5. Dacă este ancorat, verificarea marcajului temporal extern
 
-Verification is reproducible and deterministic.
+Verificarea este reproductibilă și deterministă.

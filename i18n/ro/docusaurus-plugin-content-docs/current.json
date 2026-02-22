@@ -1,6 +1,6 @@
 {
   "version.label": {
-    "message": "Next",
+    "message": "Următor",
     "description": "The label for version current"
   },
   "sidebar.tutorialSidebar.category.Standard": {
@@ -8,51 +8,51 @@
     "description": "The label for category 'Standard' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.Technical": {
-    "message": "Technical",
+    "message": "Tehnic",
     "description": "The label for category 'Technical' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.Strategy": {
-    "message": "Strategy",
+    "message": "Strategie",
     "description": "The label for category 'Strategy' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.Sectors": {
-    "message": "Sectors",
+    "message": "Sectoare",
     "description": "The label for category 'Sectors' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.Whitepaper": {
-    "message": "Whitepaper",
+    "message": "Carte Albă",
     "description": "The label for category 'Whitepaper' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.Part I — The Proof Crisis": {
-    "message": "Part I — The Proof Crisis",
+    "message": "Partea I — Criza Dovezilor",
     "description": "The label for category 'Part I — The Proof Crisis' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.Part II — Cryptographic Architecture": {
-    "message": "Part II — Cryptographic Architecture",
+    "message": "Partea II — Arhitectură Criptografică",
     "description": "The label for category 'Part II — Cryptographic Architecture' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.Part III — Institutional Impact": {
-    "message": "Part III — Institutional Impact",
+    "message": "Partea III — Impact Instituțional",
     "description": "The label for category 'Part III — Institutional Impact' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.Part IV — Deployment & Industrialization": {
-    "message": "Part IV — Deployment & Industrialization",
+    "message": "Partea IV — Implementare și Industrializare",
     "description": "The label for category 'Part IV — Deployment & Industrialization' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.Part V — Adoption & Strategy": {
-    "message": "Part V — Adoption & Strategy",
+    "message": "Partea V — Adoptare și Strategie",
     "description": "The label for category 'Part V — Adoption & Strategy' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.Annex — Technical & Security": {
-    "message": "Annex — Technical & Security",
+    "message": "Anexă — Tehnic și Securitate",
     "description": "The label for category 'Annex — Technical & Security' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.Regulatory": {
-    "message": "Regulatory",
+    "message": "Reglementare",
     "description": "The label for category 'Regulatory' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.Foundation": {
-    "message": "Foundation",
+    "message": "Fundație",
     "description": "The label for category 'Foundation' in sidebar 'tutorialSidebar'"
   }
 }

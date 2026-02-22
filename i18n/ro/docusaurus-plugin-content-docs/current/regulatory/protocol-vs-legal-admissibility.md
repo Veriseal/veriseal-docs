@@ -1,226 +1,226 @@
 ---
-title: Protocol vs Legal Admissibility
-sidebar_label: Legal Admissibility
+title: Protocol vs Admisibilitate Legală
+sidebar_label: Admisibilitate Legală
 ---
 
-# Protocol vs Legal Admissibility
+# Protocol vs Admisibilitate Legală
 
-## Structural Integrity and Legal Validity
+## Integritatea Structurală și Valabilitatea Legală
 
-VeriSeal provides cryptographic structural integrity.
+VeriSeal oferă integritate structurală criptografică.
 
-It does not provide legal validation.
+Nu oferă validare legală.
 
-This distinction is fundamental.
-
----
-
-## What VeriSeal Guarantees
-
-At the protocol level, VeriSeal guarantees:
-
-- Deterministic canonicalization
-- Reproducible SHA-256 hashing
-- Tamper detection capability
-- Independent verification
-- Optional chronological continuity
-- Optional cryptographic signature binding
-- Optional external timestamp anchoring
-
-These guarantees are mathematical and technical.
-
-They are jurisdiction-neutral.
+Această distincție este fundamentală.
 
 ---
 
-## What VeriSeal Does Not Guarantee
+## Ce Garantează VeriSeal
 
-VeriSeal does not guarantee:
+La nivel de protocol, VeriSeal garantează:
 
-- Legal admissibility
-- Judicial acceptance
-- Contract enforceability
-- Regulatory certification
-- Identity authenticity by default
-- Legal equivalence to qualified electronic signatures
+- Canonicalizare deterministă
+- Hashing reproducibil SHA-256
+- Capacitate de detectare a manipulării
+- Verificare independentă
+- Continuitate cronologică opțională
+- Legare opțională a semnăturii criptografice
+- Ancorare opțională a marcajului temporal extern
 
-Legal validity depends on jurisdictional frameworks.
+Aceste garanții sunt matematice și tehnice.
 
----
-
-## Legal Admissibility Is Contextual
-
-Courts and regulatory authorities evaluate:
-
-- Authenticity of evidence
-- Integrity of records
-- Chain of custody
-- Procedural compliance
-- Applicable statutory frameworks
-
-VeriSeal strengthens:
-
-Integrity demonstrability.
-
-It does not determine:
-
-Legal recognition status.
+Sunt neutre din punct de vedere jurisdicțional.
 
 ---
 
-## Relationship to Electronic Signature Frameworks
+## Ce Nu Garantează VeriSeal
 
-In jurisdictions where electronic signatures are regulated, such as:
+VeriSeal nu garantează:
 
-- eIDAS (EU)
-- ESIGN / UETA (United States)
-- Comparable national digital signature laws
+- Admisibilitate legală
+- Acceptare judiciară
+- Executabilitatea contractelor
+- Certificare de reglementare
+- Autenticitatea identității în mod implicit
+- Echivalență legală cu semnăturile electronice calificate
 
-Legal recognition may depend on:
-
-- Identity verification standards
-- Qualified trust service providers
-- Certification authorities
-- Procedural compliance
-
-VeriSeal may complement these frameworks by reinforcing structural integrity.
-
-It does not replace certified signature schemes.
+Valabilitatea legală depinde de cadrele jurisdicționale.
 
 ---
 
-## Evidence Reinforcement vs Legal Status
+## Admisibilitatea Legală Este Contextuală
 
-VeriSeal provides:
+Instanțele și autoritățile de reglementare evaluează:
 
-- Cryptographic proof of record state
-- Deterministic reproducibility
-- Independent verification capability
-- Tamper detection mechanisms
+- Autenticitatea dovezilor
+- Integritatea înregistrărilor
+- Lanțul de custodie
+- Conformitatea procedurală
+- Cadrele statutare aplicabile
 
-This strengthens evidentiary robustness.
+VeriSeal întărește:
 
-Legal admissibility remains determined by:
+Demonstrarea integrității.
 
-- Jurisdictional rules of evidence
-- Court discretion
-- Procedural compliance
-- Applicable statutory requirements
+Nu determină:
 
----
-
-## Identity and Non-Repudiation Considerations
-
-Non-repudiation in legal terms requires:
-
-- Reliable identity attribution
-- Secure key management
-- Procedural compliance
-
-VeriSeal may support signature binding where integrated with:
-
-- Institutional key management systems
-- Certified signature infrastructures
-
-However:
-
-Identity verification remains external to the core protocol.
+Statutul de recunoaștere legală.
 
 ---
 
-## Timestamping Considerations
+## Relația cu Cadrul Semnăturilor Electronice
 
-External anchoring may reinforce:
+În jurisdicțiile unde semnăturile electronice sunt reglementate, cum ar fi:
 
-- Temporal corroboration
-- Anti-backdating evidence
+- eIDAS (UE)
+- ESIGN / UETA (Statele Unite)
+- Legi naționale comparabile privind semnăturile digitale
 
-However:
+Recunoașterea legală poate depinde de:
 
-Legal recognition of timestamp validity depends on:
+- Standarde de verificare a identității
+- Furnizori de servicii de încredere calificați
+- Autorități de certificare
+- Conformitate procedurală
 
-- Applicable jurisdiction
-- Trusted timestamp authority recognition
-- Evidentiary standards
+VeriSeal poate completa aceste cadre prin întărirea integrității structurale.
 
-VeriSeal provides technical timestamp reinforcement.
-
-It does not guarantee statutory timestamp equivalence.
-
----
-
-## Risk Mitigation Contribution
-
-VeriSeal contributes to:
-
-- Reduced manipulation risk
-- Stronger audit defensibility
-- Improved dispute resilience
-- Increased evidentiary transparency
-
-It does not eliminate:
-
-Legal interpretation risk.
+Nu înlocuiește schemele de semnături certificate.
 
 ---
 
-## Institutional Responsibility
+## Întărirea Dovezilor vs Statutul Legal
 
-Institutions deploying VeriSeal remain responsible for:
+VeriSeal oferă:
 
-- Regulatory compliance
-- Procedural adherence
-- Data protection obligations
-- Access control enforcement
-- Legal qualification requirements
+- Dovadă criptografică a stării înregistrării
+- Reproducibilitate deterministă
+- Capacitate de verificare independentă
+- Mecanisme de detectare a manipulării
 
-VeriSeal is a structural tool.
+Aceasta întărește robustețea probatorie.
 
-Compliance remains organizational.
+Admisibilitatea legală rămâne determinată de:
 
----
-
-## Jurisdictional Neutrality
-
-The protocol is:
-
-- Infrastructure-neutral
-- Vendor-neutral
-- Jurisdiction-neutral
-
-Legal status must always be assessed in context.
-
-VeriSeal strengthens technical integrity.
-
-Legal recognition is determined by legal systems.
+- Reguli jurisdicționale ale probelor
+- Discreția instanței
+- Conformitate procedurală
+- Cerințe statutare aplicabile
 
 ---
 
-## Responsible Positioning
+## Considerații privind Identitatea și Non-Repudierea
 
-VeriSeal should be positioned as:
+Non-repudierea în termeni legali necesită:
 
-A structural integrity protocol.
+- Atribuirea fiabilă a identității
+- Management securizat al cheilor
+- Conformitate procedurală
 
-Not as:
+VeriSeal poate susține legarea semnăturii atunci când este integrat cu:
 
-A legal certification authority
-A qualified trust service provider
-A substitute for electronic signature regulation
-A regulatory compliance guarantee
+- Sisteme instituționale de management al cheilor
+- Infrastructuri de semnături certificate
+
+Cu toate acestea:
+
+Verificarea identității rămâne externă protocolului de bază.
 
 ---
 
-## Conclusion
+## Considerații privind Marcajul Temporal
 
-VeriSeal provides deterministic cryptographic integrity.
+Ancorarea externă poate întări:
 
-It enhances evidentiary defensibility.
+- Coroborarea temporală
+- Dovezi anti-ante-datate
 
-It reinforces audit robustness.
+Cu toate acestea:
 
-It does not determine legal validity.
+Recunoașterea legală a valabilității marcajului temporal depinde de:
 
-Legal admissibility remains jurisdiction-dependent and institution-driven.
+- Jurisdicția aplicabilă
+- Recunoașterea autorității de marcaj temporal de încredere
+- Standarde probatorii
 
-VeriSeal strengthens the technical foundation upon which legal arguments may rely.
+VeriSeal oferă întărire tehnică a marcajului temporal.
+
+Nu garantează echivalența statutară a marcajului temporal.
+
+---
+
+## Contribuția la Reducerea Riscurilor
+
+VeriSeal contribuie la:
+
+- Reducerea riscului de manipulare
+- Apărare mai puternică în audit
+- Reziliență îmbunătățită la dispute
+- Transparență probatorie crescută
+
+Nu elimină:
+
+Riscul de interpretare legală.
+
+---
+
+## Responsabilitatea Instituțională
+
+Instituțiile care implementează VeriSeal rămân responsabile pentru:
+
+- Conformitate de reglementare
+- Respectarea procedurilor
+- Obligații de protecție a datelor
+- Aplicarea controlului accesului
+- Cerințe de calificare legală
+
+VeriSeal este un instrument structural.
+
+Conformitatea rămâne organizațională.
+
+---
+
+## Neutralitate Jurisdicțională
+
+Protocolul este:
+
+- Neutru din punct de vedere al infrastructurii
+- Neutru din punct de vedere al furnizorului
+- Neutru din punct de vedere jurisdicțional
+
+Statutul legal trebuie evaluat întotdeauna în context.
+
+VeriSeal întărește integritatea tehnică.
+
+Recunoașterea legală este determinată de sistemele legale.
+
+---
+
+## Poziționare Responsabilă
+
+VeriSeal ar trebui să fie poziționat ca:
+
+Un protocol de integritate structurală.
+
+Nu ca:
+
+O autoritate de certificare legală
+Un furnizor de servicii de încredere calificat
+Un substitut pentru reglementarea semnăturilor electronice
+O garanție de conformitate de reglementare
+
+---
+
+## Concluzie
+
+VeriSeal oferă integritate criptografică deterministă.
+
+Îmbunătățește apărarea probatorie.
+
+Întărește robustețea auditului.
+
+Nu determină valabilitatea legală.
+
+Admisibilitatea legală rămâne dependentă de jurisdicție și condusă de instituții.
+
+VeriSeal întărește fundamentul tehnic pe care se pot baza argumentele legale.

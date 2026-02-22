@@ -1,66 +1,66 @@
 ---
-title: Economic Model
-sidebar_label: 5.2 Economic Model
+title: Model Economic
+sidebar_label: 5.2 Model Economic
 sidebar_position: 5.2
 ---
 
-# 5.2 Economic Model
+# 5.2 Model Economic
 
-## Integrity-as-Infrastructure
+## Integritate-ca-Infrastructură
 
-VeriSeal is monetized not as storage,
-but as:
+VeriSeal este monetizat nu ca stocare,
+ci ca:
 
-Proof Infrastructure.
+Infrastructură de Dovadă.
 
-The core unit is:
+Unitatea de bază este:
 
-Deterministic Proof Generation.
-
----
-
-## Monetization Layers
-
-### API Metered Usage
-- Per proof generation
-- Per verification call
-- Per anchor submission
-
-### Enterprise Licensing
-- Volume-based usage tiers
-- Governance-ready deployment
-- Audit documentation support
-
-### Sovereign Deployment
-- Dedicated infrastructure
-- Custom governance configuration
-- Long-term operational commitment
+Generarea Deterministică a Dovezilor.
 
 ---
 
-## Structural Value Creation
+## Straturi de Monetizare
 
-Value derives from:
+### Utilizare API Măsurată
+- Per generare de dovadă
+- Per apel de verificare
+- Per trimitere de ancoră
 
-- Litigation compression
-- Audit simplification
-- Fraud exposure reduction
-- Compliance automation
-- Cross-system trust acceleration
+### Licențiere pentru Întreprinderi
+- Trecere la niveluri de utilizare bazate pe volum
+- Implementare pregătită pentru guvernanță
+- Suport pentru documentația de audit
 
-Integrity becomes a cost-reduction vector.
+### Implementare Suverană
+- Infrastructură dedicată
+- Configurare personalizată de guvernanță
+- Angajament operațional pe termen lung
 
 ---
 
-## Infrastructure Economics
+## Crearea Valorii Structurale
 
-Infrastructure businesses exhibit:
+Valoarea derivă din:
 
-- High initial trust threshold
-- Long adoption cycles
-- Strong retention once embedded
-- Network-reinforced expansion
+- Compresia litigiilor
+- Simplificarea auditului
+- Reducerea expunerii la fraudă
+- Automatizarea conformității
+- Accelerarea încrederii între sisteme
 
-Proof infrastructure aligns with this pattern.
+Integritatea devine un vector de reducere a costurilor.
 
-The economic model is built for stability, not volatility.
+---
+
+## Economia Infrastructurii
+
+Afaceri de infrastructură prezintă:
+
+- Prag ridicat inițial de încredere
+- Cicluri lungi de adoptare
+- Retenție puternică odată ce sunt încorporate
+- Expansiune întărită de rețea
+
+Infrastructura de dovadă se aliniază cu acest tipar.
+
+Modelul economic este construit pentru stabilitate, nu volatilitate.

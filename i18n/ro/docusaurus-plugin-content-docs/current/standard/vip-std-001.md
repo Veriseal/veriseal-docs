@@ -1,94 +1,94 @@
 ---
 id: vip-std-001
-title: VIP-STD-001 — Core Integrity Standard
+title: VIP-STD-001 — Standardul de Integritate de Bază
 sidebar_position: 3
 ---
 
 # VIP-STD-001  
-## Core Integrity Standard
+## Standardul de Integritate de Bază
 
 ---
 
-# 1. Scope
+# 1. Domeniu de Aplicare
 
-This document defines the mandatory core integrity model of the VeriSeal Integrity Protocol (VIP).
+Acest document definește modelul obligatoriu de integritate de bază al Protocolului de Integritate VeriSeal (VIP).
 
-It specifies the deterministic rules for:
+Specifica regulile deterministe pentru:
 
-- Data canonicalization
-- Hash computation
-- Proof object formation
-- Deterministic verification
+- Canonicalizarea datelor
+- Calculul hash-ului
+- Formarea obiectului de dovadă
+- Verificarea deterministă
 
-This standard does not define ledger behavior, digital signatures, or anchoring mechanisms.  
-Such elements are specified in separate extension profiles.
-
----
-
-# 2. Normative Language
-
-The key words:
-
-- MUST
-- MUST NOT
-- SHOULD
-- MAY
-
-are to be interpreted as described in RFC 2119.
+Acest standard nu definește comportamentul registrului, semnăturile digitale sau mecanismele de ancorare.  
+Astfel de elemente sunt specificate în profiluri de extensie separate.
 
 ---
 
-# 3. Definitions
+# 2. Limbaj Normativ
 
-**Canonical Data**  
-A normalized byte representation of structured input data.
+Cuvintele cheie:
 
-**Integrity Hash**  
-A SHA-256 digest computed over canonicalized data.
+- TREBUIE
+- NU TREBUIE
+- AR TREBUI
+- POATE
 
-**Proof Object**  
-A structured JSON object containing canonicalized data and its integrity hash.
-
-**Verification Event**  
-The deterministic recomputation of the integrity hash from canonical data.
+trebuie interpretate așa cum sunt descrise în RFC 2119.
 
 ---
 
-# 4. Canonicalization Rules
+# 3. Definiții
 
-4.1 Data Format  
-Input data MUST be structured JSON.
+**Date Canonice**  
+O reprezentare normalizată în octeți a datelor de intrare structurate.
 
-4.2 Field Ordering  
-All object keys MUST be lexicographically ordered.
+**Hash de Integritate**  
+Un digest SHA-256 calculat peste datele canonicalizate.
 
-4.3 Whitespace  
-Whitespace MUST be removed except where required by JSON syntax.
+**Obiect de Dovadă**  
+Un obiect JSON structurat care conține date canonicalizate și hash-ul său de integritate.
 
-4.4 Encoding  
-UTF-8 encoding MUST be used.
+**Eveniment de Verificare**  
+Recomputația deterministă a hash-ului de integritate din datele canonice.
+
+---
+
+# 4. Reguli de Canonicalizare
+
+4.1 Formatul Datelor  
+Datele de intrare TREBUIE să fie JSON structurat.
+
+4.2 Ordinea Câmpurilor  
+Toate cheile obiectului TREBUIE să fie ordonate lexicografic.
+
+4.3 Spații Libere  
+Spațiile libere TREBUIE eliminate, cu excepția cazurilor în care sunt necesare de sintaxa JSON.
+
+4.4 Codificare  
+TREBUIE utilizată codificarea UTF-8.
 
 4.5 Determinism  
-Canonicalization MUST produce identical byte output for identical logical input.
+Canonicalizarea TREBUIE să producă ieșire identică în octeți pentru intrare logică identică.
 
 ---
 
-# 5. Hashing Algorithm
+# 5. Algoritmul de Hash
 
-5.1 Algorithm  
-The integrity hash MUST use SHA-256.
+5.1 Algoritm  
+Hash-ul de integritate TREBUIE să utilizeze SHA-256.
 
-5.2 Input  
-The hash MUST be computed over the canonicalized byte sequence.
+5.2 Intrare  
+Hash-ul TREBUIE calculat peste secvența de octeți canonicalizată.
 
-5.3 Output  
-The hash MUST be encoded as lowercase hexadecimal.
+5.3 Ieșire  
+Hash-ul TREBUIE să fie codificat ca hexazecimal cu litere mici.
 
 ---
 
-# 6. Proof Object Structure
+# 6. Structura Obiectului de Dovadă
 
-A compliant proof object MUST include:
+Un obiect de dovadă conform TREBUIE să includă:
 
 ```json
 {
@@ -97,95 +97,94 @@ A compliant proof object MUST include:
   "data": { ... },
   "hash": "<sha256-hex>"
 }
-```
 
-Where:
+Unde:
 
-- `v` = protocol version  
-- `type` = fixed string "PROOF"  
-- `data` = canonicalizable JSON payload  
-- `hash` = SHA-256 digest of canonicalized `data`
+- `v` = versiunea protocolului  
+- `type` = șir fix "PROOF"  
+- `data` = sarcină JSON canonicalizabilă  
+- `hash` = digest SHA-256 al `data` canonicalizat
 
-Additional fields MUST NOT alter canonicalization of `data`.
-
----
-
-# 7. Deterministic Verification
-
-Verification MUST follow these steps:
-
-1. Extract `data`
-2. Canonicalize `data`
-3. Compute SHA-256 hash
-4. Compare computed hash to stored `hash`
-5. Return VALID if equal; INVALID otherwise
-
-Verification MUST NOT depend on:
-
-- External state
-- Network access
-- Ledger presence
-- Signature presence
-- Anchoring status
-
-Core verification is self-contained.
+Câmpurile suplimentare NU TREBUIE să modifice canonicalizarea `data`.
 
 ---
 
-# 8. Independence Principle
+# 7. Verificare Deterministă
 
-VIP-STD-001 defines integrity only.
+Verificarea TREBUIE să urmeze acești pași:
 
-It does not guarantee:
+1. Extrage `data`
+2. Canonicalizează `data`
+3. Calculează hash-ul SHA-256
+4. Compară hash-ul calculat cu `hash` stocat
+5. Returnează VALID dacă sunt egale; INVALID în caz contrar
 
-- Data authenticity
-- Identity verification
-- Legal admissibility
-- Timestamp validity
+Verificarea NU TREBUIE să depindă de:
 
-It guarantees deterministic integrity under defined cryptographic assumptions.
+- Stare externă
+- Acces la rețea
+- Prezența registrului
+- Prezența semnăturii
+- Starea de ancorare
 
----
-
-# 9. Backward Compatibility
-
-Future minor revisions MUST preserve:
-
-- Canonicalization determinism
-- SHA-256 compatibility
-- Verification reproducibility
-
-Breaking changes require version increment.
+Verificarea de bază este auto-conținută.
 
 ---
 
-# 10. Conformance
+# 8. Principiul Independenței
 
-A system is compliant with VIP-STD-001 if it:
+VIP-STD-001 definește doar integritatea.
 
-1. Implements canonicalization per Section 4  
-2. Computes SHA-256 per Section 5  
-3. Produces proof objects per Section 6  
-4. Verifies deterministically per Section 7  
+Nu garantează:
 
-Compliance with extension profiles is optional.
+- Autenticitatea datelor
+- Verificarea identității
+- Admisibilitatea legală
+- Valabilitatea marcajului temporal
 
----
-
-# 11. Security Considerations
-
-The security of VIP-STD-001 depends on:
-
-- The cryptographic strength of SHA-256
-- Correct canonicalization implementation
-- Protection against hash collision vulnerabilities
-
-Threat assumptions are defined in VIP-THREAT-001.
+Garantează integritatea deterministă sub ipoteze criptografice definite.
 
 ---
 
-# 12. Conclusion
+# 9. Compatibilitate Retroactivă
 
-VIP-STD-001 defines the mandatory core integrity model of the VeriSeal Integrity Protocol.
+Reviziile minore viitoare TREBUIE să păstreze:
 
-It provides deterministic, reproducible, and implementation-agnostic digital integrity verification.
+- Determinismul canonicalizării
+- Compatibilitatea SHA-256
+- Reproductibilitatea verificării
+
+Schimbările majore necesită incrementarea versiunii.
+
+---
+
+# 10. Conformitate
+
+Un sistem este conform cu VIP-STD-001 dacă:
+
+1. Implementează canonicalizarea conform Secțiunii 4  
+2. Calculează SHA-256 conform Secțiunii 5  
+3. Produce obiecte de dovadă conform Secțiunii 6  
+4. Verifică deterministic conform Secțiunii 7  
+
+Conformitatea cu profilurile de extensie este opțională.
+
+---
+
+# 11. Considerații de Securitate
+
+Securitatea VIP-STD-001 depinde de:
+
+- Forța criptografică a SHA-256
+- Implementarea corectă a canonicalizării
+- Protecția împotriva vulnerabilităților de coliziune a hash-ului
+
+Ipotezele de amenințare sunt definite în VIP-THREAT-001.
+
+---
+
+# 12. Concluzie
+
+VIP-STD-001 definește modelul obligatoriu de integritate de bază al Protocolului de Integritate VeriSeal.
+
+Oferă verificare digitală a integrității care este deterministă, reproductibilă și independentă de implementare.

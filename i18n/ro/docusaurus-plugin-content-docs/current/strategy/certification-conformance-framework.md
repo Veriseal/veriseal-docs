@@ -1,85 +1,85 @@
 ---
-title: Certification & Conformance Framework
+title: Cadru de Certificare și Conformitate
 ---
 
-# Certification & Conformance Framework
+# Cadru de Certificare și Conformitate
 
-VeriSeal is designed to evolve from infrastructure solution  
-to integrity reference framework.
+VeriSeal este conceput să evolueze de la soluție de infrastructură  
+la cadru de referință pentru integritate.
 
-Certification ensures structural consistency.
-
----
-
-## Purpose
-
-The certification framework ensures that:
-
-- Implementations follow deterministic integrity rules
-- Verification remains reproducible across institutions
-- Governance principles are respected
-- Long-term archival compatibility is preserved
-
-Certification is not branding.
-It is structural assurance.
+Certificarea asigură consistența structurală.
 
 ---
 
-## Conformance Levels
+## Scop
 
-### Level 1 — Protocol Conformance
+Cadrul de certificare asigură că:
 
-- Correct hash generation
-- Ledger continuity
-- Deterministic verification reproducibility
-- Cryptographic integrity compliance
+- Implementările urmează reguli deterministe de integritate
+- Verificarea rămâne reproductibilă între instituții
+- Principiile de guvernanță sunt respectate
+- Compatibilitatea arhivării pe termen lung este păstrată
 
-Focus: technical correctness.
-
----
-
-### Level 2 — Governance Conformance
-
-- Audit logging requirements
-- Operational transparency
-- Role separation
-- Access control standards
-
-Focus: institutional robustness.
+Certificarea nu este branding.
+Este asigurare structurală.
 
 ---
 
-### Level 3 — Extended Integrity Compliance
+## Niveluri de Conformitate
 
-- Cross-border interoperability
-- Archival stability validation
-- Regulatory documentation alignment
-- Standard reporting compatibility
+### Nivelul 1 — Conformitate cu Protocolul
 
-Focus: systemic alignment.
+- Generare corectă a hash-ului
+- Continuitatea registrului
+- Reproductibilitatea deterministă a verificării
+- Conformitate cu integritatea criptografică
 
----
-
-## Certification Bodies
-
-Certification may be conducted by:
-
-- Independent accredited auditors
-- Sector-specific compliance bodies
-- Future VeriSeal Governance Council
-
-Long-term objective:
-Separation between commercial entity and certification authority.
+Focus: corectitudine tehnică.
 
 ---
 
-## Strategic Impact
+### Nivelul 2 — Conformitate cu Guvernanța
 
-Certification creates:
+- Cerințe de audit logging
+- Transparență operațională
+- Separarea rolurilor
+- Standarde de control al accesului
 
-- Trust reinforcement
-- Reduced integration friction
-- Cross-sector comparability
-- Early-stage standard ecosystem
+Focus: robustețe instituțională.
 
-Conformance is the bridge from product to protocol.
+---
+
+### Nivelul 3 — Conformitate Extinsă cu Integritatea
+
+- Interoperabilitate transfrontalieră
+- Validarea stabilității arhivării
+- Alinierea documentației de reglementare
+- Compatibilitate cu raportarea standard
+
+Focus: aliniere sistemică.
+
+---
+
+## Organisme de Certificare
+
+Certificarea poate fi realizată de:
+
+- Auditori independenți acreditați
+- Organisme de conformitate specifice sectorului
+- Viitorul Consiliu de Guvernanță VeriSeal
+
+Obiectiv pe termen lung:
+Separarea între entitatea comercială și autoritatea de certificare.
+
+---
+
+## Impact Strategic
+
+Certificarea creează:
+
+- Consolidarea încrederii
+- Reducerea fricțiunilor de integrare
+- Comparabilitate între sectoare
+- Ecosistem standard în stadiu incipient
+
+Conformitatea este puntea de la produs la protocol.

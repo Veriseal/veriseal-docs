@@ -1,55 +1,55 @@
 ---
-title: Sovereignty Model
-sidebar_label: 2.4 Sovereignty Model
+title: Modèle de Souveraineté
+sidebar_label: 2.4 Modèle de Souveraineté
 sidebar_position: 2.4
 ---
 
-# 2.4 Sovereignty Model
+# 2.4 Modèle de Souveraineté
 
-VeriSeal is designed for sovereign deployment.
+VeriSeal est conçu pour un déploiement souverain.
 
-Regulated institutions require:
+Les institutions réglementées nécessitent :
 
-- Jurisdictional control  
-- Key custody management  
-- Infrastructure sovereignty  
-- Compliance with national frameworks  
-
----
-
-## Deployable Integrity Layer
-
-VeriSeal can operate:
-
-- On-premise  
-- In sovereign cloud  
-- In hybrid infrastructure  
-
-Optional external anchoring does not compromise data location control.
+- Contrôle juridictionnel  
+- Gestion de la garde des clés  
+- Souveraineté de l'infrastructure  
+- Conformité aux cadres nationaux  
 
 ---
 
-## Key Management
+## Couche d'Intégrité Déployable
 
-Institutional deployments require:
+VeriSeal peut fonctionner :
 
-- Secure key custody  
-- Rotation procedures  
-- Separation of duties  
-- Audit logs  
+- Sur site  
+- Dans un cloud souverain  
+- Dans une infrastructure hybride  
 
-Key governance is first-class.
+L'ancrage externe optionnel ne compromet pas le contrôle de la localisation des données.
 
 ---
 
-## Regulatory Compatibility
+## Gestion des Clés
 
-The architecture supports:
+Les déploiements institutionnels nécessitent :
 
-- Banking regulation  
-- Public sector constraints  
-- Legal admissibility frameworks  
-- Cross-border compliance  
+- Garde sécurisée des clés  
+- Procédures de rotation  
+- Séparation des tâches  
+- Journaux d'audit  
 
-Sovereignty is not ideological.  
-It is operational.
+La gouvernance des clés est de premier ordre.
+
+---
+
+## Compatibilité Réglementaire
+
+L'architecture soutient :
+
+- Réglementation bancaire  
+- Contraintes du secteur public  
+- Cadres d'admissibilité légale  
+- Conformité transfrontalière  
+
+La souveraineté n'est pas idéologique.  
+Elle est opérationnelle.

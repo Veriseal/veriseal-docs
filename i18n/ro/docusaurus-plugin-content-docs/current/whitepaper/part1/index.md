@@ -1,24 +1,24 @@
 ---
 id: part1-index
-title: Part I — The Structural Integrity Gap
-sidebar_label: Part I — The Structural Integrity Gap
+title: Partea I — Lacuna de Integritate Structurală
+sidebar_label: Partea I — Lacuna de Integritate Structurală
 slug: /whitepaper/part1
 sidebar_position: 1
 ---
 
-# Part I — The Structural Integrity Gap
+# Partea I — Lacuna de Integritate Structurală
 
-Part I establishes the macro-structural foundation of this document.
+Partea I stabilește fundația macro-structurală a acestui document.
 
-It demonstrates that:
+Demonstrează că:
 
-- Digital dependence has become systemic.
-- Evidence has become economically foundational.
-- Existing mechanisms address fragments, not structure.
-- The absence of a deterministic integrity layer creates institutional fragility.
+- Dependența digitală a devenit sistemică.
+- Dovada a devenit fundamentală din punct de vedere economic.
+- Mecanismele existente abordează fragmente, nu structura.
+- Absența unui strat de integritate determinist creează fragilitate instituțională.
 
-The conclusion of Part I is unavoidable:
+Concluzia Partea I este inevitabilă:
 
-Digital economies require a standardized, globally interoperable integrity architecture.
+Economiile digitale necesită o arhitectură de integritate standardizată, interoperabilă la nivel global.
 
-The remainder of this document proposes such a framework.
+Restul acestui document propune un astfel de cadru.

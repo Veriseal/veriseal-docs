@@ -1,132 +1,130 @@
 ---
 id: core-thesis
-title: Core Thesis
-sidebar_label: Core Thesis
+title: Thèse Principale
+sidebar_label: Thèse Principale
 ---
 
-# Core Thesis
+# Thèse Principale
 
-## 1. The Structural Integrity Problem
+## 1. Le Problème de l'Intégrité Structurelle
 
-Modern economies operate on digital events:
+Les économies modernes fonctionnent sur des événements numériques :
 
-- Financial transactions  
-- Identity attestations  
-- Regulatory filings  
-- Media captures  
-- Authorizations  
-- Contractual exchanges  
+- Transactions financières  
+- Attestations d'identité  
+- Dépôts réglementaires  
+- Captures médiatiques  
+- Autorisations  
+- Échanges contractuels  
 
-These events are recorded.
+Ces événements sont enregistrés.
 
-But they are rarely independently verifiable.
+Mais ils sont rarement vérifiables de manière indépendante.
 
-Most infrastructures rely on:
+La plupart des infrastructures reposent sur :
 
-- Centralized databases  
-- Mutable logs  
-- Privileged administrators  
-- Platform-controlled timestamps  
-- Declarative attestations  
+- Bases de données centralisées  
+- Journaux modifiables  
+- Administrateurs privilégiés  
+- Horodatages contrôlés par la plateforme  
+- Attestations déclaratives  
 
-Digital systems are operationally efficient.  
-They are not structurally provable.
+Les systèmes numériques sont opérationnellement efficaces.  
+Ils ne sont pas prouvables structurellement.
 
-This creates systemic evidentiary fragility.
-
----
-
-## 2. The Infrastructure Gap
-
-The world has:
-
-- Payment networks  
-- Identity providers  
-- Signature platforms  
-- Messaging rails  
-- Compliance systems  
-
-What it lacks is a neutral, deterministic integrity infrastructure.
-
-Electronic signatures prove consent.  
-Audit logs record activity.  
-Blockchain networks maintain distributed state.
-
-None of these, by default, provide:
-
-- Deterministic canonicalization  
-- Reproducible event reconstruction  
-- Cross-system integrity binding  
-- Independent verification without privileged access  
-
-This is the missing layer VeriSeal addresses.
+Cela crée une fragilité systémique des preuves.
 
 ---
 
-## 3. The Thesis
+## 2. Le Fossé Infrastructurel
 
-VeriSeal is a deterministic cryptographic evidence infrastructure.
+Le monde dispose de :
 
-It transforms digital events into verifiable proof objects through:
+- Réseaux de paiement  
+- Fournisseurs d'identité  
+- Plateformes de signature  
+- Canaux de messagerie  
+- Systèmes de conformité  
 
-1. Canonical serialization  
-2. SHA-256 hashing  
-3. Append-only ledger entries  
-4. Hash chaining  
-5. Merkle commitments  
-6. Cryptographic signatures  
-7. Optional external anchoring  
+Ce qui manque, c'est une infrastructure d'intégrité neutre et déterministe.
 
-Verification does not depend on trusting VeriSeal.
+Les signatures électroniques prouvent le consentement.  
+Les journaux d'audit enregistrent l'activité.  
+Les réseaux blockchain maintiennent un état distribué.
 
-It depends on recomputation.
+Aucun de ceux-ci, par défaut, ne fournit :
 
-> Trust must not depend on the operator.  
-> It must depend on mathematics.
+- Canonicalisation déterministe  
+- Reconstruction d'événements reproductible  
+- Liaison d'intégrité inter-systèmes  
+- Vérification indépendante sans accès privilégié  
 
----
-
-## 4. Architectural Non-Negotiables
-
-VeriSeal is built on structural principles:
-
-- Append-only integrity  
-- Deterministic serialization  
-- Cryptographic chaining  
-- Governance separation  
-- Public verification capability  
-
-The system is designed to survive institutional failure.
+C'est la couche manquante que VeriSeal adresse.
 
 ---
 
-## 5. Strategic Implication
+## 3. La Thèse
 
-Digital infrastructure will increasingly be evaluated on one criterion:
+VeriSeal est une infrastructure de preuve cryptographique déterministe.
 
-Can its records be independently verified?
+Elle transforme les événements numériques en objets de preuve vérifiables grâce à :
 
-Over time, digital systems will divide into:
+1. Sérialisation canonique  
+2. Hachage SHA-256  
+3. Entrées de registre en ajout-seul  
+4. Chaînage de hachage  
+5. Engagements Merkle  
+6. Signatures cryptographiques  
+7. Ancrage externe optionnel  
 
-1. Systems that generate unverifiable logs  
-2. Systems that produce cryptographically provable events  
+La vérification ne dépend pas de la confiance en VeriSeal.
 
-VeriSeal is built for the second category.
+Elle dépend de la recalcul.
 
----
-
-## 6. Long-Term Vision
-
-VeriSeal aims to become:
-
-- A foundational integrity primitive  
-- A cross-sector verification layer  
-- A candidate global integrity standard  
-
-Not a workflow tool.  
-Not a signature competitor.  
-An infrastructure layer.
+> La confiance ne doit pas dépendre de l'opérateur.  
+> Elle doit dépendre des mathématiques.
 
 ---
 
-End of Document
+## 4. Principes Architecturaux Non Négociables
+
+VeriSeal est construit sur des principes structurels :
+
+- Intégrité en ajout-seul  
+- Sérialisation déterministe  
+- Chaînage cryptographique  
+- Séparation de la gouvernance  
+- Capacité de vérification publique  
+
+Le système est conçu pour survivre à une défaillance institutionnelle.
+
+---
+
+## 5. Implication Stratégique
+
+L'infrastructure numérique sera de plus en plus évaluée selon un critère :
+
+Ses enregistrements peuvent-ils être vérifiés de manière indépendante ?
+
+Avec le temps, les systèmes numériques se diviseront en :
+
+1. Systèmes qui génèrent des journaux non vérifiables  
+2. Systèmes qui produisent des événements prouvables cryptographiquement  
+
+VeriSeal est conçu pour la deuxième catégorie.
+
+---
+
+## 6. Vision à Long Terme
+
+VeriSeal vise à devenir :
+
+- Une primitive d'intégrité fondamentale  
+- Une couche de vérification intersectorielle  
+- Un candidat pour une norme mondiale d'intégrité  
+
+Pas un outil de flux de travail.  
+Pas un concurrent de signature.  
+Une couche d'infrastructure.
+
+---

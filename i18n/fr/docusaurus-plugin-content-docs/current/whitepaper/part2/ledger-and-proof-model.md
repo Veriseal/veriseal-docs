@@ -1,67 +1,67 @@
 ---
-title: Ledger & Proof Model
-sidebar_label: 2.2 Ledger & Proof Model
+title: Modèle de Registre & Preuve
+sidebar_label: 2.2 Modèle de Registre & Preuve
 slug: /whitepaper/part2/ledger-and-proof-model
 sidebar_position: 2.2
 ---
 
-# 2.2 Ledger & Proof Model
+# 2.2 Modèle de Registre & Preuve
 
-The ledger is the structural backbone of VeriSeal.
+Le registre est la colonne vertébrale structurelle de VeriSeal.
 
-It is not a blockchain.
-It is a deterministic append-only integrity journal.
-
----
-
-## Proof Entry Structure
-
-Each proof entry contains:
-
-- proof_identifier (hash or merkle_root)
-- metadata reference
-- timestamp (UTC)
-- previous entry hash
-
-This creates chain continuity.
+Ce n'est pas une blockchain.
+C'est un journal d'intégrité déterministe à ajout unique.
 
 ---
 
-## Immutability Principle
+## Structure d'Entrée de Preuve
 
-The ledger is:
+Chaque entrée de preuve contient :
 
-- Append-only  
-- Hash-linked  
-- Deterministic  
+- proof_identifier (hash ou merkle_root)
+- référence des métadonnées
+- horodatage (UTC)
+- hash de l'entrée précédente
 
-Any historical alteration invalidates forward continuity.
+Cela crée une continuité de chaîne.
 
 ---
 
-## Public Identifier Stability
+## Principe d'Immutabilité
 
-The proof identifier:
+Le registre est :
+
+- À ajout unique  
+- Lié par hash  
+- Déterministe  
+
+Toute altération historique invalide la continuité future.
+
+---
+
+## Stabilité de l'Identifiant Public
+
+L'identifiant de preuve :
 
 `{merkle_root}`
 
-Functions as:
+Fonctionne comme :
 
-- Permanent public reference
-- Cross-system integrity anchor
-- Audit-stable identifier
+- Référence publique permanente
+- Ancre d'intégrité inter-systèmes
+- Identifiant stable pour l'audit
 
-It must remain stable over time.
+Il doit rester stable dans le temps.
 
 ---
 
-## Institutional Advantage
+## Avantage Institutionnel
 
-Unlike blockchain-based systems:
+Contrairement aux systèmes basés sur la blockchain :
 
-- No probabilistic consensus
-- No fork instability
-- No dependency on external miners
+- Pas de consensus probabiliste
+- Pas d'instabilité de fork
+- Pas de dépendance aux mineurs externes
 
-Integrity is mathematical.
-Not political.
+L'intégrité est mathématique.
+Pas politique.

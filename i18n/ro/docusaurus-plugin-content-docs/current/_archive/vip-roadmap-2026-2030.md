@@ -1,236 +1,236 @@
 ---
-title: VIP-ROADMAP-2026-2030 - Global Adoption Roadmap
-sidebar_label: Adoption Roadmap 2026-2030
+title: VIP-ROADMAP-2026-2030 - Foaia de parcurs pentru adoptare globală
+sidebar_label: Foaia de parcurs pentru adoptare 2026-2030
 ---
 
-# VIP-ROADMAP-2026-2030 - Global Adoption Roadmap
+# VIP-ROADMAP-2026-2030 - Foaia de parcurs pentru adoptare globală
 
-Version: 1.0
-Status: Strategic Planning Document
-Classification: Standardization & Adoption Roadmap
-
----
-
-## 1. Objective
-
-This roadmap outlines the progressive adoption path of the VeriSeal Integrity Protocol (VIP) suite between 2026 and 2030.
-
-It defines:
-
-- Phased deployment strategy
-- Sector-based expansion
-- Institutional engagement milestones
-- Regulatory dialogue objectives
-- International harmonization pathway
-
-The roadmap assumes progressive, voluntary adoption.
-
-It does not assume regulatory mandate.
+Versiune: 1.0
+Stare: Document de planificare strategică
+Clasificare: Foaie de parcurs pentru standardizare și adoptare
 
 ---
 
-## 2. Phase I - Foundational Adoption (2026)
+## 1. Obiectiv
+
+Această foaie de parcurs conturează calea progresivă de adoptare a suitei VeriSeal Integrity Protocol (VIP) între 2026 și 2030.
+
+Definește:
+
+- Strategia de implementare etapizată
+- Expansiunea pe sectoare
+- Etapele de implicare instituțională
+- Obiectivele dialogului de reglementare
+- Calea de armonizare internațională
+
+Foaia de parcurs presupune o adoptare progresivă și voluntară.
+
+Nu presupune un mandat de reglementare.
+
+---
+
+## 2. Faza I - Adoptare fundamentală (2026)
 
 ## 2.1 Focus
 
-- Early institutional pilots
-- Sector-specific deployment
-- Technical validation
-- Risk-based use cases
+- Proiecte pilot instituționale timpurii
+- Implementare specifică pe sectoare
+- Validare tehnică
+- Cazuri de utilizare bazate pe risc
 
-Primary targets:
+Ținte principale:
 
-- Financial institutions
-- Insurance firms
-- Notarial associations
-- High-value document issuers
-
----
-
-## 2.2 Objectives
-
-- Validate deterministic reproducibility
-- Demonstrate fraud-by-modification reduction
-- Publish public key registry pilots
-- Document dispute resolution improvements
-- Produce independent audit case studies
-
-Deliverables:
-
-- Public pilot case reports
-- Institutional feedback integration
-- Security assessment reviews
+- Instituții financiare
+- Companii de asigurări
+- Asociații notariale
+- Emitenți de documente de mare valoare
 
 ---
 
-## 3. Phase II - Cross-Institution Interoperability (2027)
+## 2.2 Obiective
+
+- Validarea reproductibilității deterministe
+- Demonstrerea reducerii fraudei prin modificare
+- Publicarea proiectelor pilot ale registrului de chei publice
+- Documentarea îmbunătățirilor în soluționarea disputelor
+- Producerea de studii de caz de audit independent
+
+Livrabile:
+
+- Rapoarte de caz publice pilot
+- Integrarea feedback-ului instituțional
+- Recenzii de evaluare a securității
+
+---
+
+## 3. Faza II - Interoperabilitate între instituții (2027)
 
 ## 3.1 Focus
 
-- Interbank verification pilots
-- Multi-institution registry participation
-- Cross-border document validation tests
-- Industry consortium engagement
+- Proiecte pilot de verificare interbancară
+- Participarea la registrul multi-instituțional
+- Teste de validare a documentelor transfrontaliere
+- Implicarea consorțiului industrial
 
-Primary targets:
+Ținte principale:
 
-- Banking federations
-- Insurance networks
-- Trade documentation platforms
-- Regulatory observers
-
----
-
-## 3.2 Objectives
-
-- Demonstrate cross-institution verification without bilateral APIs
-- Validate registry interoperability
-- Establish governance best practices
-- Publish inter-operational validation studies
-
-Key milestone:
-
-First multi-institution interoperability network using VIP-STF-005 + VIP-REG-006.
+- Federații bancare
+- Rețele de asigurări
+- Platforme de documentare comercială
+- Observatori de reglementare
 
 ---
 
-## 4. Phase III - Regulatory Dialogue & Formalization (2028)
+## 3.2 Obiective
+
+- Demonstrerea verificării între instituții fără API-uri bilaterale
+- Validarea interoperabilității registrului
+- Stabilirea celor mai bune practici de guvernanță
+- Publicarea studiilor de validare inter-operațională
+
+Etapă cheie:
+
+Prima rețea de interoperabilitate multi-instituțională folosind VIP-STF-005 + VIP-REG-006.
+
+---
+
+## 4. Faza III - Dialog de reglementare și formalizare (2028)
 
 ## 4.1 Focus
 
-- Engagement with regulatory bodies
-- Participation in working groups
-- Technical advisory inclusion
-- ISO-style specification refinement
+- Implicarea cu organismele de reglementare
+- Participarea la grupuri de lucru
+- Incluziunea în consiliere tehnică
+- Rafinația specificațiilor în stil ISO
 
-Potential stakeholders:
+Potențiali părți interesate:
 
-- National banking regulators
-- Trade standardization bodies
-- Digital identity agencies
-- International standardization committees
-
----
-
-## 4.2 Objectives
-
-- Align terminology with regulatory frameworks
-- Refine governance requirements
-- Formalize compliance language
-- Publish normative specification drafts
-
-VIP transitions from pilot ecosystem
-to structured candidate standard.
+- Regulatori bancari naționali
+- Organisme de standardizare comercială
+- Agenții de identitate digitală
+- Comitete internaționale de standardizare
 
 ---
 
-## 5. Phase IV - Industry-Wide Sector Expansion (2029)
+## 4.2 Obiective
+
+- Alinierea terminologiei cu cadrele de reglementare
+- Rafinația cerințelor de guvernanță
+- Formalizarea limbajului de conformitate
+- Publicarea proiectelor de specificații normative
+
+VIP trece de la ecosistemul pilot
+la standard candidat structurat.
+
+---
+
+## 5. Faza IV - Expansiune sectorială la nivel industrial (2029)
 
 ## 5.1 Focus
 
-- Healthcare integration
-- Public procurement digitization
-- Supply chain verification
-- Platform integrity reinforcement
+- Integrarea în sănătate
+- Digitalizarea achizițiilor publice
+- Verificarea lanțului de aprovizionare
+- Consolidarea integrității platformei
 
-Adoption expands beyond finance.
-
----
-
-## 5.2 Objectives
-
-- Demonstrate cross-sector consistency
-- Publish sector-specific compliance mappings
-- Reduce manual document verification cost
-- Increase registry participation diversity
-
-Network effects begin to compound.
+Adoptarea se extinde dincolo de finanțe.
 
 ---
 
-## 6. Phase V - International Harmonization (2030)
+## 5.2 Obiective
+
+- Demonstrerea consistenței între sectoare
+- Publicarea mapărilor de conformitate specifice sectorului
+- Reducerea costului verificării manuale a documentelor
+- Creșterea diversității participării la registru
+
+Efectele de rețea încep să se compună.
+
+---
+
+## 6. Faza V - Armonizare internațională (2030)
 
 ## 6.1 Focus
 
-- Cross-jurisdiction registry interlinking
-- Standardization dialogue maturation
-- Consortium governance formalization
-- Global recognition potential
+- Interconectarea registrelor trans-jurisdicționale
+- Maturizarea dialogului de standardizare
+- Formalizarea guvernanței consorțiului
+- Potențialul de recunoaștere globală
 
 ---
 
-## 6.2 Objectives
+## 6.2 Obiective
 
-- Establish multi-registry federation
-- Publish formalized governance model
-- Define long-term maintenance framework
-- Support ISO-like pathway if viable
+- Stabilirea unei federații multi-registru
+- Publicarea unui model de guvernanță formalizat
+- Definirea unui cadru de întreținere pe termen lung
+- Susținerea unei căi similare ISO dacă este viabilă
 
-At this stage, VIP may function as:
+În acest stadiu, VIP poate funcționa ca:
 
-- Industry-recognized integrity specification
-- Cross-border document authenticity framework
-- Sovereign integrity infrastructure layer
-
----
-
-## 7. Guiding Principles
-
-Throughout 2026-2030:
-
-- No forced centralization
-- No proprietary lock-in
-- Open specification publication
-- Transparent governance evolution
-- Gradual trust accumulation
-
-Standards emerge from utility and reproducibility.
-
-Not from declaration.
+- Specificație de integritate recunoscută în industrie
+- Cadru de autenticitate a documentelor transfrontaliere
+- Strat de infrastructură de integritate suverană
 
 ---
 
-## 8. Risks & Constraints
+## 7. Principii directoare
 
-Potential risks include:
+Pe parcursul 2026-2030:
 
-- Key governance failures
-- Institutional inertia
-- Regulatory fragmentation
-- Competing proprietary ecosystems
-- Mischaracterization as blockchain dependency
+- Fără centralizare forțată
+- Fără blocare proprietară
+- Publicarea specificațiilor deschise
+- Evoluția transparentă a guvernanței
+- Acumularea treptată a încrederii
 
-Mitigation strategy:
+Standardele apar din utilitate și reproductibilitate.
 
-- Clear documentation
-- Transparent threat modeling
-- Sector-specific education
-- Incremental adoption model
+Nu din declarație.
 
 ---
 
-## 9. Success Indicators
+## 8. Riscuri și constrângeri
 
-By 2030, success indicators may include:
+Riscuri potențiale includ:
 
-- Multi-sector institutional adoption
-- Cross-border registry interoperability
-- Documented reduction in modification fraud
-- Independent regulatory acknowledgment
-- Public recognition as integrity reference framework
+- Eșecuri cheie de guvernanță
+- Inerția instituțională
+- Fragmentarea reglementară
+- Ecosisteme proprietare concurente
+- Caracterizarea greșită ca dependență de blockchain
+
+Strategie de atenuare:
+
+- Documentație clară
+- Modelare transparentă a amenințărilor
+- Educație specifică sectorului
+- Model de adoptare incrementală
 
 ---
 
-## 10. Conclusion
+## 9. Indicatori de succes
 
-VIP adoption is designed to be progressive, voluntary, and technically grounded.
+Până în 2030, indicatorii de succes pot include:
 
-The roadmap does not predict dominance.
+- Adoptarea instituțională multi-sectorială
+- Interoperabilitatea registrului transfrontalier
+- Reducerea documentată a fraudei prin modificare
+- Recunoașterea independentă de reglementare
+- Recunoașterea publică ca cadru de referință pentru integritate
 
-It outlines structured maturation.
+---
 
-If integrity becomes a structural requirement of digital institutions,
-a deterministic, layered, infrastructure-neutral protocol
-has the structural properties required for global harmonization.
+## 10. Concluzie
 
-Standards emerge through reproducibility, interoperability, and trust accumulation.
+Adoptarea VIP este concepută să fie progresivă, voluntară și fundamentată tehnic.
+
+Foaia de parcurs nu prezice dominația.
+
+Ea conturează maturizarea structurată.
+
+Dacă integritatea devine o cerință structurală a instituțiilor digitale,
+un protocol determinist, stratificat, neutru din punct de vedere al infrastructurii
+are proprietățile structurale necesare pentru armonizarea globală.
+
+Standardele apar prin reproductibilitate, interoperabilitate și acumularea încrederii.

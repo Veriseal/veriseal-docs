@@ -1,55 +1,55 @@
 ---
-title: Sovereignty Model
-sidebar_label: 2.4 Sovereignty Model
+title: Model de Suveranitate
+sidebar_label: 2.4 Model de Suveranitate
 sidebar_position: 2.4
 ---
 
-# 2.4 Sovereignty Model
+# 2.4 Model de Suveranitate
 
-VeriSeal is designed for sovereign deployment.
+VeriSeal este conceput pentru implementare suverană.
 
-Regulated institutions require:
+Instituțiile reglementate necesită:
 
-- Jurisdictional control  
-- Key custody management  
-- Infrastructure sovereignty  
-- Compliance with national frameworks  
-
----
-
-## Deployable Integrity Layer
-
-VeriSeal can operate:
-
-- On-premise  
-- In sovereign cloud  
-- In hybrid infrastructure  
-
-Optional external anchoring does not compromise data location control.
+- Control jurisdicțional  
+- Gestionarea custodiei cheilor  
+- Suveranitatea infrastructurii  
+- Conformitate cu cadrele naționale  
 
 ---
 
-## Key Management
+## Strat de Integritate Implementabil
 
-Institutional deployments require:
+VeriSeal poate opera:
 
-- Secure key custody  
-- Rotation procedures  
-- Separation of duties  
-- Audit logs  
+- La sediu  
+- În cloud suveran  
+- În infrastructură hibridă  
 
-Key governance is first-class.
+Ancorarea externă opțională nu compromite controlul locației datelor.
 
 ---
 
-## Regulatory Compatibility
+## Gestionarea Cheilor
 
-The architecture supports:
+Implementările instituționale necesită:
 
-- Banking regulation  
-- Public sector constraints  
-- Legal admissibility frameworks  
-- Cross-border compliance  
+- Custodie sigură a cheilor  
+- Proceduri de rotație  
+- Separarea atribuțiilor  
+- Jurnale de audit  
 
-Sovereignty is not ideological.  
-It is operational.
+Guvernanța cheilor este de primă clasă.
+
+---
+
+## Compatibilitate Reglementară
+
+Arhitectura suportă:
+
+- Reglementări bancare  
+- Constrângeri ale sectorului public  
+- Cadre de admisibilitate legală  
+- Conformitate transfrontalieră  
+
+Suveranitatea nu este ideologică.  
+Este operațională.

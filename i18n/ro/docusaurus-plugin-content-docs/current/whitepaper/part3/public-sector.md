@@ -1,73 +1,77 @@
+Traducerea documentului Markdown în limba română:
+
+Fișier: public-sector.md
+
 ---
 id: public-sector
-title: Public Sector & Institutional Integrity
+title: Sectorul Public & Integritatea Instituțională
 sidebar_position: 3.6
 ---
 
-# Public Sector & Institutional Integrity
+# Sectorul Public & Integritatea Instituțională
 
-## Structural Need
+## Necesitate Structurală
 
-Public institutions face:
+Instituțiile publice se confruntă cu:
 
-- Procurement disputes
-- Administrative record ambiguity
-- Cross-ministry data inconsistency
-- Long-term archival vulnerability
-- Transparency pressure
+- Dispute de achiziții
+- Ambiguitate în înregistrările administrative
+- Inconsistență a datelor între ministere
+- Vulnerabilitate arhivistică pe termen lung
+- Presiunea transparenței
 
-Integrity failures erode institutional trust.
-
----
-
-## Deployment Scenarios
-
-VeriSeal supports:
-
-- Procurement documentation sealing
-- Administrative decision traceability
-- Public archive integrity
-- Inter-agency verification logic
-- Public record defensibility
-
-It operates beneath political layers.
-
-It reinforces structural integrity.
+Eșecurile de integritate erodează încrederea instituțională.
 
 ---
 
-## Sovereign Deployment
+## Scenarii de Implementare
 
-Public entities may deploy:
+VeriSeal sprijină:
 
-- Sovereign on-premise nodes
-- Controlled infrastructure
-- Hybrid models
-- Public-private frameworks
+- Sigilarea documentației de achiziții
+- Trasabilitatea deciziilor administrative
+- Integritatea arhivelor publice
+- Logica de verificare inter-agenții
+- Apărarea înregistrărilor publice
 
-Verification logic remains consistent.
+Funcționează sub straturile politice.
 
----
-
-## Transparency Without Exposure
-
-VeriSeal enables:
-
-- Proof publication without data exposure
-- Hash-based validation
-- Independent verification
-- Controlled disclosure
-
-Transparency becomes technical, not rhetorical.
+Consolidează integritatea structurală.
 
 ---
 
-## Strategic Value
+## Implementare Suverană
 
-Public sector adoption:
+Entitățile publice pot implementa:
 
-- Enhances legitimacy
-- Reduces interpretive ambiguity
-- Demonstrates governance compatibility
+- Noduri suverane pe-premisă
+- Infrastructură controlată
+- Modele hibride
+- Cadre public-private
 
-This is a key step toward international standard consideration.
+Logica de verificare rămâne consecventă.
+
+---
+
+## Transparență Fără Expunere
+
+VeriSeal permite:
+
+- Publicarea dovezilor fără expunerea datelor
+- Validare bazată pe hash
+- Verificare independentă
+- Dezvăluire controlată
+
+Transparența devine tehnică, nu retorică.
+
+---
+
+## Valoare Strategică
+
+Adoptarea în sectorul public:
+
+- Îmbunătățește legitimitatea
+- Reduce ambiguitatea interpretativă
+- Demonstrează compatibilitatea cu guvernanța
+
+Acesta este un pas cheie către considerarea standardului internațional.

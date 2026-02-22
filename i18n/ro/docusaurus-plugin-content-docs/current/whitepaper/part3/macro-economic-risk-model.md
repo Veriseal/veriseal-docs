@@ -1,87 +1,87 @@
 ---
 id: macro-economic-risk-model
-title: Macro-Economic Risk Model
+title: Model de Risc Macro-Economic
 sidebar_position: 3.1
 ---
 
-# Macro-Economic Risk Model
+# Model de Risc Macro-Economic
 
-## The Hidden Cost of Digital Uncertainty
+## Costul Ascuns al Incertitudinii Digitale
 
-Modern institutions operate in a condition of structural digital ambiguity.
+Instituțiile moderne operează într-o condiție de ambiguitate digitală structurală.
 
-This produces systemic cost through:
+Aceasta produce costuri sistemice prin:
 
-- Litigation exposure
-- Fraud-related ambiguity
-- Compliance overhead
-- Audit friction
-- Operational redundancy
-- Cross-system reconciliation
+- Expunere la litigii
+- Ambiguitate legată de fraudă
+- Suprasarcină de conformitate
+- Fricțiune în audit
+- Redundanță operațională
+- Reconciliere între sisteme
 
-This accumulated burden can be defined as:
+Această povară acumulată poate fi definită ca:
 
-**The Digital Uncertainty Cost.**
-
----
-
-## Structural Friction
-
-Digital uncertainty manifests as:
-
-- Timestamp inconsistency across systems
-- Integrity disputes over documents
-- Vendor-dependent verification
-- Inability to independently validate evidence
-
-The result is not merely fraud risk.
-
-It is systemic verification friction.
+**Costul Incertitudinii Digitale.**
 
 ---
 
-## Uncertainty Compression as Infrastructure
+## Fricțiune Structurală
 
-VeriSeal compresses uncertainty by sealing integrity at creation time.
+Incertitudinea digitală se manifestă ca:
 
-Core mechanisms:
+- Inconsistență a marcajelor de timp între sisteme
+- Dispute de integritate asupra documentelor
+- Verificare dependentă de furnizor
+- Incapacitatea de a valida independent dovezile
 
-- Deterministic hashing
-- Append-only ledger chaining
-- Public JSON canonical output
-- Vendor-independent verification
-- Optional external timestamp anchoring
+Rezultatul nu este doar riscul de fraudă.
 
-It does not eliminate fraud.
-
-It reduces interpretive ambiguity.
+Este fricțiunea sistemică de verificare.
 
 ---
 
-## Economic Scaling Effect
+## Compresia Incertitudinii ca Infrastructură
 
-Infrastructure produces non-linear impact.
+VeriSeal comprimă incertitudinea prin sigilarea integrității la momentul creării.
 
-Even marginal reductions in:
+Mecanisme de bază:
 
-- dispute time,
-- verification effort,
-- reconciliation overhead,
+- Hashing determinist
+- Înlănțuire de registre doar în adăugare
+- Ieșire canonică JSON publică
+- Verificare independentă de furnizor
+- Ancorare opțională a marcajului de timp extern
 
-when multiplied across high-volume institutions, generate significant economic effect.
+Nu elimină frauda.
 
-Uncertainty compression becomes macro-economic leverage.
+Reduce ambiguitatea interpretativă.
 
 ---
 
-## Strategic Implication
+## Efectul de Scalare Economică
 
-A global integrity infrastructure is not a niche tool.
+Infrastructura produce un impact neliniar.
 
-It becomes a horizontal layer that:
+Chiar și reduceri marginale în:
 
-- reduces systemic friction,
-- strengthens institutional defensibility,
-- enables shared verification logic across sectors.
+- timpul de dispută,
+- efortul de verificare,
+- suprasarcina de reconciliere,
 
-This is the foundation for standardization.
+când sunt multiplicate în instituții cu volum mare, generează un efect economic semnificativ.
+
+Compresia incertitudinii devine o pârghie macro-economică.
+
+---
+
+## Implicație Strategică
+
+O infrastructură globală de integritate nu este un instrument de nișă.
+
+Devine un strat orizontal care:
+
+- reduce fricțiunea sistemică,
+- întărește apărarea instituțională,
+- permite logica de verificare partajată între sectoare.
+
+Aceasta este fundația pentru standardizare.

@@ -1,40 +1,40 @@
 ---
 id: evidence-economy
-title: The Evidence Economy
-sidebar_label: 1.3 The Evidence Economy
+title: Economia Dovada
+sidebar_label: 1.3 Economia Dovada
 slug: /whitepaper/part1/evidence-economy
 sidebar_position: 3
 ---
 
-# The Evidence Economy
+# Economia Dovada
 
-Digital evidence is no longer peripheral.
+Dovada digitală nu mai este periferică.
 
-It is foundational to economic systems.
+Este fundamentală pentru sistemele economice.
 
-Credit risk assessment, regulatory supervision, insurance adjudication, public procurement, and international trade all rely on digital attestations.
+Evaluarea riscului de credit, supravegherea reglementară, adjudecarea asigurărilor, achizițiile publice și comerțul internațional se bazează toate pe atestări digitale.
 
-The integrity of these attestations now carries:
+Integritatea acestor atestări are acum:
 
-- Financial consequences
-- Legal consequences
-- Political consequences
+- Consecințe financiare
+- Consecințe legale
+- Consecințe politice
 
-As economies digitize, evidence becomes an economic primitive.
+Pe măsură ce economiile se digitalizează, dovada devine un primitiv economic.
 
-Yet evidence remains structurally fragmented.
+Cu toate acestea, dovada rămâne structural fragmentată.
 
-No internationally recognized integrity standard governs:
+Niciun standard internațional recunoscut de integritate nu guvernează:
 
-- Cross-platform proof normalization
-- Deterministic verification
-- Long-term append-only integrity
-- Sovereign-compatible deployment models
+- Normalizarea dovezilor între platforme
+- Verificarea deterministă
+- Integritatea pe termen lung doar în adăugare
+- Modele de implementare compatibile cu suveranitatea
 
-This creates a paradox:
+Acest lucru creează un paradox:
 
-The economy depends on digital evidence.
+Economia depinde de dovada digitală.
 
-But digital evidence lacks standardized structural integrity.
+Dar dovada digitală nu are integritate structurală standardizată.
 
-The evolution from digitalization to evidence-driven economies requires a globally interoperable integrity layer.
+Evoluția de la digitalizare la economii bazate pe dovezi necesită un strat de integritate interoperabil la nivel global.

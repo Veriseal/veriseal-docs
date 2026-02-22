@@ -1,319 +1,319 @@
 ---
 id: verification
-title: Verification
+title: Verificare
 ---
 
 ﻿---
-title: Verification & Audit FAQ
-sidebar_label: Verification & Audit
+title: Întrebări frecvente despre verificare și audit
+sidebar_label: Verificare și audit
 ---
 
-# Verification & Audit FAQ
+# Întrebări frecvente despre verificare și audit
 
-This section explains how integrity verification works within the VeriSeal framework.
+Această secțiune explică modul în care funcționează verificarea integrității în cadrul framework-ului VeriSeal.
 
-Verification is deterministic.
+Verificarea este deterministă.
 
-It does not depend on trust.
-
----
-
-## 1. What does verification mean in VeriSeal?
-
-Verification means:
-
-Recomputing the hash of a canonical proof object
-and confirming that it matches the recorded integrity value.
-
-If the values match:
-
-The record has not been altered since sealing.
+Nu depinde de încredere.
 
 ---
 
-## 2. Does verification require proprietary infrastructure?
+## 1. Ce înseamnă verificarea în VeriSeal?
 
-No.
+Verificarea înseamnă:
 
-Verification requires only:
+Recalcularea hash-ului unui obiect de dovadă canonic
+și confirmarea că acesta corespunde cu valoarea de integritate înregistrată.
 
-- The canonical proof object
-- The hash algorithm (SHA-256)
-- The documented protocol rules
+Dacă valorile corespund:
 
-No proprietary network or vendor permission is required.
-
----
-
-## 3. Can verification be performed independently?
-
-Yes.
-
-Independent parties may:
-
-- Reconstruct the canonical object
-- Recompute the SHA-256 hash
-- Validate integrity consistency
-- Validate optional chain continuity
-- Validate optional signature binding
-
-Verification is vendor-neutral.
+Înregistrarea nu a fost modificată de la sigilare.
 
 ---
 
-## 4. Can regulators verify proofs themselves?
+## 2. Necesită verificarea infrastructură proprietară?
 
-Yes.
+Nu.
 
-Regulators do not require:
+Verificarea necesită doar:
 
-- Network membership
-- Token access
-- Vendor approval
-- Centralized database access
+- Obiectul de dovadă canonic
+- Algoritmul de hash (SHA-256)
+- Regulile protocolului documentat
 
-Verification can be performed using documented rules.
-
----
-
-## 5. What happens if verification fails?
-
-If recomputed hash differs:
-
-- The record has changed
-- The canonical structure has been altered
-- Integrity is compromised
-
-Verification failure indicates structural inconsistency.
-
-It does not automatically determine intent.
+Nu este necesară nicio rețea proprietară sau permisiune de la un furnizor.
 
 ---
 
-## 6. Can verification detect partial data manipulation?
+## 3. Poate verificarea fi efectuată independent?
 
-Yes.
+Da.
 
-Any change in:
+Părțile independente pot:
 
-- Content
-- Metadata included in canonical object
-- Timestamp field
-- Structural ordering
+- Reconstrui obiectul canonic
+- Recalcula hash-ul SHA-256
+- Valida consistența integrității
+- Valida continuitatea opțională a lanțului
+- Valida legătura opțională a semnăturii
 
-Will produce a different hash.
-
-Even minimal changes are detectable.
-
----
-
-## 7. Does verification confirm authenticity?
-
-No.
-
-Verification confirms integrity.
-
-Authenticity (identity binding) requires:
-
-- Digital signature
-- Identity assurance mechanisms
-- Qualified signature schemes (where applicable)
-
-Integrity and authenticity are distinct properties.
+Verificarea este neutră față de furnizor.
 
 ---
 
-## 8. Can verification confirm chronology?
+## 4. Pot autoritățile de reglementare să verifice singure dovezile?
 
-Chronology may be reinforced when:
+Da.
 
-- Timestamp fields are included
-- Event chaining is enabled
-- External anchoring is used
+Autoritățile de reglementare nu necesită:
 
-Verification can confirm structural consistency of chronological claims.
+- Calitatea de membru al rețelei
+- Acces la token-uri
+- Aprobarea furnizorului
+- Acces la baza de date centralizată
 
-It does not create statutory time authority.
-
----
-
-## 9. Does verification depend on consensus mechanisms?
-
-No.
-
-Verification is local and deterministic.
-
-It does not require:
-
-- Validator agreement
-- Network synchronization
-- Token consensus
-
-Integrity is mathematical, not social.
+Verificarea poate fi efectuată folosind regulile documentate.
 
 ---
 
-## 10. Can verification be automated?
+## 5. Ce se întâmplă dacă verificarea eșuează?
 
-Yes.
+Dacă hash-ul recalculat diferă:
 
-Verification can be:
+- Înregistrarea a fost modificată
+- Structura canonică a fost alterată
+- Integritatea este compromisă
 
-- Scripted
-- Integrated into audit pipelines
-- Embedded into compliance workflows
-- Used in automated reconciliation systems
+Eșecul verificării indică o inconsistență structurală.
 
-It supports machine-based validation.
-
----
-
-## 11. Is verification scalable?
-
-Yes.
-
-SHA-256 hashing is computationally efficient.
-
-Verification can scale across:
-
-- High-volume transaction systems
-- Enterprise records
-- Sector-wide deployments
-
-Scalability depends on integration design.
+Nu determină automat intenția.
 
 ---
 
-## 12. Can verification operate in air-gapped environments?
+## 6. Poate verificarea detecta manipularea parțială a datelor?
 
-Yes.
+Da.
 
-Verification requires:
+Orice schimbare în:
 
-- Canonical object
-- Hash algorithm
-- Documented rules
+- Conținut
+- Metadate incluse în obiectul canonic
+- Câmpul de timp
+- Ordinea structurală
 
-No internet connectivity is required.
+Va produce un hash diferit.
 
----
-
-## 13. What happens if the ledger is corrupted?
-
-Individual proof verification remains possible.
-
-Ledger corruption affects:
-
-- Chain continuity validation
-- Event sequence reconstruction
-
-It does not invalidate recomputation of individual proof hashes.
+Chiar și schimbările minime sunt detectabile.
 
 ---
 
-## 14. Can multiple parties verify the same proof?
+## 7. Confirmă verificarea autenticitatea?
 
-Yes.
+Nu.
 
-Any party with access to:
+Verificarea confirmă integritatea.
 
-- The canonical object
-- The proof hash
+Autenticitatea (legătura de identitate) necesită:
 
-Can independently verify integrity.
+- Semnătură digitală
+- Mecanisme de asigurare a identității
+- Scheme de semnătură calificată (unde este aplicabil)
 
-Verification is reproducible across environments.
-
----
-
-## 15. Does verification prove that the content is true?
-
-No.
-
-Verification proves:
-
-That the content has not changed since sealing.
-
-It does not prove:
-
-- Factual correctness
-- Legal validity
-- Identity authenticity (unless signed)
-
-Integrity is not truth validation.
+Integritatea și autenticitatea sunt proprietăți distincte.
 
 ---
 
-## 16. Can verification support expert judicial analysis?
+## 8. Poate verificarea confirma cronologia?
 
-Yes.
+Cronologia poate fi întărită când:
 
-Because verification is:
+- Câmpurile de timp sunt incluse
+- Lanțul de evenimente este activat
+- Ancorarea externă este utilizată
 
-- Deterministic
-- Reproducible
-- Hash-based
-- Technology-neutral
+Verificarea poate confirma consistența structurală a revendicărilor cronologice.
 
-Experts can independently:
-
-- Recompute hashes
-- Validate structure
-- Confirm chain consistency (if used)
-
-Judicial interpretation remains jurisdiction-dependent.
+Nu creează autoritate temporală statutară.
 
 ---
 
-## 17. Can verification be integrated into audit processes?
+## 9. Depinde verificarea de mecanismele de consens?
 
-Yes.
+Nu.
 
-Verification can support:
+Verificarea este locală și deterministă.
 
-- Internal audit review
-- Compliance validation
-- Regulatory inspections
-- Forensic investigations
+Nu necesită:
 
-It strengthens structural audit defensibility.
+- Acordul validatorilor
+- Sincronizarea rețelei
+- Consensul token-urilor
 
----
-
-## 18. What risk does verification reduce?
-
-Verification reduces:
-
-- Undetected tampering risk
-- Record manipulation risk
-- Chronological dispute risk
-- Internal alteration exposure
-- Post-incident evidentiary fragility
-
-It strengthens institutional defensibility.
+Integritatea este matematică, nu socială.
 
 ---
 
-## 19. Does verification require long-term vendor access?
+## 10. Poate verificarea fi automatizată?
 
-No.
+Da.
 
-Verification relies on:
+Verificarea poate fi:
 
-- Publicly documented hashing algorithm
-- Documented canonicalization rules
-- Mathematical recomputation
+- Scriptată
+- Integrată în fluxurile de audit
+- Încorporată în fluxurile de conformitate
+- Utilizată în sistemele automate de reconciliere
 
-Vendor continuity is not required for validation.
+Suportă validarea bazată pe mașini.
 
 ---
 
-## 20. What is verification in one sentence?
+## 11. Este verificarea scalabilă?
 
-Verification confirms that a digital record remains
-exactly in the same structural state
-as when it was sealed.
+Da.
 
-Nothing more.
+Hash-ul SHA-256 este eficient din punct de vedere computațional.
 
-Nothing less.
+Verificarea poate scala în:
+
+- Sisteme de tranzacții cu volum mare
+- Înregistrări de întreprindere
+- Implementări la nivel de sector
+
+Scalabilitatea depinde de designul integrării.
+
+---
+
+## 12. Poate verificarea opera în medii izolate?
+
+Da.
+
+Verificarea necesită:
+
+- Obiectul canonic
+- Algoritmul de hash
+- Regulile documentate
+
+Nu este necesară conectivitatea la internet.
+
+---
+
+## 13. Ce se întâmplă dacă registrul este corupt?
+
+Verificarea individuală a dovezilor rămâne posibilă.
+
+Corupția registrului afectează:
+
+- Validarea continuității lanțului
+- Reconstrucția secvenței de evenimente
+
+Nu invalidează recalcularea hash-urilor individuale ale dovezilor.
+
+---
+
+## 14. Pot mai multe părți verifica aceeași dovadă?
+
+Da.
+
+Orice parte cu acces la:
+
+- Obiectul canonic
+- Hash-ul dovezii
+
+Poate verifica independent integritatea.
+
+Verificarea este reproductibilă în diferite medii.
+
+---
+
+## 15. Verificarea dovedește că conținutul este adevărat?
+
+Nu.
+
+Verificarea dovedește:
+
+Că conținutul nu s-a schimbat de la sigilare.
+
+Nu dovedește:
+
+- Corectitudinea factuală
+- Valabilitatea legală
+- Autenticitatea identității (dacă nu este semnată)
+
+Integritatea nu este validarea adevărului.
+
+---
+
+## 16. Poate verificarea sprijini analiza judiciară de expertiză?
+
+Da.
+
+Deoarece verificarea este:
+
+- Deterministă
+- Reproductibilă
+- Bazată pe hash
+- Neutră din punct de vedere tehnologic
+
+Experții pot independent:
+
+- Recalcula hash-uri
+- Valida structura
+- Confirma consistența lanțului (dacă este utilizat)
+
+Interpretarea judiciară rămâne dependentă de jurisdicție.
+
+---
+
+## 17. Poate verificarea fi integrată în procesele de audit?
+
+Da.
+
+Verificarea poate sprijini:
+
+- Revizuirea auditului intern
+- Validarea conformității
+- Inspecțiile de reglementare
+- Investigațiile criminalistice
+
+Întărește apărarea structurală a auditului.
+
+---
+
+## 18. Ce risc reduce verificarea?
+
+Verificarea reduce:
+
+- Riscul de manipulare nedetectată
+- Riscul de manipulare a înregistrărilor
+- Riscul de dispute cronologice
+- Expunerea la alterări interne
+- Fragilitatea probelor post-incident
+
+Întărește apărarea instituțională.
+
+---
+
+## 19. Necesită verificarea acces pe termen lung la furnizor?
+
+Nu.
+
+Verificarea se bazează pe:
+
+- Algoritmul de hash documentat public
+- Regulile de canonizare documentate
+- Recalcularea matematică
+
+Continuitatea furnizorului nu este necesară pentru validare.
+
+---
+
+## 20. Ce este verificarea într-o singură propoziție?
+
+Verificarea confirmă că un înregistrare digitală rămâne
+exact în aceeași stare structurală
+ca atunci când a fost sigilată.
+
+Nimic mai mult.
+
+Nimic mai puțin.

@@ -1,297 +1,297 @@
 ---
-title: Sector Regulatory Mapping Matrix
-sidebar_label: Sector Regulatory Mapping
+title: Matrice de Cartografiere a Reglementărilor pe Sectoare
+sidebar_label: Cartografierea Reglementărilor pe Sectoare
 ---
 
-# Sector Regulatory Mapping Matrix
+# Matrice de Cartografiere a Reglementărilor pe Sectoare
 
-## Structural Integrity Contribution by Sector
+## Contribuția la Integritatea Structurală pe Sectoare
 
-This document maps VeriSeal's structural integrity properties
-against typical regulatory expectations across multiple sectors.
+Acest document cartografiază proprietățile de integritate structurală ale VeriSeal
+în raport cu așteptările tipice de reglementare din mai multe sectoare.
 
-VeriSeal does not replace regulatory frameworks.
-It reinforces structural integrity expectations.
-
----
-
-## Integrity Properties Provided by VeriSeal
-
-Core structural properties:
-
-- Deterministic canonicalization
-- SHA-256 based integrity hashing
-- Independent verification capability
-- Optional append-only continuity
-- Optional cryptographic signature binding
-- Optional external timestamp anchoring
-
-These properties contribute to regulatory objectives.
-
-They do not substitute regulatory compliance programs.
+VeriSeal nu înlocuiește cadrele de reglementare.
+Întărește așteptările de integritate structurală.
 
 ---
 
-## Financial Sector
+## Proprietăți de Integritate Furnizate de VeriSeal
 
-## Typical Regulatory Expectations
+Proprietăți structurale de bază:
 
-- Transaction integrity
-- Audit trail robustness
-- Record non-alteration
-- Operational resilience
-- Fraud mitigation controls
+- Canonicalizare deterministă
+- Hashing de integritate bazat pe SHA-256
+- Capacitate de verificare independentă
+- Continuitate opțională doar în adăugare
+- Legare opțională prin semnătură criptografică
+- Ancorare opțională a unui marcaj temporal extern
 
-## Structural Contribution
+Aceste proprietăți contribuie la obiectivele de reglementare.
 
-VeriSeal provides:
-
-- Deterministic proof of transaction state
-- Independent recomputation capability
-- Tamper detection reinforcement
-- Chronological continuity validation (optional)
-
-It does not provide:
-
-- Regulatory reporting
-- Capital adequacy controls
-- Risk modelling
-- Supervisory interface functionality
+Ele nu înlocuiesc programele de conformitate cu reglementările.
 
 ---
 
-## Insurance Sector
+## Sectorul Financiar
 
-## Typical Regulatory Expectations
+## Așteptări Tipice de Reglementare
 
-- Claim documentation integrity
-- Evidence preservation
-- Anti-fraud controls
-- Process traceability
+- Integritatea tranzacțiilor
+- Robusteză a traseului de audit
+- Non-alterarea înregistrărilor
+- Reziliență operațională
+- Controale de atenuare a fraudei
 
-## Structural Contribution
+## Contribuție Structurală
 
-VeriSeal provides:
+VeriSeal oferă:
 
-- Immutable claim documentation proofs
-- Independent evidence validation
-- Event continuity reinforcement
-- Timestamp corroboration (optional)
+- Dovadă deterministă a stării tranzacției
+- Capacitate de recalcul independentă
+- Întărirea detectării manipulărilor
+- Validarea continuității cronologice (opțional)
 
-It does not adjudicate claims.
+Nu oferă:
 
----
-
-## Healthcare Sector
-
-## Typical Regulatory Expectations
-
-- Medical record integrity
-- Clinical audit traceability
-- Non-alteration of treatment documentation
-- Evidence preservation
-
-## Structural Contribution
-
-VeriSeal provides:
-
-- Deterministic record integrity validation
-- Independent verification capability
-- Chronological continuity reinforcement
-
-It does not replace:
-
-- Access control systems
-- Encryption requirements
-- Patient consent management
+- Raportare de reglementare
+- Controale de adecvare a capitalului
+- Modelare a riscului
+- Funcționalitate de interfață de supraveghere
 
 ---
 
-## Legal & Notarial Sector
+## Sectorul Asigurărilor
 
-## Typical Regulatory Expectations
+## Așteptări Tipice de Reglementare
 
-- Document authenticity
-- Chronological consistency
-- Evidence admissibility
-- Record preservation
+- Integritatea documentației de revendicare
+- Păstrarea dovezilor
+- Controale anti-fraudă
+- Trasabilitatea procesului
 
-## Structural Contribution
+## Contribuție Structurală
 
-VeriSeal provides:
+VeriSeal oferă:
 
-- Deterministic document integrity proof
-- Independent verification capability
-- Optional timestamp corroboration
-- Chronological linkage reinforcement
+- Dovezi imuabile ale documentației de revendicare
+- Validare independentă a dovezilor
+- Întărirea continuității evenimentelor
+- Coroborarea marcajului temporal (opțional)
 
-Legal admissibility remains jurisdiction-dependent.
-
----
-
-## Public Procurement
-
-## Typical Regulatory Expectations
-
-- Tender immutability
-- Submission integrity
-- Anti-manipulation safeguards
-- Transparency reinforcement
-
-## Structural Contribution
-
-VeriSeal provides:
-
-- Submission state integrity proofs
-- Chronological continuity reinforcement
-- Independent verification capability
-
-It does not replace procurement governance procedures.
+Nu judecă revendicările.
 
 ---
 
-## Real Estate
+## Sectorul Sănătății
 
-## Typical Regulatory Expectations
+## Așteptări Tipice de Reglementare
 
-- Contract integrity
-- Transaction traceability
-- Evidence preservation
-- Chronological consistency
+- Integritatea dosarelor medicale
+- Trasabilitatea auditului clinic
+- Non-alterarea documentației de tratament
+- Păstrarea dovezilor
 
-## Structural Contribution
+## Contribuție Structurală
 
-VeriSeal provides:
+VeriSeal oferă:
 
-- Contract state integrity validation
-- Optional ledger continuity
-- Independent verification capability
+- Validare deterministă a integrității dosarelor
+- Capacitate de verificare independentă
+- Întărirea continuității cronologice
 
-It does not replace land registry systems.
+Nu înlocuiește:
 
----
-
-## Supply Chain
-
-## Typical Regulatory Expectations
-
-- Traceability
-- Record consistency
-- Audit defensibility
-- Anti-manipulation controls
-
-## Structural Contribution
-
-VeriSeal provides:
-
-- Event integrity proof
-- Batch validation capability
-- Independent recomputation
-- Optional chronological continuity
-
-It does not provide logistics management.
+- Sistemele de control al accesului
+- Cerințele de criptare
+- Gestionarea consimțământului pacientului
 
 ---
 
-## HR & Employment
+## Sectorul Juridic și Notarial
 
-## Typical Regulatory Expectations
+## Așteptări Tipice de Reglementare
 
-- Contract integrity
-- Record preservation
-- Dispute defensibility
-- Documentation traceability
+- Autenticitatea documentelor
+- Consistența cronologică
+- Admisibilitatea dovezilor
+- Păstrarea înregistrărilor
 
-## Structural Contribution
+## Contribuție Structurală
 
-VeriSeal provides:
+VeriSeal oferă:
 
-- Deterministic employment document integrity
-- Independent verification
-- Chronological linkage reinforcement
+- Dovadă deterministă a integrității documentelor
+- Capacitate de verificare independentă
+- Coroborare opțională a marcajului temporal
+- Întărirea legăturii cronologice
 
-It does not replace HR governance systems.
-
----
-
-## Digital Platforms & SaaS
-
-## Typical Regulatory Expectations
-
-- Data integrity controls
-- Audit traceability
-- Evidence preservation
-- Manipulation risk mitigation
-
-## Structural Contribution
-
-VeriSeal provides:
-
-- Structural event integrity
-- Independent verification endpoints
-- Tamper detection reinforcement
-
-It does not replace:
-
-- Platform moderation systems
-- Identity verification systems
+Admisibilitatea legală rămâne dependentă de jurisdicție.
 
 ---
 
-## Individuals & Creators
+## Achiziții Publice
 
-## Typical Expectations
+## Așteptări Tipice de Reglementare
 
-- Proof of authorship
-- Content integrity
-- Timestamp corroboration
-- Dispute defensibility
+- Imuabilitatea ofertelor
+- Integritatea depunerii
+- Măsuri de protecție anti-manipulare
+- Întărirea transparenței
 
-## Structural Contribution
+## Contribuție Structurală
 
-VeriSeal provides:
+VeriSeal oferă:
 
-- Deterministic content hashing
-- Independent proof verification
-- Optional anchoring reinforcement
+- Dovezi ale integrității stării depunerii
+- Întărirea continuității cronologice
+- Capacitate de verificare independentă
 
-It does not replace copyright law.
-
----
-
-## Cross-Sector Observations
-
-Across all sectors, VeriSeal contributes to:
-
-- Structural tamper detection
-- Deterministic integrity validation
-- Audit defensibility reinforcement
-- Chronological consistency (optional)
-- Independent third-party verification capability
-
-VeriSeal does not:
-
-- Replace governance
-- Replace regulation
-- Replace institutional responsibility
-- Interpret legal frameworks
-
-It strengthens the technical foundation.
+Nu înlocuiește procedurile de guvernanță a achizițiilor.
 
 ---
 
-## Conclusion
+## Imobiliare
 
-VeriSeal operates as a structural integrity reinforcement layer.
+## Așteptări Tipice de Reglementare
 
-Its cryptographic guarantees align with regulatory expectations related to:
+- Integritatea contractelor
+- Trasabilitatea tranzacțiilor
+- Păstrarea dovezilor
+- Consistența cronologică
 
-- Record integrity
-- Evidence reliability
-- Tamper detection
-- Chronological consistency
+## Contribuție Structurală
 
-Regulatory compliance remains sector-specific and jurisdiction-dependent.
+VeriSeal oferă:
 
-VeriSeal provides structural capability.
-Institutions implement regulatory responsibility.
+- Validarea integrității stării contractului
+- Continuitate opțională a registrului
+- Capacitate de verificare independentă
+
+Nu înlocuiește sistemele de registru funciar.
+
+---
+
+## Lanț de Aprovizionare
+
+## Așteptări Tipice de Reglementare
+
+- Trasabilitate
+- Consistența înregistrărilor
+- Apărarea auditului
+- Controale anti-manipulare
+
+## Contribuție Structurală
+
+VeriSeal oferă:
+
+- Dovadă a integrității evenimentelor
+- Capacitate de validare a loturilor
+- Recomputație independentă
+- Continuitate cronologică opțională
+
+Nu oferă management logistic.
+
+---
+
+## Resurse Umane și Ocupare
+
+## Așteptări Tipice de Reglementare
+
+- Integritatea contractelor
+- Păstrarea înregistrărilor
+- Apărarea disputelor
+- Trasabilitatea documentației
+
+## Contribuție Structurală
+
+VeriSeal oferă:
+
+- Integritate deterministă a documentelor de angajare
+- Verificare independentă
+- Întărirea legăturii cronologice
+
+Nu înlocuiește sistemele de guvernanță HR.
+
+---
+
+## Platforme Digitale și SaaS
+
+## Așteptări Tipice de Reglementare
+
+- Controale de integritate a datelor
+- Trasabilitatea auditului
+- Păstrarea dovezilor
+- Atenuarea riscului de manipulare
+
+## Contribuție Structurală
+
+VeriSeal oferă:
+
+- Integritatea structurală a evenimentelor
+- Puncte de verificare independentă
+- Întărirea detectării manipulărilor
+
+Nu înlocuiește:
+
+- Sistemele de moderare a platformei
+- Sistemele de verificare a identității
+
+---
+
+## Indivizi și Creatori
+
+## Așteptări Tipice
+
+- Dovadă a autoratului
+- Integritatea conținutului
+- Coroborarea marcajului temporal
+- Apărarea disputelor
+
+## Contribuție Structurală
+
+VeriSeal oferă:
+
+- Hashing determinist al conținutului
+- Verificare independentă a dovezilor
+- Întărire opțională a ancorării
+
+Nu înlocuiește legea drepturilor de autor.
+
+---
+
+## Observații Trans-Sectoriale
+
+În toate sectoarele, VeriSeal contribuie la:
+
+- Detectarea manipulărilor structurale
+- Validarea deterministă a integrității
+- Întărirea apărării auditului
+- Consistența cronologică (opțional)
+- Capacitate de verificare independentă de terți
+
+VeriSeal nu:
+
+- Înlocuiește guvernanța
+- Înlocuiește reglementarea
+- Înlocuiește responsabilitatea instituțională
+- Interpretează cadrele legale
+
+Întărește fundația tehnică.
+
+---
+
+## Concluzie
+
+VeriSeal funcționează ca un strat de întărire a integrității structurale.
+
+Garanțiile sale criptografice se aliniază cu așteptările de reglementare legate de:
+
+- Integritatea înregistrărilor
+- Fiabilitatea dovezilor
+- Detectarea manipulărilor
+- Consistența cronologică
+
+Conformitatea cu reglementările rămâne specifică sectorului și dependentă de jurisdicție.
+
+VeriSeal oferă capacitate structurală.
+Instituțiile implementează responsabilitatea de reglementare.

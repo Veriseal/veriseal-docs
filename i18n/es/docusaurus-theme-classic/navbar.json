@@ -1,22 +1,14 @@
 {
-  "title": {
-    "message": "VeriSeal",
-    "description": "The title in the navbar"
-  },
   "item.label.Infrastructure": {
-    "message": "Infrastructure",
-    "description": "Navbar item with label Infrastructure"
+    "message": "Infraestructura"
   },
   "item.label.Sectors": {
-    "message": "Sectors",
-    "description": "Navbar item with label Sectors"
+    "message": "Aplicaciones sectoriales"
   },
   "item.label.Standard": {
-    "message": "Standard",
-    "description": "Navbar item with label Standard"
+    "message": "Estándar"
   },
   "item.label.Regulatory": {
-    "message": "Regulatory",
-    "description": "Navbar item with label Regulatory"
+    "message": "Marco regulatorio"
   }
 }

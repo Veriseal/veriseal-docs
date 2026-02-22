@@ -1,184 +1,182 @@
-@'
 ---
 id: conformance-governance-model
-title: Conformance & Governance Model
+title: Model de Conformitate și Guvernanță
 sidebar_position: 2
 ---
 
-# Conformance & Governance Model
-## Pathway Toward a Globally Interoperable Evidence Layer
+# Model de Conformitate și Guvernanță
+## Cale către un Strat de Dovezi Interoperabil la Nivel Global
 
-If deterministic digital integrity is to become infrastructural, it cannot rely solely on proprietary deployment.
+Dacă integritatea digitală deterministă urmează să devină infrastructurală, nu poate depinde doar de implementarea proprietară.
 
-Infrastructure requires:
+Infrastructura necesită:
 
-- Reproducible verification procedures
-- Interoperable proof formats
-- Transparent conformance criteria
-- Governance neutrality
+- Proceduri de verificare reproductibile
+- Formate de dovadă interoperabile
+- Criterii de conformitate transparente
+- Neutralitate în guvernanță
 
-This document outlines a pathway toward such a framework.
-
----
-
-## 1. Conformance Model
-
-For an evidence infrastructure to scale globally, participating systems must satisfy objective criteria.
-
-### 1.1 Canonicalization Requirement
-
-Evidence must be transformed into a deterministic canonical format prior to hashing.
-
-Conformance requires:
-
-- Deterministic serialization
-- Stable field ordering
-- Explicit encoding rules
-
-Without canonicalization, hash reproducibility collapses.
+Acest document conturează o cale către un astfel de cadru.
 
 ---
 
-### 1.2 Cryptographic Integrity Requirement
+## 1. Model de Conformitate
 
-Conformance requires:
+Pentru ca o infrastructură de dovezi să se extindă la nivel global, sistemele participante trebuie să îndeplinească criterii obiective.
 
-- Use of publicly recognized cryptographic hash functions
-- Collision-resistant algorithms
-- Transparent algorithm specification
+### 1.1 Cerința de Canonicalizare
 
-The system must not rely on secret or proprietary hashing schemes.
+Dovezile trebuie transformate într-un format canonic determinist înainte de a fi hash-uite.
 
----
+Conformitatea necesită:
 
-### 1.3 Append-Only Integrity Record
+- Serializare deterministă
+- Ordine stabilă a câmpurilor
+- Reguli explicite de codificare
 
-Evidence fingerprints must be recorded in:
-
-- Append-only structures
-- Chronologically consistent sequences
-- Tamper-evident ledgers
-
-The ledger must allow independent verification of sequence integrity.
+Fără canonicalizare, reproductibilitatea hash-ului se prăbușește.
 
 ---
 
-### 1.4 Independent Timestamp Anchoring
+### 1.2 Cerința de Integritate Criptografică
 
-To prevent internal time manipulation, conformance requires:
+Conformitatea necesită:
 
-- External anchoring mechanisms
-- Independent time reference validation
-- Reproducible timestamp verification
+- Utilizarea funcțiilor hash criptografice recunoscute public
+- Algoritmi rezistenți la coliziuni
+- Specificații transparente ale algoritmului
 
-Timestamp authority must not be exclusively controlled by the issuing party.
-
----
-
-### 1.5 Public Verification Interface
-
-Infrastructure requires:
-
-- Publicly accessible verification endpoints
-- Deterministic verification procedures
-- Transparent proof bundle structure
-
-Verification must not require privileged internal access.
+Sistemul nu trebuie să se bazeze pe scheme de hash secrete sau proprietare.
 
 ---
 
-## 2. Evidence Object Model
+### 1.3 Înregistrare de Integritate Doar-Adăugare
 
-An interoperable evidence object should minimally include:
+Amprentele dovezilor trebuie înregistrate în:
 
-1. Canonicalized artifact
-2. Cryptographic hash
-3. Integrity record reference
-4. Timestamp proof
-5. Verification instructions
+- Structuri doar-adăugare
+- Secvențe cronologic consistente
+- Registre care evidențiază manipulările
 
-Standardization would formalize:
-
-- Field structure
-- Encoding format
-- Verification sequence
-- Error states
+Registrul trebuie să permită verificarea independentă a integrității secvenței.
 
 ---
 
-## 3. Governance Principles
+### 1.4 Ancorare Independentă a Timpului
 
-Infrastructure governance must ensure:
+Pentru a preveni manipularea internă a timpului, conformitatea necesită:
 
-### Neutrality
+- Mecanisme externe de ancorare
+- Validarea independentă a referinței temporale
+- Verificarea reproductibilă a marcajului temporal
 
-The evidence layer must not privilege specific sectors or jurisdictions.
-
-### Transparency
-
-Verification mechanisms must be publicly inspectable.
-
-### Reproducibility
-
-Third parties must independently reproduce verification results.
-
-### Technology Evolution
-
-Cryptographic agility must be built in to allow future algorithm upgrades.
+Autoritatea de marcare temporală nu trebuie să fie controlată exclusiv de partea emitentă.
 
 ---
 
-## 4. Standardization Pathway
+### 1.5 Interfață Publică de Verificare
 
-Standardization does not emerge instantly.
+Infrastructura necesită:
 
-A realistic trajectory includes:
+- Puncte de verificare accesibile public
+- Proceduri de verificare deterministe
+- Structură transparentă a pachetului de dovezi
 
-1. Commercial deployment
-2. Cross-sector adoption
-3. Open specification publication
-4. Industry working groups
-5. Alignment with existing standards bodies
-
-Potential institutional convergence points may include:
-
-- Evidence standards committees
-- Digital trust frameworks
-- Cross-border regulatory cooperation initiatives
-
-The objective is not monopolization.
-
-The objective is interoperability.
+Verificarea nu trebuie să necesite acces intern privilegiat.
 
 ---
 
-## 5. Role of VeriSeal
+## 2. Modelul Obiectului de Dovadă
 
-VeriSeal operates as an implementation of deterministic evidence architecture.
+Un obiect de dovadă interoperabil ar trebui să includă minim:
 
-Its long-term role may evolve toward:
+1. Artefact canonicizat
+2. Hash criptografic
+3. Referință la înregistrarea integrității
+4. Dovadă de marcaj temporal
+5. Instrucțiuni de verificare
 
-- Reference implementation
-- Proof format contributor
-- Conformance validator
-- Standard participant
+Standardizarea ar formaliza:
 
-Its ambition is not ownership of evidence standards.
+- Structura câmpului
+- Formatul de codificare
+- Secvența de verificare
+- Stările de eroare
 
-Its ambition is contribution to the formation of a globally interoperable layer.
+---
+
+## 3. Principii de Guvernanță
+
+Guvernanța infrastructurii trebuie să asigure:
+
+### Neutralitate
+
+Stratul de dovezi nu trebuie să privilegieze sectoare sau jurisdicții specifice.
+
+### Transparență
+
+Mecanismele de verificare trebuie să fie inspectabile public.
+
+### Reproductibilitate
+
+Terțe părți trebuie să reproducă independent rezultatele verificării.
+
+### Evoluția Tehnologică
+
+Agilitatea criptografică trebuie să fie integrată pentru a permite actualizări viitoare ale algoritmilor.
 
 ---
 
-## 6. Structural Impact
+## 4. Calea către Standardizare
 
-A conformance-based evidence layer enables:
+Standardizarea nu apare instantaneu.
 
-- Cross-border verification symmetry
-- Reduced evidentiary disputes
-- Stronger regulatory interoperability
-- Reduced systemic uncertainty
+O traiectorie realistă include:
 
-As more actors conform to shared integrity criteria, evidence transitions from contextual artifact to infrastructural object.
+1. Implementare comercială
+2. Adoptare intersectorială
+3. Publicarea specificațiilor deschise
+4. Grupuri de lucru din industrie
+5. Alinierea cu organismele de standarde existente
+
+Punctele potențiale de convergență instituțională pot include:
+
+- Comitete de standarde pentru dovezi
+- Cadre de încredere digitală
+- Inițiative de cooperare reglementară transfrontalieră
+
+Obiectivul nu este monopolizarea.
+
+Obiectivul este interoperabilitatea.
 
 ---
-'@ | Set-Content -Encoding UTF8 docs/foundation/conformance-governance-model.md
+
+## 5. Rolul VeriSeal
+
+VeriSeal operează ca o implementare a arhitecturii de dovezi deterministe.
+
+Rolul său pe termen lung poate evolua către:
+
+- Implementare de referință
+- Contribuitor la formatul de dovadă
+- Validator de conformitate
+- Participant la standarde
+
+Ambiția sa nu este deținerea standardelor de dovezi.
+
+Ambiția sa este contribuția la formarea unui strat interoperabil la nivel global.
+
+---
+
+## 6. Impact Structural
+
+Un strat de dovezi bazat pe conformitate permite:
+
+- Simetrie de verificare transfrontalieră
+- Reducerea disputelor privind dovezile
+- Interoperabilitate reglementară mai puternică
+- Reducerea incertitudinii sistemice
+
+Pe măsură ce mai mulți actori se conformează criteriilor comune de integritate, dovezile trec de la artefact contextual la obiect infrastructural.
+
+---

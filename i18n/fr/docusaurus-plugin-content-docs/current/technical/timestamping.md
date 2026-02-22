@@ -1,34 +1,33 @@
 ---
 id: timestamping
-title: Timestamping
+title: Horodatage
 ---
 
 ﻿---
-title: Timestamping
+title: Horodatage
 sidebar_position: 2
 ---
 
-# Timestamping
+# Horodatage
 
-VeriSeal supports:
-1) internal UTC timestamps (operational ordering),
-2) optional external anchoring (OpenTimestamps) for independence.
+VeriSeal prend en charge :
+1) les horodatages UTC internes (ordonnancement opérationnel),
+2) l'ancrage externe optionnel (OpenTimestamps) pour l'indépendance.
 
-## Internal timestamps
+## Horodatages internes
 
-Recorded in UTC for ledger entries and binding steps. Useful for audit trails, but not an external guarantee.
+Enregistrés en UTC pour les entrées du registre et les étapes de liaison. Utiles pour les pistes d'audit, mais pas une garantie externe.
 
-## OpenTimestamps anchoring
+## Ancrage OpenTimestamps
 
-Workflow:
-1) select a stable digest (Merkle root or bundle hash),
-2) ots stamp -> creates .ots file,
-3) ots upgrade -> collects attestations,
-4) ots verify -> confirms when complete (VERIFIED).
+Flux de travail :
+1) sélectionner un digest stable (racine Merkle ou hash de l'ensemble),
+2) ots stamp -> crée un fichier .ots,
+3) ots upgrade -> collecte les attestations,
+4) ots verify -> confirme lorsque terminé (VERIFIED).
 
-Status language:
-- PENDING: accepted by calendars, not yet on-chain,
-- VERIFIED: anchored on Bitcoin (strongest assurance).
+Langage de statut :
+- PENDING : accepté par les calendriers, pas encore sur la chaîne,
+- VERIFIED : ancré sur Bitcoin (assurance la plus forte).
 
-Best practice: stamp one stable digest per proof.
-
+Bonne pratique : tamponner un digest stable par preuve.

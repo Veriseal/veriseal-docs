@@ -1,171 +1,171 @@
 ---
 id: cryptographic-model
-title: Cryptographic and Proof Architecture
+title: Architecture Cryptographique et de Preuve
 sidebar_position: 2.1
 ---
 
-# 2.1 Cryptographic and Proof Architecture
+# 2.1 Architecture Cryptographique et de Preuve
 
-VeriSeal relies exclusively on conservative, battle-tested cryptographic primitives.
+VeriSeal repose exclusivement sur des primitives cryptographiques conservatrices et éprouvées.
 
-No experimental consensus layer.
-No proprietary hash algorithm.
-No opaque cryptographic construction.
+Pas de couche de consensus expérimentale.  
+Pas d'algorithme de hachage propriétaire.  
+Pas de construction cryptographique opaque.
 
-The model is deterministic, reproducible, and institutionally defensible.
-
----
-
-## Design Objectives
-
-The cryptographic layer must ensure:
-
-- Structural integrity  
-- Deterministic reproducibility  
-- Long-term auditability  
-- External verifiability  
-- Optional decentralized timestamp anchoring  
+Le modèle est déterministe, reproductible et défendable institutionnellement.
 
 ---
 
-## Canonicalization
+## Objectifs de Conception
 
-Raw input data must first be transformed into a deterministic representation.
+La couche cryptographique doit assurer :
 
-Let:
+- Intégrité structurelle  
+- Reproductibilité déterministe  
+- Auditabilité à long terme  
+- Vérifiabilité externe  
+- Ancrage temporel décentralisé optionnel  
 
-E = raw evidence  
-C(E) = canonical representation  
+---
 
-Canonicalization guarantees:
+## Canonicalisation
 
-- Stable JSON encoding  
-- Deterministic field ordering  
-- UTF-8 normalization  
-- No ambiguity in whitespace  
+Les données d'entrée brutes doivent d'abord être transformées en une représentation déterministe.
 
-The canonical payload:
+Soit :
+
+E = preuve brute  
+C(E) = représentation canonique  
+
+La canonicalisation garantit :
+
+- Encodage JSON stable  
+- Ordre des champs déterministe  
+- Normalisation UTF-8  
+- Aucune ambiguïté dans les espaces  
+
+La charge utile canonique :
 
 P = C(E)
 
 ---
 
-## Hashing
+## Hachage
 
-Primary integrity primitive:
+Primitif d'intégrité principal :
 
 H = SHA-256(P)
 
-Properties:
+Propriétés :
 
-- Collision resistance (current cryptographic assumptions)
-- Deterministic output
-- Universally reproducible
+- Résistance aux collisions (hypothèses cryptographiques actuelles)
+- Sortie déterministe
+- Universellement reproductible
 
-The hash becomes the core proof identifier when single-artifact.
+Le hachage devient l'identifiant principal de la preuve pour un seul artefact.
 
 ---
 
-## Merkle Aggregation
+## Agrégation Merkle
 
-For multi-artifact proofs:
+Pour les preuves multi-artefacts :
 
 h1, h2, ..., hn
 
-A Merkle tree is constructed.
+Un arbre de Merkle est construit.
 
-The resulting:
+Le résultat :
 
 merkle_root
 
-Properties:
+Propriétés :
 
-- Any leaf modification invalidates the root
-- Efficient inclusion proofs possible
-- Deterministic multi-artifact binding
+- Toute modification de feuille invalide la racine
+- Preuves d'inclusion efficaces possibles
+- Liaison multi-artefact déterministe
 
-The merkle_root becomes the canonical public reference.
+Le merkle_root devient la référence publique canonique.
 
 ---
 
-## Append-Only Ledger
+## Registre Append-Only
 
-Each proof is inserted into an append-only ledger.
+Chaque preuve est insérée dans un registre en ajout seul.
 
-Each entry contains:
+Chaque entrée contient :
 
-- proof_identifier  
-- metadata  
-- UTC timestamp  
+- identifiant_de_preuve  
+- métadonnées  
+- horodatage UTC  
 - prev_hash  
 
-Chaining rule:
+Règle de chaînage :
 
 entry_hash_i = SHA256(entry_data_i || entry_hash_(i-1))
 
-This creates structural immutability.
+Cela crée une immuabilité structurelle.
 
-Altering historical entries breaks chain integrity.
-
----
-
-## Strong Binding Mode
-
-VeriSeal enforces structural coherence between:
-
-- UX logs  
-- Media artifacts  
-- Canonical JSON  
-- Ledger entry  
-- Optional PDF  
-- Optional OTS anchor  
-
-Binding prevents selective modification or component substitution.
+Modifier des entrées historiques brise l'intégrité de la chaîne.
 
 ---
 
-## PDF Signature (Optional Layer)
+## Mode de Liaison Forte
 
-PDF is render-only.
+VeriSeal impose une cohérence structurelle entre :
 
-When enabled:
+- Journaux UX  
+- Artefacts médiatiques  
+- JSON canonique  
+- Entrée de registre  
+- PDF optionnel  
+- Ancre OTS optionnelle  
 
-- RSA-3072 signature  
-- Document hash embedded  
-- Independently verifiable  
-
-Important:
-
-The PDF is not the source of truth.  
-The ledger entry and public JSON are.
+La liaison empêche la modification sélective ou le remplacement de composants.
 
 ---
 
-## OpenTimestamps (Optional)
+## Signature PDF (Couche Optionnelle)
 
-When enabled:
+Le PDF est uniquement rendu.
 
-- The proof hash is submitted to OTS
-- A .ots file is generated
-- Bitcoin confirmation anchors existence in time
+Lorsqu'elle est activée :
 
-OTS strengthens temporal anchoring but is not required for structural validation.
+- Signature RSA-3072  
+- Hachage du document intégré  
+- Vérifiable indépendamment  
+
+Important :
+
+Le PDF n'est pas la source de vérité.  
+L'entrée de registre et le JSON public le sont.
 
 ---
 
-## Trust Minimization
+## OpenTimestamps (Optionnel)
 
-Verification requires trust only in:
+Lorsqu'il est activé :
+
+- Le hachage de la preuve est soumis à OTS
+- Un fichier .ots est généré
+- La confirmation Bitcoin ancre l'existence dans le temps
+
+OTS renforce l'ancrage temporel mais n'est pas requis pour la validation structurelle.
+
+---
+
+## Minimisation de la Confiance
+
+La vérification nécessite de faire confiance uniquement à :
 
 - SHA-256  
-- Deterministic computation  
-- Public cryptographic standards  
+- Calcul déterministe  
+- Normes cryptographiques publiques  
 
-Not in:
+Pas à :
 
-- Proprietary servers  
-- Operator statements  
-- Visual representations  
+- Serveurs propriétaires  
+- Déclarations des opérateurs  
+- Représentations visuelles  
 
-VeriSeal does not assert truth.  
-It guarantees structural integrity.
+VeriSeal n'affirme pas la vérité.  
+Il garantit l'intégrité structurelle.

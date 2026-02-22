@@ -1,71 +1,71 @@
 ---
-title: Verification Model
-sidebar_label: 2.3 Verification Model
+title: Model de Verificare
+sidebar_label: 2.3 Model de Verificare
 slug: /whitepaper/part2/verification-model
 sidebar_position: 2.3
 ---
 
-# 2.3 Verification Model
+# 2.3 Model de Verificare
 
-A trust infrastructure cannot depend on operator assertion.
+O infrastructură de încredere nu poate depinde de afirmația operatorului.
 
-Verification must be independently executable.
-
----
-
-## Verification Steps
-
-1. Recompute canonical payload  
-2. Recompute SHA-256 digest  
-3. Validate Merkle inclusion (if applicable)  
-4. Validate ledger chaining  
-5. Validate optional OTS anchoring  
-6. Validate optional PDF signature  
-
-No proprietary server logic is required.
+Verificarea trebuie să fie executabilă independent.
 
 ---
 
-## Public JSON Principle
+## Pașii de Verificare
 
-Public JSON is the source of truth.
+1. Recalcularea sarcinii utile canonice  
+2. Recalcularea digestului SHA-256  
+3. Validarea includerii Merkle (dacă este aplicabil)  
+4. Validarea înlănțuirii registrului  
+5. Validarea ancorării opționale OTS  
+6. Validarea semnăturii opționale PDF  
 
-PDF is render-only.
-
-Verification must remain possible even if:
-
-- The operator ceases activity
-- The commercial entity changes
-- Infrastructure migrates
-
----
-
-## Transparency Without Data Leakage
-
-Public verification exposes:
-
-- Commitments  
-- Hashes  
-- Integrity facts  
-
-It does not expose:
-
-- Private content  
-- Confidential payloads  
-- Sensitive metadata  
-
-This separation is structural.
+Nu este necesară nicio logică de server proprietară.
 
 ---
 
-## Institutional Confidence
+## Principiul JSON Public
 
-Independent reproducibility enables:
+JSON public este sursa adevărului.
 
-- Regulatory review  
-- Forensic audit  
-- Cross-border verification  
-- Long-term archival validation  
+PDF-ul este doar pentru redare.
 
-VeriSeal minimizes trust.
-It maximizes reproducibility.
+Verificarea trebuie să rămână posibilă chiar dacă:
+
+- Operatorul își încetează activitatea
+- Entitatea comercială se schimbă
+- Infrastructura migrează
+
+---
+
+## Transparență Fără Scurgere de Date
+
+Verificarea publică expune:
+
+- Angajamente  
+- Hash-uri  
+- Fapte de integritate  
+
+Nu expune:
+
+- Conținut privat  
+- Sarcini utile confidențiale  
+- Metadate sensibile  
+
+Această separare este structurală.
+
+---
+
+## Încredere Instituțională
+
+Reproducibilitatea independentă permite:
+
+- Revizuire de reglementare  
+- Audit criminalistic  
+- Verificare transfrontalieră  
+- Validare arhivistică pe termen lung  
+
+VeriSeal minimizează încrederea.
+Maximizează reproducibilitatea.

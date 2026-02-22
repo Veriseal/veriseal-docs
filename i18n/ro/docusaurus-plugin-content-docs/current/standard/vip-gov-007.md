@@ -1,233 +1,232 @@
 ---
 id: vip-gov-007
-title: VIP-GOV-007 — Governance Model
-sidebar_label: VIP-GOV-007 Governance Model
+title: VIP-GOV-007 — Model de Guvernanță
+sidebar_label: VIP-GOV-007 Model de Guvernanță
 ---
 
 # VIP-GOV-007  
-## Governance Model
+## Model de Guvernanță
 
 ---
 
-## 1. Purpose
+## 1. Scop
 
-This document defines the governance architecture of the VeriSeal Integrity Protocol (VIP).
+Acest document definește arhitectura de guvernanță a Protocolului de Integritate VeriSeal (VIP).
 
-It establishes:
+Stabilește:
 
-- Governance principles
-- Standard maintenance structure
-- Amendment procedures
-- Certification oversight
-- Conflict-of-interest safeguards
+- Principiile de guvernanță
+- Structura standard de întreținere
+- Procedurile de amendare
+- Supravegherea certificării
+- Măsuri de protecție împotriva conflictelor de interese
 
-The objective is to ensure that VIP operates as a credible, neutral, and internationally scalable integrity standard.
-
----
-
-## 2. Governance Principles
-
-The VeriSeal standard is governed by five core principles:
-
-### 2.1 Neutrality
-
-The standard must remain:
-
-- Vendor-neutral  
-- Infrastructure-neutral  
-- Jurisdiction-neutral  
-
-No single entity may exercise unilateral control over protocol evolution.
+Obiectivul este de a asigura că VIP funcționează ca un standard de integritate credibil, neutru și scalabil internațional.
 
 ---
 
-### 2.2 Transparency
+## 2. Principiile de Guvernanță
 
-All normative documents must be:
+Standardul VeriSeal este guvernat de cinci principii de bază:
 
-- Publicly accessible
-- Version-controlled
-- Traceable
-- Archived
+### 2.1 Neutralitate
 
-Amendments must include documented rationale.
+Standardul trebuie să rămână:
+
+- Neutru față de furnizor  
+- Neutru față de infrastructură  
+- Neutru față de jurisdicție  
+
+Nicio entitate unică nu poate exercita control unilateral asupra evoluției protocolului.
+
+---
+
+### 2.2 Transparență
+
+Toate documentele normative trebuie să fie:
+
+- Accesibile publicului
+- Controlate prin versiuni
+- Trasabile
+- Arhivate
+
+Amendamentele trebuie să includă o justificare documentată.
 
 ---
 
 ### 2.3 Determinism
 
-Governance decisions must not alter:
+Deciziile de guvernanță nu trebuie să modifice:
 
-- Historical proof validity
-- Deterministic verification procedures
-- Backward compatibility guarantees (except via explicit versioning)
-
----
-
-### 2.4 Independence
-
-The certification authority must be structurally separated from:
-
-- Commercial operators
-- Hosting providers
-- Anchoring providers
-- API vendors
-
-This prevents systemic conflicts of interest.
+- Validitatea dovezilor istorice
+- Procedurile de verificare deterministe
+- Garanțiile de compatibilitate retroactivă (cu excepția cazului de versiuni explicite)
 
 ---
 
-### 2.5 Stability Over Agility
+### 2.4 Independență
 
-VIP prioritizes long-term structural integrity over rapid feature evolution.
+Autoritatea de certificare trebuie să fie structural separată de:
 
-The protocol is designed for archival time horizons, not fast product iteration cycles.
+- Operatorii comerciali
+- Furnizorii de găzduire
+- Furnizorii de ancorare
+- Furnizorii de API
 
----
-
-## 3. Governance Structure
-
-### 3.1 Standard Authority
-
-The Standard Authority is responsible for:
-
-- Maintaining normative documents
-- Approving amendments
-- Overseeing certification framework
-- Maintaining registry integrity
-
-The Authority must operate under a formal charter.
+Aceasta previne conflictele de interese sistemice.
 
 ---
 
-### 3.2 Technical Committee
+### 2.5 Stabilitate peste Agilitate
 
-The Technical Committee:
+VIP prioritizează integritatea structurală pe termen lung în detrimentul evoluției rapide a caracteristicilor.
 
-- Reviews proposed amendments
-- Evaluates security research
-- Updates threat model documentation
-- Proposes version increments
-
-Members should include:
-
-- Cryptographic experts
-- Systems engineers
-- Institutional representatives
+Protocolul este conceput pentru orizonturi de timp arhivistice, nu pentru cicluri rapide de iterare a produselor.
 
 ---
 
-### 3.3 Certification Oversight Board
+## 3. Structura de Guvernanță
 
-The Oversight Board:
+### 3.1 Autoritatea Standardului
 
-- Supervises certification authorities
-- Reviews audit standards
-- Validates compliance processes
-- Handles disputes
+Autoritatea Standardului este responsabilă pentru:
 
----
+- Menținerea documentelor normative
+- Aprobarea amendamentelor
+- Supravegherea cadrului de certificare
+- Menținerea integrității registrului
 
-## 4. Amendment Process
-
-Amendments follow a structured lifecycle:
-
-1. Proposal submission  
-2. Technical review  
-3. Public consultation (if applicable)  
-4. Approval vote  
-5. Version assignment  
-6. Publication  
+Autoritatea trebuie să funcționeze sub o cartă formală.
 
 ---
 
-### 4.1 Versioning Model
+### 3.2 Comitetul Tehnic
 
-VIP follows semantic structural versioning:
+Comitetul Tehnic:
 
-- Major version: Structural change  
-- Minor version: Additive change  
-- Patch version: Clarification without structural impact  
+- Revizuiește amendamentele propuse
+- Evaluează cercetările de securitate
+- Actualizează documentația modelului de amenințări
+- Propune incrementări de versiune
 
-Backward compatibility must be explicitly declared.
+Membrii ar trebui să includă:
 
----
-
-## 5. Security Response Process
-
-When vulnerabilities are discovered:
-
-1. Responsible disclosure procedure activated  
-2. Technical assessment conducted  
-3. Impact classification assigned  
-4. Mitigation guidance issued  
-5. Amendment proposed (if necessary)
-
-Threat model updates must reference VIP-THREAT-001.
+- Experți în criptografie
+- Ingineri de sisteme
+- Reprezentanți instituționali
 
 ---
 
-## 6. Certification Governance
+### 3.3 Consiliul de Supraveghere a Certificării
 
-VIP-GOV-007 governs:
+Consiliul de Supraveghere:
 
-- Certification authority accreditation
-- Certification suspension procedures
-- Registry integrity validation
-- Label usage enforcement
-
-Certification governance must remain independent from implementation vendors.
+- Supraveghează autoritățile de certificare
+- Revizuiește standardele de audit
+- Validează procesele de conformitate
+- Gestionează disputele
 
 ---
 
-## 7. Internationalization Strategy
+## 4. Procesul de Amendare
 
-VIP governance must allow:
+Amendamentele urmează un ciclu de viață structurat:
 
-- Multi-jurisdiction adoption
-- Regional implementation without fragmentation
-- Cross-border interoperability
-
-Localization must not alter core deterministic properties.
-
----
-
-## 8. Registry Governance
-
-The public registry must ensure:
-
-- Immutable certification records
-- Public verification access
-- Revocation transparency
-- Historical traceability
-
-Registry integrity is part of the governance responsibility.
+1. Depunerea propunerii  
+2. Revizuire tehnică  
+3. Consultare publică (dacă este cazul)  
+4. Vot de aprobare  
+5. Atribuirea versiunii  
+6. Publicare  
 
 ---
 
-## 9. Conflict of Interest Policy
+### 4.1 Modelul de Versiuni
 
-Any governance member must disclose:
+VIP urmează versiunea structurală semantică:
 
-- Commercial interest in implementations
-- Financial interest in certification bodies
-- Direct participation in audit processes
+- Versiune majoră: Schimbare structurală  
+- Versiune minoră: Schimbare aditivă  
+- Versiune de corecție: Clarificare fără impact structural  
 
-Conflict must be mitigated through recusal.
-
----
-
-## 10. Long-Term Objective
-
-The governance model aims to:
-
-- Enable transition toward formal international standardization
-- Preserve structural neutrality
-- Maintain institutional credibility
-- Avoid proprietary capture
-
-VIP is intended to evolve from an industry-driven protocol into a globally recognized integrity reference.
+Compatibilitatea retroactivă trebuie declarată explicit.
 
 ---
 
-End of Document
+## 5. Procesul de Răspuns la Securitate
+
+Când sunt descoperite vulnerabilități:
+
+1. Procedura de divulgare responsabilă este activată  
+2. Evaluare tehnică efectuată  
+3. Clasificarea impactului atribuită  
+4. Ghid de atenuare emis  
+5. Amendament propus (dacă este necesar)
+
+Actualizările modelului de amenințări trebuie să facă referire la VIP-THREAT-001.
+
+---
+
+## 6. Guvernanța Certificării
+
+VIP-GOV-007 guvernează:
+
+- Acreditarea autorității de certificare
+- Procedurile de suspendare a certificării
+- Validarea integrității registrului
+- Aplicarea utilizării etichetelor
+
+Guvernanța certificării trebuie să rămână independentă de furnizorii de implementare.
+
+---
+
+## 7. Strategia de Internaționalizare
+
+Guvernanța VIP trebuie să permită:
+
+- Adoptarea multi-jurisdicțională
+- Implementare regională fără fragmentare
+- Interoperabilitate transfrontalieră
+
+Localizarea nu trebuie să modifice proprietățile deterministe de bază.
+
+---
+
+## 8. Guvernanța Registrului
+
+Registrul public trebuie să asigure:
+
+- Înregistrări de certificare imuabile
+- Acces public la verificare
+- Transparența revocării
+- Trasabilitatea istorică
+
+Integritatea registrului face parte din responsabilitatea de guvernanță.
+
+---
+
+## 9. Politica de Conflict de Interese
+
+Orice membru al guvernanței trebuie să dezvăluie:
+
+- Interesul comercial în implementări
+- Interesul financiar în organismele de certificare
+- Participarea directă în procesele de audit
+
+Conflictul trebuie atenuat prin recuzare.
+
+---
+
+## 10. Obiectivul pe Termen Lung
+
+Modelul de guvernanță își propune să:
+
+- Permită tranziția către standardizarea internațională formală
+- Păstreze neutralitatea structurală
+- Mențină credibilitatea instituțională
+- Evite capturarea proprietară
+
+VIP este destinat să evolueze de la un protocol condus de industrie la o referință de integritate recunoscută la nivel global.
+
+---
+

@@ -1,478 +1,479 @@
----
-title: Threat Model & Adversarial Analysis
-sidebar_label: Threat Model (Annex)
----
-
-# Threat Model & Adversarial Analysis
-
-## 1. Purpose and Scope
-
-This annex provides a security-oriented analysis of the VeriSeal proof infrastructure under adversarial conditions.
-
-It defines:
-
-- Threat actors and capabilities
-- Trust boundaries
-- Attack surfaces
-- Security assumptions
-- Detection and mitigation mechanisms
-- Residual risks and governance requirements
-
-This annex is written for institutional stakeholders (CISO, Risk, Audit, Compliance).
+Fișier: threat-model-adversarial-analysis.md
 
 ---
+title: Model de Amenințare și Analiză Adversarială
+sidebar_label: Model de Amenințare (Anexă)
+---
 
-## 2. System Assets to Protect
+# Model de Amenințare și Analiză Adversarială
 
-VeriSeal is designed to protect **integrity and verifiability** of evidence artifacts and proof records.
+## 1. Scop și Domeniu de Aplicare
 
-Primary assets:
+Această anexă oferă o analiză orientată pe securitate a infrastructurii de dovadă VeriSeal în condiții adversariale.
 
-1. **Artifact Integrity**
-   The sealed artifact must remain verifiable and tamper-evident over time.
+Definește:
 
-2. **Proof Object Integrity**
-   Proof records (canonical JSON) must not be alterable without detection.
+- Actorii de amenințare și capabilitățile acestora
+- Granițele de încredere
+- Suprafața de atac
+- Presupunerile de securitate
+- Mecanismele de detectare și atenuare
+- Riscurile reziduale și cerințele de guvernanță
 
-3. **Ledger Continuity**
-   Append-only chain must remain structurally immutable and chronologically consistent.
-
-4. **Verification Independence**
-   Third parties must be able to verify proofs without operator trust.
-
-5. **Timestamp Integrity (optional external anchoring)**
-   When external anchoring exists, the anchor must strengthen time certainty.
-
-6. **Key Integrity (signing keys)**
-   Private keys used for signing must remain confidential and governed.
+Această anexă este scrisă pentru părțile interesate instituționale (CISO, Risc, Audit, Conformitate).
 
 ---
 
-## 3. Threat Actors
+## 2. Activele Sistemului de Protejat
 
-### 3.1 External Adversary
-Capabilities:
-- Network-level interception attempts
-- Public endpoint probing
-- Artifact substitution attempts
-- Replay attempts for capture flows (when applicable)
+VeriSeal este proiectat să protejeze **integritatea și verificabilitatea** artefactelor de dovadă și a înregistrărilor de dovadă.
 
-Constraints:
-- No direct access to signing keys or internal storage (assumed)
+Activele principale:
 
-### 3.2 Insider Threat (Operator or Privileged Admin)
-Capabilities:
-- Potential access to infrastructure
-- Attempts to alter records
-- Attempts to delete or selectively hide evidence
-- Attempts to manipulate PDF or presentation outputs
+1. **Integritatea Artefactului**
+   Artefactul sigilat trebuie să rămână verificabil și să evidențieze orice tentativă de manipulare în timp.
 
-### 3.3 Malicious Evidence Submitter
-Capabilities:
-- Submit false or misleading content
-- Submit manipulated artifacts
-- Attempt to exploit workflow ambiguity
-- Attempt repudiation after sealing ("I never sent this")
+2. **Integritatea Obiectului de Dovadă**
+   Înregistrările de dovadă (JSON canonic) nu trebuie să fie alterabile fără detectare.
 
-### 3.4 Compromised Client Device
-Capabilities:
-- Malware modifies artifact before sealing
-- Credential compromise
-- Intercepts or alters local data before upload
+3. **Continuitatea Registrului**
+   Lanțul de tip doar adăugare trebuie să rămână structural imuabil și cronologic consistent.
 
-### 3.5 Supply Chain / Dependency Adversary
-Capabilities:
-- Dependency compromise
-- Build pipeline compromise
-- Runtime injection attempts
+4. **Independența Verificării**
+   Terții trebuie să poată verifica dovezile fără a avea încredere în operator.
+
+5. **Integritatea Timpului (ancorare externă opțională)**
+   Când există ancorare externă, ancora trebuie să întărească certitudinea temporală.
+
+6. **Integritatea Cheilor (chei de semnare)**
+   Cheile private utilizate pentru semnare trebuie să rămână confidențiale și guvernate.
 
 ---
 
-## 4. Trust Boundaries
+## 3. Actori de Amenințare
 
-VeriSeal enforces explicit trust boundaries:
+### 3.1 Adversar Extern
+Capabilități:
+- Încercări de interceptare la nivel de rețea
+- Sondarea punctelor finale publice
+- Încercări de substituire a artefactelor
+- Încercări de redare pentru fluxurile de captură (când este aplicabil)
 
-Inside VeriSeal trust boundary:
-- Hash computation
-- Canonical proof object generation
-- Ledger append operation
-- Signature generation (controlled key domain)
-- Optional anchor submission
+Constrângeri:
+- Fără acces direct la cheile de semnare sau stocarea internă (presupus)
 
-Outside trust boundary:
-- Artifact creation tools
-- User device security
-- Semantic truth of content
-- Legal interpretation
-- Human intent and context
+### 3.2 Amenințare Internă (Operator sau Administrator Privilegiat)
+Capabilități:
+- Acces potențial la infrastructură
+- Încercări de a altera înregistrările
+- Încercări de a șterge sau ascunde selectiv dovezile
+- Încercări de a manipula ieșirile PDF sau de prezentare
 
-Key principle: **VeriSeal secures structure, not meaning.**
+### 3.3 Transmițător de Dovezi Malicioase
+Capabilități:
+- Transmiterea de conținut fals sau înșelător
+- Transmiterea de artefacte manipulate
+- Încercarea de a exploata ambiguitatea fluxului de lucru
+- Încercarea de repudiere după sigilare („Nu am trimis niciodată asta”)
 
----
+### 3.4 Dispozitiv Client Compromis
+Capabilități:
+- Malware-ul modifică artefactul înainte de sigilare
+- Compromiterea acreditivelor
+- Interceptează sau alterează datele locale înainte de încărcare
 
-## 5. Attack Surface Overview
-
-Primary attack surfaces:
-
-1. **Input artifact ingestion** (upload / payload generation)
-2. **Proof generation pipeline** (hashing + canonicalization + signing)
-3. **Ledger storage** (append-only chain integrity)
-4. **Verification endpoints** (public JSON, PDF render, HTML verify page)
-5. **Key management** (private key confidentiality and usage policy)
-6. **Build/CI and dependency chain** (supply chain integrity)
-
----
-
-## 6. Threat Scenarios and Mitigations
-
-### 6.1 Post-Sealing Artifact Tampering
-Attack: Artifact modified after sealing.
-
-Detection:
-- Recomputed SHA-256 digest differs.
-
-Mitigation:
-- Deterministic hashing
-- Proof validation requires recomputation
-
-Residual risk:
-- None for detection (integrity always detects change)
-- Semantic disputes remain possible
+### 3.5 Adversar din Lanțul de Aprovizionare / Dependențe
+Capabilități:
+- Compromiterea dependențelor
+- Compromiterea fluxului de construire
+- Încercări de injectare la runtime
 
 ---
 
-### 6.2 Proof Object Tampering (JSON)
-Attack: Alter proof JSON fields (timestamps, identifiers, flags).
+## 4. Granițele de Încredere
 
-Detection:
-- Signature verification fails
-- Hash mismatch in canonical recomputation
+VeriSeal impune granițe de încredere explicite:
 
-Mitigation:
-- Canonical JSON as source-of-truth
-- Signature over canonical payload
+În interiorul graniței de încredere VeriSeal:
+- Calculul hash-ului
+- Generarea obiectului de dovadă canonic
+- Operațiunea de adăugare la registru
+- Generarea semnăturii (domeniul cheilor controlat)
+- Trimiterea ancorei opțională
 
-Residual risk:
-- If signing key is compromised (see key compromise scenario)
+În afara graniței de încredere:
+- Instrumente de creare a artefactelor
+- Securitatea dispozitivului utilizatorului
+- Adevărul semantic al conținutului
+- Interpretarea legală
+- Intenția și contextul uman
 
----
-
-### 6.3 Ledger Mutation / Deletion
-Attack: Delete an entry or rewrite historical chain.
-
-Detection:
-- Chain discontinuity (previous_entry_hash mismatch)
-- entry_hash recomputation mismatch
-
-Mitigation:
-- Append-only architecture
-- Chain hash dependency
-- Regular external anchoring recommended for high assurance
-
-Residual risk:
-- Storage-level attacks can delete entire ledger if governance is weak
-  (availability risk; integrity detection remains, but evidence may be missing)
+Principiu cheie: **VeriSeal securizează structura, nu semnificația.**
 
 ---
 
-### 6.4 Selective Evidence Suppression ("Evidence Hiding")
-Attack: Operator hides or refuses to serve a proof endpoint.
+## 5. Prezentare Generală a Suprafaței de Atac
 
-Detection:
-- Public reference exists but endpoint not responding
-- External copies of JSON prove prior existence
+Suprafețele principale de atac:
 
-Mitigation:
-- Encourage institutional archiving of proof bundles
-- External anchoring strengthens existence claims
-- Governance policies for availability
-
-Residual risk:
-- Availability remains operationally governed
+1. **Ingestia artefactului de intrare** (încărcare / generare de sarcină utilă)
+2. **Fluxul de generare a dovezilor** (hashing + canonicalizare + semnare)
+3. **Stocarea în registru** (integritatea lanțului de tip doar adăugare)
+4. **Punctele finale de verificare** (JSON public, redare PDF, pagină de verificare HTML)
+5. **Gestionarea cheilor** (confidențialitatea cheii private și politica de utilizare)
+6. **Lanțul de construire/CI și dependențe** (integritatea lanțului de aprovizionare)
 
 ---
 
-### 6.5 Presentation Layer Manipulation (PDF/HTML)
-Attack: Modify PDF rendering or HTML view to show false status.
+## 6. Scenarii de Amenințare și Atenuări
 
-Detection:
-- Canonical JSON remains source-of-truth
-- Verifier recomputes hashes and validates signature
+### 6.1 Manipularea Artefactului Post-Sigilare
+Atac: Artefact modificat după sigilare.
 
-Mitigation:
-- Render-only rule
-- Verification logic never depends on presentation output
+Detectare:
+- Digestul SHA-256 recalculat diferă.
 
-Residual risk:
-- Social engineering risk remains (users trusting visuals without verifying)
+Atenuare:
+- Hashing determinist
+- Validarea dovezii necesită recalculare
 
----
-
-### 6.6 Replay Attacks (Capture-Based Proofs)
-Attack: Replay a prior video/audio capture to fake liveness.
-
-Detection/Mitigation (when capture flows exist):
-- Challenge-response binding (dynamic prompts)
-- Runtime event log hashing
-- Media binding to runtime payload
-
-Residual risk:
-- Dependent on capture workflow quality
-- Not applicable to static artifact sealing use cases
+Risc rezidual:
+- Niciunul pentru detectare (integritatea detectează întotdeauna schimbarea)
+- Disputele semantice rămân posibile
 
 ---
 
-### 6.7 Man-in-the-Middle / Transport Layer Attack
-Attack: Intercept or alter traffic during upload or verification.
+### 6.2 Manipularea Obiectului de Dovadă (JSON)
+Atac: Alterarea câmpurilor JSON de dovadă (timpuri, identificatori, steaguri).
 
-Mitigation:
-- TLS enforced (HTTPS)
-- Hash recomputation and signature validation prevents silent tampering
+Detectare:
+- Verificarea semnăturii eșuează
+- Neconcordanță hash în recalcularea canonică
 
-Residual risk:
-- Credential theft is outside cryptographic model
-- Network downgrade attacks mitigated via strict HTTPS and HSTS (recommended)
+Atenuare:
+- JSON canonic ca sursă de adevăr
+- Semnătură peste sarcina utilă canonică
+
+Risc rezidual:
+- Dacă cheia de semnare este compromisă (vezi scenariul de compromitere a cheii)
 
 ---
 
-### 6.8 Private Key Compromise
-Attack: Signing key stolen.
+### 6.3 Mutarea / Ștergerea Registrului
+Atac: Ștergerea unei intrări sau rescrierea lanțului istoric.
+
+Detectare:
+- Discontinuitatea lanțului (neconcordanță previous_entry_hash)
+- Neconcordanță în recalcularea entry_hash
+
+Atenuare:
+- Arhitectură de tip doar adăugare
+- Dependența de hash-ul lanțului
+- Ancorarea externă regulată recomandată pentru asigurare ridicată
+
+Risc rezidual:
+- Atacurile la nivel de stocare pot șterge întregul registru dacă guvernanța este slabă
+  (risc de disponibilitate; detectarea integrității rămâne, dar dovezile pot lipsi)
+
+---
+
+### 6.4 Suprimarea Selectivă a Dovezilor („Ascunderea Dovezilor”)
+Atac: Operatorul ascunde sau refuză să servească un punct final de dovadă.
+
+Detectare:
+- Referința publică există, dar punctul final nu răspunde
+- Copiile externe ale JSON dovedesc existența anterioară
+
+Atenuare:
+- Încurajarea arhivării instituționale a pachetelor de dovezi
+- Ancorarea externă întărește revendicările de existență
+- Politici de guvernanță pentru disponibilitate
+
+Risc rezidual:
+- Disponibilitatea rămâne guvernată operațional
+
+---
+
+### 6.5 Manipularea Stratului de Prezentare (PDF/HTML)
+Atac: Modificarea redării PDF sau a vizualizării HTML pentru a arăta un statut fals.
+
+Detectare:
+- JSON canonic rămâne sursa de adevăr
+- Verificatorul recalculează hash-urile și validează semnătura
+
+Atenuare:
+- Regulă doar pentru redare
+- Logica de verificare nu depinde niciodată de ieșirea de prezentare
+
+Risc rezidual:
+- Riscul de inginerie socială rămâne (utilizatorii având încredere în vizualuri fără a verifica)
+
+---
+
+### 6.6 Atacuri de Redare (Dovezi Bazate pe Captură)
+Atac: Redarea unei capturi video/audio anterioare pentru a simula prezența.
+
+Detectare/Atenuare (când există fluxuri de captură):
+- Legare provocare-răspuns (prompturi dinamice)
+- Hashing jurnal de evenimente runtime
+- Legarea media la sarcina utilă runtime
+
+Risc rezidual:
+- Depinde de calitatea fluxului de captură
+- Nu se aplică cazurilor de utilizare a sigilării artefactelor statice
+
+---
+
+### 6.7 Atac Man-in-the-Middle / Strat de Transport
+Atac: Interceptarea sau alterarea traficului în timpul încărcării sau verificării.
+
+Atenuare:
+- TLS impus (HTTPS)
+- Recalcularea hash-ului și validarea semnăturii previn manipularea tăcută
+
+Risc rezidual:
+- Furtul de acreditive este în afara modelului criptografic
+- Atacurile de degradare a rețelei sunt atenuate prin HTTPS strict și HSTS (recomandat)
+
+---
+
+### 6.8 Compromiterea Cheii Private
+Atac: Cheia de semnare furată.
 
 Impact:
-- Attacker can issue forged proofs that appear valid
-- Historical proofs remain verifiable but trust in signer is impacted
+- Atacatorul poate emite dovezi false care par valide
+- Dovezile istorice rămân verificabile, dar încrederea în semnatar este afectată
 
-Mitigation:
-- HSM / KMS-backed signing
-- Key rotation policy
-- Audit logs for signing operations
-- Separation of duties (dual control)
+Atenuare:
+- Semnare susținută de HSM / KMS
+- Politica de rotație a cheilor
+- Jurnale de audit pentru operațiunile de semnare
+- Separarea sarcinilor (control dual)
 
-Residual risk:
-- Highest-impact scenario; governance is mandatory
+Risc rezidual:
+- Scenariul cu cel mai mare impact; guvernanța este obligatorie
 
 ---
 
-### 6.9 Hash Function Weakening (Cryptographic Breakthrough)
-Attack: Practical collision or second preimage against SHA-256.
+### 6.9 Slăbirea Funcției Hash (Descoperire Criptografică)
+Atac: Coliziune practică sau a doua preimagine împotriva SHA-256.
 
 Impact:
-- Integrity assumptions degrade
+- Presupunerile de integritate se degradează
 
-Mitigation:
-- Algorithm agility (hash_version field)
-- Ability to re-anchor proofs using stronger primitives
-- Support for dual-hash strategies in future versions
+Atenuare:
+- Agilitatea algoritmului (câmpul hash_version)
+- Capacitatea de a reancora dovezile folosind primitive mai puternice
+- Suport pentru strategii dual-hash în versiunile viitoare
 
-Residual risk:
-- Long-term cryptographic evolution risk exists for all systems
-
----
-
-### 6.10 Supply Chain Compromise
-Attack: Build dependencies inject malicious logic.
-
-Mitigation:
-- Pin dependencies
-- Reproducible builds
-- Code signing
-- SBOM generation
-- CI integrity controls
-
-Residual risk:
-- Requires disciplined software governance
+Risc rezidual:
+- Riscul evoluției criptografice pe termen lung există pentru toate sistemele
 
 ---
 
-## 7. Security Assumptions
+### 6.10 Compromiterea Lanțului de Aprovizionare
+Atac: Dependențele de construire injectează logică malițioasă.
 
-VeriSeal security assumptions:
+Atenuare:
+- Fixarea dependențelor
+- Construcții reproducibile
+- Semnarea codului
+- Generarea SBOM
+- Controale de integritate CI
 
-- SHA-256 remains secure (no feasible collisions)
-- Signature scheme remains secure (no feasible forgery without private key)
-- Canonical serialization is deterministic and controlled
-- Append-only enforcement is operationally protected
-- Private keys are protected by institutional key management
-
----
-
-## 8. Security Guarantees (What VeriSeal Actually Guarantees)
-
-VeriSeal guarantees:
-
-- Detection of any post-sealing artifact modification
-- Deterministic verification reproducibility
-- Structural integrity and chain continuity (if ledger available)
-- Proof object tamper-evidence via signature
-- Optional external time anchoring reinforcement
-
-VeriSeal does not guarantee:
-
-- Truth of content
-- Identity legitimacy by default
-- Protection against compromised client devices
-- Availability of proof endpoints without governance
+Risc rezidual:
+- Necesită guvernanță disciplinată a software-ului
 
 ---
 
-## 9. Residual Risk and Governance Requirements
+## 7. Presupuneri de Securitate
 
-VeriSeal is strongest when governance enforces:
+Presupunerile de securitate ale VeriSeal:
 
-- Key management policy (HSM/KMS, rotation, audit)
-- Availability policy (archival bundles, redundancy)
-- Role segregation (sealing vs verification vs administration)
-- Incident response procedures
-- External anchoring policy for high assurance use cases
-
-Without governance, integrity remains detectable, but operational resilience may degrade.
+- SHA-256 rămâne sigur (fără coliziuni fezabile)
+- Schema de semnătură rămâne sigură (fără falsificare fezabilă fără cheia privată)
+- Serializarea canonică este deterministă și controlată
+- Aplicarea de tip doar adăugare este protejată operațional
+- Cheile private sunt protejate de gestionarea cheilor instituționale
 
 ---
 
-## 10. Institutional Security Posture Summary
+## 8. Garanții de Securitate (Ce Garantează de Fapt VeriSeal)
 
-VeriSeal is designed as:
+VeriSeal garantează:
 
-- A deterministic integrity protocol
-- An audit-compatible evidence layer
-- A system minimizing trust dependency
-- A tamper-evident ledger + proof object model
+- Detectarea oricărei modificări a artefactului post-sigilare
+- Reproducibilitatea verificării deterministe
+- Integritatea structurală și continuitatea lanțului (dacă registrul este disponibil)
+- Dovada de manipulare a obiectului de dovadă prin semnătură
+- Întărirea opțională a ancorării temporale externe
 
-It provides verifiable integrity guarantees under adversarial conditions, provided that key governance and operational controls are enforced.
+VeriSeal nu garantează:
 
----
-
-## 11. Risk Classification Matrix
-
-This section formalizes threat severity according to impact and likelihood.
-
-Risk classification model:
-
-- Likelihood: Low / Medium / High
-- Impact: Moderate / Significant / Critical
-- Residual Risk: After mitigation controls
-- Risk Owner: Governance responsibility domain
-
-| Threat Scenario | Likelihood | Impact | Mitigation Strength | Residual Risk | Risk Owner |
-|-----------------|------------|--------|--------------------|---------------|------------|
-| Artifact tampering post-seal | Medium | Significant | Cryptographic detection | Low | Verification layer |
-| Proof JSON alteration | Low | Significant | Signature + canonicalization | Low | Cryptographic layer |
-| Ledger mutation | Low | Critical | Hash chaining + detection | Low | Infrastructure governance |
-| Evidence suppression | Medium | Significant | Archival + anchoring | Medium | Operational governance |
-| Presentation manipulation | Medium | Moderate | JSON source-of-truth | Low | Verification discipline |
-| Private key compromise | Low | Critical | HSM/KMS + rotation | Medium | Key governance |
-| Hash algorithm weakening | Very Low | Critical | Algorithm agility | Low | Cryptographic governance |
-| Supply chain compromise | Medium | Significant | CI controls + SBOM | Medium | DevSecOps governance |
-
-Risk posture summary:
-
-- Structural integrity risks are strongly mitigated.
-- Key compromise remains highest-impact scenario.
-- Governance maturity directly influences residual risk.
+- Adevărul conținutului
+- Legitimitatea identității implicit
+- Protecția împotriva dispozitivelor client compromise
+- Disponibilitatea punctelor finale de dovadă fără guvernanță
 
 ---
 
-## 12. Governance & Role Segregation Model
+## 9. Risc Rezidual și Cerințe de Guvernanță
 
-VeriSeal security assumes institutional separation of duties.
+VeriSeal este cel mai puternic atunci când guvernanța impune:
 
-### 12.1 Functional Roles
+- Politica de gestionare a cheilor (HSM/KMS, rotație, audit)
+- Politica de disponibilitate (pachete arhivistice, redundanță)
+- Separarea rolurilor (sigilare vs verificare vs administrare)
+- Proceduri de răspuns la incidente
+- Politica de ancorare externă pentru cazuri de utilizare cu asigurare ridicată
 
-**Sealing Operator**
-- Initiates proof generation.
-- Cannot modify historical ledger entries.
-
-**Verification Authority**
-- Performs independent validation.
-- Has no access to signing keys.
-
-**Key Custodian**
-- Manages signing keys.
-- Operates under dual control policy.
-
-**Infrastructure Administrator**
-- Manages system availability.
-- Cannot alter signed proof payloads.
-
-**Audit Function**
-- Reviews logs and chain continuity.
-- Independent from operations.
+Fără guvernanță, integritatea rămâne detectabilă, dar reziliența operațională poate degrada.
 
 ---
 
-### 12.2 RACI Overview
+## 10. Rezumatul Posturii de Securitate Instituțională
 
-| Function | Seal | Verify | Sign | Maintain | Audit |
-|----------|------|--------|------|----------|-------|
-| Sealing Operator | R | C | - | - | - |
-| Verification Authority | - | R | - | - | C |
-| Key Custodian | - | - | R | - | C |
-| Infrastructure Admin | - | - | - | R | C |
+VeriSeal este proiectat ca:
+
+- Un protocol de integritate determinist
+- Un strat de dovezi compatibil cu auditul
+- Un sistem care minimizează dependența de încredere
+- Un model de registru + obiect de dovadă care evidențiază manipularea
+
+Oferă garanții de integritate verificabile în condiții adversariale, cu condiția ca guvernanța cheilor și controalele operaționale să fie impuse.
+
+---
+
+## 11. Matricea de Clasificare a Riscurilor
+
+Această secțiune formalizează severitatea amenințărilor în funcție de impact și probabilitate.
+
+Model de clasificare a riscurilor:
+
+- Probabilitate: Scăzută / Medie / Ridicată
+- Impact: Moderat / Semnificativ / Critic
+- Risc Rezidual: După controalele de atenuare
+- Proprietarul Riscului: Domeniul de responsabilitate al guvernanței
+
+| Scenariu de Amenințare | Probabilitate | Impact | Puterea Atenuării | Risc Rezidual | Proprietarul Riscului |
+|------------------------|---------------|--------|-------------------|---------------|-----------------------|
+| Manipularea artefactului post-sigilare | Medie | Semnificativ | Detectare criptografică | Scăzut | Strat de verificare |
+| Alterarea JSON de dovadă | Scăzută | Semnificativ | Semnătură + canonicalizare | Scăzut | Strat criptografic |
+| Mutarea registrului | Scăzută | Critic | Lanț de hash + detectare | Scăzut | Guvernanța infrastructurii |
+| Suprimarea dovezilor | Medie | Semnificativ | Arhivare + ancorare | Mediu | Guvernanță operațională |
+| Manipularea prezentării | Medie | Moderat | JSON sursă de adevăr | Scăzut | Disciplina verificării |
+| Compromiterea cheii private | Scăzută | Critic | HSM/KMS + rotație | Mediu | Guvernanța cheilor |
+| Slăbirea algoritmului hash | Foarte Scăzută | Critic | Agilitatea algoritmului | Scăzut | Guvernanța criptografică |
+| Compromiterea lanțului de aprovizionare | Medie | Semnificativ | Controale CI + SBOM | Mediu | Guvernanța DevSecOps |
+
+Rezumatul posturii de risc:
+
+- Riscurile de integritate structurală sunt puternic atenuate.
+- Compromiterea cheii rămâne scenariul cu cel mai mare impact.
+- Maturitatea guvernanței influențează direct riscul rezidual.
+
+---
+
+## 12. Model de Guvernanță și Separarea Rolurilor
+
+Securitatea VeriSeal presupune separarea instituțională a sarcinilor.
+
+### 12.1 Roluri Funcționale
+
+**Operator de Sigilare**
+- Inițiază generarea dovezilor.
+- Nu poate modifica intrările istorice ale registrului.
+
+**Autoritate de Verificare**
+- Efectuează validarea independentă.
+- Nu are acces la cheile de semnare.
+
+**Custode al Cheilor**
+- Gestionează cheile de semnare.
+- Funcționează sub politica de control dual.
+
+**Administrator de Infrastructură**
+- Gestionează disponibilitatea sistemului.
+- Nu poate altera sarcinile utile de dovadă semnate.
+
+**Funcție de Audit**
+- Revizuiește jurnalele și continuitatea lanțului.
+- Independent de operațiuni.
+
+---
+
+### 12.2 Prezentare Generală RACI
+
+| Funcție | Sigilare | Verificare | Semnare | Menținere | Audit |
+|---------|----------|------------|---------|-----------|-------|
+| Operator de Sigilare | R | C | - | - | - |
+| Autoritate de Verificare | - | R | - | - | C |
+| Custode al Cheilor | - | - | R | - | C |
+| Administrator de Infrastructură | - | - | - | R | C |
 | Audit | - | C | C | C | R |
 
-R = Responsible
-C = Control / Oversight
+R = Responsabil
+C = Control / Supraveghere
 
 ---
 
-### 12.3 Governance Principle
+### 12.3 Principiul Guvernanței
 
-Integrity is enforced by cryptography.
-Trust is enforced by governance separation.
+Integritatea este impusă de criptografie.
+Încrederea este impusă de separarea guvernanței.
 
-Cryptographic guarantees reduce reliance on human trust,
-but institutional governance ensures resilience.
-
----
-
-## 13. Incident Response & Key Compromise Procedure
-
-This section defines minimum institutional response posture.
-
-### 13.1 Key Compromise Scenario
-
-If signing key compromise is suspected:
-
-1. Immediate key revocation.
-2. Stop new proof issuance.
-3. Generate new signing key pair.
-4. Publish public incident notice.
-5. Re-anchor system state (if applicable).
-6. Conduct forensic audit.
-
-Historical proofs remain structurally verifiable.
-Trust domain shifts to key validity timeline.
+Garanțiile criptografice reduc dependența de încrederea umană,
+dar guvernanța instituțională asigură reziliența.
 
 ---
 
-### 13.2 Proof Integrity Incident
+## 13. Procedura de Răspuns la Incidente și Compromiterea Cheii
 
-If ledger corruption is detected:
+Această secțiune definește postura minimă de răspuns instituțional.
 
-- Recompute chain continuity.
-- Identify divergence point.
-- Restore from validated backup.
-- Publish integrity statement.
+### 13.1 Scenariul de Compromitere a Cheii
+
+Dacă se suspectează compromiterea cheii de semnare:
+
+1. Revocarea imediată a cheii.
+2. Oprirea emiterii de noi dovezi.
+3. Generarea unei noi perechi de chei de semnare.
+4. Publicarea unui aviz public de incident.
+5. Reancorarea stării sistemului (dacă este aplicabil).
+6. Efectuarea unui audit criminalistic.
+
+Dovezile istorice rămân structural verificabile.
+Domeniul de încredere se mută la cronologia valabilității cheii.
 
 ---
 
-### 13.3 Public Transparency Principle
+### 13.2 Incident de Integritate a Dovezilor
 
-For institutional deployments:
+Dacă se detectează coruperea registrului:
 
-- Incident disclosure policy required.
-- Timestamped incident logs recommended.
-- Independent audit advisable for high assurance domains.
+- Recalcularea continuității lanțului.
+- Identificarea punctului de divergență.
+- Restaurarea dintr-un backup validat.
+- Publicarea unei declarații de integritate.
 
 ---
 
-### 13.4 Long-Term Cryptographic Evolution
+### 13.3 Principiul Transparenței Publice
 
-If hash or signature primitives weaken:
+Pentru implementările instituționale:
 
-- Introduce versioned hash field.
-- Re-anchor existing proofs.
-- Support dual-hash strategy during migration.
+- Politica de dezvăluire a incidentelor este necesară.
+- Jurnalele de incidente cu marcaj temporal sunt recomandate.
+- Auditul independent este recomandabil pentru domeniile cu asigurare ridicată.
 
-Algorithm agility must be built into governance roadmap.
+---
 
+### 13.4 Evoluția Criptografică pe Termen Lung
+
+Dacă primitivele hash sau de semnătură slăbesc:
+
+- Introducerea câmpului de hash versiune.
+- Reancorarea dovezilor existente.
+- Suport pentru strategia dual-hash în timpul migrației.
+
+Agilitatea algoritmului trebuie să fie integrată în foaia de parcurs a guvernanței.

@@ -1,277 +1,277 @@
 ---
-title: VIP-REG-006 - Institutional Public Key Registry Framework
+title: VIP-REG-006 - Cadru pentru Registrul Cheilor Publice Instituționale
 sidebar_label: VIP-REG-006
 ---
 
-# VIP-REG-006 - Institutional Public Key Registry Framework
+# VIP-REG-006 - Cadru pentru Registrul Cheilor Publice Instituționale
 
-Version: 1.0
-Status: Public Draft
-Classification: Public Trust Infrastructure Framework
-
----
-
-## 1. Scope
-
-VIP-REG-006 defines the framework for publishing, discovering, and validating institutional public verification keys.
-
-It complements:
-
-- VIP-STD-001 (Integrity Core)
-- VIP-STD-002 (Signature Layer)
-- VIP-STF-005 (Institutional Document Signature Framework)
-
-This framework establishes a neutral registry model enabling:
-
-- Public key transparency
-- Cross-institution verification
-- Regulator access
-- Independent validation
-
-VIP-REG-006 does not define identity verification.
-It defines public key discovery and validation structure.
+Versiune: 1.0
+Stare: Proiect Public
+Clasificare: Cadru de Infrastructură de Încredere Publică
 
 ---
 
-## 2. Objectives
+## 1. Domeniu de aplicare
 
-The registry framework ensures:
+VIP-REG-006 definește cadrul pentru publicarea, descoperirea și validarea cheilor publice de verificare instituționale.
 
-- Public verifiability of institutional keys
-- Deterministic trust discovery
-- Key lifecycle transparency
-- Compromise containment
-- Historical verification continuity
+Acesta completează:
 
-The registry prevents reliance on bilateral API agreements.
+- VIP-STD-001 (Nucleul Integrității)
+- VIP-STD-002 (Stratul de Semnătură)
+- VIP-STF-005 (Cadru pentru Semnătura Documentelor Instituționale)
 
-Verification must remain infrastructure-neutral.
+Acest cadru stabilește un model de registru neutru care permite:
 
----
+- Transparența cheilor publice
+- Verificare inter-instituțională
+- Accesul autorităților de reglementare
+- Validare independentă
 
-## 3. Registry Models
-
-VIP-REG-006 supports multiple registry architectures.
-
-## 3.1 Centralized Registry
-
-A central authority maintains:
-
-- Institutional identifier
-- Public verification key
-- Algorithm type
-- Effective date
-- Expiration date
-- Revocation status
-
-Suitable for:
-
-- National banking ecosystems
-- Regulatory supervised environments
-- Industry consortia
+VIP-REG-006 nu definește verificarea identității.
+Definește structura de descoperire și validare a cheilor publice.
 
 ---
 
-## 3.2 Federated Registry
+## 2. Obiective
 
-Multiple trusted registries interoperate via:
+Cadrul registrului asigură:
 
-- Cross-signing
-- Registry anchoring
-- Mutual recognition
+- Verificabilitatea publică a cheilor instituționale
+- Descoperirea deterministă a încrederii
+- Transparența ciclului de viață al cheilor
+- Limitarea compromiterii
+- Continuitatea verificării istorice
 
-Suitable for:
+Registrul previne dependența de acorduri bilaterale API.
 
-- Cross-border environments
-- Interbank frameworks
-- International trade systems
-
----
-
-## 3.3 Distributed Transparency Registry
-
-Public keys are anchored via:
-
-- Public blockchain commitments
-- Merkle tree transparency logs
-- Append-only public registries
-
-Suitable for:
-
-- Open ecosystems
-- Cross-jurisdiction neutrality
-- Infrastructure independence
+Verificarea trebuie să rămână neutră față de infrastructură.
 
 ---
 
-## 4. Institutional Registration Requirements
+## 3. Modele de Registru
 
-To register under VIP-REG-006, an institution MUST provide:
+VIP-REG-006 suportă multiple arhitecturi de registru.
 
-- Legal entity identifier
-- Institutional name
-- Jurisdiction
-- Public verification key
-- Signature algorithm
-- Effective date
-- Governance contact reference
+## 3.1 Registru Centralizat
 
-Optional:
+O autoritate centrală menține:
 
-- Regulatory reference
-- Certification statement
-- Cross-registry binding
+- Identificator instituțional
+- Cheie publică de verificare
+- Tipul algoritmului
+- Data efectivă
+- Data expirării
+- Starea de revocare
 
----
+Potrivit pentru:
 
-## 5. Key Lifecycle Management
-
-## 5.1 Key Activation
-
-Upon publication:
-
-- Key becomes publicly verifiable
-- Effective date MUST be recorded
-- Registry entry MUST be immutable
+- Ecosisteme bancare naționale
+- Medii supravegheate de reglementare
+- Consorții industriale
 
 ---
 
-## 5.2 Key Rotation
+## 3.2 Registru Federat
 
-Registry MUST support:
+Multiple registre de încredere interacționează prin:
 
-- Overlapping key periods
-- Legacy key retention
-- Historical lookup
+- Semnare încrucișată
+- Ancorarea registrului
+- Recunoaștere reciprocă
 
-Historical signatures MUST remain verifiable.
+Potrivit pentru:
 
----
-
-## 5.3 Key Revocation
-
-If compromise occurs:
-
-- Revocation timestamp MUST be published
-- Status MUST be publicly visible
-- Historical validity prior to revocation MUST remain provable
-
-Revocation does not invalidate past signatures unless legally declared.
+- Medii transfrontaliere
+- Cadre interbancare
+- Sisteme de comerț internațional
 
 ---
 
-## 6. Verification Flow
+## 3.3 Registru de Transparență Distribuit
 
-Independent verification MUST allow:
+Cheile publice sunt ancorate prin:
 
-1. Retrieval of institution identifier
-2. Retrieval of current or historical key
-3. Hash recomputation (VIP-STD-001)
-4. Signature validation (VIP-STD-002)
-5. Key validity confirmation at issuance time
+- Angajamente blockchain publice
+- Jurnale de transparență Merkle tree
+- Registre publice doar pentru adăugare
 
-Verification MUST NOT require privileged system access.
+Potrivit pentru:
 
----
-
-## 7. Trust Model
-
-VIP-REG-006 separates:
-
-- Cryptographic verification
-- Institutional accountability
-- Regulatory supervision
-
-The registry does not:
-
-- Guarantee institutional honesty
-- Guarantee document truthfulness
-- Replace legal enforcement
-
-It guarantees structural transparency of verification keys.
+- Ecosisteme deschise
+- Neutralitate trans-jurisdicțională
+- Independența infrastructurii
 
 ---
 
-## 8. Security Considerations
+## 4. Cerințe de Înregistrare Instituțională
 
-Risks include:
+Pentru a se înregistra sub VIP-REG-006, o instituție TREBUIE să furnizeze:
 
-- Registry compromise
-- Unauthorized key insertion
-- Key impersonation
-- Governance failure
+- Identificatorul entității legale
+- Numele instituțional
+- Jurisdicția
+- Cheia publică de verificare
+- Algoritmul de semnătură
+- Data efectivă
+- Referința de contact pentru guvernanță
 
-Mitigation may include:
+Opțional:
 
-- Multi-party registry governance
-- Transparency logs
-- External anchoring
-- Public audit mechanisms
-
----
-
-## 9. Cross-Sector Implications
-
-When combined with VIP-STF-005:
-
-- Banks can verify other banks
-- Notaries can verify institutions
-- Regulators can independently validate signatures
-- Cross-border document authenticity becomes deterministic
-
-Registry interoperability reduces:
-
-- Manual verification
-- Bilateral validation agreements
-- Fraud-by-modification
-- Cross-institution trust friction
+- Referință de reglementare
+- Declarație de certificare
+- Legătură între registre
 
 ---
 
-## 10. Strategic Impact
+## 5. Gestionarea Ciclului de Viață al Cheilor
 
-Widespread adoption enables:
+## 5.1 Activarea Cheii
 
-- Neutral document verification infrastructure
-- Reduction of document fraud via falsification
-- Reduction of manual authenticity checks
-- Standardized institutional proof ecosystem
-- Cross-sector interoperability
+La publicare:
 
-VIP-REG-006 transforms public key publication from ad-hoc practice
-into structured institutional infrastructure.
+- Cheia devine verificabilă public
+- Data efectivă TREBUIE să fie înregistrată
+- Intrarea în registru TREBUIE să fie imuabilă
 
 ---
 
-## 11. Compliance Requirements
+## 5.2 Rotirea Cheii
 
-To claim compliance with VIP-REG-006, a registry MUST:
+Registrul TREBUIE să suporte:
 
-- Maintain append-only transparency
-- Publish revocation events
-- Preserve historical key states
-- Enable independent public lookup
-- Document governance model
+- Perioade de chei suprapuse
+- Păstrarea cheilor vechi
+- Căutare istorică
 
-Failure to meet these invalidates compliance claims.
+Semnăturile istorice TREBUIE să rămână verificabile.
 
 ---
 
-## 12. Conclusion
+## 5.3 Revocarea Cheii
 
-VIP-REG-006 defines the institutional public key registry layer
-required for global document verification interoperability.
+Dacă apare o compromitere:
 
-It strengthens:
+- Timpul de revocare TREBUIE să fie publicat
+- Starea TREBUIE să fie vizibilă public
+- Valabilitatea istorică înainte de revocare TREBUIE să rămână demonstrabilă
 
-- Transparency
-- Determinism
-- Cross-institution trust
-- Structural neutrality
+Revocarea nu invalidează semnăturile anterioare decât dacă este declarată legal.
 
-It does not centralize trust.
+---
 
-It makes verification reproducible.
+## 6. Fluxul de Verificare
 
-When combined with VIP-STF-005,
-it enables a global institutional document authenticity network.
+Verificarea independentă TREBUIE să permită:
+
+1. Recuperarea identificatorului instituției
+2. Recuperarea cheii curente sau istorice
+3. Recalcularea hash-ului (VIP-STD-001)
+4. Validarea semnăturii (VIP-STD-002)
+5. Confirmarea valabilității cheii la momentul emiterii
+
+Verificarea NU TREBUIE să necesite acces privilegiat la sistem.
+
+---
+
+## 7. Model de Încredere
+
+VIP-REG-006 separă:
+
+- Verificarea criptografică
+- Responsabilitatea instituțională
+- Supravegherea de reglementare
+
+Registrul nu:
+
+- Garantează onestitatea instituțională
+- Garantează veridicitatea documentelor
+- Înlocuiește aplicarea legală
+
+Acesta garantează transparența structurală a cheilor de verificare.
+
+---
+
+## 8. Considerații de Securitate
+
+Riscurile includ:
+
+- Compromiterea registrului
+- Inserarea neautorizată a cheilor
+- Imitarea cheilor
+- Eșecul guvernanței
+
+Măsurile de atenuare pot include:
+
+- Guvernanța registrului multi-parte
+- Jurnale de transparență
+- Ancorare externă
+- Mecanisme de audit public
+
+---
+
+## 9. Implicații Transsectoriale
+
+Când este combinat cu VIP-STF-005:
+
+- Băncile pot verifica alte bănci
+- Notarii pot verifica instituțiile
+- Regulatorii pot valida independent semnăturile
+- Autenticitatea documentelor transfrontaliere devine deterministă
+
+Interoperabilitatea registrului reduce:
+
+- Verificarea manuală
+- Acordurile de validare bilaterale
+- Frauda prin modificare
+- Fricțiunea de încredere inter-instituțională
+
+---
+
+## 10. Impact Strategic
+
+Adoptarea pe scară largă permite:
+
+- Infrastructură neutră de verificare a documentelor
+- Reducerea fraudei documentare prin falsificare
+- Reducerea verificărilor manuale de autenticitate
+- Ecosistem standardizat de dovadă instituțională
+- Interoperabilitate transsectorială
+
+VIP-REG-006 transformă publicarea cheilor publice dintr-o practică ad-hoc
+într-o infrastructură instituțională structurată.
+
+---
+
+## 11. Cerințe de Conformitate
+
+Pentru a revendica conformitatea cu VIP-REG-006, un registru TREBUIE să:
+
+- Mențină transparența doar pentru adăugare
+- Publice evenimentele de revocare
+- Păstreze stările istorice ale cheilor
+- Permită căutarea publică independentă
+- Documenteze modelul de guvernanță
+
+Nerespectarea acestor cerințe invalidează revendicările de conformitate.
+
+---
+
+## 12. Concluzie
+
+VIP-REG-006 definește stratul de registru al cheilor publice instituționale
+necesar pentru interoperabilitatea globală a verificării documentelor.
+
+Întărește:
+
+- Transparența
+- Determinismul
+- Încrederea inter-instituțională
+- Neutralitatea structurală
+
+Nu centralizează încrederea.
+
+Face verificarea reproductibilă.
+
+Când este combinat cu VIP-STF-005,
+permite o rețea globală de autenticitate a documentelor instituționale.

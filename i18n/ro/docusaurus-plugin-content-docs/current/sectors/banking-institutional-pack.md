@@ -1,302 +1,301 @@
 ---
 id: banking-institutional-pack
-title: Banking Institutional Pack
+title: Pachet Instituțional Bancar
 ---
 
-# VeriSeal for Banking & Financial Infrastructure
+# VeriSeal pentru Infrastructura Bancară și Financiară
 
-VeriSeal provides a sector-agnostic cryptographic integrity layer for verifiable digital evidence.
+VeriSeal oferă un strat de integritate criptografică independent de sector pentru dovezi digitale verificabile.
 
-## Scope Clarification
+## Clarificarea Domeniului de Aplicare
 
-The scenarios presented below illustrate representative high-risk situations within this sector where document integrity, timestamp certainty, and verifiable authenticity are critical.
+Scenariile prezentate mai jos ilustrează situații reprezentative cu risc ridicat din acest sector, unde integritatea documentelor, certitudinea marcajului temporal și autenticitatea verificabilă sunt critice.
 
-They are not exhaustive.
+Acestea nu sunt exhaustive.
 
-VeriSeal is not designed to solve a single isolated use case.
-It provides a structural cryptographic integrity layer applicable to any digital document, event record, media capture, or transactional evidence requiring long-term verifiability.
+VeriSeal nu este conceput pentru a rezolva un singur caz de utilizare izolat.
+Oferă un strat structural de integritate criptografică aplicabil oricărui document digital, înregistrare de evenimente, captură media sau dovadă tranzacțională care necesită verificabilitate pe termen lung.
 
-The examples below represent structural risk categories - not functional limits.
+Exemplele de mai jos reprezintă categorii de risc structural — și nu limite funcționale.
 
 
-## Executive Institutional Brief
+## Rezumat Executiv Instituțional
 
-### The Structural Risk
+### Riscul Structural
 
-Modern financial institutions depend on digital evidence.
+Instituțiile financiare moderne depind de dovezi digitale.
 
-Contracts. Loan approvals. Transaction authorizations. KYC files. Internal approvals. Compliance attestations. Cross-border exchanges.
+Contracte. Aprobări de împrumuturi. Autorizări de tranzacții. Fișiere KYC. Aprobări interne. Atestări de conformitate. Schimburi transfrontaliere.
 
-Yet most banking infrastructures rely on:
+Cu toate acestea, majoritatea infrastructurilor bancare se bazează pe:
 
-- Mutable internal logs
-- Platform-controlled timestamps
-- Signature-layer solutions without long-term integrity guarantees
-- Archival systems without cryptographic anchoring
-- Trust-based verification rather than deterministic verification
+- Jurnale interne modificabile
+- Marcaje temporale controlate de platformă
+- Soluții de strat de semnătură fără garanții de integritate pe termen lung
+- Sisteme de arhivare fără ancorare criptografică
+- Verificare bazată pe încredere în loc de verificare deterministă
 
-This creates a structural vulnerability:
+Aceasta creează o vulnerabilitate structurală:
 
-**Evidence can be operationally valid yet strategically fragile.**
-
----
-
-## The Emerging Risk Landscape
-
-Financial institutions now face a new category of exposure:
-
-1. **AI-generated documentation risk**
-2. **Long-term non-repudiation failure**
-3. **Cross-border evidentiary asymmetry**
-4. **Regulatory escalation (DORA, eIDAS 2.0, AML/KYC traceability)**
-5. **Operational risk compression requirements (Basel frameworks)**
-6. **Digital litigation defensibility challenges**
-
-The question is no longer whether a document is signed.
-
-The question is whether it is **cryptographically defensible in 10-20 years.**
+**Dovezile pot fi valabile operațional, dar fragile strategic.**
 
 ---
 
-## What VeriSeal Is
+## Peisajul de Risc Emergent
 
-VeriSeal is an independent cryptographic evidence infrastructure.
+Instituțiile financiare se confruntă acum cu o nouă categorie de expunere:
 
-It provides:
+1. **Risc de documentație generată de AI**
+2. **Eșec de nerepudiere pe termen lung**
+3. **Asimetrie probatorie transfrontalieră**
+4. **Escaladare reglementară (DORA, eIDAS 2.0, AML/KYC trasabilitate)**
+5. **Cerințe de comprimare a riscului operațional (cadrele Basel)**
+6. **Provocări de apărare în litigii digitale**
 
-- Deterministic integrity hashing
-- Immutable anchoring
-- Independent timestamping
-- Verifiable proof bundles
-- Long-term cryptographic defensibility
+Întrebarea nu mai este dacă un document este semnat.
 
-VeriSeal does not replace banking systems.
-
-It operates **beneath them** as a structural integrity layer.
-
----
-
-## What Changes for a Bank
-
-### 1. Deterministic Integrity
-
-Every critical document or transaction artifact becomes cryptographically sealed.
-
-Integrity becomes mathematically demonstrable, not platform-dependent.
+Întrebarea este dacă este **criptografic defensibil în 10-20 de ani.**
 
 ---
 
-### 2. Cross-Border Verifiability
+## Ce Este VeriSeal
 
-Evidence can be verified independently of the issuing institution.
+VeriSeal este o infrastructură independentă de dovezi criptografice.
 
-No reliance on proprietary databases.
+Oferă:
 
-No dependence on vendor persistence.
+- Hashing de integritate deterministă
+- Ancorare imuabilă
+- Marcaj temporal independent
+- Pachete de dovezi verificabile
+- Defensibilitate criptografică pe termen lung
 
----
+VeriSeal nu înlocuiește sistemele bancare.
 
-### 3. Long-Term Sovereign Timestamping
-
-Anchored integrity ensures:
-
-- No retroactive manipulation
-- No undetectable alteration
-- No silent corruption
+Funcționează **sub acestea** ca un strat de integritate structurală.
 
 ---
 
-### 4. Litigation & Audit Strengthening
+## Ce Se Schimbă pentru o Bancă
 
-VeriSeal transforms evidence from:
+### 1. Integritate Deterministă
 
-> "Internally stored and platform dependent"
+Fiecare document critic sau artefact tranzacțional devine sigilat criptografic.
 
-to
-
-> "Externally verifiable and cryptographically sealed"
+Integritatea devine demonstrabilă matematic, nu dependentă de platformă.
 
 ---
 
-## Deployment Model
+### 2. Verificabilitate Transfrontalieră
 
-VeriSeal integrates in three modes:
+Dovezile pot fi verificate independent de instituția emitentă.
 
-### API Mode
-Overlay integrity layer on existing workflows.
+Fără dependență de baze de date proprietare.
 
-### Hybrid Mode
-Selective sealing of high-risk documents (loan contracts, KYC, regulatory filings).
-
-### Internal Node Mode
-Full institutional control and sovereign deployment.
-
-Deployment timeframe: **30-90 days.**
+Fără dependență de persistența furnizorului.
 
 ---
 
-## Financial Impact
+### 3. Marcaj Temporal Suveran pe Termen Lung
 
-VeriSeal reduces:
+Ancorarea integrității asigură:
 
-- Litigation uncertainty
-- Regulatory defensibility risk
-- Audit friction
-- Long-term archival uncertainty
-- Operational risk exposure
-
-It enhances:
-
-- Institutional credibility
-- Risk compression metrics
-- Cross-border trust
-- Capital efficiency through reduced evidentiary exposure
+- Fără manipulare retroactivă
+- Fără alterare nedetectabilă
+- Fără corupție silențioasă
 
 ---
 
-## Strategic Question for the Board
+### 4. Întărirea Litigiilor și Auditului
 
-Is digital evidence a strategic risk category?
+VeriSeal transformă dovezile din:
 
-If yes, the institution requires:
+> "Stocate intern și dependente de platformă"
 
-- A deterministic proof layer
-- A sovereign timestamping framework
-- A long-term cryptographic audit model
+în
 
-VeriSeal provides that layer.
+> "Verificabile extern și sigilate criptografic"
 
 ---
 
-## Technical & Regulatory Annex
+## Model de Implementare
 
-## Architectural Overview
+VeriSeal se integrează în trei moduri:
 
-VeriSeal operates through:
+### Mod API
+Suprapunere a stratului de integritate pe fluxurile de lucru existente.
 
-1. Canonicalization
-2. SHA-256 hashing
-3. Append-only ledger registration
-4. Independent timestamp anchoring
-5. Proof bundle generation (JSON + verification artifacts)
+### Mod Hibrid
+Sigilarea selectivă a documentelor cu risc ridicat (contracte de împrumut, KYC, depuneri reglementare).
 
-No business logic resides in the proof layer.
+### Mod Nod Intern
+Control instituțional complet și implementare suverană.
 
-The system remains neutral and verifiable.
-
----
-
-## Regulatory Alignment
-
-VeriSeal strengthens compliance posture under:
-
-- DORA (operational resilience and audit traceability)
-- eIDAS 2.0 (integrity & timestamping logic)
-- AML/KYC evidence preservation
-- PSD2 transaction integrity
-- Basel operational risk frameworks
-- AI Act documentation traceability
-
-It does not replace regulatory frameworks.
-
-It strengthens defensibility within them.
+Timp de implementare: **30-90 de zile.**
 
 ---
 
-## Integrity vs Signature
+## Impact Financiar
 
-Electronic signature proves intent at a moment.
+VeriSeal reduce:
 
-VeriSeal proves:
+- Incertitudinea litigiilor
+- Riscul de defensibilitate reglementară
+- Fricțiunea auditului
+- Incertitudinea arhivării pe termen lung
+- Expunerea la riscul operațional
 
-- Integrity over time
-- Non-repudiation durability
-- Immutable chronological anchoring
+Îmbunătățește:
 
-The two are complementary.
-
----
-
-## Threat Model Resistance
-
-VeriSeal protects against:
-
-- Retroactive document alteration
-- Silent archival corruption
-- Log manipulation
-- Vendor collapse risk
-- Cross-border evidentiary disputes
-- AI-fabricated document insertion
+- Credibilitatea instituțională
+- Metricile de comprimare a riscului
+- Încrederea transfrontalieră
+- Eficiența capitalului prin reducerea expunerii probatorii
 
 ---
 
-## Verification Model
+## Întrebarea Strategică pentru Consiliu
 
-Verification requires:
+Este dovada digitală o categorie de risc strategic?
 
-- The proof bundle
-- Public verification logic
-- Hash recomputation
+Dacă da, instituția necesită:
 
-No internal system access required.
+- Un strat de dovadă deterministă
+- Un cadru de marcaj temporal suveran
+- Un model de audit criptografic pe termen lung
 
-This ensures institutional independence.
-
----
-
-## Governance Model
-
-VeriSeal can operate:
-
-- As external integrity provider
-- As internal sovereign node
-- As hybrid institutional layer
-
-Control remains configurable.
+VeriSeal oferă acel strat.
 
 ---
 
-## Conclusion
+## Anexă Tehnică și Reglementară
 
-VeriSeal is not a productivity tool.
+## Prezentare Generală Arhitecturală
 
-It is not a workflow application.
+VeriSeal operează prin:
 
-It is not a signature platform.
+1. Canonicalizare
+2. Hashing SHA-256
+3. Înregistrare în registru doar adăugare
+4. Ancorare independentă a marcajului temporal
+5. Generarea pachetelor de dovezi (JSON + artefacte de verificare)
 
-It is a structural cryptographic integrity layer for financial institutions operating in an era of digital uncertainty.
+Nici o logică de afaceri nu rezidă în stratul de dovadă.
 
-Banks that integrate deterministic evidence infrastructure will define the next standard of institutional trust.
+Sistemul rămâne neutru și verificabil.
 
-## Contribution to the Global Evidence Standard
+---
 
-VeriSeal deployment in this sector contributes to the emergence of a globally interoperable evidence format.
+## Aliniere Reglementară
 
-Each verified proof strengthens:
+VeriSeal întărește postura de conformitate sub:
 
-- Cross-border evidentiary alignment
-- Deterministic verification standards
-- Interoperable cryptographic audit trails
-- Institutional-grade integrity frameworks
+- DORA (reziliență operațională și trasabilitate audit)
+- eIDAS 2.0 (logică de integritate și marcaj temporal)
+- Conservarea dovezilor AML/KYC
+- Integritatea tranzacțiilor PSD2
+- Cadrele de risc operațional Basel
+- Trasabilitatea documentației Actului AI
 
-Sector adoption accelerates standardization.
+Nu înlocuiește cadrele reglementare.
 
-Standardization accelerates inevitability.
+Întărește defensibilitatea în cadrul acestora.
 
-## Structural Applicability
+---
 
-Beyond the examples described above, VeriSeal applies to any digitally generated evidence within this sector, including but not limited to:
+## Integritate vs Semnătură
 
-- contractual documentation
-- compliance reporting
-- internal audit trails
-- regulatory disclosures
-- transactional attestations
-- cross-institutional exchanges
-- customer-generated digital evidence
-- time-sensitive records
+Semnătura electronică dovedește intenția la un moment dat.
 
-VeriSeal's role is infrastructural, not situational.
+VeriSeal dovedește:
 
-Its function is to establish verifiable integrity, deterministic timestamping, and independent public verification across all digital evidence categories within the sector.
+- Integritatea în timp
+- Durabilitatea nerepudierii
+- Ancorare cronologică imuabilă
 
+Cele două sunt complementare.
+
+---
+
+## Rezistența Modelului de Amenințare
+
+VeriSeal protejează împotriva:
+
+- Alterării retroactive a documentelor
+- Corupției silențioase a arhivelor
+- Manipulării jurnalelor
+- Riscului de colaps al furnizorului
+- Disputelor probatorii transfrontaliere
+- Inserției de documente fabricate de AI
+
+---
+
+## Model de Verificare
+
+Verificarea necesită:
+
+- Pachetul de dovezi
+- Logica publică de verificare
+- Recalcularea hash-ului
+
+Nu este necesar accesul la sistemul intern.
+
+Aceasta asigură independența instituțională.
+
+---
+
+## Model de Guvernanță
+
+VeriSeal poate opera:
+
+- Ca furnizor extern de integritate
+- Ca nod suveran intern
+- Ca strat instituțional hibrid
+
+Controlul rămâne configurabil.
+
+---
+
+## Concluzie
+
+VeriSeal nu este un instrument de productivitate.
+
+Nu este o aplicație de flux de lucru.
+
+Nu este o platformă de semnături.
+
+Este un strat structural de integritate criptografică pentru instituțiile financiare care operează într-o eră a incertitudinii digitale.
+
+Băncile care integrează infrastructura de dovezi deterministe vor defini următorul standard de încredere instituțională.
+
+## Contribuția la Standardul Global de Dovezi
+
+Implementarea VeriSeal în acest sector contribuie la apariția unui format de dovezi interoperabil la nivel global.
+
+Fiecare dovadă verificată întărește:
+
+- Alinierea probatorie transfrontalieră
+- Standardele de verificare deterministă
+- Urmele de audit criptografice interoperabile
+- Cadrele de integritate de grad instituțional
+
+Adoptarea sectorială accelerează standardizarea.
+
+Standardizarea accelerează inevitabilitatea.
+
+## Aplicabilitate Structurală
+
+Dincolo de exemplele descrise mai sus, VeriSeal se aplică oricărei dovezi generate digital în acest sector, inclusiv, dar fără a se limita la:
+
+- documentație contractuală
+- raportare de conformitate
+- urme de audit intern
+- dezvăluiri reglementare
+- atestări tranzacționale
+- schimburi interinstituționale
+- dovezi digitale generate de clienți
+- înregistrări sensibile la timp
+
+Rolul VeriSeal este infrastructural, nu situațional.
+
+Funcția sa este de a stabili integritatea verificabilă, marcajul temporal determinist și verificarea publică independentă în toate categoriile de dovezi digitale din cadrul sectorului.

@@ -1,45 +1,45 @@
 ---
-title: Institutional Roadmap — 36 Months
+title: Foaie de parcurs instituțională — 36 luni
 ---
 
-# Institutional Roadmap — 36 Months
+# Foaie de parcurs instituțională — 36 luni
 
-## Phase 1 (0–12 Months)
+## Faza 1 (0–12 luni)
 
-- Pilot integrations
-- Sector-specific validation
-- Regulatory dialogue
-- Initial certification framework
+- Integrări pilot
+- Validare specifică sectorului
+- Dialog cu autoritățile de reglementare
+- Cadru inițial de certificare
 
-Focus: controlled deployment.
-
----
-
-## Phase 2 (12–24 Months)
-
-- Multi-institution adoption
-- Conformance program expansion
-- Sector working groups
-- Cross-border interoperability pilots
-
-Focus: ecosystem expansion.
+Focus: implementare controlată.
 
 ---
 
-## Phase 3 (24–36 Months)
+## Faza 2 (12–24 luni)
 
-- Formal standardization discussions
-- Institutional consortium formation
-- Global reference positioning
-- Certification body alignment
+- Adoptare multi-instituțională
+- Extinderea programului de conformitate
+- Grupuri de lucru sectoriale
+- Proiecte pilot de interoperabilitate transfrontalieră
 
-Focus: standard candidacy consolidation.
+Focus: extinderea ecosistemului.
 
 ---
 
-## Strategic Objective
+## Faza 3 (24–36 luni)
 
-Within 36 months:
+- Discuții formale de standardizare
+- Formarea unui consorțiu instituțional
+- Poziționare de referință globală
+- Alinierea organismului de certificare
 
-VeriSeal transitions from infrastructure solution  
-to integrity reference candidate.
+Focus: consolidarea candidaturii pentru standard.
+
+---
+
+## Obiectiv strategic
+
+În decurs de 36 de luni:
+
+VeriSeal trece de la soluție de infrastructură  
+la candidat de referință pentru integritate.

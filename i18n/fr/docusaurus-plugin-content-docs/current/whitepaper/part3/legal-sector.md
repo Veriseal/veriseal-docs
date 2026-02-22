@@ -1,77 +1,77 @@
 ---
 id: legal-sector
-title: Legal & Notarial Systems
+title: Systèmes Juridiques et Notariaux
 sidebar_position: 3.5
 ---
 
-# Legal & Notarial Systems
+# Systèmes Juridiques et Notariaux
 
-## Evidentiary Fragility
+## Fragilité Probatoire
 
-Legal systems rely on:
+Les systèmes juridiques reposent sur :
 
-- Document authenticity
-- Timestamp reliability
-- Chain of custody integrity
-- Verifiable origin
+- L'authenticité des documents
+- La fiabilité des horodatages
+- L'intégrité de la chaîne de possession
+- L'origine vérifiable
 
-Digital transformation has increased ambiguity  
-in each of these dimensions.
-
----
-
-## Integrity at Creation Time
-
-VeriSeal seals:
-
-- Content hash
-- Metadata consistency
-- Ledger linkage
-- Optional external timestamp
-
-This produces:
-
-A deterministic evidentiary snapshot  
-at the moment of sealing.
+La transformation numérique a accru l'ambiguïté  
+dans chacune de ces dimensions.
 
 ---
 
-## Courtroom Implications
+## Intégrité au Moment de la Création
 
-VeriSeal does not claim legal superiority.
+VeriSeal scelle :
 
-It provides:
+- Le hash du contenu
+- La cohérence des métadonnées
+- Le lien avec le registre
+- L'horodatage externe optionnel
 
-- Reproducible verification procedure
-- Hash-based integrity validation
-- Independent validation capability
+Cela produit :
 
-Courts interpret evidence.
-
-VeriSeal strengthens structural defensibility.
-
----
-
-## Notarial Augmentation
-
-Notarial systems can:
-
-- Seal digital documents
-- Anchor certification events
-- Reinforce archival immutability
-- Provide verifiable public records
-
-VeriSeal supports institutional authority  
-without replacing it.
+Un instantané probatoire déterministe  
+au moment du scellement.
 
 ---
 
-## Strategic Importance
+## Implications en Salle d'Audience
 
-The legal sector validates:
+VeriSeal ne revendique pas de supériorité légale.
 
-- Integrity robustness
-- Long-term archival stability
-- Governance discipline
+Il fournit :
 
-This strengthens standardization legitimacy.
+- Une procédure de vérification reproductible
+- Une validation d'intégrité basée sur le hash
+- Une capacité de validation indépendante
+
+Les tribunaux interprètent les preuves.
+
+VeriSeal renforce la défensibilité structurelle.
+
+---
+
+## Augmentation Notariale
+
+Les systèmes notariaux peuvent :
+
+- Sceller des documents numériques
+- Ancrer des événements de certification
+- Renforcer l'immuabilité des archives
+- Fournir des archives publiques vérifiables
+
+VeriSeal soutient l'autorité institutionnelle  
+sans la remplacer.
+
+---
+
+## Importance Stratégique
+
+Le secteur juridique valide :
+
+- La robustesse de l'intégrité
+- La stabilité archivistique à long terme
+- La discipline de gouvernance
+
+Cela renforce la légitimité de la standardisation.

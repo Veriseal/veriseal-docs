@@ -1,71 +1,71 @@
 ---
-title: Standard Governance Model
+title: Modèle de Gouvernance Standard
 ---
 
-# Standard Governance Model
+# Modèle de Gouvernance Standard
 
-A global integrity standard requires governance neutrality.
+Une norme d'intégrité mondiale nécessite une neutralité de gouvernance.
 
-VeriSeal governance must evolve beyond its originating entity.
-
----
-
-## Governance Principles
-
-1. Technical Transparency  
-2. Deterministic Specification Stability  
-3. Institutional Inclusiveness  
-4. Long-Term Archival Responsibility  
-5. Geopolitical Neutrality  
-
-Integrity standards must not be commercially captured.
+La gouvernance de VeriSeal doit évoluer au-delà de son entité d'origine.
 
 ---
 
-## Governance Structure (Target Model)
+## Principes de Gouvernance
 
-### 1. Technical Steering Committee
+1. Transparence Technique  
+2. Stabilité des Spécifications Déterministes  
+3. Inclusivité Institutionnelle  
+4. Responsabilité Archivistique à Long Terme  
+5. Neutralité Géopolitique  
 
-- Protocol evolution
-- Cryptographic review
-- Backward compatibility oversight
-
-### 2. Conformance Board
-
-- Certification oversight
-- Compliance dispute resolution
-- Audit harmonization
-
-### 3. Institutional Advisory Council
-
-- Cross-sector representation
-- Regulatory liaison
-- Standard alignment discussions
+Les normes d'intégrité ne doivent pas être capturées commercialement.
 
 ---
 
-## Separation Model
+## Structure de Gouvernance (Modèle Cible)
 
-Commercial deployment entity:
-- Product development
-- API infrastructure
-- Enterprise integration
+### 1. Comité de Pilotage Technique
 
-Governance entity:
-- Specification custodianship
-- Certification rules
-- Standard evolution supervision
+- Évolution du protocole
+- Revue cryptographique
+- Surveillance de la compatibilité ascendante
 
-Separation protects long-term legitimacy.
+### 2. Conseil de Conformité
+
+- Surveillance de la certification
+- Résolution des litiges de conformité
+- Harmonisation des audits
+
+### 3. Conseil Consultatif Institutionnel
+
+- Représentation intersectorielle
+- Liaison réglementaire
+- Discussions sur l'alignement des normes
 
 ---
 
-## Long-Term Objective
+## Modèle de Séparation
 
-Transition toward:
+Entité de déploiement commercial :
+- Développement de produits
+- Infrastructure API
+- Intégration d'entreprise
 
-- Multi-stakeholder oversight
-- Open participation framework
-- International institutional dialogue
+Entité de gouvernance :
+- Tutelle des spécifications
+- Règles de certification
+- Supervision de l'évolution des normes
 
-Standard legitimacy depends on structural independence.
+La séparation protège la légitimité à long terme.
+
+---
+
+## Objectif à Long Terme
+
+Transition vers :
+
+- Supervision multi-parties prenantes
+- Cadre de participation ouverte
+- Dialogue institutionnel international
+
+La légitimité de la norme dépend de l'indépendance structurelle.

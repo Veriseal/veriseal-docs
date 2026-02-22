@@ -1,260 +1,260 @@
 ---
-title: Certification & Conformance Model
-sidebar_label: Certification & Conformance Model
+title: Modèle de Certification et de Conformité
+sidebar_label: Modèle de Certification et de Conformité
 ---
 
-# VeriSeal - Certification & Conformance Model
+# VeriSeal - Modèle de Certification et de Conformité
 
-## Why Certification Matters
+## Pourquoi la Certification est Importante
 
-For institutional adoption, cryptographic infrastructure must not only be functional.
+Pour l'adoption institutionnelle, l'infrastructure cryptographique doit non seulement être fonctionnelle.
 
-It must be:
+Elle doit être :
 
-- Verifiable
-- Reproducible
+- Vérifiable
+- Reproductible
 - Auditable
 - Certifiable
 
-VeriSeal is designed to support a structured conformance and certification framework.
+VeriSeal est conçu pour soutenir un cadre structuré de conformité et de certification.
 
-This ensures that implementations:
+Cela garantit que les implémentations :
 
-- Follow the protocol deterministically
-- Do not introduce silent deviations
-- Preserve long-term proof validity
+- Suivent le protocole de manière déterministe
+- N'introduisent pas de déviations silencieuses
+- Préservent la validité des preuves à long terme
 
 ---
 
-## Conformance vs Certification
+## Conformité vs Certification
 
-### Conformance
+### Conformité
 
-Conformance means:
+La conformité signifie :
 
-An implementation respects the VeriSeal protocol specification.
+Une implémentation respecte la spécification du protocole VeriSeal.
 
-This includes:
+Cela inclut :
 
-- Canonical JSON serialization
-- Deterministic SHA-256 hashing
-- Append-only ledger integrity
-- Proper `prev_hash` chaining
-- Merkle root construction integrity
-- Signature validation rules
-- Timestamp anchoring format
+- Sérialisation JSON canonique
+- Hachage SHA-256 déterministe
+- Intégrité du registre en en ajout seul
+- Chaînage correct du `prev_hash`
+- Intégrité de la construction de la racine Merkle
+- Règles de validation des signatures
+- Format d'ancrage des horodatages
 
-Conformance is technical.
+La conformité est technique.
 
 ---
 
 ### Certification
 
-Certification means:
+La certification signifie :
 
-An implementation has been formally evaluated against defined criteria.
+Une implémentation a été formellement évaluée selon des critères définis.
 
-Certification is institutional.
+La certification est institutionnelle.
 
-It may include:
+Elle peut inclure :
 
-- Security assessment
-- Process review
-- Operational discipline
-- Key management validation
-- Verification endpoint integrity
-- Infrastructure segregation controls
+- Évaluation de la sécurité
+- Revue des processus
+- Discipline opérationnelle
+- Validation de la gestion des clés
+- Intégrité des points de vérification
+- Contrôles de ségrégation de l'infrastructure
 
-Certification provides assurance to third parties.
-
----
-
-## Conformance Levels
-
-VeriSeal supports tiered conformance.
-
-### Level 1 - Protocol Conformant
-
-- Correct canonicalization
-- Deterministic hashing
-- Ledger chaining valid
-- Verification endpoint functional
-
-Suitable for internal enterprise deployments.
+La certification fournit une assurance aux tiers.
 
 ---
 
-### Level 2 - Public Verification Conformant
+## Niveaux de Conformité
 
-Includes Level 1 plus:
+VeriSeal soutient une conformité par niveaux.
 
-- Public verification endpoint
-- JSON payload reproducibility
-- Independent verification instructions
-- Hash reproducibility tests
+### Niveau 1 - Conforme au Protocole
 
-Suitable for regulated environments.
+- Canonicalisation correcte
+- Hachage déterministe
+- Chaînage du registre valide
+- Point de vérification fonctionnel
 
----
-
-### Level 3 - Institutional Grade
-
-Includes Level 2 plus:
-
-- External timestamp anchoring
-- Operational key management discipline
-- Segregation of duties
-- Audit trail retention
-- Formal security review
-
-Designed for:
-
-- Financial institutions
-- Legal registries
-- Public authorities
-- Cross-border infrastructure
+Adapté aux déploiements d'entreprise internes.
 
 ---
 
-## Verification Testing Model
+### Niveau 2 - Conforme à la Vérification Publique
 
-Each certified implementation must pass:
+Inclut le Niveau 1 plus :
 
-### 1) Deterministic Reproduction Tests
+- Point de vérification public
+- Reproductibilité des charges JSON
+- Instructions de vérification indépendante
+- Tests de reproductibilité des hachages
 
-Given:
-
-- Original artifact
-- Public JSON
-- Merkle root
-
-The verification process must produce identical hashes.
-
-No drift tolerated.
+Adapté aux environnements réglementés.
 
 ---
 
-### 2) Chain Integrity Tests
+### Niveau 3 - De Niveau Institutionnel
 
-Ledger must demonstrate:
+Inclut le Niveau 2 plus :
 
-- Correct `prev_hash` linkage
-- No breaks in sequence
-- No duplicate insertion
+- Ancrage externe des horodatages
+- Discipline de gestion des clés opérationnelles
+- Ségrégation des tâches
+- Conservation des pistes d'audit
+- Revue formelle de la sécurité
 
-Append-only discipline must be demonstrable.
+Conçu pour :
 
----
-
-### 3) Signature Integrity Tests
-
-- Signature must match published public key
-- Signature must validate over canonical payload
-- No opaque signing wrappers
-
----
-
-### 4) Timestamp Anchoring Validation
-
-If anchoring is enabled:
-
-- Anchor hash must match ledger hash
-- OTS proof must validate
-- Timestamp proof must be independently reproducible
+- Institutions financières
+- Registres légaux
+- Autorités publiques
+- Infrastructure transfrontalière
 
 ---
 
-## Operational Controls (Institutional Track)
+## Modèle de Test de Vérification
 
-For higher certification tiers:
+Chaque implémentation certifiée doit réussir :
 
-### Key Management
+### 1) Tests de Reproduction Déterministe
 
-- Hardware-backed keys recommended
-- Key rotation policy defined
-- Access restrictions documented
+Étant donné :
 
-### Ledger Governance
+- Artefact original
+- JSON public
+- Racine Merkle
 
-- Clear operator accountability
-- No retroactive mutation capability
-- Backup and redundancy procedures
+Le processus de vérification doit produire des hachages identiques.
 
-### Separation of Roles
-
-- Proof generation
-- Key custody
-- Infrastructure administration
-
-Must not collapse into a single uncontrolled actor.
+Aucune dérive tolérée.
 
 ---
 
-## Public Transparency Requirements
+### 2) Tests d'Intégrité de la Chaîne
 
-Institutional-grade implementations must provide:
+Le registre doit démontrer :
 
-- Verification documentation
-- Cryptographic primitives disclosure
-- Hash algorithm declaration
-- Version identification
+- Lien correct du `prev_hash`
+- Aucune rupture dans la séquence
+- Aucune insertion en double
 
-Opaque systems cannot be certified.
-
----
-
-## Independent Verification Principle
-
-A certified VeriSeal proof must be:
-
-Verifiable without contacting VeriSeal.
-
-Verification must be possible using:
-
-- The public JSON
-- The published protocol specification
-- The ledger hash chain
-- The public key
-
-This ensures vendor independence.
+La discipline en en ajout seul doit être démontrable.
 
 ---
 
-## Compatibility with Existing Frameworks
+### 3) Tests d'Intégrité des Signatures
 
-The conformance model is compatible with:
-
-- Internal audit frameworks
-- Financial compliance review
-- Digital forensics procedures
-- Evidence admissibility evaluation
-
-It does not replace regulatory regimes.
-
-It strengthens their technical foundation.
+- La signature doit correspondre à la clé publique publiée
+- La signature doit être validée sur la charge canonique
+- Pas d'enveloppes de signature opaques
 
 ---
 
-## Long-Term Objective
+### 4) Validation de l'Ancrage des Horodatages
 
-The Certification & Conformance Model is designed to:
+Si l'ancrage est activé :
 
-- Encourage ecosystem implementations
-- Prevent protocol fragmentation
-- Enable third-party auditors
-- Build institutional confidence
-
-Over time, certification may evolve toward:
-
-- Independent accredited bodies
-- Sector-specific conformance tracks
-- Formalized global recognition
+- Le hachage d'ancrage doit correspondre au hachage du registre
+- La preuve OTS doit être validée
+- La preuve d'horodatage doit être reproductible de manière indépendante
 
 ---
 
-## Core Principle
+## Contrôles Opérationnels (Piste Institutionnelle)
 
-A proof system that cannot be tested independently
-is not infrastructure.
+Pour les niveaux de certification supérieurs :
 
-VeriSeal is designed to be testable, reproducible, and certifiable.
+### Gestion des Clés
+
+- Clés soutenues par matériel recommandées
+- Politique de rotation des clés définie
+- Restrictions d'accès documentées
+
+### Gouvernance du Registre
+
+- Responsabilité claire de l'opérateur
+- Aucune capacité de mutation rétroactive
+- Procédures de sauvegarde et de redondance
+
+### Séparation des Rôles
+
+- Génération de preuves
+- Garde des clés
+- Administration de l'infrastructure
+
+Ne doit pas s'effondrer en un seul acteur non contrôlé.
+
+---
+
+## Exigences de Transparence Publique
+
+Les implémentations de niveau institutionnel doivent fournir :
+
+- Documentation de vérification
+- Divulgation des primitives cryptographiques
+- Déclaration de l'algorithme de hachage
+- Identification de la version
+
+Les systèmes opaques ne peuvent pas être certifiés.
+
+---
+
+## Principe de Vérification Indépendante
+
+Une preuve VeriSeal certifiée doit être :
+
+Vérifiable sans contacter VeriSeal.
+
+La vérification doit être possible en utilisant :
+
+- Le JSON public
+- La spécification du protocole publiée
+- La chaîne de hachage du registre
+- La clé publique
+
+Cela garantit l'indépendance du fournisseur.
+
+---
+
+## Compatibilité avec les Cadres Existants
+
+Le modèle de conformité est compatible avec :
+
+- Cadres d'audit internes
+- Revue de conformité financière
+- Procédures de criminalistique numérique
+- Évaluation de l'admissibilité des preuves
+
+Il ne remplace pas les régimes réglementaires.
+
+Il renforce leur fondation technique.
+
+---
+
+## Objectif à Long Terme
+
+Le Modèle de Certification et de Conformité est conçu pour :
+
+- Encourager les implémentations de l'écosystème
+- Prévenir la fragmentation du protocole
+- Permettre aux auditeurs tiers
+- Construire la confiance institutionnelle
+
+Au fil du temps, la certification peut évoluer vers :
+
+- Organismes accrédités indépendants
+- Pistes de conformité spécifiques à un secteur
+- Reconnaissance mondiale formalisée
+
+---
+
+## Principe Fondamental
+
+Un système de preuve qui ne peut être testé indépendamment
+n'est pas une infrastructure.
+
+VeriSeal est conçu pour être testable, reproductible et certifiable.

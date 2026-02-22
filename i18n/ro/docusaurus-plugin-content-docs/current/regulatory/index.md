@@ -1,21 +1,21 @@
 ---
-title: Regulatory Framework
+title: Cadru de Reglementare
 sidebar_position: 1
 ---
 
-# Regulatory Framework
+# Cadru de Reglementare
 
-VeriSeal does not depend on regulation,
-but it is compatible with regulatory environments.
+VeriSeal nu depinde de reglementare,
+dar este compatibil cu mediile de reglementare.
 
-This section maps the protocol against:
+Această secțiune corelează protocolul cu:
 
-- Financial compliance frameworks
-- Legal admissibility standards
-- Digital identity regulations
-- Cross-border evidence requirements
+- Cadre de conformitate financiară
+- Standarde de admisibilitate legală
+- Reglementări privind identitatea digitală
+- Cerințe de probă transfrontalieră
 
 ---
 
-The objective is structural compatibility,
-not regulatory dependency.
+Obiectivul este compatibilitatea structurală,
+nu dependența de reglementare.

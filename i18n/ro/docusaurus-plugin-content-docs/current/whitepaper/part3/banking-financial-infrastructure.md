@@ -1,83 +1,83 @@
 ---
 id: banking-financial-infrastructure
-title: Banking Financial Infrastructure
+title: Infrastructura Financiară Bancară
 ---
 
 ﻿---
-title: Banking & Financial Infrastructure
-sidebar_label: Banking & Finance
+title: Infrastructura Bancară & Financiară
+sidebar_label: Bănci & Finanțe
 slug: /whitepaper/part3/banking-financial-infrastructure
 sidebar_position: 3.2
 ---
 
-# Banking & Financial Infrastructure
+# Infrastructura Bancară & Financiară
 
-## Structural Digital Dependence
+## Dependența Structurală Digitală
 
-Modern banking operations depend on digital records:
-- core banking transaction logs,
-- payment messages,
-- client onboarding documentation (KYC/AML),
-- loan contracts and approvals,
-- internal controls and compliance evidence,
-- regulatory reporting snapshots,
-- incident and audit documentation.
+Operațiunile bancare moderne depind de înregistrări digitale:
+- jurnale de tranzacții bancare de bază,
+- mesaje de plată,
+- documentație de onboarding a clienților (KYC/AML),
+- contracte și aprobări de împrumut,
+- controale interne și dovezi de conformitate,
+- instantanee de raportare reglementară,
+- documentație de incidente și audit.
 
-These records:
-- carry legal weight,
-- are subject to audit,
-- often appear in litigation.
+Aceste înregistrări:
+- au greutate legală,
+- sunt supuse auditului,
+- apar frecvent în litigii.
 
-Integrity is frequently guaranteed internally, not independently.
+Integritatea este adesea garantată intern, nu independent.
 
-## Regulatory Pressure (Capability Context)
+## Presiunea Reglementară (Context de Capacitate)
 
-Banks operate under demanding frameworks (e.g., DORA, AML, PSD2, MiFID, MiCA, GDPR, Basel).
-These increase traceability and audit burden, but do not provide a neutral cryptographic proof layer.
+Băncile operează sub cadre exigente (de exemplu, DORA, AML, PSD2, MiFID, MiCA, GDPR, Basel).
+Acestea cresc trasabilitatea și povara auditului, dar nu oferă un strat de dovadă criptografică neutră.
 
-## Risk Categories
+## Categorii de Risc
 
-Banking evidence risk includes:
-- transaction disputes (timing, authorization, state),
-- KYC/AML documentation disputes,
-- internal investigation integrity,
-- regulatory sanction exposure due to weak evidentiary defensibility,
-- cross-border admissibility challenges.
+Riscul de dovezi bancare include:
+- dispute de tranzacții (timp, autorizare, stare),
+- dispute privind documentația KYC/AML,
+- integritatea investigațiilor interne,
+- expunerea la sancțiuni reglementare din cauza unei apărări slabe a dovezilor,
+- provocări de admisibilitate transfrontalieră.
 
-## VeriSeal as an Independent Integrity Layer
+## VeriSeal ca Strat de Integritate Independent
 
-VeriSeal does not replace:
-- core banking,
-- payment rails,
-- messaging networks.
+VeriSeal nu înlocuiește:
+- sistemele bancare de bază,
+- rețelele de plată,
+- rețelele de mesagerie.
 
-It provides an independent integrity layer:
-- seal evidence bundles at creation time,
-- anchor snapshots in an append-only ledger,
-- enable vendor-neutral verification,
-- optionally anchor timestamps externally.
+Oferă un strat de integritate independent:
+- sigilează pachetele de dovezi la momentul creării,
+- ancorează instantaneele într-un registru doar adăugare,
+- permite verificarea neutră față de furnizor,
+- opțional ancorează marcajele temporale extern.
 
-## Deployment Flexibility
+## Flexibilitatea Implementării
 
-VeriSeal supports:
-- SaaS integration,
-- private deployment,
-- on-prem institutional nodes,
-- sovereign configurations.
+VeriSeal suportă:
+- integrare SaaS,
+- implementare privată,
+- noduri instituționale on-prem,
+- configurații suverane.
 
-Verification logic remains consistent across environments.
+Logica de verificare rămâne consistentă în toate mediile.
 
-## Open Verification & Controlled Core
+## Verificare Deschisă & Nucleu Controlat
 
-Publicly verifiable:
-- proof JSON structure,
-- hashing methodology,
-- ledger chaining,
-- verification procedures.
+Public verificabil:
+- structura JSON a dovezilor,
+- metodologia de hashing,
+- înlănțuirea registrului,
+- procedurile de verificare.
 
-Proprietary:
-- orchestration,
-- infrastructure operations,
-- optimization and automation.
+Proprietar:
+- orchestrare,
+- operațiuni de infrastructură,
+- optimizare și automatizare.
 
-This structure is aligned with institutional expectations: verify independently, operate sustainably.
+Această structură este aliniată cu așteptările instituționale: verificați independent, operați sustenabil.

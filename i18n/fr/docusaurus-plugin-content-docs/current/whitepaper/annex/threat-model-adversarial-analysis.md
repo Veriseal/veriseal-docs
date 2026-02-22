@@ -1,478 +1,477 @@
 ---
-title: Threat Model & Adversarial Analysis
-sidebar_label: Threat Model (Annex)
+title: Modèle de Menace & Analyse Adversariale
+sidebar_label: Modèle de Menace (Annexe)
 ---
 
-# Threat Model & Adversarial Analysis
+# Modèle de Menace & Analyse Adversariale
 
-## 1. Purpose and Scope
+## 1. Objectif et Portée
 
-This annex provides a security-oriented analysis of the VeriSeal proof infrastructure under adversarial conditions.
+Cette annexe fournit une analyse axée sur la sécurité de l'infrastructure de preuve VeriSeal dans des conditions adverses.
 
-It defines:
+Elle définit :
 
-- Threat actors and capabilities
-- Trust boundaries
-- Attack surfaces
-- Security assumptions
-- Detection and mitigation mechanisms
-- Residual risks and governance requirements
+- Acteurs de menace et capacités
+- Limites de confiance
+- Surfaces d'attaque
+- Hypothèses de sécurité
+- Mécanismes de détection et de mitigation
+- Risques résiduels et exigences de gouvernance
 
-This annex is written for institutional stakeholders (CISO, Risk, Audit, Compliance).
-
----
-
-## 2. System Assets to Protect
-
-VeriSeal is designed to protect **integrity and verifiability** of evidence artifacts and proof records.
-
-Primary assets:
-
-1. **Artifact Integrity**
-   The sealed artifact must remain verifiable and tamper-evident over time.
-
-2. **Proof Object Integrity**
-   Proof records (canonical JSON) must not be alterable without detection.
-
-3. **Ledger Continuity**
-   Append-only chain must remain structurally immutable and chronologically consistent.
-
-4. **Verification Independence**
-   Third parties must be able to verify proofs without operator trust.
-
-5. **Timestamp Integrity (optional external anchoring)**
-   When external anchoring exists, the anchor must strengthen time certainty.
-
-6. **Key Integrity (signing keys)**
-   Private keys used for signing must remain confidential and governed.
+Cette annexe est rédigée pour les parties prenantes institutionnelles (RSSI, Risque, Audit, Conformité).
 
 ---
 
-## 3. Threat Actors
+## 2. Actifs du Système à Protéger
 
-### 3.1 External Adversary
-Capabilities:
-- Network-level interception attempts
-- Public endpoint probing
-- Artifact substitution attempts
-- Replay attempts for capture flows (when applicable)
+VeriSeal est conçu pour protéger l'**intégrité et la vérifiabilité** des artefacts de preuve et des enregistrements de preuve.
 
-Constraints:
-- No direct access to signing keys or internal storage (assumed)
+Actifs principaux :
 
-### 3.2 Insider Threat (Operator or Privileged Admin)
-Capabilities:
-- Potential access to infrastructure
-- Attempts to alter records
-- Attempts to delete or selectively hide evidence
-- Attempts to manipulate PDF or presentation outputs
+1. **Intégrité de l'Artefact**
+   L'artefact scellé doit rester vérifiable et indiquer toute altération au fil du temps.
 
-### 3.3 Malicious Evidence Submitter
-Capabilities:
-- Submit false or misleading content
-- Submit manipulated artifacts
-- Attempt to exploit workflow ambiguity
-- Attempt repudiation after sealing ("I never sent this")
+2. **Intégrité de l'Objet de Preuve**
+   Les enregistrements de preuve (JSON canonique) ne doivent pas être modifiables sans détection.
 
-### 3.4 Compromised Client Device
-Capabilities:
-- Malware modifies artifact before sealing
-- Credential compromise
-- Intercepts or alters local data before upload
+3. **Continuité du Registre**
+   La chaîne en en ajout seul doit rester structurellement immuable et chronologiquement cohérente.
 
-### 3.5 Supply Chain / Dependency Adversary
-Capabilities:
-- Dependency compromise
-- Build pipeline compromise
-- Runtime injection attempts
+4. **Indépendance de la Vérification**
+   Les tiers doivent pouvoir vérifier les preuves sans avoir à faire confiance à l'opérateur.
+
+5. **Intégrité des Horodatages (ancrage externe optionnel)**
+   Lorsqu'un ancrage externe existe, l'ancre doit renforcer la certitude temporelle.
+
+6. **Intégrité des Clés (clés de signature)**
+   Les clés privées utilisées pour la signature doivent rester confidentielles et régies.
 
 ---
 
-## 4. Trust Boundaries
+## 3. Acteurs de Menace
 
-VeriSeal enforces explicit trust boundaries:
+### 3.1 Adversaire Externe
+Capacités :
+- Tentatives d'interception au niveau du réseau
+- Sondage des points d'accès publics
+- Tentatives de substitution d'artefacts
+- Tentatives de relecture pour capturer des flux (le cas échéant)
 
-Inside VeriSeal trust boundary:
-- Hash computation
-- Canonical proof object generation
-- Ledger append operation
-- Signature generation (controlled key domain)
-- Optional anchor submission
+Contraintes :
+- Pas d'accès direct aux clés de signature ou au stockage interne (supposé)
 
-Outside trust boundary:
-- Artifact creation tools
-- User device security
-- Semantic truth of content
-- Legal interpretation
-- Human intent and context
+### 3.2 Menace Interne (Opérateur ou Administrateur Privilégié)
+Capacités :
+- Accès potentiel à l'infrastructure
+- Tentatives de modification des enregistrements
+- Tentatives de suppression ou de dissimulation sélective de preuves
+- Tentatives de manipulation des sorties PDF ou de présentation
 
-Key principle: **VeriSeal secures structure, not meaning.**
+### 3.3 Soumissionnaire de Preuves Malveillant
+Capacités :
+- Soumettre du contenu faux ou trompeur
+- Soumettre des artefacts manipulés
+- Tenter d'exploiter l'ambiguïté des flux de travail
+- Tenter de se rétracter après le scellement ("Je n'ai jamais envoyé cela")
 
----
+### 3.4 Appareil Client Compromis
+Capacités :
+- Malware modifie l'artefact avant le scellement
+- Compromission des identifiants
+- Intercepte ou altère les données locales avant le téléchargement
 
-## 5. Attack Surface Overview
-
-Primary attack surfaces:
-
-1. **Input artifact ingestion** (upload / payload generation)
-2. **Proof generation pipeline** (hashing + canonicalization + signing)
-3. **Ledger storage** (append-only chain integrity)
-4. **Verification endpoints** (public JSON, PDF render, HTML verify page)
-5. **Key management** (private key confidentiality and usage policy)
-6. **Build/CI and dependency chain** (supply chain integrity)
-
----
-
-## 6. Threat Scenarios and Mitigations
-
-### 6.1 Post-Sealing Artifact Tampering
-Attack: Artifact modified after sealing.
-
-Detection:
-- Recomputed SHA-256 digest differs.
-
-Mitigation:
-- Deterministic hashing
-- Proof validation requires recomputation
-
-Residual risk:
-- None for detection (integrity always detects change)
-- Semantic disputes remain possible
+### 3.5 Adversaire de la Chaîne d'Approvisionnement / Dépendance
+Capacités :
+- Compromission de dépendance
+- Compromission de la chaîne de construction
+- Tentatives d'injection à l'exécution
 
 ---
 
-### 6.2 Proof Object Tampering (JSON)
-Attack: Alter proof JSON fields (timestamps, identifiers, flags).
+## 4. Limites de Confiance
 
-Detection:
-- Signature verification fails
-- Hash mismatch in canonical recomputation
+VeriSeal impose des limites de confiance explicites :
 
-Mitigation:
-- Canonical JSON as source-of-truth
-- Signature over canonical payload
+À l'intérieur de la limite de confiance de VeriSeal :
+- Calcul de hachage
+- Génération d'objet de preuve canonique
+- Opération d'ajout au registre
+- Génération de signature (domaine de clé contrôlé)
+- Soumission d'ancre optionnelle
 
-Residual risk:
-- If signing key is compromised (see key compromise scenario)
+En dehors de la limite de confiance :
+- Outils de création d'artefacts
+- Sécurité des appareils utilisateurs
+- Vérité sémantique du contenu
+- Interprétation légale
+- Intention et contexte humains
 
----
-
-### 6.3 Ledger Mutation / Deletion
-Attack: Delete an entry or rewrite historical chain.
-
-Detection:
-- Chain discontinuity (previous_entry_hash mismatch)
-- entry_hash recomputation mismatch
-
-Mitigation:
-- Append-only architecture
-- Chain hash dependency
-- Regular external anchoring recommended for high assurance
-
-Residual risk:
-- Storage-level attacks can delete entire ledger if governance is weak
-  (availability risk; integrity detection remains, but evidence may be missing)
+Principe clé : **VeriSeal sécurise la structure, pas le sens.**
 
 ---
 
-### 6.4 Selective Evidence Suppression ("Evidence Hiding")
-Attack: Operator hides or refuses to serve a proof endpoint.
+## 5. Aperçu de la Surface d'Attaque
 
-Detection:
-- Public reference exists but endpoint not responding
-- External copies of JSON prove prior existence
+Surfaces d'attaque principales :
 
-Mitigation:
-- Encourage institutional archiving of proof bundles
-- External anchoring strengthens existence claims
-- Governance policies for availability
-
-Residual risk:
-- Availability remains operationally governed
+1. **Ingestion d'artefact d'entrée** (téléchargement / génération de charge utile)
+2. **Pipeline de génération de preuve** (hachage + canonisation + signature)
+3. **Stockage du registre** (intégrité de la chaîne en en ajout seul)
+4. **Points de vérification** (JSON public, rendu PDF, page de vérification HTML)
+5. **Gestion des clés** (confidentialité des clés privées et politique d'utilisation)
+6. **Chaîne de construction/CI et de dépendance** (intégrité de la chaîne d'approvisionnement)
 
 ---
 
-### 6.5 Presentation Layer Manipulation (PDF/HTML)
-Attack: Modify PDF rendering or HTML view to show false status.
+## 6. Scénarios de Menace et Mitigations
 
-Detection:
-- Canonical JSON remains source-of-truth
-- Verifier recomputes hashes and validates signature
+### 6.1 Altération de l'Artefact après Scellement
+Attaque : Artefact modifié après scellement.
 
-Mitigation:
-- Render-only rule
-- Verification logic never depends on presentation output
+Détection :
+- Le digest SHA-256 recalculé diffère.
 
-Residual risk:
-- Social engineering risk remains (users trusting visuals without verifying)
+Mitigation :
+- Hachage déterministe
+- La validation de la preuve nécessite une recalcul
 
----
-
-### 6.6 Replay Attacks (Capture-Based Proofs)
-Attack: Replay a prior video/audio capture to fake liveness.
-
-Detection/Mitigation (when capture flows exist):
-- Challenge-response binding (dynamic prompts)
-- Runtime event log hashing
-- Media binding to runtime payload
-
-Residual risk:
-- Dependent on capture workflow quality
-- Not applicable to static artifact sealing use cases
+Risque résiduel :
+- Aucun pour la détection (l'intégrité détecte toujours le changement)
+- Les différends sémantiques restent possibles
 
 ---
 
-### 6.7 Man-in-the-Middle / Transport Layer Attack
-Attack: Intercept or alter traffic during upload or verification.
+### 6.2 Altération de l'Objet de Preuve (JSON)
+Attaque : Modifier les champs JSON de preuve (horodatages, identifiants, indicateurs).
 
-Mitigation:
-- TLS enforced (HTTPS)
-- Hash recomputation and signature validation prevents silent tampering
+Détection :
+- La vérification de la signature échoue
+- Discordance de hachage dans la recalcul canonique
 
-Residual risk:
-- Credential theft is outside cryptographic model
-- Network downgrade attacks mitigated via strict HTTPS and HSTS (recommended)
+Mitigation :
+- JSON canonique comme source de vérité
+- Signature sur la charge utile canonique
 
----
-
-### 6.8 Private Key Compromise
-Attack: Signing key stolen.
-
-Impact:
-- Attacker can issue forged proofs that appear valid
-- Historical proofs remain verifiable but trust in signer is impacted
-
-Mitigation:
-- HSM / KMS-backed signing
-- Key rotation policy
-- Audit logs for signing operations
-- Separation of duties (dual control)
-
-Residual risk:
-- Highest-impact scenario; governance is mandatory
+Risque résiduel :
+- Si la clé de signature est compromise (voir scénario de compromission de clé)
 
 ---
 
-### 6.9 Hash Function Weakening (Cryptographic Breakthrough)
-Attack: Practical collision or second preimage against SHA-256.
+### 6.3 Mutation / Suppression du Registre
+Attaque : Supprimer une entrée ou réécrire la chaîne historique.
 
-Impact:
-- Integrity assumptions degrade
+Détection :
+- Discontinuité de la chaîne (discordance de previous_entry_hash)
+- Discordance de recalcul de entry_hash
 
-Mitigation:
-- Algorithm agility (hash_version field)
-- Ability to re-anchor proofs using stronger primitives
-- Support for dual-hash strategies in future versions
+Mitigation :
+- Architecture en en ajout seul
+- Dépendance de hachage de chaîne
+- Ancrage externe régulier recommandé pour une haute assurance
 
-Residual risk:
-- Long-term cryptographic evolution risk exists for all systems
-
----
-
-### 6.10 Supply Chain Compromise
-Attack: Build dependencies inject malicious logic.
-
-Mitigation:
-- Pin dependencies
-- Reproducible builds
-- Code signing
-- SBOM generation
-- CI integrity controls
-
-Residual risk:
-- Requires disciplined software governance
+Risque résiduel :
+- Les attaques au niveau du stockage peuvent supprimer l'ensemble du registre si la gouvernance est faible
+  (risque de disponibilité ; la détection de l'intégrité reste, mais les preuves peuvent manquer)
 
 ---
 
-## 7. Security Assumptions
+### 6.4 Suppression Sélective de Preuves ("Cacher des Preuves")
+Attaque : L'opérateur cache ou refuse de servir un point de preuve.
 
-VeriSeal security assumptions:
+Détection :
+- La référence publique existe mais le point de terminaison ne répond pas
+- Des copies externes de JSON prouvent l'existence antérieure
 
-- SHA-256 remains secure (no feasible collisions)
-- Signature scheme remains secure (no feasible forgery without private key)
-- Canonical serialization is deterministic and controlled
-- Append-only enforcement is operationally protected
-- Private keys are protected by institutional key management
+Mitigation :
+- Encourager l'archivage institutionnel des ensembles de preuves
+- L'ancrage externe renforce les revendications d'existence
+- Politiques de gouvernance pour la disponibilité
 
----
-
-## 8. Security Guarantees (What VeriSeal Actually Guarantees)
-
-VeriSeal guarantees:
-
-- Detection of any post-sealing artifact modification
-- Deterministic verification reproducibility
-- Structural integrity and chain continuity (if ledger available)
-- Proof object tamper-evidence via signature
-- Optional external time anchoring reinforcement
-
-VeriSeal does not guarantee:
-
-- Truth of content
-- Identity legitimacy by default
-- Protection against compromised client devices
-- Availability of proof endpoints without governance
+Risque résiduel :
+- La disponibilité reste régie opérationnellement
 
 ---
 
-## 9. Residual Risk and Governance Requirements
+### 6.5 Manipulation de la Couche de Présentation (PDF/HTML)
+Attaque : Modifier le rendu PDF ou la vue HTML pour afficher un statut faux.
 
-VeriSeal is strongest when governance enforces:
+Détection :
+- JSON canonique reste la source de vérité
+- Le vérificateur recalcule les hachages et valide la signature
 
-- Key management policy (HSM/KMS, rotation, audit)
-- Availability policy (archival bundles, redundancy)
-- Role segregation (sealing vs verification vs administration)
-- Incident response procedures
-- External anchoring policy for high assurance use cases
+Mitigation :
+- Règle de rendu uniquement
+- La logique de vérification ne dépend jamais de la sortie de présentation
 
-Without governance, integrity remains detectable, but operational resilience may degrade.
-
----
-
-## 10. Institutional Security Posture Summary
-
-VeriSeal is designed as:
-
-- A deterministic integrity protocol
-- An audit-compatible evidence layer
-- A system minimizing trust dependency
-- A tamper-evident ledger + proof object model
-
-It provides verifiable integrity guarantees under adversarial conditions, provided that key governance and operational controls are enforced.
+Risque résiduel :
+- Le risque d'ingénierie sociale demeure (utilisateurs faisant confiance aux visuels sans vérifier)
 
 ---
 
-## 11. Risk Classification Matrix
+### 6.6 Attaques par Relecture (Preuves Basées sur la Capture)
+Attaque : Rejouer une capture vidéo/audio antérieure pour simuler la vivacité.
 
-This section formalizes threat severity according to impact and likelihood.
+Détection/Mitigation (lorsque des flux de capture existent) :
+- Liaison défi-réponse (incitations dynamiques)
+- Hachage du journal d'événements d'exécution
+- Liaison des médias à la charge utile d'exécution
 
-Risk classification model:
-
-- Likelihood: Low / Medium / High
-- Impact: Moderate / Significant / Critical
-- Residual Risk: After mitigation controls
-- Risk Owner: Governance responsibility domain
-
-| Threat Scenario | Likelihood | Impact | Mitigation Strength | Residual Risk | Risk Owner |
-|-----------------|------------|--------|--------------------|---------------|------------|
-| Artifact tampering post-seal | Medium | Significant | Cryptographic detection | Low | Verification layer |
-| Proof JSON alteration | Low | Significant | Signature + canonicalization | Low | Cryptographic layer |
-| Ledger mutation | Low | Critical | Hash chaining + detection | Low | Infrastructure governance |
-| Evidence suppression | Medium | Significant | Archival + anchoring | Medium | Operational governance |
-| Presentation manipulation | Medium | Moderate | JSON source-of-truth | Low | Verification discipline |
-| Private key compromise | Low | Critical | HSM/KMS + rotation | Medium | Key governance |
-| Hash algorithm weakening | Very Low | Critical | Algorithm agility | Low | Cryptographic governance |
-| Supply chain compromise | Medium | Significant | CI controls + SBOM | Medium | DevSecOps governance |
-
-Risk posture summary:
-
-- Structural integrity risks are strongly mitigated.
-- Key compromise remains highest-impact scenario.
-- Governance maturity directly influences residual risk.
+Risque résiduel :
+- Dépend de la qualité du flux de capture
+- Non applicable aux cas d'utilisation de scellement d'artefacts statiques
 
 ---
 
-## 12. Governance & Role Segregation Model
+### 6.7 Attaque de l'Homme du Milieu / Couche de Transport
+Attaque : Intercepter ou altérer le trafic lors du téléchargement ou de la vérification.
 
-VeriSeal security assumes institutional separation of duties.
+Mitigation :
+- TLS appliqué (HTTPS)
+- La recalcul de hachage et la validation de signature empêchent toute altération silencieuse
 
-### 12.1 Functional Roles
-
-**Sealing Operator**
-- Initiates proof generation.
-- Cannot modify historical ledger entries.
-
-**Verification Authority**
-- Performs independent validation.
-- Has no access to signing keys.
-
-**Key Custodian**
-- Manages signing keys.
-- Operates under dual control policy.
-
-**Infrastructure Administrator**
-- Manages system availability.
-- Cannot alter signed proof payloads.
-
-**Audit Function**
-- Reviews logs and chain continuity.
-- Independent from operations.
+Risque résiduel :
+- Le vol d'identifiants est en dehors du modèle cryptographique
+- Les attaques de rétrogradation réseau sont atténuées via HTTPS strict et HSTS (recommandé)
 
 ---
 
-### 12.2 RACI Overview
+### 6.8 Compromission de Clé Privée
+Attaque : Clé de signature volée.
 
-| Function | Seal | Verify | Sign | Maintain | Audit |
-|----------|------|--------|------|----------|-------|
-| Sealing Operator | R | C | - | - | - |
-| Verification Authority | - | R | - | - | C |
-| Key Custodian | - | - | R | - | C |
-| Infrastructure Admin | - | - | - | R | C |
+Impact :
+- L'attaquant peut émettre des preuves falsifiées qui semblent valides
+- Les preuves historiques restent vérifiables mais la confiance dans le signataire est impactée
+
+Mitigation :
+- Signature soutenue par HSM / KMS
+- Politique de rotation des clés
+- Journaux d'audit pour les opérations de signature
+- Séparation des tâches (contrôle double)
+
+Risque résiduel :
+- Scénario à impact le plus élevé ; la gouvernance est obligatoire
+
+---
+
+### 6.9 Affaiblissement de la Fonction de Hachage (Percée Cryptographique)
+Attaque : Collision pratique ou seconde préimage contre SHA-256.
+
+Impact :
+- Les hypothèses d'intégrité se dégradent
+
+Mitigation :
+- Agilité algorithmique (champ hash_version)
+- Capacité à réancrer les preuves en utilisant des primitives plus fortes
+- Support pour des stratégies de double hachage dans les futures versions
+
+Risque résiduel :
+- Le risque d'évolution cryptographique à long terme existe pour tous les systèmes
+
+---
+
+### 6.10 Compromission de la Chaîne d'Approvisionnement
+Attaque : Les dépendances de construction injectent une logique malveillante.
+
+Mitigation :
+- Épingler les dépendances
+- Constructions reproductibles
+- Signature de code
+- Génération de SBOM
+- Contrôles d'intégrité CI
+
+Risque résiduel :
+- Nécessite une gouvernance logicielle disciplinée
+
+---
+
+## 7. Hypothèses de Sécurité
+
+Hypothèses de sécurité de VeriSeal :
+
+- SHA-256 reste sécurisé (pas de collisions réalisables)
+- Le schéma de signature reste sécurisé (pas de falsification réalisable sans clé privée)
+- La sérialisation canonique est déterministe et contrôlée
+- L'application en en ajout seul est protégée opérationnellement
+- Les clés privées sont protégées par la gestion institutionnelle des clés
+
+---
+
+## 8. Garanties de Sécurité (Ce que VeriSeal Garantit Réellement)
+
+VeriSeal garantit :
+
+- Détection de toute modification d'artefact après scellement
+- Reproductibilité de la vérification déterministe
+- Intégrité structurelle et continuité de la chaîne (si le registre est disponible)
+- Preuve d'altération de l'objet de preuve via signature
+- Renforcement optionnel de l'ancrage temporel externe
+
+VeriSeal ne garantit pas :
+
+- Vérité du contenu
+- Légitimité de l'identité par défaut
+- Protection contre les appareils clients compromis
+- Disponibilité des points de preuve sans gouvernance
+
+---
+
+## 9. Risque Résiduel et Exigences de Gouvernance
+
+VeriSeal est le plus fort lorsque la gouvernance impose :
+
+- Politique de gestion des clés (HSM/KMS, rotation, audit)
+- Politique de disponibilité (ensembles d'archivage, redondance)
+- Ségrégation des rôles (scellement vs vérification vs administration)
+- Procédures de réponse aux incidents
+- Politique d'ancrage externe pour les cas d'utilisation à haute assurance
+
+Sans gouvernance, l'intégrité reste détectable, mais la résilience opérationnelle peut se dégrader.
+
+---
+
+## 10. Résumé de la Posture de Sécurité Institutionnelle
+
+VeriSeal est conçu comme :
+
+- Un protocole d'intégrité déterministe
+- Une couche de preuve compatible avec l'audit
+- Un système minimisant la dépendance à la confiance
+- Un modèle de registre + objet de preuve à preuve d'altération
+
+Il fournit des garanties d'intégrité vérifiables dans des conditions adverses, à condition que les contrôles de gouvernance et opérationnels clés soient appliqués.
+
+---
+
+## 11. Matrice de Classification des Risques
+
+Cette section formalise la gravité des menaces selon l'impact et la probabilité.
+
+Modèle de classification des risques :
+
+- Probabilité : Faible / Moyenne / Élevée
+- Impact : Modéré / Significatif / Critique
+- Risque Résiduel : Après les contrôles de mitigation
+- Propriétaire du Risque : Domaine de responsabilité de la gouvernance
+
+| Scénario de Menace | Probabilité | Impact | Force de Mitigation | Risque Résiduel | Propriétaire du Risque |
+|--------------------|-------------|--------|---------------------|-----------------|------------------------|
+| Altération d'artefact après scellement | Moyenne | Significatif | Détection cryptographique | Faible | Couche de vérification |
+| Altération du JSON de preuve | Faible | Significatif | Signature + canonisation | Faible | Couche cryptographique |
+| Mutation du registre | Faible | Critique | Chaînage de hachage + détection | Faible | Gouvernance de l'infrastructure |
+| Suppression de preuves | Moyenne | Significatif | Archivage + ancrage | Moyenne | Gouvernance opérationnelle |
+| Manipulation de présentation | Moyenne | Modéré | Source de vérité JSON | Faible | Discipline de vérification |
+| Compromission de clé privée | Faible | Critique | HSM/KMS + rotation | Moyenne | Gouvernance des clés |
+| Affaiblissement de l'algorithme de hachage | Très Faible | Critique | Agilité algorithmique | Faible | Gouvernance cryptographique |
+| Compromission de la chaîne d'approvisionnement | Moyenne | Significatif | Contrôles CI + SBOM | Moyenne | Gouvernance DevSecOps |
+
+Résumé de la posture de risque :
+
+- Les risques d'intégrité structurelle sont fortement atténués.
+- La compromission de clé reste le scénario à impact le plus élevé.
+- La maturité de la gouvernance influence directement le risque résiduel.
+
+---
+
+## 12. Modèle de Gouvernance & Ségrégation des Rôles
+
+La sécurité de VeriSeal suppose une séparation institutionnelle des tâches.
+
+### 12.1 Rôles Fonctionnels
+
+**Opérateur de Scellement**
+- Initie la génération de preuve.
+- Ne peut pas modifier les entrées historiques du registre.
+
+**Autorité de Vérification**
+- Effectue une validation indépendante.
+- N'a pas accès aux clés de signature.
+
+**Gardien des Clés**
+- Gère les clés de signature.
+- Opère sous une politique de contrôle double.
+
+**Administrateur de l'Infrastructure**
+- Gère la disponibilité du système.
+- Ne peut pas altérer les données de preuve signées.
+
+**Fonction d'Audit**
+- Examine les journaux et la continuité de la chaîne.
+- Indépendant des opérations.
+
+---
+
+### 12.2 Aperçu RACI
+
+| Fonction | Sceller | Vérifier | Signer | Maintenir | Auditer |
+|----------|---------|----------|--------|-----------|---------|
+| Opérateur de Scellement | R | C | - | - | - |
+| Autorité de Vérification | - | R | - | - | C |
+| Gardien des Clés | - | - | R | - | C |
+| Administrateur de l'Infrastructure | - | - | - | R | C |
 | Audit | - | C | C | C | R |
 
-R = Responsible
-C = Control / Oversight
+R = Responsable
+C = Contrôle / Supervision
 
 ---
 
-### 12.3 Governance Principle
+### 12.3 Principe de Gouvernance
 
-Integrity is enforced by cryptography.
-Trust is enforced by governance separation.
+L'intégrité est appliquée par la cryptographie.
+La confiance est appliquée par la séparation de la gouvernance.
 
-Cryptographic guarantees reduce reliance on human trust,
-but institutional governance ensures resilience.
-
----
-
-## 13. Incident Response & Key Compromise Procedure
-
-This section defines minimum institutional response posture.
-
-### 13.1 Key Compromise Scenario
-
-If signing key compromise is suspected:
-
-1. Immediate key revocation.
-2. Stop new proof issuance.
-3. Generate new signing key pair.
-4. Publish public incident notice.
-5. Re-anchor system state (if applicable).
-6. Conduct forensic audit.
-
-Historical proofs remain structurally verifiable.
-Trust domain shifts to key validity timeline.
+Les garanties cryptographiques réduisent la dépendance à la confiance humaine,
+mais la gouvernance institutionnelle assure la résilience.
 
 ---
 
-### 13.2 Proof Integrity Incident
+## 13. Procédure de Réponse aux Incidents & Compromission de Clé
 
-If ledger corruption is detected:
+Cette section définit la posture minimale de réponse institutionnelle.
 
-- Recompute chain continuity.
-- Identify divergence point.
-- Restore from validated backup.
-- Publish integrity statement.
+### 13.1 Scénario de Compromission de Clé
+
+Si la compromission de la clé de signature est suspectée :
+
+1. Révocation immédiate de la clé.
+2. Arrêt de l'émission de nouvelles preuves.
+3. Génération d'une nouvelle paire de clés de signature.
+4. Publication d'un avis public d'incident.
+5. Réancrage de l'état du système (le cas échéant).
+6. Réalisation d'un audit judiciaire.
+
+Les preuves historiques restent structurellement vérifiables.
+Le domaine de confiance se déplace vers la chronologie de validité de la clé.
 
 ---
 
-### 13.3 Public Transparency Principle
+### 13.2 Incident d'Intégrité de Preuve
 
-For institutional deployments:
+Si une corruption du registre est détectée :
 
-- Incident disclosure policy required.
-- Timestamped incident logs recommended.
-- Independent audit advisable for high assurance domains.
+- Recompute la continuité de la chaîne.
+- Identifier le point de divergence.
+- Restaurer à partir d'une sauvegarde validée.
+- Publier une déclaration d'intégrité.
 
 ---
 
-### 13.4 Long-Term Cryptographic Evolution
+### 13.3 Principe de Transparence Publique
 
-If hash or signature primitives weaken:
+Pour les déploiements institutionnels :
 
-- Introduce versioned hash field.
-- Re-anchor existing proofs.
-- Support dual-hash strategy during migration.
+- Politique de divulgation d'incident requise.
+- Journaux d'incidents horodatés recommandés.
+- Audit indépendant conseillé pour les domaines à haute assurance.
 
-Algorithm agility must be built into governance roadmap.
+---
 
+### 13.4 Évolution Cryptographique à Long Terme
+
+Si les primitives de hachage ou de signature s'affaiblissent :
+
+- Introduire un champ de hachage versionné.
+- Réancrer les preuves existantes.
+- Supporter une stratégie de double hachage pendant la migration.
+
+L'agilité algorithmique doit être intégrée dans la feuille de route de gouvernance.

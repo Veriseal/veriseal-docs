@@ -1,43 +1,43 @@
 ---
 id: structural-digital-dependence
-title: Structural Digital Dependence
-sidebar_label: 1.1 Structural Digital Dependence
+title: Dépendance Numérique Structurelle
+sidebar_label: 1.1 Dépendance Numérique Structurelle
 slug: /whitepaper/part1/structural-digital-dependence
 sidebar_position: 1
 ---
 
-# Structural Digital Dependence
+# Dépendance Numérique Structurelle
 
-Modern societies have become structurally dependent on digital artifacts.
+Les sociétés modernes sont devenues structurellement dépendantes des artefacts numériques.
 
-Contracts, financial transactions, regulatory filings, identity attestations, multimedia evidence, and cross-border communications now determine economic, legal, and geopolitical outcomes.
+Les contrats, transactions financières, dépôts réglementaires, attestations d'identité, preuves multimédias et communications transfrontalières déterminent désormais les résultats économiques, juridiques et géopolitiques.
 
-Digital infrastructure has scaled globally.
+L'infrastructure numérique s'est étendue à l'échelle mondiale.
 
-Digital integrity has not.
+L'intégrité numérique ne l'a pas fait.
 
-Most systems rely on fragmented mechanisms:
+La plupart des systèmes reposent sur des mécanismes fragmentés :
 
-- Internal logs
-- Platform timestamps
-- Vendor-specific audit trails
-- Localized cryptographic signatures
-- Partial blockchain anchoring
+- Journaux internes
+- Horodatages de plateforme
+- Pistes d'audit spécifiques aux fournisseurs
+- Signatures cryptographiques localisées
+- Ancrage partiel sur blockchain
 
-These mechanisms operate within isolated trust domains.
+Ces mécanismes fonctionnent au sein de domaines de confiance isolés.
 
-They do not form a unified integrity architecture.
+Ils ne forment pas une architecture d'intégrité unifiée.
 
-As cross-border digital interaction intensifies, evidentiary exposure expands:
+À mesure que l'interaction numérique transfrontalière s'intensifie, l'exposition probatoire s'accroît :
 
-- Cross-platform disputes
-- AI-generated synthetic media
-- Regulatory enforcement conflicts
-- Supply-chain disputes
-- Sovereignty-driven infrastructure divergence
+- Litiges inter-plateformes
+- Médias synthétiques générés par l'IA
+- Conflits d'application réglementaire
+- Litiges de chaîne d'approvisionnement
+- Divergence d'infrastructure motivée par la souveraineté
 
-Digital dependence without structural integrity creates systemic fragility.
+La dépendance numérique sans intégrité structurelle crée une fragilité systémique.
 
-What is missing is not another application layer.
+Ce qui manque, ce n'est pas une autre couche d'application.
 
-What is missing is a deterministic, cross-system integrity layer capable of operating beneath institutions, sectors, and jurisdictions.
+Ce qui manque, c'est une couche d'intégrité déterministe, inter-systèmes, capable de fonctionner sous les institutions, secteurs et juridictions.

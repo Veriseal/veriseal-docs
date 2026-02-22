@@ -1,24 +1,24 @@
 ---
 id: part1-index
-title: Part I — The Structural Integrity Gap
-sidebar_label: Part I — The Structural Integrity Gap
+title: Partie I — L'écart d'intégrité structurelle
+sidebar_label: Partie I — L'écart d'intégrité structurelle
 slug: /whitepaper/part1
 sidebar_position: 1
 ---
 
-# Part I — The Structural Integrity Gap
+# Partie I — L'écart d'intégrité structurelle
 
-Part I establishes the macro-structural foundation of this document.
+La Partie I établit la fondation macro-structurelle de ce document.
 
-It demonstrates that:
+Elle démontre que :
 
-- Digital dependence has become systemic.
-- Evidence has become economically foundational.
-- Existing mechanisms address fragments, not structure.
-- The absence of a deterministic integrity layer creates institutional fragility.
+- La dépendance numérique est devenue systémique.
+- La preuve est devenue économiquement fondamentale.
+- Les mécanismes existants traitent des fragments, pas de la structure.
+- L'absence d'une couche d'intégrité déterministe crée une fragilité institutionnelle.
 
-The conclusion of Part I is unavoidable:
+La conclusion de la Partie I est inévitable :
 
-Digital economies require a standardized, globally interoperable integrity architecture.
+Les économies numériques nécessitent une architecture d'intégrité standardisée et interopérable à l'échelle mondiale.
 
-The remainder of this document proposes such a framework.
+Le reste de ce document propose un tel cadre.

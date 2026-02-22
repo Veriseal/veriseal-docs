@@ -1,53 +1,53 @@
 ---
-title: Sector Applications
+title: Aplicații Sectoriale
 sidebar_position: 5
 ---
 
-# Sector Applications
+# Aplicații Sectoriale
 
-VeriSeal is cross-sector by design.
+VeriSeal este conceput pentru a fi utilizat în diverse sectoare.
 
 ---
 
-## Banking & Financial Infrastructure
+## Infrastructura Bancară și Financiară
 
-- Transaction proof integrity
-- Cross-border compliance evidence
-- Fraud dispute mitigation
-- Regulatory audit traceability
+- Integritatea dovezilor tranzacțiilor
+- Dovezi de conformitate transfrontalieră
+- Reducerea disputelor de fraudă
+- Trasabilitatea auditurilor de reglementare
 
 ---
 
 ## Legal & Notarial
 
-- Deterministic document integrity
-- Long-term admissibility robustness
-- Structural evidence certification
+- Integritatea deterministă a documentelor
+- Robustetea admisibilității pe termen lung
+- Certificarea dovezilor structurale
 
 ---
 
-## Insurance
+## Asigurări
 
-- Claim event integrity
-- Evidence timeline stabilization
-- Adversarial dispute reduction
-
----
-
-## Public Sector
-
-- Procurement traceability
-- Administrative proof logging
-- Inter-agency verification compatibility
+- Integritatea evenimentelor de revendicare
+- Stabilizarea cronologiei dovezilor
+- Reducerea disputelor adversariale
 
 ---
 
-## Digital Platforms
+## Sector Public
 
-- User event certification
-- Content integrity protection
-- High-value transaction validation
+- Trasabilitatea achizițiilor
+- Înregistrarea dovezilor administrative
+- Compatibilitatea verificării inter-agenții
 
 ---
 
-VeriSeal is infrastructure-grade, not sector-specific software.
+## Platforme Digitale
+
+- Certificarea evenimentelor utilizatorilor
+- Protecția integrității conținutului
+- Validarea tranzacțiilor de mare valoare
+
+---
+
+VeriSeal este de nivel infrastructural, nu software specific sectorului.

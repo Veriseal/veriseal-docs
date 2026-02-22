@@ -1,71 +1,71 @@
 ---
-title: Verification Model
-sidebar_label: 2.3 Verification Model
+title: Modèle de Vérification
+sidebar_label: 2.3 Modèle de Vérification
 slug: /whitepaper/part2/verification-model
 sidebar_position: 2.3
 ---
 
-# 2.3 Verification Model
+# 2.3 Modèle de Vérification
 
-A trust infrastructure cannot depend on operator assertion.
+Une infrastructure de confiance ne peut pas dépendre de l'affirmation de l'opérateur.
 
-Verification must be independently executable.
-
----
-
-## Verification Steps
-
-1. Recompute canonical payload  
-2. Recompute SHA-256 digest  
-3. Validate Merkle inclusion (if applicable)  
-4. Validate ledger chaining  
-5. Validate optional OTS anchoring  
-6. Validate optional PDF signature  
-
-No proprietary server logic is required.
+La vérification doit être exécutable de manière indépendante.
 
 ---
 
-## Public JSON Principle
+## Étapes de Vérification
 
-Public JSON is the source of truth.
+1. Recalculer la charge utile canonique  
+2. Recalculer le digest SHA-256  
+3. Valider l'inclusion Merkle (si applicable)  
+4. Valider l'enchaînement du registre  
+5. Valider l'ancrage OTS optionnel  
+6. Valider la signature PDF optionnelle  
 
-PDF is render-only.
-
-Verification must remain possible even if:
-
-- The operator ceases activity
-- The commercial entity changes
-- Infrastructure migrates
+Aucune logique serveur propriétaire n'est requise.
 
 ---
 
-## Transparency Without Data Leakage
+## Principe du JSON Public
 
-Public verification exposes:
+Le JSON public est la source de vérité.
 
-- Commitments  
+Le PDF est uniquement pour l'affichage.
+
+La vérification doit rester possible même si :
+
+- L'opérateur cesse son activité
+- L'entité commerciale change
+- L'infrastructure migre
+
+---
+
+## Transparence Sans Fuite de Données
+
+La vérification publique expose :
+
+- Engagements  
 - Hashes  
-- Integrity facts  
+- Faits d'intégrité  
 
-It does not expose:
+Elle n'expose pas :
 
-- Private content  
-- Confidential payloads  
-- Sensitive metadata  
+- Contenu privé  
+- Charges utiles confidentielles  
+- Métadonnées sensibles  
 
-This separation is structural.
+Cette séparation est structurelle.
 
 ---
 
-## Institutional Confidence
+## Confiance Institutionnelle
 
-Independent reproducibility enables:
+La reproductibilité indépendante permet :
 
-- Regulatory review  
-- Forensic audit  
-- Cross-border verification  
-- Long-term archival validation  
+- Examen réglementaire  
+- Audit judiciaire  
+- Vérification transfrontalière  
+- Validation d'archivage à long terme  
 
-VeriSeal minimizes trust.
-It maximizes reproducibility.
+VeriSeal minimise la confiance.
+Il maximise la reproductibilité.

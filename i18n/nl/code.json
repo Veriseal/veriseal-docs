@@ -1,10 +1,10 @@
 {
   "theme.ErrorPageContent.title": {
-    "message": "Deze pagina is gecrasht.",
+    "message": "Deze pagina is op een fout gestuit.",
     "description": "The title of the fallback page when the page crashed"
   },
   "theme.BackToTopButton.buttonAriaLabel": {
-    "message": "Scroll naar boven",
+    "message": "Terug naar boven",
     "description": "The ARIA label for the back to top button"
   },
   "theme.blog.archive.title": {
@@ -16,35 +16,35 @@
     "description": "The page & hero description of the blog archive page"
   },
   "theme.blog.paginator.navAriaLabel": {
-    "message": "Paginanavigatie blog",
+    "message": "Navigatie tussen blogpagina's",
     "description": "The ARIA label for the blog pagination"
   },
   "theme.blog.paginator.newerEntries": {
-    "message": "Nieuwere items",
-    "description": "The label used to navigate to the newer blog posts page (previous page)"
+    "message": "Nieuwere berichten",
+    "description": "The label used to navigate to the newer blog posts page"
   },
   "theme.blog.paginator.olderEntries": {
-    "message": "Oudere items",
-    "description": "The label used to navigate to the older blog posts page (next page)"
+    "message": "Oudere berichten",
+    "description": "The label used to navigate to the older blog posts page"
   },
   "theme.blog.post.paginator.navAriaLabel": {
-    "message": "Paginanavigatie blog",
+    "message": "Navigatie tussen blogberichten",
     "description": "The ARIA label for the blog posts pagination"
   },
   "theme.blog.post.paginator.newerPost": {
     "message": "Nieuwer bericht",
-    "description": "The blog post button label to navigate to the newer/previous post"
+    "description": "The blog post button label to navigate to the newer post"
   },
   "theme.blog.post.paginator.olderPost": {
     "message": "Ouder bericht",
-    "description": "The blog post button label to navigate to the older/next post"
+    "description": "The blog post button label to navigate to the older post"
   },
   "theme.tags.tagsPageLink": {
-    "message": "Laat alle tags zien",
+    "message": "Alle tags bekijken",
     "description": "The label of the link targeting the tag list page"
   },
   "theme.colorToggle.ariaLabel.mode.system": {
-    "message": "system mode",
+    "message": "systeemmodus",
     "description": "The name for the system color mode"
   },
   "theme.colorToggle.ariaLabel.mode.light": {
@@ -56,19 +56,19 @@
     "description": "The name for the dark color mode"
   },
   "theme.colorToggle.ariaLabel": {
-    "message": "Schakel tussen donkere en lichte modus (momenteel {mode})",
+    "message": "Schakelen tussen lichte en donkere modus (momenteel: {mode})",
     "description": "The ARIA label for the color mode toggle"
   },
+  "theme.docs.DocCard.categoryDescription.plurals": {
+    "message": "1 item|{count} items",
+    "description": "The default description for a category card"
+  },
   "theme.docs.breadcrumbs.navAriaLabel": {
-    "message": "Broodkruimels",
+    "message": "Broodkruimelnavigatie",
     "description": "The ARIA label for the breadcrumbs"
   },
-  "theme.docs.DocCard.categoryDescription.plurals": {
-    "message": "1 artikel|{count} artikelen",
-    "description": "The default description for a category card in the generated index about how many items this category includes"
-  },
   "theme.docs.paginator.navAriaLabel": {
-    "message": "Documentatie pagina",
+    "message": "Documentatienavigatie",
     "description": "The ARIA label for the docs pagination"
   },
   "theme.docs.paginator.previous": {
@@ -80,38 +80,38 @@
     "description": "The label used to navigate to the next doc"
   },
   "theme.docs.tagDocListPageTitle.nDocsTagged": {
-    "message": "Een artikel getagd|{count} artikelen getagd",
-    "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+    "message": "Één document getagd|{count} documenten getagd",
+    "description": "Pluralized label for docs tagged"
   },
   "theme.docs.tagDocListPageTitle": {
-    "message": "{nDocsTagged} met \"{tagName}\"",
+    "message": "{nDocsTagged} met «{tagName}»",
     "description": "The title of the page for a docs tag"
   },
   "theme.docs.versionBadge.label": {
     "message": "Versie: {versionLabel}"
   },
   "theme.docs.versions.unreleasedVersionLabel": {
-    "message": "Dit is nog niet uitgegeven documentatie voor {siteTitle}, versie {versionLabel}",
-    "description": "The label used to tell the user that he's browsing an unreleased doc version"
+    "message": "Dit is de documentatie van versie {versionLabel} van {siteTitle}, die nog niet is uitgebracht.",
+    "description": "The label for unreleased doc version"
   },
   "theme.docs.versions.unmaintainedVersionLabel": {
-    "message": "Dit is de documentatie voor {siteTitle} {versionLabel}, welke niet langer actief wordt onderhouden.",
-    "description": "The label used to tell the user that he's browsing an unmaintained doc version"
+    "message": "Dit is de documentatie van {siteTitle} {versionLabel}, die niet meer actief wordt onderhouden.",
+    "description": "The label for unmaintained doc version"
   },
   "theme.docs.versions.latestVersionSuggestionLabel": {
-    "message": "Voor de huidige documentatie, zie de {latestVersionLink} ({versionLabel}).",
-    "description": "The label used to tell the user to check the latest version"
+    "message": "Raadpleeg voor actuele documentatie de {latestVersionLink} ({versionLabel}).",
+    "description": "The label to check the latest version"
   },
   "theme.docs.versions.latestVersionLinkLabel": {
-    "message": "laatste versie",
-    "description": "The label used for the latest version suggestion link label"
+    "message": "nieuwste versie",
+    "description": "The label for the latest version link"
   },
   "theme.common.editThisPage": {
-    "message": "Bewerk deze pagina",
+    "message": "Deze pagina bewerken",
     "description": "The link label to edit the current page"
   },
   "theme.common.headingLinkTitle": {
-    "message": "Direct link naar {heading}",
+    "message": "Directe link naar {heading}",
     "description": "Title for link to heading"
   },
   "theme.lastUpdated.atDate": {
@@ -124,11 +124,11 @@
   },
   "theme.lastUpdated.lastUpdatedAtBy": {
     "message": "Laatst bijgewerkt{atDate}{byUser}",
-    "description": "The sentence used to display when a page has been last updated, and by who"
+    "description": "The sentence used to display when a page has been last updated"
   },
   "theme.navbar.mobileVersionsDropdown.label": {
     "message": "Versies",
-    "description": "The label for the navbar versions dropdown on mobile view"
+    "description": "The label for the navbar versions dropdown on mobile"
   },
   "theme.NotFound.title": {
     "message": "Pagina niet gevonden",
@@ -139,63 +139,63 @@
     "description": "The label alongside a tag list"
   },
   "theme.admonition.caution": {
-    "message": "pas op",
-    "description": "The default label used for the Caution admonition (:::caution)"
+    "message": "let op",
+    "description": "The default label used for the Caution admonition"
   },
   "theme.admonition.danger": {
     "message": "gevaar",
-    "description": "The default label used for the Danger admonition (:::danger)"
+    "description": "The default label used for the Danger admonition"
   },
   "theme.admonition.info": {
-    "message": "info",
-    "description": "The default label used for the Info admonition (:::info)"
+    "message": "informatie",
+    "description": "The default label used for the Info admonition"
   },
   "theme.admonition.note": {
-    "message": "notitie",
-    "description": "The default label used for the Note admonition (:::note)"
+    "message": "opmerking",
+    "description": "The default label used for the Note admonition"
   },
   "theme.admonition.tip": {
     "message": "tip",
-    "description": "The default label used for the Tip admonition (:::tip)"
+    "description": "The default label used for the Tip admonition"
   },
   "theme.admonition.warning": {
     "message": "waarschuwing",
-    "description": "The default label used for the Warning admonition (:::warning)"
+    "description": "The default label used for the Warning admonition"
   },
   "theme.AnnouncementBar.closeButtonAriaLabel": {
     "message": "Sluiten",
     "description": "The ARIA label for close button of announcement bar"
   },
   "theme.blog.sidebar.navAriaLabel": {
-    "message": "Navigatie recente blogitems",
+    "message": "Navigatie — recente berichten",
     "description": "The ARIA label for recent posts in the blog sidebar"
   },
   "theme.DocSidebarItem.expandCategoryAriaLabel": {
-    "message": "Categorie zijbalk uitklappen '{label}'",
+    "message": "Categorie «{label}» uitklappen",
     "description": "The ARIA label to expand the sidebar category"
   },
   "theme.DocSidebarItem.collapseCategoryAriaLabel": {
-    "message": "Categorie zijbalk inklappen '{label}'",
+    "message": "Categorie «{label}» inklappen",
     "description": "The ARIA label to collapse the sidebar category"
   },
   "theme.IconExternalLink.ariaLabel": {
-    "message": "(opens in new tab)",
+    "message": "(opent in een nieuw tabblad)",
     "description": "The ARIA label for the external link icon"
   },
   "theme.NavBar.navAriaLabel": {
-    "message": "Main",
+    "message": "Hoofdnavigatie",
     "description": "The ARIA label for the main navigation"
   },
   "theme.navbar.mobileLanguageDropdown.label": {
-    "message": "Talen",
+    "message": "Taal",
     "description": "The label for the mobile language switcher dropdown"
   },
   "theme.NotFound.p1": {
-    "message": "We kunnen niet vinden waar je naar op zoek bent.",
+    "message": "De pagina die u zoekt kon niet worden gevonden.",
     "description": "The first paragraph of the 404 page"
   },
   "theme.NotFound.p2": {
-    "message": "Neem contact op met de eigenaar van de website die naar de originele URL heeft geleid en laat weten dat de link niet meer werkt.",
+    "message": "Als u via een externe link hier bent terechtgekomen, is deze mogelijk verouderd. Informeer de eigenaar van de bronwebsite hierover.",
     "description": "The 2nd paragraph of the 404 page"
   },
   "theme.TOCCollapsible.toggleButtonLabel": {
@@ -203,35 +203,35 @@
     "description": "The label used by the button on the collapsible TOC component"
   },
   "theme.blog.post.readMore": {
-    "message": "Lees meer",
+    "message": "Lees verder",
     "description": "The label used in blog post item excerpts to link to full blog posts"
   },
   "theme.blog.post.readMoreLabel": {
-    "message": "Lees meer over {title}",
+    "message": "Lees verder over {title}",
     "description": "The ARIA label for the link to full blog posts from excerpts"
   },
   "theme.blog.post.readingTime.plurals": {
-    "message": "Een minuut leestijd|{readingTime} minuten leestijd",
-    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+    "message": "1 minuut leestijd|{readingTime} minuten leestijd",
+    "description": "Pluralized label for reading time"
   },
   "theme.CodeBlock.copy": {
-    "message": "Kopieer",
+    "message": "Kopiëren",
     "description": "The copy button label on code blocks"
   },
   "theme.CodeBlock.copied": {
-    "message": "Gekopieerd",
+    "message": "Gekopieerd!",
     "description": "The copied button label on code blocks"
   },
   "theme.CodeBlock.copyButtonAriaLabel": {
-    "message": "Kopieer code naar klembord",
+    "message": "Code naar klembord kopiëren",
     "description": "The ARIA label for copy code blocks button"
   },
   "theme.CodeBlock.wordWrapToggle": {
-    "message": "Tekstterugloop in-/uitschakelen",
-    "description": "The title attribute for toggle word wrapping button of code block lines"
+    "message": "Automatische regelafbreking in-/uitschakelen",
+    "description": "The title attribute for toggle word wrapping button"
   },
   "theme.docs.breadcrumbs.home": {
-    "message": "Homepagina",
+    "message": "Startpagina",
     "description": "The ARIA label for the home page in the breadcrumbs"
   },
   "theme.docs.sidebar.collapseButtonTitle": {
@@ -240,50 +240,50 @@
   },
   "theme.docs.sidebar.collapseButtonAriaLabel": {
     "message": "Zijbalk inklappen",
-    "description": "The title attribute for collapse button of doc sidebar"
+    "description": "The ARIA label for collapse button of doc sidebar"
   },
   "theme.docs.sidebar.navAriaLabel": {
-    "message": "Docs zijbalk",
+    "message": "Documentatiezijbalk",
     "description": "The ARIA label for the sidebar navigation"
   },
   "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
-    "message": "Sluit navigatiebalk",
+    "message": "Navigatiebalk sluiten",
     "description": "The ARIA label for close button of mobile sidebar"
   },
   "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
     "message": "← Terug naar het hoofdmenu",
-    "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
+    "description": "The label of the back button to return to main menu"
   },
   "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
-    "message": "Navigatiebalk schakelen",
+    "message": "Navigatiebalk openen/sluiten",
     "description": "The ARIA label for hamburger menu button of mobile navigation"
   },
   "theme.navbar.mobileDropdown.collapseButton.expandAriaLabel": {
-    "message": "Expand the dropdown",
-    "description": "The ARIA label of the button to expand the mobile dropdown navbar item"
+    "message": "Menu uitklappen",
+    "description": "The ARIA label to expand the mobile dropdown"
   },
   "theme.navbar.mobileDropdown.collapseButton.collapseAriaLabel": {
-    "message": "Collapse the dropdown",
-    "description": "The ARIA label of the button to collapse the mobile dropdown navbar item"
+    "message": "Menu inklappen",
+    "description": "The ARIA label to collapse the mobile dropdown"
   },
   "theme.docs.sidebar.expandButtonTitle": {
     "message": "Zijbalk uitklappen",
-    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+    "description": "The title attribute for expand button of doc sidebar"
   },
   "theme.docs.sidebar.expandButtonAriaLabel": {
     "message": "Zijbalk uitklappen",
-    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+    "description": "The ARIA label for expand button of doc sidebar"
   },
   "theme.blog.post.plurals": {
-    "message": "Een bericht|{count} berichten",
-    "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+    "message": "1 bericht|{count} berichten",
+    "description": "Pluralized label for posts"
   },
   "theme.blog.tagTitle": {
-    "message": "{nPosts} getagd met \"{tagName}\"",
+    "message": "{nPosts} getagd met «{tagName}»",
     "description": "The title of the page for a blog tag"
   },
   "theme.blog.author.pageTitle": {
-    "message": "{authorName} - {nPosts}",
+    "message": "{authorName} — {nPosts}",
     "description": "The title of the page for a blog author"
   },
   "theme.blog.authorsList.pageTitle": {
@@ -291,39 +291,162 @@
     "description": "The title of the authors page"
   },
   "theme.blog.authorsList.viewAll": {
-    "message": "Bekijk alle auteurs",
+    "message": "Alle auteurs bekijken",
     "description": "The label of the link targeting the blog authors page"
   },
   "theme.blog.author.noPosts": {
-    "message": "Deze auteur heeft nog geen berichten geschreven.",
+    "message": "Deze auteur heeft nog geen berichten gepubliceerd.",
     "description": "The text for authors with 0 blog post"
   },
   "theme.contentVisibility.unlistedBanner.title": {
-    "message": "Verborgen page",
+    "message": "Niet-geïndexeerde pagina",
     "description": "The unlisted content banner title"
   },
   "theme.contentVisibility.unlistedBanner.message": {
-    "message": "Deze pagina is verborgen. Zoekmachines indexeren deze niet en alleen gebruikers met een directe link kunnen deze openen.",
+    "message": "Deze pagina is niet geïndexeerd. Zoekmachines zullen hem niet vinden en hij is alleen toegankelijk via een directe link.",
     "description": "The unlisted content banner message"
   },
   "theme.contentVisibility.draftBanner.title": {
-    "message": "Concept pagina",
+    "message": "Conceptpagina",
     "description": "The draft content banner title"
   },
   "theme.contentVisibility.draftBanner.message": {
-    "message": "Deze pagina is een concept. Deze zal alleen zichtbaar zijn in de ontwikkelomgeving en uitgesloten worden van de productie build.",
+    "message": "Deze pagina is een concept. Hij is alleen zichtbaar in de ontwikkelomgeving en wordt uitgesloten van de productiebuild.",
     "description": "The draft content banner message"
   },
   "theme.ErrorPageContent.tryAgain": {
-    "message": "Probeer opnieuw",
-    "description": "The label of the button to try again rendering when the React error boundary captures an error"
+    "message": "Opnieuw proberen",
+    "description": "The label of the button to try again"
   },
   "theme.common.skipToMainContent": {
-    "message": "Ga naar hoofdinhoud",
-    "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
+    "message": "Naar de hoofdinhoud gaan",
+    "description": "The skip to content label used for accessibility"
   },
   "theme.tags.tagsPageTitle": {
     "message": "Tags",
     "description": "The title of the tag list page"
+  },
+  "homepage.description": {
+    "message": "Deterministische cryptografische infrastructuur ter beveiliging van digitaal bewijs en institutionele registers."
+  },
+  "homepage.hero.subtitle": {
+    "message": "Deterministische cryptografische infrastructuur voor de verankering van digitale bewijzen, transacties en registers over jurisdicties heen."
+  },
+  "homepage.hero.punchline": {
+    "message": "De integriteitslaag van de digitale economie."
+  },
+  "homepage.cta.primary": {
+    "message": "Architectuur begrijpen"
+  },
+  "homepage.cta.secondary": {
+    "message": "Toepassingen verkennen"
+  },
+  "homepage.title": {
+    "message": "VeriSeal — Wereldwijde Integriteitsinfrastructuur"
+  },
+  "homepage.gap.title": {
+    "message": "De Structurele Integriteitslacune"
+  },
+  "homepage.gap.item1": {
+    "message": "Digitaal bewijs is afhankelijk van vertrouwen op systeemniveau."
+  },
+  "homepage.gap.item2": {
+    "message": "Tijdstempeling garandeert geen structurele onveranderlijkheid."
+  },
+  "homepage.gap.item3": {
+    "message": "Handtekeningen valideren identiteit — niet architectuur."
+  },
+  "homepage.gap.item4": {
+    "message": "Blockchain-verankering vervangt geen governance."
+  },
+  "homepage.gap.item5": {
+    "message": "Door AI gegenereerde inhoud vergroot de bewijsrechtelijke ambiguïteit."
+  },
+  "homepage.gap.conclusion": {
+    "message": "De digitale economie functioneert zonder een deterministisch integriteitstandaard."
+  },
+  "homepage.how.title": {
+    "message": "Hoe VeriSeal werkt"
+  },
+  "homepage.how.step1.title": {
+    "message": "Canonicaliseren"
+  },
+  "homepage.how.step1.desc": {
+    "message": "Gegevens normaliseren naar een deterministisch formaat dat structurele ambiguïteit elimineert."
+  },
+  "homepage.how.step2.title": {
+    "message": "Verzegelen"
+  },
+  "homepage.how.step2.desc": {
+    "message": "Een cryptografische hash en een onveranderlijk registeritem genereren, waarmee een niet-wijzigbare bewijsstructuur wordt gecreëerd."
+  },
+  "homepage.how.step3.title": {
+    "message": "Verifiëren"
+  },
+  "homepage.how.step3.desc": {
+    "message": "Onafhankelijke verificatie in alle rechtsgebieden en in de tijd."
+  },
+  "homepage.positioning.title": {
+    "message": "Dubbele Strategische Positionering"
+  },
+  "homepage.positioning.card1.title": {
+    "message": "Commerciële Infrastructuur"
+  },
+  "homepage.positioning.card1.item1": {
+    "message": "API-native architectuur"
+  },
+  "homepage.positioning.card1.item2": {
+    "message": "Klaar voor enterprise-implementatie"
+  },
+  "homepage.positioning.card1.item3": {
+    "message": "Sectoroverschrijdende schaalbaarheid"
+  },
+  "homepage.positioning.card1.item4": {
+    "message": "Wereldwijde interoperabiliteit"
+  },
+  "homepage.positioning.card2.title": {
+    "message": "Opkomende Wereldwijde Standaard"
+  },
+  "homepage.positioning.card2.item1": {
+    "message": "Governance- en conformiteitskader"
+  },
+  "homepage.positioning.card2.item2": {
+    "message": "Certificeringsklaar model"
+  },
+  "homepage.positioning.card2.item3": {
+    "message": "Soevereiniteitscompatibel ontwerp"
+  },
+  "homepage.positioning.card2.item4": {
+    "message": "Langdurige archiefbestendigheid"
+  },
+  "homepage.sectors.title": {
+    "message": "Directe Toepassingen"
+  },
+  "homepage.sectors.item1": {
+    "message": "Bank- & Financiële Infrastructuur"
+  },
+  "homepage.sectors.item2": {
+    "message": "Juridische & Notariële Systemen"
+  },
+  "homepage.sectors.item3": {
+    "message": "Publieke Sector & Inkoop"
+  },
+  "homepage.sectors.item4": {
+    "message": "Verzekering & Schadeafhandeling"
+  },
+  "homepage.sectors.item5": {
+    "message": "Digitale Identiteit"
+  },
+  "homepage.sectors.item6": {
+    "message": "Toeleveringsketen & Platformen"
+  },
+  "homepage.final.title": {
+    "message": "VeriSeal is Infrastructuur"
+  },
+  "homepage.final.claim": {
+    "message": "Geen workflow-SaaS. Geen handtekeningtool. Geen blockchain-wrapper."
+  },
+  "homepage.final.desc": {
+    "message": "VeriSeal is een structurele cryptografische integriteitlaag ontworpen om digitale onzekerheid te verminderen en institutioneel vertrouwen te verankeren in deterministische verificatie."
   }
 }

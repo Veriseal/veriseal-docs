@@ -1,6 +1,6 @@
 {
   "version.label": {
-    "message": "Next",
+    "message": "Suivant",
     "description": "The label for version current"
   },
   "sidebar.tutorialSidebar.category.Standard": {
@@ -8,51 +8,51 @@
     "description": "The label for category 'Standard' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.Technical": {
-    "message": "Technical",
+    "message": "Technique",
     "description": "The label for category 'Technical' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.Strategy": {
-    "message": "Strategy",
+    "message": "Stratégie",
     "description": "The label for category 'Strategy' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.Sectors": {
-    "message": "Sectors",
+    "message": "Secteurs",
     "description": "The label for category 'Sectors' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.Whitepaper": {
-    "message": "Whitepaper",
+    "message": "Livre Blanc",
     "description": "The label for category 'Whitepaper' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.Part I — The Proof Crisis": {
-    "message": "Part I — The Proof Crisis",
+    "message": "Partie I — La Crise de la Preuve",
     "description": "The label for category 'Part I — The Proof Crisis' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.Part II — Cryptographic Architecture": {
-    "message": "Part II — Cryptographic Architecture",
+    "message": "Partie II — Architecture Cryptographique",
     "description": "The label for category 'Part II — Cryptographic Architecture' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.Part III — Institutional Impact": {
-    "message": "Part III — Institutional Impact",
+    "message": "Partie III — Impact Institutionnel",
     "description": "The label for category 'Part III — Institutional Impact' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.Part IV — Deployment & Industrialization": {
-    "message": "Part IV — Deployment & Industrialization",
+    "message": "Partie IV — Déploiement & Industrialisation",
     "description": "The label for category 'Part IV — Deployment & Industrialization' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.Part V — Adoption & Strategy": {
-    "message": "Part V — Adoption & Strategy",
+    "message": "Partie V — Adoption & Stratégie",
     "description": "The label for category 'Part V — Adoption & Strategy' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.Annex — Technical & Security": {
-    "message": "Annex — Technical & Security",
+    "message": "Annexe — Technique & Sécurité",
     "description": "The label for category 'Annex — Technical & Security' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.Regulatory": {
-    "message": "Regulatory",
+    "message": "Réglementaire",
     "description": "The label for category 'Regulatory' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.Foundation": {
-    "message": "Foundation",
+    "message": "Fondation",
     "description": "The label for category 'Foundation' in sidebar 'tutorialSidebar'"
   }
 }

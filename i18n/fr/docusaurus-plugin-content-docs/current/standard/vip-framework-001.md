@@ -1,207 +1,207 @@
 ---
 id: vip-framework-001
-title: VIP-FRAMEWORK-001 — Architectural & Normative Framework
+title: VIP-FRAMEWORK-001 — Cadre Architecturale & Normatif
 sidebar_position: 2
 ---
 
 # VIP-FRAMEWORK-001  
-## Architectural & Normative Framework of the VeriSeal Integrity Protocol
+## Cadre Architecturale & Normatif du Protocole d'Intégrité VeriSeal
 
 ---
 
-# 1. Scope
+# 1. Portée
 
-This document defines the architectural structure, normative layering, and dependency model of the VeriSeal Integrity Protocol (VIP).
+Ce document définit la structure architecturale, la stratification normative et le modèle de dépendance du Protocole d'Intégrité VeriSeal (VIP).
 
-It establishes the structural logic governing all normative standards within the VIP Suite.
-
----
-
-# 2. Terminology
-
-For the purposes of this document:
-
-- **Integrity Proof**: A cryptographic record derived from canonicalized data.
-- **Ledger Entry**: An append-only cryptographic record representing a proof event.
-- **Verification Event**: A deterministic recomputation validating integrity.
-- **Anchoring Mechanism**: A timestamping or external reference binding a proof to a temporal anchor.
-
-Normative language may progressively adopt:
-
-- MUST
-- SHOULD
-- MAY
-
-Future revisions may formalize strict RFC-style language.
+Il établit la logique structurelle régissant toutes les normes normatives au sein de la Suite VIP.
 
 ---
 
-# 3. Architectural Layers
+# 2. Terminologie
 
-The VIP architecture consists of five functional layers.
+Aux fins de ce document :
 
----
+- **Preuve d'Intégrité** : Un enregistrement cryptographique dérivé de données canonisées.
+- **Entrée de Registre** : Un enregistrement cryptographique en ajout seul représentant un événement de preuve.
+- **Événement de Vérification** : Un recalcul déterministe validant l'intégrité.
+- **Mécanisme d'Ancrage** : Un horodatage ou une référence externe liant une preuve à un ancrage temporel.
 
-## 3.1 Layer 1 — Integrity Layer
+Le langage normatif peut progressivement adopter :
 
-Defined in VIP-STD-001.
+- DOIT
+- DEVRAIT
+- PEUT
 
-Responsibilities:
-
-- Canonicalization of input data
-- SHA-256 hashing
-- Deterministic integrity fingerprint generation
-
-This layer ensures data immutability at generation time.
-
----
-
-## 3.2 Layer 2 — Ledger Layer
-
-Defined in VIP-STD-002.
-
-Responsibilities:
-
-- Append-only proof recording
-- Hash chaining logic
-- Ledger entry structure
-- Structural immutability
-
-This layer ensures proof persistence integrity.
+Les révisions futures peuvent formaliser un langage strict de style RFC.
 
 ---
 
-## 3.3 Layer 3 — Verification Layer
+# 3. Couches Architecturales
 
-Defined in VIP-STD-003.
-
-Responsibilities:
-
-- Deterministic recomputation
-- Public verification capability
-- Reproducible validation procedure
-- Integrity status determination
-
-This layer ensures independent verifiability.
+L'architecture VIP se compose de cinq couches fonctionnelles.
 
 ---
 
-## 3.4 Layer 4 — Anchoring & Timestamp Layer
+## 3.1 Couche 1 — Couche d'Intégrité
 
-Defined in VIP-STD-004.
+Définie dans VIP-STD-001.
 
-Responsibilities:
+Responsabilités :
 
-- Timestamp integration
-- External anchoring compatibility
-- Proof-of-time guarantees
-- Temporal binding reproducibility
+- Canonisation des données d'entrée
+- Hachage SHA-256
+- Génération d'empreinte d'intégrité déterministe
 
-This layer ensures temporal determinism.
+Cette couche assure l'immuabilité des données au moment de la génération.
 
 ---
 
-## 3.5 Layer 5 — Security & Governance Layer
+## 3.2 Couche 2 — Couche de Registre
 
-Defined across:
+Définie dans VIP-STD-002.
+
+Responsabilités :
+
+- Enregistrement de preuve en ajout seul
+- Logique de chaînage de hachage
+- Structure d'entrée de registre
+- Immutabilité structurelle
+
+Cette couche assure l'intégrité de la persistance des preuves.
+
+---
+
+## 3.3 Couche 3 — Couche de Vérification
+
+Définie dans VIP-STD-003.
+
+Responsabilités :
+
+- Recomputation déterministe
+- Capacité de vérification publique
+- Procédure de validation reproductible
+- Détermination du statut d'intégrité
+
+Cette couche assure la vérifiabilité indépendante.
+
+---
+
+## 3.4 Couche 4 — Couche d'Ancrage & d'Horodatage
+
+Définie dans VIP-STD-004.
+
+Responsabilités :
+
+- Intégration de l'horodatage
+- Compatibilité avec l'ancrage externe
+- Garanties de preuve de temps
+- Reproductibilité de la liaison temporelle
+
+Cette couche assure le déterminisme temporel.
+
+---
+
+## 3.5 Couche 5 — Couche de Sécurité & Gouvernance
+
+Définie à travers :
 
 - VIP-THREAT-001
 - VIP-STF-005
 - VIP-REG-006
 
-Responsibilities:
+Responsabilités :
 
-- Threat modeling
-- Risk boundary definition
-- Governance articulation
-- Regulatory alignment profiles
+- Modélisation des menaces
+- Définition des limites de risque
+- Articulation de la gouvernance
+- Profils d'alignement réglementaire
 
-This layer ensures institutional robustness.
-
----
-
-# 4. Dependency Model
-
-Layer dependency is strictly hierarchical:
-
-Integrity → Ledger → Verification → Anchoring → Governance
-
-No lower layer depends on higher-layer constructs.
-
-This prevents circular dependency and preserves modular verification.
+Cette couche assure la robustesse institutionnelle.
 
 ---
 
-# 5. Conformance Logic
+# 4. Modèle de Dépendance
 
-A system claiming compliance with the VeriSeal Integrity Protocol MUST:
+La dépendance des couches est strictement hiérarchique :
 
-1. Implement canonicalization as defined in VIP-STD-001
-2. Maintain append-only ledger integrity per VIP-STD-002
-3. Support deterministic verification per VIP-STD-003
-4. Ensure reproducible timestamp anchoring per VIP-STD-004
+Intégrité → Registre → Vérification → Ancrage → Gouvernance
 
-Security annexes define extended compliance requirements.
+Aucune couche inférieure ne dépend des constructions de couches supérieures.
 
----
-
-# 6. Interoperability Model
-
-The VIP Framework is:
-
-- Blockchain-independent
-- Storage-neutral
-- Jurisdiction-neutral
-- Application-agnostic
-
-It defines integrity logic, not application behavior.
+Cela empêche la dépendance circulaire et préserve la vérification modulaire.
 
 ---
 
-# 7. Versioning Discipline
+# 5. Logique de Conformité
 
-The Framework follows:
+Un système revendiquant la conformité avec le Protocole d'Intégrité VeriSeal DOIT :
 
-- Incremental minor revisions for clarification
-- Major revision only for structural changes
-- Backward-compatible verification guarantees
+1. Mettre en œuvre la canonisation telle que définie dans VIP-STD-001
+2. Maintenir l'intégrité du registre en ajout seul selon VIP-STD-002
+3. Soutenir la vérification déterministe selon VIP-STD-003
+4. Assurer l'ancrage d'horodatage reproductible selon VIP-STD-004
 
-Breaking changes require formal version increment.
-
----
-
-# 8. Risk Boundaries
-
-The Framework does not:
-
-- Guarantee legal admissibility
-- Guarantee identity verification
-- Guarantee data authenticity beyond integrity
-
-It guarantees deterministic integrity verification within defined cryptographic assumptions.
-
-Threat assumptions are detailed in VIP-THREAT-001.
+Les annexes de sécurité définissent les exigences de conformité étendues.
 
 ---
 
-# 9. Positioning
+# 6. Modèle d'Interopérabilité
 
-VIP-FRAMEWORK-001 provides the architectural spine of the VeriSeal Integrity Protocol Suite.
+Le Cadre VIP est :
 
-It bridges:
+- Indépendant de la blockchain
+- Neutre en matière de stockage
+- Neutre en matière de juridiction
+- Indépendant de l'application
 
-- Strategic Charter (VIP-SUITE-000)
-- Normative Standards (VIP-STD series)
-- Security & Governance Annexes
+Il définit la logique d'intégrité, non le comportement de l'application.
 
-It serves as the structural backbone of the standardization candidate.
+---
+
+# 7. Discipline de Versionnage
+
+Le Cadre suit :
+
+- Révisions mineures incrémentales pour clarification
+- Révision majeure uniquement pour les changements structurels
+- Garanties de vérification rétrocompatibles
+
+Les changements majeurs nécessitent un incrément formel de version.
+
+---
+
+# 8. Limites de Risque
+
+Le Cadre ne garantit pas :
+
+- L'admissibilité légale
+- La vérification d'identité
+- L'authenticité des données au-delà de l'intégrité
+
+Il garantit la vérification déterministe de l'intégrité dans les hypothèses cryptographiques définies.
+
+Les hypothèses de menace sont détaillées dans VIP-THREAT-001.
+
+---
+
+# 9. Positionnement
+
+VIP-FRAMEWORK-001 fournit l'épine dorsale architecturale de la Suite du Protocole d'Intégrité VeriSeal.
+
+Il fait le lien entre :
+
+- Charte Stratégique (VIP-SUITE-000)
+- Normes Normatives (série VIP-STD)
+- Annexes de Sécurité & Gouvernance
+
+Il sert de colonne vertébrale structurelle du candidat à la normalisation.
 
 ---
 
 # 10. Conclusion
 
-This Framework defines the deterministic architectural model underpinning the VeriSeal Integrity Protocol.
+Ce Cadre définit le modèle architectural déterministe sous-tendant le Protocole d'Intégrité VeriSeal.
 
-It formalizes the structural dependencies required for institutional-grade digital integrity.
+Il formalise les dépendances structurelles requises pour une intégrité numérique de niveau institutionnel.
 
-All normative standards operate under this architectural discipline.
+Toutes les normes normatives opèrent sous cette discipline architecturale.

@@ -1,300 +1,300 @@
 ---
 id: timestamping
-title: Timestamping
+title: Horodatage
 ---
 
 ﻿---
-title: Timestamping & Anchoring FAQ
-sidebar_label: Timestamping & Anchoring
+title: FAQ sur l'Horodatage et l'Ancrage
+sidebar_label: Horodatage et Ancrage
 ---
 
-# Timestamping & Anchoring FAQ
+# FAQ sur l'Horodatage et l'Ancrage
 
-This section clarifies the role of timestamping and external anchoring within the VeriSeal integrity model.
+Cette section clarifie le rôle de l'horodatage et de l'ancrage externe dans le modèle d'intégrité de VeriSeal.
 
-Timestamping strengthens temporal defensibility.
+L'horodatage renforce la défensibilité temporelle.
 
-It does not replace structural integrity.
-
----
-
-## 1. Is timestamping mandatory in VeriSeal?
-
-No.
-
-Core integrity in VeriSeal is achieved through:
-
-- Deterministic canonicalization
-- SHA-256 hashing
-- Independent recomputation capability
-
-Timestamping is optional.
-
-It strengthens temporal defensibility.
+Il ne remplace pas l'intégrité structurelle.
 
 ---
 
-## 2. What is the difference between integrity and timestamping?
+## 1. L'horodatage est-il obligatoire dans VeriSeal ?
 
-Integrity answers:
+Non.
 
-"Has this content changed?"
+L'intégrité de base dans VeriSeal est obtenue par :
 
-Timestamping answers:
+- Canonicalisation déterministe
+- Hachage SHA-256
+- Capacité de recalcul indépendante
 
-"When did this state exist?"
+L'horodatage est optionnel.
 
-Integrity is foundational.
-
-Timestamping is complementary.
-
----
-
-## 3. What does external anchoring provide?
-
-External anchoring provides:
-
-- Additional temporal corroboration
-- External existence proof
-- Increased dispute resilience
-
-It strengthens chronological defensibility.
-
-It does not replace internal integrity mechanisms.
+Il renforce la défensibilité temporelle.
 
 ---
 
-## 4. Does VeriSeal require blockchain anchoring?
+## 2. Quelle est la différence entre intégrité et horodatage ?
 
-No.
+L'intégrité répond à la question :
 
-VeriSeal is not dependent on blockchain.
+"Ce contenu a-t-il changé ?"
 
-External anchoring mechanisms may be used optionally.
+L'horodatage répond à la question :
 
-Integrity does not require consensus networks.
+"Quand cet état a-t-il existé ?"
 
----
+L'intégrité est fondamentale.
 
-## 5. If blockchain anchoring is used, does it expose data?
-
-No.
-
-Only hashes may be anchored.
-
-Hashes:
-
-- Do not reveal underlying content
-- Do not expose confidential data
-- Do not broadcast sensitive information
-
-The original data remains private.
+L'horodatage est complémentaire.
 
 ---
 
-## 6. Does anchoring create regulatory exposure?
+## 3. Que fournit l'ancrage externe ?
 
-No.
+L'ancrage externe fournit :
 
-Anchoring a hash does not:
+- Une corroboration temporelle supplémentaire
+- Une preuve d'existence externe
+- Une résilience accrue aux litiges
 
-- Publish personal data
-- Transfer business records
-- Create reporting obligations
+Il renforce la défensibilité chronologique.
 
-Regulatory exposure depends on implementation design.
-
----
-
-## 7. What happens if external anchoring services disappear?
-
-Integrity proofs remain valid without anchoring.
-
-Anchoring strengthens temporal defensibility.
-
-It does not determine structural validity.
-
-Vendor disappearance does not invalidate proof recomputation.
+Il ne remplace pas les mécanismes d'intégrité interne.
 
 ---
 
-## 8. Can anchoring be performed internally?
+## 4. VeriSeal nécessite-t-il un ancrage sur la blockchain ?
 
-Yes.
+Non.
 
-Institutions may:
+VeriSeal ne dépend pas de la blockchain.
 
-- Use internal timestamp authorities
-- Use external trust providers
-- Use public networks
-- Combine approaches
+Les mécanismes d'ancrage externe peuvent être utilisés de manière optionnelle.
 
-Deployment model is institution-controlled.
+L'intégrité ne nécessite pas de réseaux de consensus.
 
 ---
 
-## 9. Does anchoring create dependence on Bitcoin or other networks?
+## 5. Si un ancrage sur la blockchain est utilisé, expose-t-il les données ?
 
-No structural dependence exists.
+Non.
 
-If anchoring is used:
+Seuls les hachages peuvent être ancrés.
 
-- It is optional
-- It strengthens time corroboration
-- It does not affect core integrity verification
+Les hachages :
 
-Integrity remains independent of consensus networks.
+- Ne révèlent pas le contenu sous-jacent
+- N'exposent pas de données confidentielles
+- Ne diffusent pas d'informations sensibles
 
----
-
-## 10. Is timestamping legally binding?
-
-Timestamping strengthens:
-
-- Evidence of existence
-- Chronological claims
-- Dispute defensibility
-
-Legal weight depends on:
-
-- Jurisdiction
-- Applicable evidentiary standards
-- Judicial interpretation
-
-Timestamping enhances defensibility.
-
-It does not create automatic legal authority.
+Les données originales restent privées.
 
 ---
 
-## 11. Can timestamps be falsified?
+## 6. L'ancrage crée-t-il une exposition réglementaire ?
 
-If timestamps are part of canonical proof objects:
+Non.
 
-- Any alteration changes the hash
-- Integrity validation fails
+Ancrer un hachage ne :
 
-If external anchoring is used:
+- Publie pas de données personnelles
+- Transfère pas de documents commerciaux
+- Crée pas d'obligations de déclaration
 
-- Independent verification of anchor inclusion is possible
-
-VeriSeal makes timestamp manipulation detectable.
-
----
-
-## 12. Does timestamping replace qualified timestamp services?
-
-No.
-
-Qualified timestamp services (where applicable) operate under:
-
-- Regulatory frameworks
-- Legal recognition schemes
-
-VeriSeal timestamping strengthens integrity.
-
-It does not claim regulatory equivalence.
-
-They may complement each other.
+L'exposition réglementaire dépend de la conception de l'implémentation.
 
 ---
 
-## 13. Should every record be anchored externally?
+## 7. Que se passe-t-il si les services d'ancrage externe disparaissent ?
 
-Not necessarily.
+Les preuves d'intégrité restent valides sans ancrage.
 
-Anchoring strategy depends on:
+L'ancrage renforce la défensibilité temporelle.
 
-- Risk profile
-- Regulatory exposure
-- Litigation likelihood
-- Business criticality
-- Cost considerations
+Il ne détermine pas la validité structurelle.
 
-Selective anchoring is often appropriate.
+La disparition du fournisseur n'invalide pas la recalcul des preuves.
 
 ---
 
-## 14. Does timestamping increase cost?
+## 8. L'ancrage peut-il être effectué en interne ?
 
-External anchoring may introduce:
+Oui.
 
-- Transactional fees
-- Operational overhead
+Les institutions peuvent :
 
-Core integrity does not require external anchoring.
+- Utiliser des autorités d'horodatage internes
+- Utiliser des fournisseurs de confiance externes
+- Utiliser des réseaux publics
+- Combiner les approches
 
-Cost-benefit analysis should be risk-driven.
-
----
-
-## 15. What risk does timestamping reduce?
-
-Timestamping reduces:
-
-- Backdating dispute risk
-- Chronological manipulation risk
-- Allegations of retroactive alteration
-- Evidentiary fragility in litigation
-
-It strengthens temporal defensibility.
+Le modèle de déploiement est contrôlé par l'institution.
 
 ---
 
-## 16. Can regulators verify anchored proofs independently?
+## 9. L'ancrage crée-t-il une dépendance au Bitcoin ou à d'autres réseaux ?
 
-Yes.
+Aucune dépendance structurelle n'existe.
 
-If anchoring is used:
+Si l'ancrage est utilisé :
 
-- Inclusion proofs may be verified
-- Anchor hashes may be validated
-- Timestamp presence may be checked independently
+- Il est optionnel
+- Il renforce la corroboration temporelle
+- Il n'affecte pas la vérification de l'intégrité de base
 
-Verification does not require vendor permission.
-
----
-
-## 17. Does anchoring create permanent public records?
-
-If public networks are used:
-
-- Only hashes are visible
-- Underlying content remains confidential
-
-No readable business data is exposed.
+L'intégrité reste indépendante des réseaux de consensus.
 
 ---
 
-## 18. What is VeriSeal's timestamping philosophy?
+## 10. L'horodatage est-il juridiquement contraignant ?
 
-Integrity first.
+L'horodatage renforce :
 
-Anchoring second.
+- La preuve d'existence
+- Les revendications chronologiques
+- La défensibilité en cas de litige
 
-Timestamping is a reinforcement layer.
+Le poids juridique dépend de :
 
-Not the foundation.
+- La juridiction
+- Les normes de preuve applicables
+- L'interprétation judiciaire
 
----
+L'horodatage améliore la défensibilité.
 
-## 19. Is timestamping suitable for highly regulated sectors?
-
-Yes, provided:
-
-- Legal teams validate anchoring model
-- Deployment respects regulatory frameworks
-- Confidentiality constraints are maintained
-
-Timestamping strengthens dispute defensibility.
+Il ne crée pas d'autorité légale automatique.
 
 ---
 
-## 20. What is timestamping in one sentence?
+## 11. Les horodatages peuvent-ils être falsifiés ?
 
-Timestamping strengthens the ability to demonstrate
-that a specific record state existed at a certain time.
+Si les horodatages font partie des objets de preuve canoniques :
 
-It does not replace structural integrity.
+- Toute altération modifie le hachage
+- La validation de l'intégrité échoue
 
-It reinforces it.
+Si un ancrage externe est utilisé :
+
+- Une vérification indépendante de l'inclusion de l'ancre est possible
+
+VeriSeal rend la manipulation des horodatages détectable.
+
+---
+
+## 12. L'horodatage remplace-t-il les services d'horodatage qualifiés ?
+
+Non.
+
+Les services d'horodatage qualifiés (le cas échéant) opèrent sous :
+
+- Des cadres réglementaires
+- Des régimes de reconnaissance légale
+
+L'horodatage de VeriSeal renforce l'intégrité.
+
+Il ne revendique pas l'équivalence réglementaire.
+
+Ils peuvent se compléter mutuellement.
+
+---
+
+## 13. Chaque enregistrement doit-il être ancré à l'externe ?
+
+Pas nécessairement.
+
+La stratégie d'ancrage dépend de :
+
+- Le profil de risque
+- L'exposition réglementaire
+- La probabilité de litige
+- La criticité commerciale
+- Les considérations de coût
+
+Un ancrage sélectif est souvent approprié.
+
+---
+
+## 14. L'horodatage augmente-t-il le coût ?
+
+L'ancrage externe peut introduire :
+
+- Des frais transactionnels
+- Des frais opérationnels
+
+L'intégrité de base ne nécessite pas d'ancrage externe.
+
+L'analyse coût-bénéfice doit être orientée par le risque.
+
+---
+
+## 15. Quel risque l'horodatage réduit-il ?
+
+L'horodatage réduit :
+
+- Le risque de litige sur l'antidatation
+- Le risque de manipulation chronologique
+- Les allégations de modification rétroactive
+- La fragilité des preuves en cas de litige
+
+Il renforce la défensibilité temporelle.
+
+---
+
+## 16. Les régulateurs peuvent-ils vérifier indépendamment les preuves ancrées ?
+
+Oui.
+
+Si l'ancrage est utilisé :
+
+- Les preuves d'inclusion peuvent être vérifiées
+- Les hachages d'ancrage peuvent être validés
+- La présence de l'horodatage peut être vérifiée indépendamment
+
+La vérification ne nécessite pas l'autorisation du fournisseur.
+
+---
+
+## 17. L'ancrage crée-t-il des archives publiques permanentes ?
+
+Si des réseaux publics sont utilisés :
+
+- Seuls les hachages sont visibles
+- Le contenu sous-jacent reste confidentiel
+
+Aucune donnée commerciale lisible n'est exposée.
+
+---
+
+## 18. Quelle est la philosophie de l'horodatage de VeriSeal ?
+
+L'intégrité d'abord.
+
+L'ancrage ensuite.
+
+L'horodatage est une couche de renforcement.
+
+Pas la fondation.
+
+---
+
+## 19. L'horodatage convient-il aux secteurs hautement réglementés ?
+
+Oui, à condition que :
+
+- Les équipes juridiques valident le modèle d'ancrage
+- Le déploiement respecte les cadres réglementaires
+- Les contraintes de confidentialité soient maintenues
+
+L'horodatage renforce la défensibilité en cas de litige.
+
+---
+
+## 20. Qu'est-ce que l'horodatage en une phrase ?
+
+L'horodatage renforce la capacité à démontrer
+qu'un état spécifique d'un enregistrement existait à un certain moment.
+
+Il ne remplace pas l'intégrité structurelle.
+
+Il la renforce.

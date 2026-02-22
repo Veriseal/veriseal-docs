@@ -1,337 +1,337 @@
 ---
 id: security
-title: Security
+title: Securitate
 ---
 
 ﻿---
-title: Security & Integrity FAQ
-sidebar_label: Security & Integrity
+title: Întrebări frecvente despre Securitate și Integritate
+sidebar_label: Securitate și Integritate
 ---
 
-# Security & Integrity FAQ
+# Întrebări frecvente despre Securitate și Integritate
 
-This section addresses technical security considerations and integrity risk scenarios related to VeriSeal.
+Această secțiune abordează considerațiile tehnice de securitate și scenariile de risc de integritate legate de VeriSeal.
 
-VeriSeal is an integrity reinforcement layer.
+VeriSeal este un strat de întărire a integrității.
 
-It does not replace cybersecurity infrastructure.
+Nu înlocuiește infrastructura de securitate cibernetică.
 
-It strengthens structural tamper detectability.
-
----
-
-## 1. Does VeriSeal prevent data modification?
-
-No.
-
-VeriSeal does not prevent modification.
-
-It ensures that any modification becomes detectable.
-
-If underlying data changes:
-
-- The recomputed hash will differ
-- The integrity proof will fail
-- Tampering becomes visible
-
-It is a detection model, not a prevention model.
+Întărește detectabilitatea structurală a manipulării.
 
 ---
 
-## 2. Can a privileged administrator alter records undetected?
+## 1. Previne VeriSeal modificarea datelor?
 
-If a record protected by VeriSeal is altered:
+Nu.
 
-- Its hash changes
-- Integrity validation fails
-- Chain continuity breaks (if chaining is enabled)
+VeriSeal nu previne modificarea.
 
-Even privileged users cannot modify sealed content without leaving detectable evidence.
+Asigură că orice modificare devine detectabilă.
 
-Administrative power does not override cryptographic consistency.
+Dacă datele de bază se schimbă:
 
----
+- Hash-ul recalculat va diferi
+- Dovada de integritate va eșua
+- Manipularea devine vizibilă
 
-## 3. Can proofs be backdated?
-
-Backdating is detectable when:
-
-- Timestamp fields are included in canonical objects
-- Event chaining is enabled
-- External anchoring mechanisms are used (optional)
-
-VeriSeal strengthens chronological defensibility.
-
-It does not create absolute time authority.
+Este un model de detecție, nu un model de prevenire.
 
 ---
 
-## 4. What happens if the internal ledger is deleted?
+## 2. Poate un administrator privilegiat să modifice înregistrările fără a fi detectat?
 
-Integrity proofs can still be verified if:
+Dacă o înregistrare protejată de VeriSeal este modificată:
 
-- Canonical proof objects exist
-- Hash algorithm is known (SHA-256)
-- Protocol rules are documented
+- Hash-ul său se schimbă
+- Validarea integrității eșuează
+- Continuitatea lanțului se rupe (dacă este activată lanțuirea)
 
-Ledger deletion affects continuity validation.
+Chiar și utilizatorii privilegiați nu pot modifica conținutul sigilat fără a lăsa dovezi detectabile.
 
-It does not invalidate individual proof recomputation.
-
-Ledger resilience depends on deployment architecture.
+Puterea administrativă nu anulează consistența criptografică.
 
 ---
 
-## 5. What is the attack surface?
+## 3. Pot fi antedatate dovezile?
 
-VeriSeal does not introduce:
+Antedatarea este detectabilă atunci când:
 
-- Open peer-to-peer networking
-- Consensus validators
-- Tokenized mechanisms
-- Distributed node governance
+- Câmpurile de marcaj temporal sunt incluse în obiectele canonice
+- Lanțuirea evenimentelor este activată
+- Mecanismele externe de ancorare sunt utilizate (opțional)
 
-It operates:
+VeriSeal întărește apărarea cronologică.
 
-- Infrastructure-neutrally
-- Without consensus layer
-- Without public broadcast requirement
-
-Its primary exposure is:
-
-Implementation quality.
-
-Security depends on deployment architecture.
+Nu creează o autoritate absolută a timpului.
 
 ---
 
-## 6. Is VeriSeal vulnerable to hash collisions?
+## 4. Ce se întâmplă dacă registrul intern este șters?
 
-VeriSeal relies on SHA-256.
+Dovezile de integritate pot fi încă verificate dacă:
 
-SHA-256 is widely accepted as collision-resistant under current cryptographic understanding.
+- Obiectele de dovadă canonice există
+- Algoritmul de hash este cunoscut (SHA-256)
+- Regulile protocolului sunt documentate
 
-No practical collision attack is currently known.
+Ștergerea registrului afectează validarea continuității.
 
-Future cryptographic evolution may require algorithm agility.
+Nu invalidează recomputarea individuală a dovezilor.
 
-Protocol evolution mechanisms may support hash upgrades.
-
----
-
-## 7. What if SHA-256 becomes weak?
-
-Protocol versioning allows:
-
-- Future hash algorithm introduction
-- Multi-hash support (if implemented)
-- Forward migration strategies
-
-Existing proofs remain verifiable under their original hash context.
-
-Cryptographic evolution can be managed without structural redesign.
+Rezistența registrului depinde de arhitectura de implementare.
 
 ---
 
-## 8. Does VeriSeal require internet connectivity?
+## 5. Care este suprafața de atac?
 
-No.
+VeriSeal nu introduce:
 
-Verification of canonical proofs requires:
+- Rețele peer-to-peer deschise
+- Validatori de consens
+- Mecanisme tokenizate
+- Guvernanță distribuită a nodurilor
 
-- The proof object
-- The hash algorithm
-- The documented rules
+Funcționează:
 
-External timestamping (if used) may require connectivity.
+- Neutru față de infrastructură
+- Fără strat de consens
+- Fără cerință de difuzare publică
 
-Core integrity does not.
+Expunerea sa principală este:
+
+Calitatea implementării.
+
+Securitatea depinde de arhitectura de implementare.
 
 ---
 
-## 9. Can VeriSeal run fully on-premise?
+## 6. Este VeriSeal vulnerabil la coliziuni de hash?
 
-Yes.
+VeriSeal se bazează pe SHA-256.
 
-VeriSeal can operate:
+SHA-256 este larg acceptat ca rezistent la coliziuni conform înțelegerii criptografice actuale.
+
+Nu se cunoaște în prezent niciun atac practic de coliziune.
+
+Evoluția criptografică viitoare poate necesita agilitate algoritmică.
+
+Mecanismele de evoluție a protocolului pot susține actualizări de hash.
+
+---
+
+## 7. Ce se întâmplă dacă SHA-256 devine slab?
+
+Versiunea protocolului permite:
+
+- Introducerea viitoare a algoritmilor de hash
+- Suport multi-hash (dacă este implementat)
+- Strategii de migrare înainte
+
+Dovezile existente rămân verificabile în contextul lor original de hash.
+
+Evoluția criptografică poate fi gestionată fără reproiectare structurală.
+
+---
+
+## 8. Necesită VeriSeal conectivitate la internet?
+
+Nu.
+
+Verificarea dovezilor canonice necesită:
+
+- Obiectul de dovadă
+- Algoritmul de hash
+- Regulile documentate
+
+Marcarea temporală externă (dacă este utilizată) poate necesita conectivitate.
+
+Integritatea de bază nu necesită.
+
+---
+
+## 9. Poate VeriSeal să funcționeze complet on-premise?
+
+Da.
+
+VeriSeal poate opera:
 
 - On-premise
-- In private cloud
-- In hybrid architectures
-- In air-gapped environments
+- În cloud privat
+- În arhitecturi hibride
+- În medii izolate
 
-Deployment model is infrastructure-neutral.
-
----
-
-## 10. Does VeriSeal expose confidential data?
-
-No.
-
-VeriSeal operates on hashes of canonical objects.
-
-Hashes:
-
-- Do not reveal underlying content
-- Do not expose sensitive fields
-- Do not broadcast data publicly
-
-Confidentiality remains institution-controlled.
+Modelul de implementare este neutru față de infrastructură.
 
 ---
 
-## 11. Can integrity proofs be forged?
+## 10. Expune VeriSeal date confidențiale?
 
-To forge a valid proof without original content, an attacker would need to:
+Nu.
 
-- Produce a different canonical object
-- That results in the exact same SHA-256 hash
+VeriSeal operează pe hash-uri ale obiectelor canonice.
 
-This would require a cryptographic collision.
+Hash-urile:
 
-No practical attack currently allows this.
+- Nu dezvăluie conținutul de bază
+- Nu expun câmpuri sensibile
+- Nu difuzează date public
 
-Forgery is computationally infeasible under current assumptions.
-
----
-
-## 12. Does VeriSeal create single points of failure?
-
-No new consensus or network dependency is introduced.
-
-Operational resilience depends on:
-
-- Hosting architecture
-- Redundancy design
-- Backup strategies
-- Governance processes
-
-VeriSeal does not mandate centralized custody.
+Confidențialitatea rămâne controlată de instituție.
 
 ---
 
-## 13. What happens if the vendor disappears?
+## 11. Pot fi falsificate dovezile de integritate?
 
-Proof verification requires:
+Pentru a falsifica o dovadă validă fără conținutul original, un atacator ar trebui să:
 
-- Canonical object
-- Hash function (SHA-256)
-- Documented protocol
+- Producă un obiect canonic diferit
+- Care să rezulte în exact același hash SHA-256
 
-Verification does not depend on vendor infrastructure.
+Aceasta ar necesita o coliziune criptografică.
 
-Vendor disappearance does not invalidate existing proofs.
+Niciun atac practic nu permite acest lucru în prezent.
 
----
-
-## 14. Can VeriSeal be used for internal fraud detection?
-
-Yes.
-
-It strengthens:
-
-- Tamper detection
-- Chronological reconstruction (if chaining used)
-- Record state validation
-
-It does not replace:
-
-- Fraud analytics
-- Monitoring systems
-- Access controls
-
-It reinforces structural traceability.
+Falsificarea este imposibilă din punct de vedere computațional conform presupunerilor actuale.
 
 ---
 
-## 15. Does VeriSeal increase operational complexity?
+## 12. Creează VeriSeal puncte unice de eșec?
 
-Deployment can begin incrementally.
+Nu este introdusă nicio dependență nouă de consens sau rețea.
 
-It does not require:
+Rezistența operațională depinde de:
 
-- System replacement
-- Architectural overhaul
-- Consensus infrastructure
-- Token systems
+- Arhitectura de găzduire
+- Designul redundanței
+- Strategiile de backup
+- Procesele de guvernanță
 
-Complexity depends on integration scope.
-
-Initial deployment can target:
-
-- High-risk workflows
-- Audit-sensitive processes
-- High-value records
+VeriSeal nu impune custodie centralizată.
 
 ---
 
-## 16. Does VeriSeal conflict with existing logging systems?
+## 13. Ce se întâmplă dacă furnizorul dispare?
 
-No.
+Verificarea dovezilor necesită:
 
-It complements:
+- Obiect canonic
+- Funcție de hash (SHA-256)
+- Protocol documentat
 
-- Audit logging
-- SIEM systems
-- Governance workflows
-- Access management systems
+Verificarea nu depinde de infrastructura furnizorului.
 
-It strengthens integrity demonstrability.
-
-It does not replace monitoring tools.
+Dispariția furnizorului nu invalidează dovezile existente.
 
 ---
 
-## 17. Can proofs be independently audited?
+## 14. Poate VeriSeal fi utilizat pentru detectarea fraudei interne?
 
-Yes.
+Da.
 
-Independent auditors can:
+Întărește:
 
-- Recompute hashes
-- Validate canonical structure
-- Validate chain continuity (if enabled)
-- Validate signature binding (if used)
+- Detectarea manipulării
+- Reconstrucția cronologică (dacă este utilizată lanțuirea)
+- Validarea stării înregistrărilor
 
-No proprietary verification mechanism is required.
+Nu înlocuiește:
 
----
+- Analitica fraudei
+- Sistemele de monitorizare
+- Controalele de acces
 
-## 18. Does VeriSeal protect against ransomware?
-
-VeriSeal does not prevent ransomware.
-
-It can help detect:
-
-- Post-event tampering
-- Record alteration
-- Chronological manipulation
-
-It strengthens forensic defensibility.
-
-It does not replace cybersecurity protection.
+Întărește trasabilitatea structurală.
 
 ---
 
-## 19. Does VeriSeal create new cybersecurity obligations?
+## 15. Crește VeriSeal complexitatea operațională?
 
-No new regulatory category is introduced.
+Implementarea poate începe incremental.
 
-Security obligations remain governed by:
+Nu necesită:
 
-- Sector-specific regulation
-- Internal governance
-- Data protection frameworks
+- Înlocuirea sistemului
+- Reproiectarea arhitecturală
+- Infrastructură de consens
+- Sisteme token
 
-VeriSeal strengthens integrity evidence.
+Complexitatea depinde de domeniul de integrare.
+
+Implementarea inițială poate viza:
+
+- Fluxuri de lucru cu risc ridicat
+- Procese sensibile la audit
+- Înregistrări de mare valoare
 
 ---
 
-## 20. What is VeriSeal's security model in one sentence?
+## 16. Intră VeriSeal în conflict cu sistemele de jurnalizare existente?
 
-VeriSeal ensures that if digital records are altered,
-the alteration becomes cryptographically detectable.
+Nu.
 
-It is a tamper-detection protocol.
+Completează:
 
-Not a prevention mechanism.
+- Jurnalizarea auditului
+- Sistemele SIEM
+- Fluxurile de lucru de guvernanță
+- Sistemele de management al accesului
+
+Întărește demonstrabilitatea integrității.
+
+Nu înlocuiește instrumentele de monitorizare.
+
+---
+
+## 17. Pot fi auditate independent dovezile?
+
+Da.
+
+Auditorii independenți pot:
+
+- Recalcula hash-uri
+- Valida structura canonică
+- Valida continuitatea lanțului (dacă este activată)
+- Valida legarea semnăturii (dacă este utilizată)
+
+Nu este necesar niciun mecanism de verificare proprietar.
+
+---
+
+## 18. Protejează VeriSeal împotriva ransomware-ului?
+
+VeriSeal nu previne ransomware-ul.
+
+Poate ajuta la detectarea:
+
+- Manipulării post-eveniment
+- Modificării înregistrărilor
+- Manipulării cronologice
+
+Întărește apărarea criminalistică.
+
+Nu înlocuiește protecția cibernetică.
+
+---
+
+## 19. Creează VeriSeal noi obligații de securitate cibernetică?
+
+Nu este introdusă nicio categorie nouă de reglementare.
+
+Obligațiile de securitate rămân guvernate de:
+
+- Reglementări specifice sectorului
+- Guvernanța internă
+- Cadrele de protecție a datelor
+
+VeriSeal întărește dovezile de integritate.
+
+---
+
+## 20. Care este modelul de securitate al VeriSeal într-o singură propoziție?
+
+VeriSeal asigură că, dacă înregistrările digitale sunt modificate,
+modificarea devine detectabilă criptografic.
+
+Este un protocol de detectare a manipulării.
+
+Nu un mecanism de prevenire.

@@ -1,50 +1,50 @@
 ---
 id: roadmap
-title: Roadmap & Evolution
+title: Foaie de parcurs și evoluție
 sidebar_position: 4.5
 ---
 
-# Roadmap & Evolution
+# Foaie de parcurs și evoluție
 
-## Phase I – Kernel Stabilization
+## Faza I – Stabilizarea nucleului
 
-- Freeze cryptographic kernel
-- Publish deterministic verification spec
-- Define test vectors
-- Ensure backward compatibility guarantees
-
----
-
-## Phase II – Institutional Documentation
-
-- Trust-grade documentation
-- Clear verification procedures
-- Governance clarity
-- Conformance model definition
+- Înghețarea nucleului criptografic
+- Publicarea specificației de verificare deterministă
+- Definirea vectorilor de testare
+- Asigurarea garanțiilor de compatibilitate retroactivă
 
 ---
 
-## Phase III – Industrial Scaling
+## Faza II – Documentație instituțională
 
-- Performance optimization
-- Monitoring & resilience
-- Certification readiness
-- Deployment playbooks
-
----
-
-## Phase IV – Ecosystem Expansion
-
-- Cross-sector integration
-- Third-party verification tooling
-- Interoperability bridges
-- Institutional partnerships
+- Documentație de încredere
+- Proceduri clare de verificare
+- Claritate în guvernanță
+- Definirea modelului de conformitate
 
 ---
 
-## Phase V – Standard Convergence
+## Faza III – Scalare industrială
 
-- Industry alignment
-- Governance formalization
-- Independent audit validation
-- Protocol longevity guarantees
+- Optimizarea performanței
+- Monitorizare și reziliență
+- Pregătirea pentru certificare
+- Manuale de implementare
+
+---
+
+## Faza IV – Extinderea ecosistemului
+
+- Integrare intersectorială
+- Instrumente de verificare terță parte
+- Poduri de interoperabilitate
+- Parteneriate instituționale
+
+---
+
+## Faza V – Convergența standardelor
+
+- Alinierea industriei
+- Formalizarea guvernanței
+- Validarea auditului independent
+- Garanții de longevitate a protocolului

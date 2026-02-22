@@ -1,181 +1,181 @@
 ---
-title: VIP-STD-003 - VeriSeal Signature Profile
+title: VIP-STD-003 - Profil de Signature VeriSeal
 sidebar_label: VIP-STD-003
 ---
 
-# VIP-STD-003 - VeriSeal Signature Profile Specification
+# VIP-STD-003 - Spécification du Profil de Signature VeriSeal
 
-Version: 1.0
-Status: Public Draft
-Classification: Open Integrity Standard
-
----
-
-## 1. Scope
-
-This document defines the signature profile for the VeriSeal Integrity Protocol.
-
-VIP-STD-003 specifies:
-
-- Signature coverage requirements
-- Permitted signature algorithms
-- Deterministic verification rules
-- Signature object structure
-- Compliance constraints
-
-This specification builds upon VIP-STD-001 and VIP-STD-002.
+Version : 1.0  
+Statut : Brouillon Public  
+Classification : Standard d'Intégrité Ouvert
 
 ---
 
-## 2. Signature Model Overview
+## 1. Portée
 
-Signatures are OPTIONAL in VIP-STD-001 but become formally defined in this profile.
+Ce document définit le profil de signature pour le Protocole d'Intégrité VeriSeal.
 
-A signature MUST cryptographically bind:
+VIP-STD-003 spécifie :
 
-- The canonical proof object (VIP-STD-001)
-- The proof hash
-- Optionally the ledger entry (VIP-STD-002)
+- Exigences de couverture de signature
+- Algorithmes de signature autorisés
+- Règles de vérification déterministes
+- Structure de l'objet de signature
+- Contraintes de conformité
 
-Signature coverage MUST be deterministic.
+Cette spécification s'appuie sur VIP-STD-001 et VIP-STD-002.
 
 ---
 
-## 3. Signature Coverage Rules
+## 2. Aperçu du Modèle de Signature
 
-The signature MUST be computed over:
+Les signatures sont OPTIONNELLES dans VIP-STD-001 mais deviennent formellement définies dans ce profil.
+
+Une signature DOIT lier cryptographiquement :
+
+- L'objet de preuve canonique (VIP-STD-001)
+- Le hash de la preuve
+- Optionnellement l'entrée du registre (VIP-STD-002)
+
+La couverture de la signature DOIT être déterministe.
+
+---
+
+## 3. Règles de Couverture de Signature
+
+La signature DOIT être calculée sur :
 
 SHA-256(canonical_proof_object)
 
-The exact byte representation defined in VIP-STD-001 Appendix C MUST be used.
+La représentation exacte des octets définie dans l'Annexe C de VIP-STD-001 DOIT être utilisée.
 
-No reserialization is permitted during verification.
+Aucune resérialisation n'est permise lors de la vérification.
 
 ---
 
-## 4. Signature Object Structure
+## 4. Structure de l'Objet de Signature
 
-If present, a signature object MUST include:
+Si présent, un objet de signature DOIT inclure :
 
 - signature_algorithm
 - public_key
 - signature_value
 
-No additional fields are permitted in version 1.0.
+Aucun champ supplémentaire n'est permis dans la version 1.0.
 
 ---
 
-## 5. Field Definitions
+## 5. Définitions des Champs
 
-signature_algorithm
-MUST be one of:
+signature_algorithm  
+DOIT être l'un des suivants :
 
 - Ed25519
 - ECDSA-secp256k1
 - RSA-3072
 
-public_key
-MUST be encoded in hexadecimal or base64, depending on algorithm specification.
+public_key  
+DOIT être encodée en hexadécimal ou base64, selon la spécification de l'algorithme.
 
-signature_value
-MUST represent the raw signature bytes encoded in hexadecimal.
-
----
-
-## 6. Deterministic Verification
-
-Verification MUST:
-
-1. Recompute proof hash
-2. Reconstruct canonical byte representation
-3. Verify signature against provided public_key
-4. Reject non-matching signatures
-
-Signature verification MUST be deterministic.
+signature_value  
+DOIT représenter les octets bruts de la signature encodés en hexadécimal.
 
 ---
 
-## 7. Algorithm Requirements
+## 6. Vérification Déterministe
+
+La vérification DOIT :
+
+1. Recalculer le hash de la preuve
+2. Reconstruire la représentation canonique des octets
+3. Vérifier la signature par rapport à la public_key fournie
+4. Rejeter les signatures non correspondantes
+
+La vérification de la signature DOIT être déterministe.
+
+---
+
+## 7. Exigences de l'Algorithme
 
 ## 7.1 Ed25519
 
-- Deterministic by design
-- 64-byte signature
-- Public key 32 bytes
+- Déterministe par conception
+- Signature de 64 octets
+- Clé publique de 32 octets
 
 ## 7.2 ECDSA-secp256k1
 
-- Signature MUST be low-S normalized
-- Deterministic RFC 6979 signing REQUIRED
+- La signature DOIT être normalisée en low-S
+- La signature déterministe RFC 6979 EST REQUISE
 
 ## 7.3 RSA-3072
 
-- Padding MUST use PKCS#1 v1.5 or PSS
-- Minimum modulus size 3072 bits
+- Le padding DOIT utiliser PKCS#1 v1.5 ou PSS
+- Taille minimale du module 3072 bits
 
 ---
 
-## 8. Security Considerations
+## 8. Considérations de Sécurité
 
-Implementations MUST protect against:
+Les implémentations DOIVENT se protéger contre :
 
-- Signature malleability
-- Signature stripping attacks
-- Key substitution attacks
-- Weak randomness in ECDSA
-- Replay attacks
+- La malléabilité des signatures
+- Les attaques de suppression de signature
+- Les attaques de substitution de clé
+- La faiblesse de l'aléatoire dans ECDSA
+- Les attaques de rejeu
 
-If a signature is present and invalid, the proof MUST be considered invalid.
-
----
-
-## 9. Compliance Requirements
-
-To claim compliance with VIP-STD-003:
-
-- Signature coverage MUST match Section 3
-- Algorithm MUST be one of the permitted algorithms
-- Verification MUST be deterministic
-- Invalid signatures MUST cause rejection
-
-Partial signature validation MUST NOT claim compliance.
+Si une signature est présente et invalide, la preuve DOIT être considérée comme invalide.
 
 ---
 
-## 10. Relationship to Other Standards
+## 9. Exigences de Conformité
 
-VIP-STD-003 extends:
+Pour revendiquer la conformité avec VIP-STD-003 :
 
-- VIP-STD-001 (canonical proof integrity)
-- VIP-STD-002 (ledger integrity)
+- La couverture de signature DOIT correspondre à la Section 3
+- L'algorithme DOIT être l'un des algorithmes autorisés
+- La vérification DOIT être déterministe
+- Les signatures invalides DOIVENT entraîner un rejet
 
-Full compliance requires adherence to all applicable profiles.
+Une validation partielle de la signature NE DOIT PAS revendiquer la conformité.
 
 ---
 
-## 11. Future Extensions
+## 10. Relation avec d'Autres Normes
 
-Future versions MAY introduce:
+VIP-STD-003 étend :
 
-- Post-quantum signature algorithms
-- Multi-signature support
-- Threshold signatures
-- Certificate chain integration
-- Identity binding extensions
+- VIP-STD-001 (intégrité de la preuve canonique)
+- VIP-STD-002 (intégrité du registre)
 
-Backward compatibility SHOULD be maintained.
+La conformité complète nécessite l'adhésion à tous les profils applicables.
+
+---
+
+## 11. Extensions Futures
+
+Les futures versions POURRAIENT introduire :
+
+- Algorithmes de signature post-quantiques
+- Support multi-signature
+- Signatures à seuil
+- Intégration de chaîne de certificats
+- Extensions de liaison d'identité
+
+La compatibilité ascendante DEVRAIT être maintenue.
 
 ---
 
 ## 12. Conclusion
 
-VIP-STD-003 defines the deterministic signature layer of VeriSeal.
+VIP-STD-003 définit la couche de signature déterministe de VeriSeal.
 
-It ensures:
+Elle assure :
 
-- Cryptographic authenticity
-- Deterministic verification
-- Algorithm constraints
-- Interoperable signature validation
+- Authenticité cryptographique
+- Vérification déterministe
+- Contraintes d'algorithme
+- Validation de signature interopérable
 
-It completes the cryptographic integrity stack of VeriSeal.
+Elle complète la pile d'intégrité cryptographique de VeriSeal.

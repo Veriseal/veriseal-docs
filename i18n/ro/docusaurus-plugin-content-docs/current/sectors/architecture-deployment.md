@@ -1,351 +1,351 @@
----
-title: Architecture & Deployment
-sidebar_label: Architecture & Deployment
----
-
-# Architecture & Deployment Models
-
-VeriSeal provides a sector-agnostic cryptographic integrity layer for verifiable digital evidence.
-
-## Scope Clarification
-
-The scenarios presented below illustrate representative high-risk situations within this sector where document integrity, timestamp certainty, and verifiable authenticity are critical.
-
-They are not exhaustive.
-
-VeriSeal is not designed to solve a single isolated use case.
-It provides a structural cryptographic integrity layer applicable to any digital document, event record, media capture, or transactional evidence requiring long-term verifiability.
-
-The examples below represent structural risk categories - not functional limits.
-
-
-## Integrity as an Infrastructure Layer
-
-VeriSeal is not a standalone application.
-
-It is a modular cryptographic integrity engine that integrates into existing digital systems.
-
-It operates as a structural reinforcement layer that:
-
-- Canonicalizes records
-- Computes deterministic hashes
-- Generates proof objects
-- Optionally chains events
-- Optionally binds signatures
-- Optionally anchors timestamps externally
-
-It strengthens systems without replacing them.
+File: architecture-deployment.md
 
 ---
+title: Arhitectură și Implementare
+sidebar_label: Arhitectură și Implementare
+---
 
-## Core Architectural Principle
+# Modele de Arhitectură și Implementare
 
-VeriSeal follows a simple architectural model:
+VeriSeal oferă un strat de integritate criptografică, agnostic sectorial, pentru dovezi digitale verificabile.
 
-1. Event or document creation
-2. Canonical serialization
-3. Deterministic hash computation
-4. Proof object generation
-5. Optional signature binding
-6. Optional append-only chaining
-7. Optional external time anchoring
+## Clarificarea Domeniului
 
-Verification can occur independently at any time.
+Scenariile prezentate mai jos ilustrează situații reprezentative cu risc ridicat în acest sector, unde integritatea documentelor, certitudinea marcajului temporal și autenticitatea verificabilă sunt critice.
+
+Acestea nu sunt exhaustive.
+
+VeriSeal nu este conceput pentru a rezolva un singur caz de utilizare izolat.
+Oferă un strat structural de integritate criptografică aplicabil oricărui document digital, înregistrare de eveniment, captură media sau dovadă tranzacțională care necesită verificabilitate pe termen lung.
+
+Exemplele de mai jos reprezintă categorii de risc structural — și nu limite funcționale.
+
+## Integritatea ca Strat de Infrastructură
+
+VeriSeal nu este o aplicație de sine stătătoare.
+
+Este un motor modular de integritate criptografică care se integrează în sistemele digitale existente.
+
+Funcționează ca un strat de întărire structurală care:
+
+- Canonizează înregistrările
+- Calculează hash-uri deterministe
+- Generează obiecte de probă
+- Opțional, leagă evenimentele
+- Opțional, leagă semnăturile
+- Opțional, ancorează marcajele temporale extern
+
+Întărește sistemele fără a le înlocui.
 
 ---
 
-## Deployment Models
+## Principiul Arhitectural de Bază
 
-VeriSeal supports multiple deployment strategies.
+VeriSeal urmează un model arhitectural simplu:
 
-## 1. API-Based Integrity Engine
+1. Crearea evenimentului sau documentului
+2. Serializare canonică
+3. Calculul hash-ului determinist
+4. Generarea obiectului de probă
+5. Opțional, legarea semnăturii
+6. Opțional, lanțuri adăugate doar
+7. Opțional, ancorare temporală externă
 
-The most common deployment model.
-
-VeriSeal exposes:
-
-- Proof generation endpoints
-- Verification endpoints
-- Optional signature management
-- Optional ledger continuity services
-
-This allows integration into:
-
-- ERP systems
-- Core banking systems
-- EHR platforms
-- Procurement platforms
-- SaaS platforms
-- Identity providers
-
-The host system remains unchanged.
-
-VeriSeal operates as an integrity service.
+Verificarea poate avea loc independent în orice moment.
 
 ---
 
-## 2. Embedded Cryptographic Module
+## Modele de Implementare
 
-For environments requiring tighter control, VeriSeal can be:
+VeriSeal suportă multiple strategii de implementare.
 
-- Embedded within internal infrastructure
-- Deployed on-premise
-- Isolated within secure environments
-- Integrated into microservices architecture
+## 1. Motor de Integritate Bazat pe API
 
-This model supports:
+Cel mai comun model de implementare.
 
-- Sovereign deployment requirements
-- High-security institutions
-- Regulated industries
-- Air-gapped environments
+VeriSeal expune:
 
----
+- Puncte finale de generare a probelor
+- Puncte finale de verificare
+- Opțional, managementul semnăturilor
+- Opțional, servicii de continuitate a registrului
 
-## 3. Ledger Continuity Model (Optional)
+Acest lucru permite integrarea în:
 
-For advanced integrity reinforcement, VeriSeal can operate with:
+- Sisteme ERP
+- Sisteme bancare de bază
+- Platforme EHR
+- Platforme de achiziții
+- Platforme SaaS
+- Furnizori de identitate
 
-- Append-only chained records
-- Immutable event sequencing
-- Cross-record continuity validation
+Sistemul gazdă rămâne neschimbat.
 
-This strengthens:
-
-- Audit defensibility
-- Chronological validation
-- Multi-step process integrity
-
-Ledger continuity remains optional and modular.
+VeriSeal funcționează ca un serviciu de integritate.
 
 ---
 
-## 4. Signature Reinforcement Model (Optional)
+## 2. Modul Criptografic Încorporat
 
-VeriSeal can integrate:
+Pentru medii care necesită un control mai strict, VeriSeal poate fi:
 
-- Ed25519 signatures
+- Încorporat în infrastructura internă
+- Implementat la fața locului
+- Izolat în medii securizate
+- Integrat în arhitectura microserviciilor
+
+Acest model suportă:
+
+- Cerințe de implementare suverane
+- Instituții cu securitate ridicată
+- Industrii reglementate
+- Medii izolate de rețea
+
+---
+
+## 3. Model de Continuitate a Registrului (Opțional)
+
+Pentru întărirea avansată a integrității, VeriSeal poate opera cu:
+
+- Înregistrări legate doar adăugate
+- Secvențiere de evenimente imuabile
+- Validarea continuității între înregistrări
+
+Aceasta întărește:
+
+- Apărarea auditului
+- Validarea cronologică
+- Integritatea procesului în mai multe etape
+
+Continuitatea registrului rămâne opțională și modulară.
+
+---
+
+## 4. Model de Întărire a Semnăturii (Opțional)
+
+VeriSeal poate integra:
+
+- Semnături Ed25519
 - ECDSA
 - RSA
-- Institutional key management systems
+- Sisteme de management al cheilor instituționale
 
-Signature binding enhances:
+Legarea semnăturii îmbunătățește:
 
-- Non-repudiation
-- Institutional authenticity
-- Multi-party validation
+- Non-repudierea
+- Autenticitatea instituțională
+- Validarea multi-parte
 
-Signature logic remains separate from business logic.
-
----
-
-## 5. External Anchoring (Optional)
-
-For additional temporal certainty, VeriSeal may anchor proof hashes into:
-
-- Public blockchain networks
-- Trusted timestamp authorities
-- Independent public verification layers
-
-Anchoring provides:
-
-- Anti-backdating guarantees
-- Publicly verifiable timestamp corroboration
-- External validation beyond internal infrastructure
-
-Anchoring remains optional.
+Logica semnăturii rămâne separată de logica de afaceri.
 
 ---
 
-## Integration Patterns
+## 5. Ancorare Externă (Opțional)
 
-VeriSeal can integrate at different system layers:
+Pentru o certitudine temporală suplimentară, VeriSeal poate ancora hash-urile probelor în:
 
-## Event-Level Integration
+- Rețele blockchain publice
+- Autorități de marcaj temporal de încredere
+- Straturi independente de verificare publică
 
-Each critical event triggers proof generation.
+Ancorarea oferă:
 
-Examples:
+- Garanții anti-ante-datare
+- Coroborarea marcajului temporal verificabil public
+- Validare externă dincolo de infrastructura internă
 
-- Financial transaction
-- Medical record update
-- Contract signature
-- Identity session completion
-
----
-
-## Document-Level Integration
-
-Entire documents are canonicalized and hashed.
-
-Examples:
-
-- Contracts
-- Reports
-- Certificates
-- Claims documentation
+Ancorarea rămâne opțională.
 
 ---
 
-## Batch-Level Integration
+## Modele de Integrare
 
-VeriSeal can process:
+VeriSeal poate fi integrat la diferite niveluri de sistem:
 
-- Daily transaction summaries
-- Periodic compliance records
-- Audit exports
-- Aggregated system states
+## Integrare la Nivel de Eveniment
 
----
+Fiecare eveniment critic declanșează generarea de probe.
 
-## Cross-System Integrity
+Exemple:
 
-In distributed architectures:
-
-- Multiple systems may generate events
-- Proof objects can remain interoperable
-- Verification remains infrastructure-neutral
+- Tranzacție financiară
+- Actualizare a dosarului medical
+- Semnarea unui contract
+- Finalizarea unei sesiuni de identitate
 
 ---
 
-## Verification Model
+## Integrare la Nivel de Document
 
-Verification requires:
+Întregi documente sunt canonizate și hash-uite.
 
-- Canonical proof object
-- Deterministic recomputation
-- Optional signature validation
-- Optional ledger continuity validation
-- Optional anchor verification
+Exemple:
 
-Verification does not require:
-
-- Access to internal databases
-- Vendor trust
-- Proprietary infrastructure
-
-Integrity can be validated independently.
+- Contracte
+- Rapoarte
+- Certificate
+- Documentație de revendicare
 
 ---
 
-## Infrastructure Neutrality
+## Integrare la Nivel de Lot
 
-VeriSeal is:
+VeriSeal poate procesa:
 
-- Cloud-agnostic
-- Vendor-neutral
-- Database-independent
-- Blockchain-optional
-- Microservice-compatible
-- On-prem compatible
-
-It integrates without forcing architectural change.
+- Rezumate zilnice ale tranzacțiilor
+- Înregistrări periodice de conformitate
+- Exporturi de audit
+- Stări agregate ale sistemului
 
 ---
 
-## Security Considerations
+## Integritate Inter-Sistem
 
-VeriSeal does not:
+În arhitecturi distribuite:
 
-- Store sensitive business data by necessity
-- Replace encryption systems
-- Replace access control systems
-
-It operates as:
-
-- An integrity reinforcement layer
-- A deterministic proof generator
-- A structural validation engine
-
-Security posture remains under the organization's governance.
+- Mai multe sisteme pot genera evenimente
+- Obiectele de probă pot rămâne interoperabile
+- Verificarea rămâne neutră față de infrastructură
 
 ---
 
-## Performance & Scalability
+## Model de Verificare
 
-VeriSeal is:
+Verificarea necesită:
 
-- Lightweight
-- Hash-based
-- Computation-efficient
-- Horizontally scalable
-- Compatible with high-throughput systems
+- Obiect de probă canonic
+- Recalculare deterministă
+- Opțional, validarea semnăturii
+- Opțional, validarea continuității registrului
+- Opțional, verificarea ancorei
 
-It can operate in:
+Verificarea nu necesită:
 
-- High-frequency transaction environments
-- Real-time identity systems
-- Distributed platform ecosystems
+- Acces la baze de date interne
+- Încredere în furnizor
+- Infrastructură proprietară
 
-Performance overhead remains minimal.
-
----
-
-## Strategic Advantage of Modular Deployment
-
-Because VeriSeal is modular:
-
-- Organizations adopt incrementally
-- Risk is minimized
-- Existing infrastructure remains intact
-- Integration cost remains controlled
-- Governance complexity is reduced
-
-It reinforces systems rather than replaces them.
+Integritatea poate fi validată independent.
 
 ---
 
-## Conclusion
+## Neutralitate Infrastructurală
 
-VeriSeal integrates as a structural integrity engine within existing digital ecosystems.
+VeriSeal este:
 
-It supports:
+- Agnostic față de cloud
+- Neutru față de furnizor
+- Independent de baza de date
+- Opțional față de blockchain
+- Compatibil cu microservicii
+- Compatibil cu implementarea la fața locului
 
-- API deployment
-- Embedded modules
-- Optional ledger chaining
-- Optional signature binding
-- Optional external anchoring
+Se integrează fără a forța schimbarea arhitecturală.
 
-It remains:
+---
 
-- Infrastructure-neutral
-- Sector-agnostic
+## Considerații de Securitate
+
+VeriSeal nu:
+
+- Stochează date sensibile de afaceri prin necesitate
+- Înlocuiește sistemele de criptare
+- Înlocuiește sistemele de control al accesului
+
+Funcționează ca:
+
+- Un strat de întărire a integrității
+- Un generator de probe determinist
+- Un motor de validare structurală
+
+Postura de securitate rămâne sub guvernarea organizației.
+
+---
+
+## Performanță și Scalabilitate
+
+VeriSeal este:
+
+- Ușor
+- Bazat pe hash
+- Eficient din punct de vedere al calculului
+- Scalabil orizontal
+- Compatibil cu sisteme cu debit ridicat
+
+Poate opera în:
+
+- Medii cu tranzacții de înaltă frecvență
+- Sisteme de identitate în timp real
+- Ecosisteme de platforme distribuite
+
+Suprasarcina de performanță rămâne minimă.
+
+---
+
+## Avantaj Strategic al Implementării Modulare
+
+Deoarece VeriSeal este modular:
+
+- Organizațiile adoptă incremental
+- Riscul este minimizat
+- Infrastructura existentă rămâne intactă
+- Costul integrării rămâne controlat
+- Complexitatea guvernării este redusă
+
+Întărește sistemele mai degrabă decât să le înlocuiască.
+
+---
+
+## Concluzie
+
+VeriSeal se integrează ca un motor de integritate structurală în ecosistemele digitale existente.
+
+Suportă:
+
+- Implementare API
+- Module încorporate
+- Lanțuri de registru opționale
+- Legare opțională a semnăturii
+- Ancorare externă opțională
+
+Rămâne:
+
+- Neutru față de infrastructură
+- Agnostic sectorial
 - Modular
-- Deterministic
-- Independently verifiable
+- Determinist
+- Verificabil independent
 
-It provides the architectural flexibility required by modern digital systems.
+Oferă flexibilitatea arhitecturală necesară sistemelor digitale moderne.
 
-## Contribution to the Global Evidence Standard
+## Contribuția la Standardul Global de Dovezi
 
-VeriSeal deployment in this sector contributes to the emergence of a globally interoperable evidence format.
+Implementarea VeriSeal în acest sector contribuie la apariția unui format de dovezi interoperabil la nivel global.
 
-Each verified proof strengthens:
+Fiecare probă verificată întărește:
 
-- Cross-border evidentiary alignment
-- Deterministic verification standards
-- Interoperable cryptographic audit trails
-- Institutional-grade integrity frameworks
+- Alinierea probelor transfrontaliere
+- Standardele de verificare deterministă
+- Urme de audit criptografice interoperabile
+- Cadre de integritate de grad instituțional
 
-Sector adoption accelerates standardization.
+Adoptarea sectorială accelerează standardizarea.
 
-Standardization accelerates inevitability.
+Standardizarea accelerează inevitabilitatea.
 
-## Structural Applicability
+## Aplicabilitate Structurală
 
-Beyond the examples described above, VeriSeal applies to any digitally generated evidence within this sector, including but not limited to:
+Dincolo de exemplele descrise mai sus, VeriSeal se aplică oricărei dovezi generate digital în acest sector, inclusiv, dar fără a se limita la:
 
-- contractual documentation
-- compliance reporting
-- internal audit trails
-- regulatory disclosures
-- transactional attestations
-- cross-institutional exchanges
-- customer-generated digital evidence
-- time-sensitive records
+- documentație contractuală
+- raportare de conformitate
+- urme de audit intern
+- dezvăluiri reglementare
+- atestări tranzacționale
+- schimburi inter-instituționale
+- dovezi digitale generate de clienți
+- înregistrări sensibile la timp
 
-VeriSeal's role is infrastructural, not situational.
+Rolul VeriSeal este infrastructural, nu situațional.
 
-Its function is to establish verifiable integrity, deterministic timestamping, and independent public verification across all digital evidence categories within the sector.
-
+Funcția sa este de a stabili integritatea verificabilă, marcajul temporal determinist și verificarea publică independentă în toate categoriile de dovezi digitale din sector.

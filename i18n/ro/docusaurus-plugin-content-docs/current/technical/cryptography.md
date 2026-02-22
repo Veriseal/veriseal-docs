@@ -1,51 +1,51 @@
 ---
 id: cryptography
-title: Cryptography
+title: Criptografie
 slug: /technical/cryptography
 sidebar_position: 1
 ---
 
-# Cryptography
+# Criptografie
 
-VeriSeal uses conservative, widely deployed primitives to make evidence independently verifiable.
+VeriSeal utilizează primitive conservatoare, larg răspândite, pentru a face dovezile verificabile independent.
 
 ## Hashing (SHA-256)
 
-SHA-256 fingerprints:
-- files (video, image, PDFs),
-- canonical JSON payloads,
-- bundle manifests,
-- ledger entries.
+Amprentele SHA-256:
+- fișiere (video, imagine, PDF-uri),
+- date JSON canonice,
+- manifesturi de pachete,
+- înregistrări în registru.
 
-Hashes are represented as lowercase hex.
+Hash-urile sunt reprezentate ca hexazecimal cu litere mici.
 
-## Canonicalization
+## Canonicalizare
 
-For structured data (JSON/messages), VeriSeal applies deterministic canonicalization so independent parties can reproduce the same digest.
+Pentru date structurate (JSON/mesaje), VeriSeal aplică canonicalizare deterministă astfel încât părțile independente să poată reproduce același digest.
 
-## Merkle commitments
+## Angajamente Merkle
 
-When multiple components must be committed (media hash, UX log hash, metadata hash), VeriSeal builds a Merkle tree:
-- leaves are component digests,
-- internal nodes are SHA-256(left || right),
-- the Merkle root is the public proof identifier.
+Când trebuie angajate mai multe componente (hash media, hash jurnal UX, hash metadate), VeriSeal construiește un arbore Merkle:
+- frunzele sunt digestele componentelor,
+- nodurile interne sunt SHA-256(stânga || dreapta),
+- rădăcina Merkle este identificatorul public al dovezii.
 
-## Append-only ledger chaining
+## Lanț de registru doar adăugare
 
-Each entry includes entry_hash, prev_hash, and created_at_utc (UTC). Any modification breaks the chain.
+Fiecare înregistrare include entry_hash, prev_hash și created_at_utc (UTC). Orice modificare rupe lanțul.
 
-## Signatures (optional)
+## Semnături (opțional)
 
-- PDF evidence can be signed (RSA-3072).
-- JSON exports can be signed for offline verification.
+- Dovezile PDF pot fi semnate (RSA-3072).
+- Exporturile JSON pot fi semnate pentru verificare offline.
 
-PDF is render-only; verification must always validate against public JSON.
+PDF-ul este doar pentru redare; verificarea trebuie să valideze întotdeauna împotriva JSON-ului public.
 
-## OpenTimestamps (optional)
+## OpenTimestamps (opțional)
 
-OpenTimestamps anchors a digest externally and can become VERIFIED on the Bitcoin blockchain.
+OpenTimestamps ancorează un digest extern și poate deveni VERIFICAT pe blockchain-ul Bitcoin.
 
-## Threat model (summary)
+## Model de amenințare (rezumat)
 
-Mitigates: post-hoc modification, evidence substitution, contestable timestamps, platform conflict of interest.  
-Not in scope: compromised capture device, malware before capture, coercion/impersonation without identity flows.
+Atenuează: modificarea post-factum, substituirea dovezilor, marcaje temporale contestabile, conflict de interese al platformei.  
+Nu este în scop: dispozitiv de captură compromis, malware înainte de captură, constrângere/impostură fără fluxuri de identitate.

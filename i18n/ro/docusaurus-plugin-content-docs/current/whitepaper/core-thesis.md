@@ -1,132 +1,131 @@
 ---
 id: core-thesis
-title: Core Thesis
-sidebar_label: Core Thesis
+title: Teza de Bază
+sidebar_label: Teza de Bază
 ---
 
-# Core Thesis
+# Teza de Bază
 
-## 1. The Structural Integrity Problem
+## 1. Problema Integrității Structurale
 
-Modern economies operate on digital events:
+Economiile moderne funcționează pe baza evenimentelor digitale:
 
-- Financial transactions  
-- Identity attestations  
-- Regulatory filings  
-- Media captures  
-- Authorizations  
-- Contractual exchanges  
+- Tranzacții financiare  
+- Atestări de identitate  
+- Depuneri de reglementare  
+- Capturi media  
+- Autorizări  
+- Schimburi contractuale  
 
-These events are recorded.
+Aceste evenimente sunt înregistrate.
 
-But they are rarely independently verifiable.
+Dar rareori sunt verificabile independent.
 
-Most infrastructures rely on:
+Majoritatea infrastructurilor se bazează pe:
 
-- Centralized databases  
-- Mutable logs  
-- Privileged administrators  
-- Platform-controlled timestamps  
-- Declarative attestations  
+- Baze de date centralizate  
+- Jurnale modificabile  
+- Administratori privilegiați  
+- Marcaje temporale controlate de platformă  
+- Atestări declarative  
 
-Digital systems are operationally efficient.  
-They are not structurally provable.
+Sistemele digitale sunt eficiente operațional.  
+Nu sunt demonstrabile structural.
 
-This creates systemic evidentiary fragility.
-
----
-
-## 2. The Infrastructure Gap
-
-The world has:
-
-- Payment networks  
-- Identity providers  
-- Signature platforms  
-- Messaging rails  
-- Compliance systems  
-
-What it lacks is a neutral, deterministic integrity infrastructure.
-
-Electronic signatures prove consent.  
-Audit logs record activity.  
-Blockchain networks maintain distributed state.
-
-None of these, by default, provide:
-
-- Deterministic canonicalization  
-- Reproducible event reconstruction  
-- Cross-system integrity binding  
-- Independent verification without privileged access  
-
-This is the missing layer VeriSeal addresses.
+Aceasta creează o fragilitate sistemică a probelor.
 
 ---
 
-## 3. The Thesis
+## 2. Lacuna Infrastructurii
 
-VeriSeal is a deterministic cryptographic evidence infrastructure.
+Lumea are:
 
-It transforms digital events into verifiable proof objects through:
+- Rețele de plăți  
+- Furnizori de identitate  
+- Platforme de semnături  
+- Canale de mesagerie  
+- Sisteme de conformitate  
 
-1. Canonical serialization  
-2. SHA-256 hashing  
-3. Append-only ledger entries  
-4. Hash chaining  
-5. Merkle commitments  
-6. Cryptographic signatures  
-7. Optional external anchoring  
+Ceea ce lipsește este o infrastructură de integritate neutră și deterministă.
 
-Verification does not depend on trusting VeriSeal.
+Semnăturile electronice dovedesc consimțământul.  
+Jurnalele de audit înregistrează activitatea.  
+Rețelele blockchain mențin starea distribuită.
 
-It depends on recomputation.
+Niciuna dintre acestea, implicit, nu oferă:
 
-> Trust must not depend on the operator.  
-> It must depend on mathematics.
+- Canonicalizare deterministă  
+- Reconstrucție reproductibilă a evenimentelor  
+- Legături de integritate între sisteme  
+- Verificare independentă fără acces privilegiat  
 
----
-
-## 4. Architectural Non-Negotiables
-
-VeriSeal is built on structural principles:
-
-- Append-only integrity  
-- Deterministic serialization  
-- Cryptographic chaining  
-- Governance separation  
-- Public verification capability  
-
-The system is designed to survive institutional failure.
+Aceasta este stratul lipsă pe care VeriSeal îl abordează.
 
 ---
 
-## 5. Strategic Implication
+## 3. Teza
 
-Digital infrastructure will increasingly be evaluated on one criterion:
+VeriSeal este o infrastructură de dovezi criptografice deterministe.
 
-Can its records be independently verified?
+Transformă evenimentele digitale în obiecte de probă verificabile prin:
 
-Over time, digital systems will divide into:
+1. Serializare canonică  
+2. Hashing SHA-256  
+3. Înregistrări de jurnal doar adăugare  
+4. Lanțuri de hash  
+5. Angajamente Merkle  
+6. Semnături criptografice  
+7. Ancorare externă opțională  
 
-1. Systems that generate unverifiable logs  
-2. Systems that produce cryptographically provable events  
+Verificarea nu depinde de încrederea în VeriSeal.
 
-VeriSeal is built for the second category.
+Depinde de recalcul.
 
----
-
-## 6. Long-Term Vision
-
-VeriSeal aims to become:
-
-- A foundational integrity primitive  
-- A cross-sector verification layer  
-- A candidate global integrity standard  
-
-Not a workflow tool.  
-Not a signature competitor.  
-An infrastructure layer.
+> Încrederea nu trebuie să depindă de operator.  
+> Trebuie să depindă de matematică.
 
 ---
 
-End of Document
+## 4. Principii Arhitecturale Negoțiabile
+
+VeriSeal este construit pe principii structurale:
+
+- Integritate doar adăugare  
+- Serializare deterministă  
+- Lanțuri criptografice  
+- Separarea guvernanței  
+- Capacitate de verificare publică  
+
+Sistemul este proiectat să supraviețuiască eșecului instituțional.
+
+---
+
+## 5. Implicație Strategică
+
+Infrastructura digitală va fi evaluată din ce în ce mai mult pe un criteriu:
+
+Pot fi înregistrările sale verificate independent?
+
+În timp, sistemele digitale se vor împărți în:
+
+1. Sisteme care generează jurnale neverificabile  
+2. Sisteme care produc evenimente demonstrabile criptografic  
+
+VeriSeal este construit pentru a doua categorie.
+
+---
+
+## 6. Viziune pe Termen Lung
+
+VeriSeal își propune să devină:
+
+- Un primitiv fundamental de integritate  
+- Un strat de verificare intersectorial  
+- Un candidat pentru un standard global de integritate  
+
+Nu un instrument de flux de lucru.  
+Nu un concurent al semnăturilor.  
+Un strat de infrastructură.
+
+---
+

@@ -1,149 +1,148 @@
 ---
-title: The VeriSeal Integrity Standard
+title: La Norme d'Intégrité VeriSeal
 sidebar_position: 1
 ---
 
-# The VeriSeal Integrity Standard
+# La Norme d'Intégrité VeriSeal
 
-## From product to standard
+## Du produit à la norme
 
-VeriSeal is not positioned as a software product.
+VeriSeal n'est pas positionné comme un produit logiciel.
 
-It is structured as an integrity framework that can operate as:
+Il est structuré comme un cadre d'intégrité pouvant fonctionner comme :
 
-- A proprietary engine
-- An open verification format
-- A sectoral compliance layer
-- A future global integrity standard
+- Un moteur propriétaire
+- Un format de vérification ouvert
+- Une couche de conformité sectorielle
+- Une future norme mondiale d'intégrité
 
-The long-term objective is structural adoption - not software dependency.
-
----
-
-## Why a standard is necessary
-
-Digital systems have standards for:
-
-- Payments
-- Identity
-- Messaging
-- Encryption
-
-But there is no widely adopted standard for:
-
-> Verifiable digital evidence integrity.
-
-Most systems produce logs.
-
-Few produce mathematically verifiable events.
-
-The absence of an integrity standard creates:
-
-- Jurisdictional fragility
-- Vendor lock-in
-- Regulatory inconsistency
-- Evidence incompatibility across sectors
+L'objectif à long terme est l'adoption structurelle - non la dépendance logicielle.
 
 ---
 
-## The structural layers
+## Pourquoi une norme est nécessaire
 
-The VeriSeal Standard is organized into distinct layers:
+Les systèmes numériques ont des normes pour :
 
-### 1. Canonicalization layer
-Deterministic formatting of digital events.
+- Les paiements
+- L'identité
+- La messagerie
+- Le chiffrement
 
-### 2. Hashing layer
-SHA-256 deterministic hashing of payloads.
+Mais il n'existe pas de norme largement adoptée pour :
 
-### 3. Ledger layer
-Append-only chain using `prev_hash` continuity.
+> L'intégrité des preuves numériques vérifiables.
 
-### 4. Proof binding layer
-Binding of UX events, media, identity, and ledger entry.
+La plupart des systèmes produisent des journaux.
 
-### 5. Public verification layer
-JSON-based public verification endpoints.
+Peu produisent des événements vérifiables mathématiquement.
 
-### 6. External anchoring layer
-Optional Bitcoin anchoring via OpenTimestamps.
+L'absence d'une norme d'intégrité crée :
 
-Each layer is independently verifiable.
-
----
-
-## Vendor independence
-
-The integrity model is designed so that:
-
-- Verification does not require VeriSeal servers.
-- Proof bundles remain verifiable without SaaS dependency.
-- Public JSON acts as canonical source of truth.
-- PDF is render-only and not authoritative.
-
-The system can survive institutional failure.
+- Une fragilité juridictionnelle
+- Une dépendance aux fournisseurs
+- Une incohérence réglementaire
+- Une incompatibilité des preuves entre secteurs
 
 ---
 
-## Governance model
+## Les couches structurelles
 
-The standard can evolve toward:
+La Norme VeriSeal est organisée en couches distinctes :
 
-- Open documentation
-- Sectoral adoption frameworks
-- Compliance mapping
-- Certification models
-- Conformance testing
+### 1. Couche de canonicalisation
+Formatage déterministe des événements numériques.
 
-VeriSeal as a company builds the engine.
+### 2. Couche de hachage
+Hachage déterministe SHA-256 des données.
 
-VeriSeal as a standard defines the format.
+### 3. Couche de registre
+Chaîne en ajout seul utilisant la continuité `prev_hash`.
 
-These are structurally separable.
+### 4. Couche de liaison de preuve
+Liaison des événements UX, médias, identité et entrée de registre.
 
----
+### 5. Couche de vérification publique
+Points de terminaison de vérification publique basés sur JSON.
 
-## Standard vs. SaaS
+### 6. Couche d'ancrage externe
+Ancrage Bitcoin optionnel via OpenTimestamps.
 
-SaaS model:
-- Access-controlled
-- Platform-dependent
-- Closed verification logic
-
-Integrity standard model:
-- Publicly documented
-- Independently verifiable
-- Cryptographically deterministic
-- Interoperable across sectors
-
-VeriSeal is architected toward the second model.
+Chaque couche est vérifiable de manière indépendante.
 
 ---
 
-## Path toward global adoption
+## Indépendance des fournisseurs
 
-Standardization requires:
+Le modèle d'intégrité est conçu de sorte que :
 
-1. Cross-sector interoperability
-2. Regulatory compatibility
-3. Institutional-grade documentation
-4. Auditability
-5. Long-term cryptographic durability
+- La vérification ne nécessite pas de serveurs VeriSeal.
+- Les ensembles de preuves restent vérifiables sans dépendance SaaS.
+- Le JSON public agit comme source canonique de vérité.
+- Le PDF est uniquement un rendu et non une autorité.
 
-VeriSeal is structured to meet these requirements incrementally.
+Le système peut survivre à une défaillance institutionnelle.
 
 ---
 
-## Strategic positioning
+## Modèle de gouvernance
 
-In the long term, digital ecosystems will differentiate between:
+La norme peut évoluer vers :
 
-- Systems that generate unverifiable logs
-- Systems that produce verifiable proof objects
+- Une documentation ouverte
+- Des cadres d'adoption sectorielle
+- Une cartographie de conformité
+- Des modèles de certification
+- Des tests de conformité
 
-The VeriSeal Integrity Standard defines the second category.
+VeriSeal en tant qu'entreprise construit le moteur.
 
-This is not a feature.
+VeriSeal en tant que norme définit le format.
 
-It is infrastructure.
+Ces éléments sont structurellement séparables.
 
+---
+
+## Norme vs. SaaS
+
+Modèle SaaS :
+- Accès contrôlé
+- Dépendant de la plateforme
+- Logique de vérification fermée
+
+Modèle de norme d'intégrité :
+- Documenté publiquement
+- Vérifiable de manière indépendante
+- Cryptographiquement déterministe
+- Interopérable entre secteurs
+
+VeriSeal est architecturé vers le second modèle.
+
+---
+
+## Chemin vers l'adoption mondiale
+
+La standardisation nécessite :
+
+1. Interopérabilité intersectorielle
+2. Compatibilité réglementaire
+3. Documentation de niveau institutionnel
+4. Auditabilité
+5. Durabilité cryptographique à long terme
+
+VeriSeal est structuré pour répondre à ces exigences de manière progressive.
+
+---
+
+## Positionnement stratégique
+
+À long terme, les écosystèmes numériques différencieront entre :
+
+- Les systèmes qui génèrent des journaux non vérifiables
+- Les systèmes qui produisent des objets de preuve vérifiables
+
+La Norme d'Intégrité VeriSeal définit la seconde catégorie.
+
+Ce n'est pas une fonctionnalité.
+
+C'est une infrastructure.

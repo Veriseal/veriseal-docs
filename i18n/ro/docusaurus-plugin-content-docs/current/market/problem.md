@@ -1,51 +1,51 @@
 ---
-title: The Proof Problem
+title: Problema Dovezii
 sidebar_position: 3
 ---
 
-# The Proof Crisis
+# Criza Dovezii
 
-Digital proof systems today suffer from four structural weaknesses.
-
----
-
-## 1. Integrity Is Not Deterministic
-
-Most systems rely on trust models, centralized attestations, or partial verification logic.
-
-Deterministic structural integrity is rare.
+Sistemele digitale de dovadă din prezent suferă de patru slăbiciuni structurale.
 
 ---
 
-## 2. Signature ≠ Structural Integrity
+## 1. Integritatea Nu Este Deterministă
 
-Electronic signatures validate identity intent.
+Majoritatea sistemelor se bazează pe modele de încredere, atestări centralizate sau logică de verificare parțială.
 
-They do not guarantee that:
-- The document structure is immutable
-- The event log is append-only
-- The verification model is reproducible
+Integritatea structurală deterministă este rară.
 
 ---
 
-## 3. Blockchain ≠ Governance
+## 2. Semnătura ≠ Integritate Structurală
 
-Blockchain anchoring ensures timestamping and immutability.
+Semnăturile electronice validează intenția de identitate.
 
-It does not provide:
-- Conformance standards
-- Certification models
-- Sector-adapted governance
-- Legal interpretability layer
-
----
-
-## 4. Fragmentation Across Sectors
-
-Banking, legal, healthcare, and public sector operate with incompatible proof logic.
-
-No global integrity backbone exists.
+Ele nu garantează că:
+- Structura documentului este imuabilă
+- Jurnalul de evenimente este doar adăugare
+- Modelul de verificare este reproductibil
 
 ---
 
-VeriSeal addresses structural proof fragmentation.
+## 3. Blockchain ≠ Guvernanță
+
+Ancorarea în blockchain asigură marcarea temporală și imuabilitatea.
+
+Nu oferă:
+- Standarde de conformitate
+- Modele de certificare
+- Guvernanță adaptată sectorului
+- Strat de interpretabilitate legală
+
+---
+
+## 4. Fragmentare Între Sectore
+
+Sectorul bancar, juridic, al sănătății și public operează cu logică de dovadă incompatibilă.
+
+Nu există o coloană vertebrală globală de integritate.
+
+---
+
+VeriSeal abordează fragmentarea structurală a dovezilor.
