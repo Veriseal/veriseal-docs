@@ -118,18 +118,24 @@ html[data-theme='light'] { display: none !important; }
 
 /* ======================================== LANGUAGE SELECTOR ======================================== */
 
-/* MASQUAGE ULTRA-ROBUSTE du globe/icône SVG partout (desktop + mobile sidebar) */
+/* MASQUAGE TOTAL du globe/icône SVG partout (desktop + mobile) */
 .navbar__item--localeDropdown svg,
+.navbar__item--localeDropdown > .navbar__link > svg,
+.navbar__item--localeDropdown [class*='iconLanguage'],
 [class*="localeDropdown"] svg,
+[class*="localeDropdown"] > button > svg,
+.navbar__item.dropdown svg,
+.navbar__item--localeDropdown .navbar__link svg,
+.dropdown__menu svg,
+
+/* Mobile sidebar */
 .navbar-sidebar__items svg,
 .navbar-sidebar .menu__link svg,
-.navbar-sidebar__panel .navbar__item--localeDropdown svg,
-.navbar-sidebar__items .menu__list-item svg,
-.dropdown__menu svg {
+.navbar-sidebar__panel svg {
   display: none !important;
 }
 
-/* Style du bouton langue */
+/* Style du bouton langue (desktop & mobile) */
 .navbar__item--localeDropdown .navbar__link {
   padding: 6px 14px;
   border-radius: var(--vs-radius-sm);
@@ -146,9 +152,10 @@ html[data-theme='light'] { display: none !important; }
   border-color: var(--vs-border-strong);
 }
 
-/* Flags emoji/images (on les garde) */
+/* Flags emoji/images (on les garde visibles) */
 .navbar__item--localeDropdown img.emoji,
-.dropdown__link img.emoji {
+.dropdown__link img.emoji,
+.menu__link img.emoji {
   height: 1.2em;
   width: 1.2em;
   vertical-align: middle;
